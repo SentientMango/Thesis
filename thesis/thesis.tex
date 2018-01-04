@@ -9,6 +9,7 @@
 \usepackage{float}
 \usepackage{subcaption}
 \usepackage{hyperref}
+\usepackage{afterpage}
 
 \geometry{
  a4paper,
@@ -17,17 +18,199 @@
  top=12mm,
 }
 
-\newcommand{\ZZ}{$ZZ\to ll\nu\nu$}
-\newcommand{\Zg}{$Z\gamma\to ll\gamma$}
+\newcommand{\ZZ}{$ZZ\to ll\nu\nu$ }
+\newcommand{\Zg}{$Z\gamma\to ll\gamma$ }
+\newcommand{\llM}{$ll+E_T^{miss}$ }
+\newcommand\blankpage{%
+    \null
+    \thispagestyle{empty}%
+    \addtocounter{page}{-1}%
+    \newpage}
 
 \begin{document}
 \begin{titlepage}
 \centering
 \includegraphics[width=0.9\linewidth]{Title_Head.png}
-\vspace{exit}
-{\Huge Estimating \ZZ background using \Zg data\\\vspace{1cm}\large A Thesis}
-{submitted to\\Indian Institue of Science Education and Research, Pune\\ in partial fulfillment of the requirements for the \\BS-MS Dual Degree Programme\vspace{1cm}\\by\vspace{1cm}\\Mangesh Sonawane\vspace{0.5cm}\\Registration Number: 20121083}
 \vfill
-{June 2017 - April 2018}
+{\Huge Estimating \ZZ background in the \llM final state using \Zg data\\\vspace{1cm}\Large A Thesis \\}
+\vspace{1cm}
+{\Large submitted to\\Indian Institue of Science Education and Research, Pune\\ in partial fulfillment of the requirements for the \\BS-MS Dual Degree Programme\vspace{1cm}\\by\vspace{1cm}\\Mangesh Sonawane\vspace{0.2cm}\\Registration Number: 20121083\\}
+\vspace{1cm}
+\includegraphics[scale=0.8]{iiser_logo.png}
+\vfill
+{\Large Indian Institute of Science Education and Research, Pune\vspace{0.1cm}\\Dr. Homi Bhabha Road,\vspace{0.3cm}\\ Pashan, Pune 411008, INDIA}
+\vfill
+\vfill
 \end{titlepage}
+\pagestyle{empty}
+\begin{center}
+{\large June 2017 - April 2018\\}
+\vspace{10cm}
+\large 
+Conducted at : DESY\\
+Notkestra\ss e 85,\\
+22607, Hamburg\\
+Germany\\
+\vspace{10cm}
+Supervisor: Dr. Beate Heinemann\\
+\copyright Mangesh Sonawane 2018\\
+All rights reserved
+\vfill
+\newpage
+\Huge \textbf{Certificate\\}
+\end{center}
+\vspace{1cm}
+\normalsize This is to certify that this dissertation, entitled "Estimating \ZZ background in the \llM final status using \Zg data", submitted towards the partial fulfilment of the BS-MS dual degree programme at the Indian Institute of Science Education and Research (IISER), Pune, represents the work carried out by Mangesh Sonawane at the Deutsches Elektronen-Synchrotron (DESY), Hamburg, under the supervision of Dr. Beate Heinemann, Professor of Experimental Particle Physics at the Institute of Physics, University of Freiburg, during the academic year 2017-2018.
+\vfill
+\begin{center}
+Mangesh Sonawane\hspace{8cm}
+Dr. Beate Heinemann
+\end{center}
+\vfill
+Committee:\\
+Dr. Beate Heinemann\\
+Dr. Seema Sharma
+\vfill
+\vfill
+\newpage
+\blankpage
+\newpage
+\topskip0pt
+\vspace*{\fill}
+\noindent I dedicate this thesis to my parents, Avinash and Ranjana Sonawane, my mentors, Dr. Sourabh Dube and Dr. Seema Sharma, and to my friends and colleagues and IISER, without whose timely advice and support this thesis would not have been made possible.
+\vspace*{\fill}
+\newpage
+\blankpage
+\newpage
+\begin{center}
+\Huge \textbf{Declaration\\}
+\end{center}
+\vspace{1cm}
+\normalsize I hereby declare that the matter containined within the thesis entitled "Estimating \ZZ background in the \llM final status using \Zg data", contains the results of the work carried out by me at the Deutsches Elektronen-Synchrotron (DESY) Hamburg, under the supervision of Dr. Beate Heinemann, and the same has not been submitted elsewhere for any other degree.
+\vfill
+\begin{center}
+Mangesh Sonawane\hspace{8cm}
+Dr. Beate Heinemann
+\end{center}
+\vfill
+Committee:\\
+Dr. Beate Heinemann\\
+Dr. Seema Sharma
+\vfill
+\vfill
+\newpage
+\blankpage
+\newpage
+{\Huge \textbf{Acknowledgements\vspace{2cm}\\}}
+I would like to express my deepest gratitude for Dr. Beate Heinemann for her guidance and patient mentoring. It's not just technical skills that I have acquired under her supervision, but also an understanding of how a physicist approaches the subject and tackles the inevitable problems that surface.\vspace{1cm}
+
+$\langle$ placeholder $\rangle$
+
+\newpage
+\blankpage
+\newpage
+
+\chapter*{Abstract}
+\addcontentsline{toc}{chapter}{Abstract}
+\pagenumbering{roman}
+\setcounter{page}{1}
+In the search for Dark Matter (DM) at the LHC, SM particles are produced in association with DM particles, which are invisible as they don't interact with the detector. Thus events with large imbalance in transverse momentum are of interest. One such signature is $ll + E_T^{miss}$. The dominant background contributing to the search for DM in the $ll + E_T^{miss}$ is $ZZ \rightarrow ll\nu\nu$.  Currently, this background is determined using Monte Carlo simulation, with an uncertainty of $\approx 10\%$ \cite{ZH_ATLAS}. The goal of this study is to establish a data driven method to estimate this background, and reduce the uncertainty. Using \Zg, which is a process with low backgrounds and has a high $BR*\sigma$, it is possible to estimate the \ZZ contribution. In regions where $p_{T}(\gamma) \gg M_{Z}$, the two processes are kinematically similar. They have the same production mechanisms, but differ due to the photon and Z boson couplings to the quarks being different, as well as the difference in mass (photons are massless, while Z bosons are massive). Introducing a transfer factor $R$ as the ratio $\sigma(ZZ)/\sigma(Z\gamma)$ which is determined from simulation, the contribution of \ZZ to the background can be estimated from \Zg data. The uncertainty on the prediction of $R$ due to theoretical aspects is estimated in this work.
+
+\tableofcontents
+\thispagestyle{empty}
+\newpage
+\cleardoublepage
+\pagenumbering{arabic}
+\chapter{Introduction}
+\cleardoublepage
+\chapter{The Large Hadron Collider}
+\cleardoublepage
+\chapter{Analysis}
+
+%Bibliography
+\begin{thebibliography}{9}
+
+\bibitem{ZH_ATLAS}
+	\textit{Search for an invisibly decaying Higgs boson or dark matter candidates produced in association with a Z boson in pp collisions at $\sqrt{s}$ = 13 TeV with the ATLAS detector}\\
+	\textbf{ATLAS Collaboration}\\
+	\texttt{arXiv:1708.09624}
+	
+\bibitem{gammajet}
+	\textit{Using $\gamma +$ jets to calibrate the Standard Model $Z(\rightarrow \nu\nu)+$ jets background to new processes at the LHC}\\
+	\textbf{S. Ask, M. A. Parker, T. Sandoval, M. E. Shea, W. J. Stirling}\\
+Cavendish Laboratory, University of Cambridge, CB3 0HE, UK; 2011\\
+	\texttt{[arXiv:1107.2803]}
+
+\bibitem{Z_coupling}
+	\textit{2017 Review of Particle Physics - Particle Listings}\\
+	\textbf{C. Patrignani \textit{et al}. (Particle Data Group)}\\
+	Chin. Phys. C, 40, 100001 (2016)
+	
+\bibitem{MCFM}
+	\textit{Monte Carlo for FeMtobarn processes (MCFM) v8.0 User Manual}\\
+	\textbf{John Campbell, Keith Ellis, Walter Giele, Ciaran Williams}\\
+	\texttt{https://mcfm.fnal.gov/}
+	
+\bibitem{CT14}
+	\textit{New parton distribution functions from a global analysis of quantum chromodynamics}\\
+	\textbf{Sayipjamal Dulat, Tie Jiun Hou, Jun Gao, Marco Guzzi, Joey Huston, P. Nadolsky, Jon Pumplin, Carl Schmidt, Daniel Stump, C. P. Yuan}\\
+	\texttt{arXiv:1506.07443}
+
+\bibitem{PDF4}
+	\textit{PDF4LHC recommendations for LHC Run II}\\
+	\texttt{[arXiv:1510.03865]}	
+	
+\bibitem{MMHT14}
+	\textit{Parton distributions in the LHC era: MMHT 2014 PDFs}\\
+	\textbf{L. A. Harland-Lang, A. D. Martin, P. Motylinski, R. S. Thorne}\\
+	\texttt{arXiv:1412.3989}
+	
+\bibitem{NNPDF3}
+	\textit{Parton distributions for the LHC Run II}\\
+	\textbf{The NNPDF Collaboration: Richard D. Ball, Valerio Bertone, Stefano Carrazza, Christopher S. Deans, Luigi Del Debbio, Stefano Forte, Alberto Guffanti, Nathan P. Hartland, Jose I. Latorre, Juan Rojo, Maria Ubiali}\\
+	\texttt{arXiv:1410.8849}
+	
+\bibitem{LHAPDF}
+	\textit{LHAPDF6: parton density access in the LHC precision era}\\
+	\textbf{Andy Buckley, James Ferrando, Stephen Lloyd, Karl Nordstrom, Ben Page, Martin Ruefenacht, Marek Schoenherr, Graeme Watt}\\
+	\texttt{arXiv:1412.7420}
+
+\bibitem{frixione}
+	\textit{Isolated photons in perturbative QCD}\\	
+	\textbf{S. Frixione}\\
+	Phys. Lett.B429(1998)369–374, hep-ph/9801442
+%	
+%\bibitem{powheg}
+%	POWHEG BOX - ZZ,WZ and WW production
+%	\begin{itemize}
+%	\item \textbf{P. Nason}\\
+%	JHEP 0411 (2004) 040, hep-ph/0409146
+%	\item \textbf{S. Frixione, P. Nason and C. Oleari}\\
+%	JHEP 0711 (2007) 070, \texttt{arXiv:0709.2092}
+%	\item \textbf{S. Alioli, P. Nason, C. Oleari and E. Re}\\
+%	JHEP 1006 (2010) 043, \texttt{arXiv:1002.2581}
+%	\item \textit{ZZ, WZ and W+W- production, including Gamma/Z interference, singly resonant contributions and interference for identical leptons}\\
+%	\textbf{T. Melia, P. Nason, R. Rontsch, G. Zanderighi}\\
+%	JHEP 1111 (2011) 078, \texttt{arXiv:1107.5051}
+%	\item \textit{W+W-, WZ and ZZ production in the POWHEG-BOX-V2}\\
+%	\textbf{P. Nason and G. Zanderighi}\\
+%	Eur.Phys.J. C74 (2014) 2702, \texttt{arXiv:1311.1365}
+%	\end{itemize}
+%	
+%\bibitem{pythia}
+%	\textit{PYTHIA 8.1}\\
+%	\textbf{T. Sjöstrand, S. Mrenna and P. Skands}\\
+%	JHEP05 (2006) 026, Comput. Phys. Comm. 178 (2008) 852. 
+%	
+%\bibitem{CT10}
+%	\textit{New parton distributions for collider physics}
+%	\textbf{Hung-Liang Lai, Marco Guzzi, Joey Huston, Zhao Li, Pavel M. Nadolsky, Jon Pumplin, C.-P. Yuan}
+%	\texttt{arXiv:1007.2241}
+%	
+%\bibitem{MSTW2008}
+%	\textit{Parton distributions for the LHC}\\
+%	\textbf{A.D. Martin, W.J. Stirling, R.S. Thorne, G. Watt}
+%	\texttt{arXiv:0901.0002}
+	
+\end{thebibliography}
 \end{document}
