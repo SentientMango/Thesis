@@ -131,7 +131,19 @@ In the search for Dark Matter (DM) at the LHC, SM particles are produced in asso
 \chapter{Analysis}
 \section{Motivation}
 \cleardoublepage
-\chapter{Theoretical uncertainties on cross sections and ratio R}
+\chapter{Theoretical uncertainties on cross sections and the transfer factor R}
+
+It is worth reiterating that the goal of this thesis is to use \Zg process to estimate the dominant contribution \ZZ to the Standard Model \llM background. Excesses would indicate the presence of BSM physics. It is thus important to have an estimate of the uncertainties on the theoretical predictions of the $ZZ$ and $Z\gamma$ cross sections, and the transfer factor $R$.\\
+In this study, the following sources of uncertainities are studied.
+\begin{itemize}
+\item Scale Uncertainties: contributions due to higher order QCD corrections cannot be calculated to arbitrarily high order, as it gets progressively more computationally expensive. Thus, this study is limited to Next to Leading Order (NLO), and further corrections are accounted for as scale uncertainties.
+\item PDF Uncertainties: a proton-proton collision involves the interaction of the composite quarks and gluons (partons) at very high energies. These partons carry a fraction of the proton momentum. Parton Distribution Functions (PDFs) represent this fraction of proton momentum carried by partons as probability distributions. Owing to the non-deterministic nature of this fact, this study attempts to account for this uncertainties as PDF uncertainties.
+\item Photon Fragmentation Uncertainties: in the \Zg process, the signal includes a photon. However, while reconstructing the event, soft photons, or photons resulting from other fragmentation processes may be encountered. To ensure that the photon is indeed prompt, it is required to be isolated from hadronic activity (such as pion decays). This isolation is implemented experimentally in different ways. The uncertainty associated with the implementation of this isolation is estimated as photon fragmentation uncertainties.
+\end{itemize}
+
+To characterize these uncertainties, we use a programme, MCFM, to generate cross sections for \ZZ and \Zg processes, and vary the relevant parameters such as scale, PDF sets, and photon isolation effects to obtain an estimate of the uncertainties.
+
+\section{MCFM}
 MCFM is a program that calculates cross sections for femtobarn-level processes at LO or NLO. In this study, MCFM v8.0 \cite{MCFM} is used to produce cross sections of \ZZ and \Zg processes at NLO, with a selection of generator level cuts. The samples are generated with cuts on $E_T^{miss} = p_T(Z\to \nu\nu)$ for the $ZZ$ process and $E_T^{miss} = p_T(\gamma)$ for the $Z+\gamma$ process. A ratio of these cross sections is taken to obtain the $R$ distribution as a function of $p_T$. The uncertainty on $R$ is calculated by varying several parameters at the generator level, such as the renormalization and factorization scales, the PDF sets used, photon fragmentation, etc. Effects of applying lepton cuts on the cross sections as well as on the ratio are studied. The contributions of the $q \bar{q}$ and $gg$ processes are estimated separately.
 
 MCFM does not produce $Z\rightarrow ll$ but $Z\rightarrow ee$. As electrons and muons have similar properties with the exception of mass, simply the branching fraction of $Z\rightarrow ee$ must be accounted for to obtain the inclusive value of $R$.
@@ -153,7 +165,7 @@ Table \ref{table:default} lists the generator level settings used for the $ZZ$ a
 	\hline
 	Process ID & 87 & 300\\
 	$M_{ee}$ & $81 < M_{ee} < 101$ GeV & $81 < M_{ee} < 101$ GeV\\
-	$M_{\nu\nu}$ & - GeV& -\\
+	$M_{\nu\nu}$ & - & -\\
 	Order & NLO & NLO\\
 	PDF set & CT14 & CT14\\
 	$p_T^{\text{lead}}(e)$ & $> 30$ GeV & $> 30$ GeV\\
@@ -184,7 +196,7 @@ Using the settings listed in Table \ref{table:default}, the cross sections shown
 		\caption{}
 		\label{subfig:Zeeg}	
 	\end{subfigure}
-	\caption{Cross sections of $ZZ\to ee\nu\nu$ (left) and $Z\gamma\to ee\gamma$ (right) processes with the cuts as in Table 1. The vertical axis is in $\log_{10}$ scale. The leptonically decaying $Z$ boson decays to an $e^+e^-$ pair. There is no flavor constraint on the neutrinos.}
+	\caption{NLO and LO cross sections of $ZZ\to ee\nu\nu$ (left) and $Z\gamma\to ee\gamma$ (right) processes with the cuts as in Table 1. The vertical axis is in $\log_{10}$ scale. The leptonically decaying $Z$ boson decays to an $e^+e^-$ pair. There is no flavor constraint on the neutrinos.}
 	\label{xsecs}
 \end{figure}
 \begin{figure}[H]
@@ -269,7 +281,7 @@ Parton Distribution Functions (PDFs) characterize the fraction of proton momentu
 \begin{figure}[H]
 \centering
 	\includegraphics[width = 0.75\linewidth]{PDF4_30_overlay.png}
-	\caption{The ratio $R(p_T)$ for each of the 30 PDF sets in \texttt{PDF4LHC15\_nlo\_30}. The bottom plot shows the relative differences of sets 1-30, with respect to set 0 which is taken as the central value.}
+	\caption{The relative ratio $R_i/R_0$, of the transfer factor $R = \sigma(ZZ)/\sigma(Z\gamma)$ calculated using PDF sets 1-30, with respect to set 0 which is taken as the central value. }
 	\label{fig:PDF30var}
 \end{figure}
 \noindent Fig.\ref{fig:PDF30var} shows the comparison of the ratio $R(p_T)$ from the 30 member sets of \texttt{PDF4LHC15\_nlo\_30}. To measure the uncertainty due to these 30 sets, analogous to Equation 20 in Ref \cite{PDF4}, Equation \ref{eq:PDFerr} is used:
