@@ -116,20 +116,23 @@ $\langle$ placeholder $\rangle$
 \setcounter{page}{1}
 In the search for Dark Matter (DM) at the LHC, SM particles are produced in association with DM particles, which are invisible as they don't interact with the detector. Thus events with large imbalance in transverse momentum are of interest. One such signature is $ll + E_T^{miss}$. The dominant background contributing to the search for DM in the $ll + E_T^{miss}$ is $ZZ \rightarrow ll\nu\nu$.  Currently, this background is determined using Monte Carlo simulation, with an uncertainty of $\approx 10\%$ \cite{ZH_ATLAS}. The goal of this study is to establish a data driven method to estimate this background, and reduce the uncertainty. Using \Zg, which is a process with low backgrounds and has a high $BR*\sigma$, it is possible to estimate the \ZZ contribution. In regions where $p_{T}(\gamma) \gg M_{Z}$, the two processes are kinematically similar. They have the same production mechanisms, but differ due to the photon and Z boson couplings to the quarks being different, as well as the difference in mass (photons are massless, while Z bosons are massive). Introducing a transfer factor $R$ as the ratio $\sigma(ZZ)/\sigma(Z\gamma)$ which is determined from simulation, the contribution of \ZZ to the background can be estimated from \Zg data. The uncertainty on the prediction of $R$ due to theoretical aspects is estimated in this work.
 
+\cleardoublepage
+\pagestyle{plain}
 \tableofcontents
 \thispagestyle{empty}
 \newpage
 \cleardoublepage
 \pagenumbering{arabic}
 \chapter{Introduction}
+\setcounter{page}{1}
 \cleardoublepage
 \chapter{The Large Hadron Collider}
 \cleardoublepage
 \chapter{Analysis}
 \section{Motivation}
 \cleardoublepage
-\chapter{Study using MCFM}
-A Monte Carlo program, MCFM v8.0 \cite{MCFM} at NLO is used to produce cross sections of \ZZ and \Zg processes, with a selection of generator level cuts. The samples are generated with cuts on $E_T^{miss} = p_T(Z\to \nu\nu)$ for the $ZZ$ process and $E_T^{miss} = p_T(\gamma)$ for the $Z+\gamma$ process. A ratio of these cross sections is taken to obtain the $R$ distribution as a function of $p_T$. The uncertainty on $R$ is calculated by varying several parameters at the generator level, such as the renormalization and factorization scales, the PDF sets used, photon fragmentation, etc. Effects of applying lepton cuts on the cross sections as well as on the ratio are studied. The contributions of the $q \bar{q}$ and $gg$ processes are estimated separately.
+\chapter{Theoretical uncertainties on cross sections and ratio R}
+MCFM is a program that calculates cross sections for femtobarn-level processes at LO or NLO. In this study, MCFM v8.0 \cite{MCFM} is used to produce cross sections of \ZZ and \Zg processes at NLO, with a selection of generator level cuts. The samples are generated with cuts on $E_T^{miss} = p_T(Z\to \nu\nu)$ for the $ZZ$ process and $E_T^{miss} = p_T(\gamma)$ for the $Z+\gamma$ process. A ratio of these cross sections is taken to obtain the $R$ distribution as a function of $p_T$. The uncertainty on $R$ is calculated by varying several parameters at the generator level, such as the renormalization and factorization scales, the PDF sets used, photon fragmentation, etc. Effects of applying lepton cuts on the cross sections as well as on the ratio are studied. The contributions of the $q \bar{q}$ and $gg$ processes are estimated separately.
 
 MCFM does not produce $Z\rightarrow ll$ but $Z\rightarrow ee$. As electrons and muons have similar properties with the exception of mass, simply the branching fraction of $Z\rightarrow ee$ must be accounted for to obtain the inclusive value of $R$.
 \begin{equation}\label{eq:R_inc}
@@ -150,7 +153,7 @@ Table \ref{table:default} lists the generator level settings used for the $ZZ$ a
 	\hline
 	Process ID & 87 & 300\\
 	$M_{ee}$ & $81 < M_{ee} < 101$ GeV & $81 < M_{ee} < 101$ GeV\\
-	$M_{\nu\nu}$ & $81 < M_{\nu\nu} < 101$ GeV& -\\
+	$M_{\nu\nu}$ & - GeV& -\\
 	Order & NLO & NLO\\
 	PDF set & CT14 & CT14\\
 	$p_T^{\text{lead}}(e)$ & $> 30$ GeV & $> 30$ GeV\\
@@ -229,52 +232,59 @@ In higher order QCD calculations, perturbative corrections may be added to the v
 The higher the order, the more difficult the calculation is. It is possible to introduce an arbitrary cut-off scale $\mu$ such that up to a given order, the effect of these corrections can be absorbed into the strong coupling constant $\alpha_s(\mu)$.\\
 Two kinds of divergences are encountered: infrared divergences, and ultraviolet divergences. Infrared divergences occur for an on-shell internal propagator, and ultraviolet divergences are logarithmic divergences that occur as the integration variable approaches $\infty$. They correspond to physics at long and short distances\footnote{Long distances are those where soft interactions take place, away from the hard parton-parton interaction. Short distances are those where the hard parton parton interactions occur.}, respectively. The infrared divergences are addressed by the inclusion of the factorization scale $\mu_F$, while the ultraviolet divergences are addressed by the inclusion of the renormalization scale $\mu_R$. These parameters are arbitrary, and are set by hand. These are then varied between $\frac{1}{2}\mu < \mu < \ 2\mu$ to obtain an indication of the dependence of the matrix element on the scales, and thus, the uncertainty around the chosen scale. 
 
-In this analysis, the central value for these parameters is chosen to be $M_Z = 91.187$ GeV, and the results are shown in Figure \ref{fig:scalecompare}.
-\begin{figure}[H]
-\centering
-\includegraphics[width=0.8\linewidth]{scale/nlo_scale_overlay.png}
-\caption{The ratio $R(p_T)$ for various choices for $\mu_R$ (R) and $\mu_F$ (F). The bottom panel shows the relative - with respect to the reference (R: 91, F: 91) for each scale. The uncertainties are statistical}
-\label{fig:scalecompare}
-\end{figure}
-The uncertainty due to the variation of scales around $R = 0.398$ is $\pm \approx 2\%$ for all $p_T$.\\
-The contributions from the $gg$ subprocess separately from the $q\bar{q}$ and $qg$ subprocesses are shown in Figure \ref{fig:gg_scale}.
-\begin{figure}[H]
-\centering
-	\begin{subfigure}{0.49\textwidth}
-		\includegraphics[width=\linewidth]{scale/ggonly_nlo_scale_overlay.png}
-		\caption{}
-	\end{subfigure}
-	\begin{subfigure}{0.49\textwidth}
-		\includegraphics[width=\linewidth]{scale/omitgg_nlo_scale_overlay.png}
-		\caption{}
-	\end{subfigure}	
-\caption{The ratio $R(p_T)$ for various choices for $\mu_R$ (R) and $\mu_F$ (F) for the $gg$ (left) and $qg+q\bar{q}$ (right) subprocesses separately. The bottom panel shows the relative difference with respect to the reference (R: 91, F: 91) for each scale. The uncertainties are statistical.}
-\label{fig:gg_scale}
-\end{figure}
+To address scale uncertainties in this study, the prescription used in \cite{precise_scale} is followed. The central scale, $\mu_0$ is chosen to be $something$ for both \ZZ and \Zg samples, and seven-point variations are applied, i.e.
+\begin{equation}
+\frac{\mu_i}{\mu_0} = (1,1),(1,2),(2,1),(2,2),(0.5,1),(1,0.5),(0.5,0.5)\\
+\label{eq:scale}
+\end{equation}
+where $i=0,...,6$. The central cross section value is taken to be the mean of the maximum and minimum cross sections resulting from this variation, and the uncertainty to be the half the difference between the same.
+\begin{align}
+\sigma_{NLO}^{(V)} &= \frac{1}{2}\left[\sigma_{NLO}^{(V,max)} + \sigma_{NLO}^{(V,min)}\right]\\
+\delta\sigma_{NLO}^{(V)} &= \frac{1}{2}\left[\sigma_{NLO}^{(V,max)} - \sigma_{NLO}^{(V,min)}\right]
+\label{eq:scale_central}
+\end{align}
+where
+\begin{equation}
+\begin{split}
+\sigma_{NLO}^{(V,max)} &= max\left\lbrace\sigma_{NLO}^{(V)}(p_{T}(V),\mu_i)|0\leq i \leq 6\right\rbrace\\
+\sigma_{NLO}^{(V,min)} &= min\left\lbrace\sigma_{NLO}^{(V)}(p_{T}(V),\mu_i)|0\leq i \leq 6\right\rbrace
+\end{split}
+\end{equation}
+and $V = Z\to\nu\nu$ for \ZZ, or $V = \gamma$ for \Zg. This uncertainty is propagated to $R$.
 
-Variations of up to 3\% are seen at low pt while at high pt the differences are below 1\% for the plots show in Figures \ref{fig:scalecompare} and \ref{fig:gg_scale}
+To estimate the degree of correlation between the processes, the process dependent part of the cross sections may be used. Since the study is conducted at NLO, the highest available term in the perturbative expansion is considered to define a K-factor.
+\begin{equation}
+\Delta K_{NLO}^{(V)} = \sigma_{NLO}^{(V)}(p_T)/\sigma_{LO}^{(V)}(p_T)
+\label{eq:K_factor}
+\end{equation}
+
+To estimate the unknown process dependent correlation effects, the difference between the QCD K-factors of the \ZZ and \Zg processes is taken.
+\begin{equation}
+\delta^{(2)} \sigma_{NLO} = \Delta K_{NLO}^{(\gamma)}(p_T) - K_{NLO}^{(Z)}(p_T)
+\label{eq:K_factor_unc}
+\end{equation}
 
 \subsection{Uncertainty from PDF variation}
 Parton Distribution Functions (PDFs) characterize the fraction of proton momentum carried by partons as probability distributions. PDF sets are collections of PDFs that model parton momenta as accurately as possible. The PDF set used for reference is the \texttt{CT14}\cite{CT14} PDF set. The uncertainty on the PDFs is studied by using the 30 variations provided by the \texttt{PDF4LHC15} set\cite{PDF4}, constructed from the combination of \texttt{CT14,MMHT14}\cite{MMHT14} and \texttt{NNPDF3.0}\cite{NNPDF3} PDF sets. These sets are provided by LHAPDF6\cite{LHAPDF}. \texttt{PDF4LHC15} provides a set of variations that include those determined by different groups (MSTW, CTEQ and NNPDF). The set used here is \texttt{PDF4LHC15\_nlo\_30}, consisting of 30 members. While the most accurate uncertainties are given by \texttt{PDF4LHC15\_nlo\_100} set, \texttt{PDF4LHC15\_nlo\_30} is used here for a faster, reasonably accurate estimate of the uncertainties.
 \begin{figure}[H]
 \centering
-	\includegraphics[width = 0.8\linewidth]{PDF4_30_overlay.png}
+	\includegraphics[width = 0.75\linewidth]{PDF4_30_overlay.png}
 	\caption{The ratio $R(p_T)$ for each of the 30 PDF sets in \texttt{PDF4LHC15\_nlo\_30}. The bottom plot shows the relative differences of sets 1-30, with respect to set 0 which is taken as the central value.}
 	\label{fig:PDF30var}
 \end{figure}
-\noindent Fig.\ref{fig:PDF30var} shows the comparison of the ratio $R(p_T)$ from the 30 member sets of \texttt{PDF4LHC15\_nlo\_30}. To measure the uncertainty due to these 30 sets, the relation as stated in Equation 20 in Ref \cite{PDF4} is used:
+\noindent Fig.\ref{fig:PDF30var} shows the comparison of the ratio $R(p_T)$ from the 30 member sets of \texttt{PDF4LHC15\_nlo\_30}. To measure the uncertainty due to these 30 sets, analogous to Equation 20 in Ref \cite{PDF4}, Equation \ref{eq:PDFerr} is used:
 \begin{equation}\label{eq:PDFerr}
-	\delta^{PDF}\sigma = \sqrt{\sum^{N_{mem}}_{k=1} (\sigma^{(k)} - \sigma^{(0)})^2}
+	\delta^{PDF}R = \sqrt{\sum^{N_{mem}}_{k=1} (R^{(k)} - R^{(0)})^2}
 \end{equation}
 where $N_{mem}$ is the number of member sets in the group, in this case, 30. The $R$ distribution obtained from the \texttt{PDF4LHC15\_nlo\_30} set is compared to the reference distributions from \texttt{CT14}, as shown in Figure \ref{pdfcompare}:
 \begin{figure}[H]
 \centering
-	\includegraphics[width = 0.55\linewidth]{PDF4_CT14_comp.png}
+	\includegraphics[width = 0.6\linewidth]{PDF4_CT14_comp.png}
 	\caption{The ratio $R(p_T)$ calculated using the PDF sets in \texttt{PDF4LHC15\_nlo\_30} with combined uncertainties as given by Equation \ref{eq:PDFerr} (blue), compared to the reference constructed from the PDF set \texttt{CT14} (red).}
 	\label{fig:PDF4_def_compare}
 	\label{pdfcompare}
 \end{figure}
-\noindent Figure \ref{fig:PDF4_def_compare} shows a comparison between the central value of the sets in \texttt{PDF4LHC15\_nlo\_30} with the combined uncertainties, and the reference PDF set \texttt{CT14}. The combined uncertainty around $R \approx 0.40$ is $\pm 2.55\%$ at 100 GeV. The $R$ distributions drawn from the two PDF sets agree to within the uncertainty bounds.
+\noindent Figure \ref{fig:PDF4_def_compare} shows a comparison between the central value of the sets in \texttt{PDF4LHC15\_nlo\_30} with the combined uncertainties, and the reference PDF set \texttt{CT14}. The combined uncertainty around $R \approx 0.40$ is $\pm 2.00\%$ at 100 GeV. The $R$ distributions drawn from the two PDF sets agree to within the uncertainty bounds.
 
 %The effect of the PDF uncertainties on $gg$ process are studied separately, as illustrated in Figure \ref{pdfcompare_gg}.
 %\begin{figure}[H]
@@ -307,7 +317,7 @@ In this analysis, $R_0$ is chosen to be 0.4 to agree with the experimental defin
 
 \begin{figure}[H]
 \centering
-	\includegraphics[width=\textwidth]{frag.png}
+	\includegraphics[width=0.8\textwidth]{frag.png}
 	\caption{$R$ distribution as a function of $p_T$, showing the uncertainty due to variation of photon isolation parameters $\epsilon_h$ and $n$ in the smooth cone isolation procedure (Frixione), and $\epsilon_h$ in the photon isolation procedure. The lower panel shows the relative deviation of the varied sets from the central value, as well as the uncertainty band.}
 	\label{fig:photon_frag}
 \end{figure}
@@ -346,6 +356,11 @@ Cavendish Laboratory, University of Cambridge, CB3 0HE, UK; 2011\\
 	\textit{Monte Carlo for FeMtobarn processes (MCFM) v8.0 User Manual}\\
 	\textbf{John Campbell, Keith Ellis, Walter Giele, Ciaran Williams}\\
 	\texttt{https://mcfm.fnal.gov/}
+	
+\bibitem{precise_scale}
+	\textit{Precise predictions for $V$+jets dark matter backgrounds}\\
+	\textbf{J.M. Lindert, S. Pozzorini, et al.}\\
+	\texttt{arXiv:1705.04664}
 	
 \bibitem{CT14}
 	\textit{New parton distribution functions from a global analysis of quantum chromodynamics}\\
