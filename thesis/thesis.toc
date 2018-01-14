@@ -2,6 +2,7 @@
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}The Standard Model}{2}{section.1.1}
 \contentsline {section}{\numberline {1.2}Theoretical tools}{3}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Quantum Electrodynamics}{3}{subsection.1.2.1}
 \contentsline {chapter}{\numberline {2}The Large Hadron Collider}{5}{chapter.2}
 \contentsline {chapter}{\numberline {3}Analysis}{7}{chapter.3}
 \contentsline {section}{\numberline {3.1}Motivation}{7}{section.3.1}

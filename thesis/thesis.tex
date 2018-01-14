@@ -12,7 +12,7 @@
 \usepackage{afterpage}
 
 \setlength{\parindent}{1em}
-\setlength{\parskip}{1em}
+\setlength{\parskip}{0.5em}
 
 \geometry{
  a4paper,
@@ -153,14 +153,30 @@ In this thesis, a closer look is taken at the VH channel, in particular ZH, wher
 
 \section{The Standard Model}
 The Standard Model is the name given to the theory of particles, fundamental forces, and interactions that govern the Universe. It describes three of the four forces: the electromagnetic, strong and weak forces. Figure \ref{fig:SM} shows a schematic representation of the elementary particles in the Standard Model.
+
+The Standard Model classifies fundamental particles as either Fermions or Bosons:
+\begin{itemize}
+\item \textbf{Fermions:} make up the matter in the universe. Fermions are spin 1/2 particles, and are subdivided into two categories, quarks and leptons. Quarks exist in 6 flavors, up, down, charmed, strange, top (or truth) and bottom (or beauty). Leptons too are in 6 flavors: electrons, muons, and taus, and their respective neutrinos. The up, charmed and top quarks carry a charge of +2/3e. The down, strange and bottom quarks carry a charge of -1/3e. The electron, muon and tau carry a charge of -1e, and the neutrinos are chargeless. Here, e is the unit of electronic charge, and is equal to $1.602e^{-19}$ Coulombs. Quarks and leptons are divided into three generations, with each generation having more mass than the last. Each fermion has a parity inverted counterpart, called an anti-particle, having the same mass, but an opposite charge. For example, an anti-electron (or a positron) has a charge of +1e and a down anti-quark will have charge of +1/3e.
+\item \textbf{Bosons:} are particles with integral spin that mediate the interactions between particles in the universe. There are four gauge bosons: the photon, which mediates electromagnetic interactions, the $W$ and $Z$ bosons that mediate weak interactions, and the gluons, which mediate strong interactions. These are vector bosons, having spin +1. In addition, there is a scalar boson (spin 0), the Higgs boson, which gives particles their mass.
+\end{itemize}
+
 \begin{figure}[H]
 \centering
-\label{fig:SM}
-\includegraphics[width=0.5\linewidth]{standard_model.png}
+\includegraphics[width=0.7\linewidth]{standard_model.png}
 \caption{A schematic representation of the Standard Model of particles. The table shows the three generations of fermions (classified as quarks and leptons) that are the building blocks of all known matter in the universe, and bosons that mediate interactions, and are thus responsible for 'forces'}
+\label{fig:SM}
 \end{figure}
 
+The Standard Model addresses three of the four fundamental forces; it does not address the Gravitational force. These interactions can be described by the SU(3)$\times$SU(2)$\times$U(1) local gauge symmetry group, where the SU(3) symmetry group describes the strong interaction, and the electroweak interactions are based on the SU(2)$\times$U(1) symmetry group. There are 8+3+1 generators associated with this model, each generator corresponding to a vector boson. 
+
+Thus, there are 8 gluons, which are massless spin 1 particles with an intrinsic property called color, that mediate strong interactions (described by Quantum Chromodynamics). They are responsible for interactions between quarks (leptons do not interact via the strong force). At low energies, quarks cannot be found in isolation, instead occurring in triplets called $Baryons$, or a bound quark-antiquark pair, called $Mesons$. This is because of color confinement. 
+
+The interaction of the scalar Higgs field with the vector fields $W^+$, $W^-$, $W^0$ and $B$ causes the spontaneous breaking of the SU(2)$\times$U(1) symmetry, resulting in 3 massive and one massless gauge boson. It also implies the existence of a neutral scalar boson, known as the Higgs boson, which was discovered in July 2012\cite{Higgs}. The generators of SU(2)$\times$U(1) correspond to the $W^+$,$W^-$ and $Z$ bosons, massive vector bosons(spin 1) that mediate weak interactions, and the massless vector boson $\gamma$ (photon), which mediates electromagnetic interactions. The $W$ bosons are charged, whereas the $Z$ boson and $\gamma$ are neutral.
+
+The Standard Model is based on the formalism of quantum field theories. 
+
 \section{Theoretical tools}
+\subsection{Quantum Electrodynamics}
 
 \cleardoublepage
 \chapter{The Large Hadron Collider}
@@ -268,14 +284,6 @@ Gluon-gluon processes contribute to 8.6\% of the total cross section for the $ZZ
 \end{figure}
 The $R_{gg}$ distribution is observed to approach an asymptotic value at a much higher $p_T = 1.5$ TeV. The shape and scale of the $R_{gg}$ distribution (Figure \ref{subfig:R_gg}) remain to be understood, as they differ from Figure \ref{fig:Rcurve}.
 
-\subsection{Effect of Lepton Cuts}
-To check the effects of lepton cuts on the ratio, samples with the same parameters as those in Table \ref{table:default} are generated. However, we relax the cuts on leptons. Both the leading and subleading lepton should have $p_T > 5$ GeV, and $\eta <$ 10. In the lower $p_T$ regions, the cross section falls by nearly half in both processes. The ratio is affected by up to 15\% as seen in Figure \ref{fig:lepcut}, and therefore for all following studies the lepton cuts are applied as they emulate the experimental cuts needed in the analysis.
-\begin{figure}[H]
-\centering
-	\includegraphics[width = 0.8\linewidth]{lep_cuts.png}
-	\caption{Comparison of reference the $R$ distribution to the $R$ distribution without lepton cuts}
-	\label{fig:lepcut}
-\end{figure}
 \subsection{Uncertainty from Scale Variation}
 In higher order QCD calculations, perturbative corrections may be added to the vertices or propagators in a Feynman diagram. Physically, these corrections occur at very small time scales. These loop integrals that correspond to these corrections diverge.\\
 The higher the order, the more difficult the calculation is. It is possible to introduce an arbitrary cut-off scale $\mu$ such that up to a given order, the effect of these corrections can be absorbed into the strong coupling constant $\alpha_s(\mu)$.\\
@@ -384,7 +392,12 @@ The uncertainty is $< 2\%$ over the whole range, which has been extended up till
 
 %Bibliography
 \begin{thebibliography}{9}
+\bibitem{Higgs}
+	\textit{Observation of a New Particle in the Search for the Standard}\\
+	\textbf{ATLAS Collaboration}\\
+	\texttt{arXiv:1207.7214}
 
+Model Higgs Boson with the ATLAS Detector at the LHC
 \bibitem{ZH_ATLAS}
 	\textit{Search for an invisibly decaying Higgs boson or dark matter candidates produced in association with a Z boson in pp collisions at $\sqrt{s}$ = 13 TeV with the ATLAS detector}\\
 	\textbf{ATLAS Collaboration}\\
@@ -474,3 +487,12 @@ Cavendish Laboratory, University of Cambridge, CB3 0HE, UK; 2011\\
 	
 \end{thebibliography}
 \end{document}
+
+%\subsection{Effect of Lepton Cuts}
+%To check the effects of lepton cuts on the ratio, samples with the same parameters as those in Table \ref{table:default} are generated. However, we relax the cuts on leptons. Both the leading and subleading lepton should have $p_T > 5$ GeV, and $\eta <$ 10. In the lower $p_T$ regions, the cross section falls by nearly half in both processes. The ratio is affected by up to 15\% as seen in Figure \ref{fig:lepcut}, and therefore for all following studies the lepton cuts are applied as they emulate the experimental cuts needed in the analysis.
+%\begin{figure}[H]
+%\centering
+%	\includegraphics[width = 0.8\linewidth]{lep_cuts.png}
+%	\caption{Comparison of reference the $R$ distribution to the $R$ distribution without lepton cuts}
+%	\label{fig:lepcut}
+%\end{figure}
