@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.18)  16 JAN 2018 17:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.18)  17 JAN 2018 13:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -710,7 +710,7 @@ LaTeX Info: Redefining \nameref on input line 34.
 \openout3 = `thesis.out'.
 
 
-<Title_Head.png, id=64, 810.02625pt x 175.65625pt>
+<Title_Head.png, id=68, 810.02625pt x 175.65625pt>
 File: Title_Head.png Graphic file (type png)
  <use Title_Head.png>
 Package pdftex.def Info: Title_Head.png used on input line 37.
@@ -725,7 +725,7 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 39.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<iiser_logo.png, id=66, 182.93344pt x 165.61874pt>
+<iiser_logo.png, id=70, 182.93344pt x 165.61874pt>
 File: iiser_logo.png Graphic file (type png)
  <use iiser_logo.png>
 Package pdftex.def Info: iiser_logo.png used on input line 43.
@@ -785,7 +785,7 @@ l.130 \chapter
 
 ]
 Chapter 1.
-<higgs_production.png, id=150, 963.6pt x 591.20876pt>
+<higgs_production.png, id=155, 963.6pt x 591.20876pt>
 File: higgs_production.png Graphic file (type png)
 
 <use higgs_production.png>
@@ -801,136 +801,136 @@ l.151
 ]
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 159.
- <standard_model.png, id=156, 803.0pt x 767.86874pt>
+ <standard_model.png, id=161, 803.0pt x 767.86874pt>
 File: standard_model.png Graphic file (type png)
 
 <use standard_model.png>
-Package pdftex.def Info: standard_model.png used on input line 165.
+Package pdftex.def Info: standard_model.png used on input line 164.
 (pdftex.def)             Requested size: 338.5863pt x 323.7798pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.169 
-       [2 <./higgs_production.png>]pdfTeX warning (ext4): destination with the 
-same identifier (name{page.3}) has been already used, duplicate ignored
+l.168 T
+       he Standard Model addresses three of the four fundamental forces; it ...
+[2 <./higgs_production.png>]pdfTeX warning (ext4): destination with the same id
+entifier (name{page.3}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.181 \cleardoublepage
-                       [3 <./standard_model.png>]pdfTeX warning (ext4): destina
-tion with the same identifier (name{page.4}) has been already used, duplicate i
-gnored
+l.179 
+       [3 <./standard_model.png>]pdfTeX warning (ext4): destination with the sa
+me identifier (name{page.4}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.182 \chapter
-              {The Large Hadron Collider} [4
+l.187 \cleardoublepage
+                       [4]pdfTeX warning (ext4): destination with the same iden
+tifier (name{page.5}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.188 \chapter
+              {The Large Hadron Collider} [5
 
 ]
 Chapter 2.
-pdfTeX warning (ext4): destination with the same identifier (name{page.5}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.183 \cleardoublepage
-                       [5
+[6
 
-] [6
+] [7
 
 ]
 Chapter 3.
-[7
+[8
 
-] [8
+] [9
 
 ]
 Chapter 4.
-[9
+[10
 
-] [10] <ZZ_xsec.png, id=205, 700.6175pt x 474.77374pt>
+] [11] <ZZ_xsec.png, id=215, 700.6175pt x 474.77374pt>
 File: ZZ_xsec.png Graphic file (type png)
  <use ZZ_xsec.png>
-Package pdftex.def Info: ZZ_xsec.png used on input line 247.
+Package pdftex.def Info: ZZ_xsec.png used on input line 253.
 (pdftex.def)             Requested size: 237.0141pt x 160.60956pt.
 
-<Zg_xsec.png, id=206, 700.6175pt x 474.77374pt>
+<Zg_xsec.png, id=216, 700.6175pt x 474.77374pt>
 File: Zg_xsec.png Graphic file (type png)
  <use Zg_xsec.png>
-Package pdftex.def Info: Zg_xsec.png used on input line 251.
+Package pdftex.def Info: Zg_xsec.png used on input line 257.
 (pdftex.def)             Requested size: 237.0141pt x 160.60956pt.
 
-<Ratio_default.png, id=209, 800.9925pt x 575.14874pt>
+<Ratio_default.png, id=219, 800.9925pt x 575.14874pt>
 File: Ratio_default.png Graphic file (type png)
  <use Ratio_default.png>
-Package pdftex.def Info: Ratio_default.png used on input line 260.
+Package pdftex.def Info: Ratio_default.png used on input line 266.
 (pdftex.def)             Requested size: 338.5863pt x 243.12296pt.
 
-<Ratio_with_BR.png, id=212, 800.9925pt x 575.14874pt>
+<Ratio_with_BR.png, id=222, 800.9925pt x 575.14874pt>
 File: Ratio_with_BR.png Graphic file (type png)
  <use Ratio_with_BR.png>
-Package pdftex.def Info: Ratio_with_BR.png used on input line 267.
+Package pdftex.def Info: Ratio_with_BR.png used on input line 273.
 (pdftex.def)             Requested size: 338.5863pt x 243.12296pt.
 
-[11 <./ZZ_xsec.png> <./Zg_xsec.png> <./Ratio_default.png>]
-<ZZ_subproc.png, id=222, 700.6175pt x 474.77374pt>
+[12 <./ZZ_xsec.png> <./Zg_xsec.png> <./Ratio_default.png>]
+<ZZ_subproc.png, id=231, 700.6175pt x 474.77374pt>
 File: ZZ_subproc.png Graphic file (type png)
  <use ZZ_subproc.png>
-Package pdftex.def Info: ZZ_subproc.png used on input line 275.
+Package pdftex.def Info: ZZ_subproc.png used on input line 281.
 (pdftex.def)             Requested size: 237.0141pt x 160.60956pt.
 
-<Zg_subproc.png, id=223, 700.6175pt x 474.77374pt>
+<Zg_subproc.png, id=232, 700.6175pt x 474.77374pt>
 File: Zg_subproc.png Graphic file (type png)
  <use Zg_subproc.png>
-Package pdftex.def Info: Zg_subproc.png used on input line 278.
+Package pdftex.def Info: Zg_subproc.png used on input line 284.
 (pdftex.def)             Requested size: 237.0141pt x 160.60956pt.
 
-<R_ggonly.png, id=226, 800.9925pt x 575.14874pt>
+<R_ggonly.png, id=235, 800.9925pt x 575.14874pt>
 File: R_ggonly.png Graphic file (type png)
  <use R_ggonly.png>
-Package pdftex.def Info: R_ggonly.png used on input line 286.
+Package pdftex.def Info: R_ggonly.png used on input line 292.
 (pdftex.def)             Requested size: 338.5863pt x 243.12296pt.
- [12 <./Ratio_with_BR.png> <./ZZ_subproc.png> <./Zg_subproc.png>] [13 <./R_ggon
+ [13 <./Ratio_with_BR.png> <./ZZ_subproc.png> <./Zg_subproc.png>] [14 <./R_ggon
 ly.png>]
-<PDF4_30_overlay.png, id=250, 800.9925pt x 575.14874pt>
+<PDF4_30_overlay.png, id=259, 800.9925pt x 575.14874pt>
 File: PDF4_30_overlay.png Graphic file (type png)
 
 <use PDF4_30_overlay.png>
-Package pdftex.def Info: PDF4_30_overlay.png used on input line 334.
+Package pdftex.def Info: PDF4_30_overlay.png used on input line 340.
 (pdftex.def)             Requested size: 338.5863pt x 243.12296pt.
- [14]
-<PDF4_CT14_comp.png, id=270, 800.9925pt x 575.14874pt>
+ [15]
+<PDF4_CT14_comp.png, id=279, 800.9925pt x 575.14874pt>
 File: PDF4_CT14_comp.png Graphic file (type png)
 
 <use PDF4_CT14_comp.png>
-Package pdftex.def Info: PDF4_CT14_comp.png used on input line 345.
+Package pdftex.def Info: PDF4_CT14_comp.png used on input line 351.
 (pdftex.def)             Requested size: 290.22105pt x 208.39612pt.
- [15 <./PDF4_30_overlay.png> <./PDF4_CT14_comp.png>]
-<frag.png, id=285, 700.6175pt x 474.77374pt>
+ [16 <./PDF4_30_overlay.png> <./PDF4_CT14_comp.png>]
+<frag.png, id=294, 700.6175pt x 474.77374pt>
 File: frag.png Graphic file (type png)
  <use frag.png>
-Package pdftex.def Info: frag.png used on input line 383.
+Package pdftex.def Info: frag.png used on input line 389.
 (pdftex.def)             Requested size: 338.5863pt x 229.44637pt.
- [16] [17 <./frag.png>] [18
+ [17] [18 <./frag.png>] [19
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 495.
- [19]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 495.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 501.
+ [20]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 501.
  (./thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 495.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 495.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 501.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 501.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 6C94C80946BD46B98C1D87608167CC3F;990.
+(rerunfilecheck)             Checksum: 4039426CF74256FD50022D0273099A7F;1066.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 495.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 501.
  ) 
 Here is how much of TeX's memory you used:
- 8091 strings out of 494860
- 118452 string characters out of 6177602
+ 8094 strings out of 494860
+ 118493 string characters out of 6177602
  214418 words of memory out of 5000000
- 11205 multiletter control sequences out of 15000+600000
+ 11206 multiletter control sequences out of 15000+600000
  18378 words of font info for 70 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  36i,17n,39p,1380b,430s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -951,10 +951,10 @@ texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on thesis.pdf (33 pages, 784253 bytes).
+Output written on thesis.pdf (34 pages, 785624 bytes).
 PDF statistics:
- 392 PDF objects out of 1000 (max. 8388607)
- 317 compressed objects within 4 object streams
- 76 named destinations out of 1000 (max. 500000)
- 191 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 401 PDF objects out of 1000 (max. 8388607)
+ 325 compressed objects within 4 object streams
+ 78 named destinations out of 1000 (max. 500000)
+ 199 words of extra memory for PDF output out of 10000 (max. 10000000)
 
