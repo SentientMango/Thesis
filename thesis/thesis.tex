@@ -171,7 +171,7 @@ Thus, there are 8 gluons, which are massless spin 1 particles with an intrinsic 
 
 The interaction of the scalar Higgs field with the vector fields $W^+$, $W^-$, $W^0$ and $B$ causes the spontaneous breaking of the SU(2)$\times$U(1) symmetry, resulting in 3 massive and one massless gauge boson. It also implies the existence of a neutral scalar boson, known as the Higgs boson, which was discovered in July 2012\cite{Higgs}. The generators of SU(2)$\times$U(1) correspond to the $W^+$,$W^-$ and $Z$ bosons, massive vector bosons(spin 1) that mediate weak interactions, and the massless vector boson $\gamma$ (photon), which mediates electromagnetic interactions. The $W$ bosons are charged, whereas the $Z$ boson and $\gamma$ are neutral.
 
-The Standard Model is based on the formalism of quantum field theories, in which particles are intepreted as excitations of underlying fields.
+The Standard Model is based on the formalism of quantum field theories (QFTs), in which particles are intepreted as excitations of underlying fields.
 
 \section{Theoretical tools}
 \subsection{Quantum Electrodynamics}
@@ -182,7 +182,31 @@ Quantum Electrodynamics is extended to describe the electroweak theory, which in
 \subsection{Quantum Chromodynamics}
 Quantum Chromodynamics (QCD) is the quantum field theory of strong interactions. It describes particles that have color charge (such as quarks, and their composite particles),and is mediated by gluons.
 
-QCD has some interesting properties. For example, the force between two color charges remains constant,  the force between two quarks increases with the separation, a phenomenon known as asymptotic freedom. Thus, to separate them, increasing amounts of energy must be put in, leading to 
+QCD has some interesting properties. For example, the force between two color charges remains constant, a phenomenon known as $color confinement$. Thus, separating quarks requiring increasing amounts of energy. Eventually it becomes energetically favorable to simple create a quark-antiquark pair from vacuum, forming color neutral hadrons. Another interesting property is that the strength of quark-gluon interactions decreases as the energy scale of the interaction increases (equivalently, the length scale of the interaction decreases). This phenomenon is known as asymptotic freedom; essentially, quarks and gluons in close proximity behave as nearly free particles, while those far apart interact strongly.
+
+While there is no analytic proof of QCD, there is a large body of evidence supporting its predictions.
+
+\subsection{Feynman diagrams}
+Feynman diagrams are a powerful tool in calculating the likelihood of interactions between fundamental particles. Not only are they an intuitive diagrammatic representation of processes, but they can also be directly translated into an equation that can be integrated to give the cross section.
+
+The rules that provide the convention for this conversion are called Feynman rules. They are motivated by the quantum field theoretical formulation of the Standard Model, but what makes these diagrams so powerful is that once the rules are laid down, knowledge of QFT is not required. The derivation of the same equations from QFT can be very involved and messy, and Feynman diagrams are a wonderfully clear and concise packaging of the same.
+\begin{figure}[H]
+\centering
+	\begin{subfigure}{0.4\textwidth}
+	\centering
+		\includegraphics[width=0.5\linewidth]{Bhabha_S_channel.png}
+	\end{subfigure}
+	\begin{subfigure}{0.4\textwidth}
+	\centering
+		\includegraphics[width=0.5\linewidth]{Bhabha_T_channel.png}
+	\end{subfigure}
+	\caption{Bhabha scattering showing electron-positron annihilation in s-channel (left) and scattering in t-channel (right). The interaction is mediated by the photon, the gauge boson that mediates electromagnetic interactions}.
+	\label{fig:bhabha}
+\end{figure}
+Figure \ref{fig:bhabha} shows Bhabha scattering, an electromagnetic process involving the interaction of an electron and a positron, mediated by a photon. The Feynman rules assign functionals to the propagators (the straight/wavy lines in the diagram) and the vertices, from which we can obtain the amplitudes for this process.
+
+\subsection{Inadequacies of the Standard Model}
+Despite its immense success, the Standard Model does not paint a complete picture of everything that we observe. It does not account for several phenomena that are experimentally observed, and thus require modifications or additions to it, which are collectively called Beyond Standard Model (BSM) theories.
 
 \cleardoublepage
 \chapter{The Large Hadron Collider}
@@ -219,6 +243,7 @@ The samples are generated using MCFM v8.0 for the following data points:
 \end{split}
 \label{eq:discrete}
 \end{equation}
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
 Table \ref{table:default} lists the generator level settings used for the $ZZ$ and $Z+\gamma$ processes. All lepton cuts are consistent with the ones used in the ATLAS Z+$E_T^{miss}$ analysis.
 \begin{table}[H]
 \begin{center}
@@ -235,6 +260,7 @@ Table \ref{table:default} lists the generator level settings used for the $ZZ$ a
 	$|\eta^{lead}(e)|$ & $< 2.47$ & $< 2.47$\\
 	$p_T^{\text{sublead}}(e)$ & $> 20$ GeV & $> 20$ GeV\\
 	$|\eta^{sublead}(e)|$ & $< 2.47$ & $< 2.47$\\
+	$p_T(V)$\footnotemark & $> 90$ GeV & $> 90$ GeV\\
 	Renormalization scale & $91.187$ GeV $(M_{Z})$& $91.187$ GeV $(M_{Z})$\\
 	Factorization scale & $91.187$ GeV $(M_{Z})$& $91.187$ GeV $(M_{Z})$\\
 	\hline
@@ -243,6 +269,8 @@ Table \ref{table:default} lists the generator level settings used for the $ZZ$ a
 	\label{table:default}
 	\end{center}
 \end{table}
+\footnotetext{$V$ is a vector boson: $Z(\to\nu\nu)$ for the $ZZ$ process; $\gamma$ for the $Z\gamma$ process}
+\renewcommand{\thefootnote}{\arabic{footnote}}
 The constraint on $M_{ee}$ in the case of $Z+\gamma$ suppresses the FSR process by ensuring that the lepton pair are from a $Z$ decay only.
 \newpage
 \section{Results}
@@ -251,23 +279,25 @@ Using the settings listed in Table \ref{table:default}, the cross sections for $
 \centering
 	\begin{subfigure}{0.49\textwidth}
 		\includegraphics[width=\linewidth]{ZZ_xsec.png}
+		\caption{}
 		\label{subfig:ZeeZvv}
 	\end{subfigure}	
 	\begin{subfigure}{0.49\textwidth}
 		\includegraphics[width=\linewidth]{Zg_xsec.png}
+		\caption{}
 		\label{subfig:Zeeg}	
 	\end{subfigure}
 	\caption{NLO and LO cross sections of $ZZ\to ee\nu\nu$ (left) and $Z\gamma\to ee\gamma$ (right) processes with the cuts as in Table 1. The vertical axis is in $\log_{10}$ scale. The leptonically decaying $Z$ boson decays to an $e^+e^-$ pair. There is no flavor constraint on the neutrinos.}
 	\label{xsecs}
 \end{figure}
-The ratio $R = \sigma(ZZ\rightarrow ee\nu\nu)/\sigma(Z\gamma\rightarrow ee\gamma)$ is shown in Figure \ref{fig:Rcurve}, where 10 samples for each process are generated, following the prescription in Equation \ref{eq:discrete}.
+The ratio $R = \sigma(ZZ\rightarrow ee\nu\nu)/\sigma(Z\gamma\rightarrow ee\gamma)$ is shown in Figure \ref{fig:Rcurve}, taken as the ratio of the cross sections in Figures \ref{subfig:ZeeZvv} and \ref{subfig:Zeeg}. Additional events are generated with \met and $p_T(\gamma) > 400$ GeV for the two processes respectively to increase statistics. 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width= 0.7\textwidth]{Ratio_default.png}
 	\caption{The transfer factor $R$ as a function of $p_T$, taken as a ratio of  the $ZZ\to ee\nu\nu$ and $Z\gamma\to ee\gamma$ cross sections at both LO and NLO. The leptonically decaying $Z$ boson decays to an $e^+e^-$ pair.}
 	\label{fig:Rcurve}
 \end{figure}
-The $R$ value is observed to increase from $\approx 0.24$ at 50 GeV to $\approx 0.47$ at high $p_T$, where it is constant. When the branching ratio of $Z$ boson decaying selectively to $e^+e^-$, or to $\nu\nu$, is accounted for as shown in Equation \ref{eq:R_inc}, the resulting ratio $R(p_T)$ is shown in Figure \ref{fig:RcurveBR}, which shows the ratio of $\sigma(ZZ)$ to $\sigma(Z\gamma)$, i.e. if the $Z$ bosons do not decay further. The value of $R$ is observed to increase from $\approx 0.61$ at 50 GeV to $\approx 1.2$ at high $p_T$, in reasonable agreement with the simple approximate calculation presented in Section 2 of $R \approx 1.28$.
+The $R$ value is observed to increase from $\approx 0.39$ at 50 GeV to $\approx 0.52$ at high $p_T$, where it reaches a plateau. When the branching ratio of $Z$ boson decaying selectively to $e^+e^-$, or to $\nu\nu$, is accounted for as shown in Equation \ref{eq:R_inc}, the resulting ratio $R(p_T)$ is shown in Figure \ref{fig:RcurveBR}, which shows the ratio of $\sigma(ZZ)$ to $\sigma(Z\gamma)$, i.e. if the $Z$ bosons do not decay further. The value of $R$ is observed to increase from $\approx 0.98$ at 50 GeV to $\approx 1.3$ at high $p_T$, in reasonable agreement with the simple approximate calculation presented in Section 2 of $R \approx 1.28$.
 \begin{figure}[H]
 	\centering
 	\includegraphics[width = 0.7\textwidth]{Ratio_with_BR.png}
