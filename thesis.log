@@ -1,0 +1,14 @@
+This is TeX, Version 3.14159265 (TeX Live 2015/Debian) (preloaded format=tex 2017.9.2)  19 JAN 2018 10:57
+**thesis/thesis.tex
+(./thesis/thesis.tex
+! Undefined control sequence.
+l.1 \documentclass
+                  [11pt,a4paper]{report}
+? 
+! Interruption.
+<to be read again> 
+                   [
+l.1 \documentclass[
+                   11pt,a4paper]{report}
+? exit
+No pages of output.
