@@ -1,4 +1,4 @@
-\documentclass[11pt,a4paper]{report}
+\documentclass[11pt,a4paper,openright,twoside]{report}
 \usepackage[utf8]{inputenc}
 \usepackage{amsmath}
 \usepackage{amsfonts}
@@ -29,7 +29,7 @@
     \null
     \thispagestyle{empty}%
     \addtocounter{page}{-1}%
-    \newpage}
+    \newpage}    
 
 \begin{document}
 \begin{titlepage}
@@ -119,12 +119,9 @@ $\langle$ placeholder $\rangle$
 \pagenumbering{roman}
 \setcounter{page}{1}
 In the search for Dark Matter (DM) at the LHC, SM particles are produced in association with DM particles, which are invisible as they don't interact with the detector. Thus events with large imbalance in transverse momentum are of interest. One such signature is $ll + E_T^{miss}$. The dominant background contributing to the search for DM in the $ll + E_T^{miss}$ is $ZZ \rightarrow ll\nu\nu$.  Currently, this background is determined using Monte Carlo simulation, with an uncertainty of $\approx 10\%$ \cite{ZH_ATLAS}. The goal of this study is to establish a data driven method to estimate this background, and reduce the uncertainty. Using \Zg, which is a process with low backgrounds and has a high $BR*\sigma$, it is possible to estimate the \ZZ contribution. In regions where $p_{T}(\gamma) \gg M_{Z}$, the two processes are kinematically similar. They have the same production mechanisms, but differ due to the photon and Z boson couplings to the quarks being different, as well as the difference in mass (photons are massless, while Z bosons are massive). Introducing a transfer factor $R$ as the ratio $\sigma(ZZ)/\sigma(Z\gamma)$ which is determined from simulation, the contribution of \ZZ to the background can be estimated from \Zg data. The uncertainty on the prediction of $R$ due to theoretical aspects is estimated in this work.
-
-\cleardoublepage
-\pagestyle{plain}
+\thispagestyle{plain}
 \tableofcontents
 \thispagestyle{empty}
-\newpage
 \cleardoublepage
 \pagenumbering{arabic}
 \chapter{Introduction}
@@ -227,23 +224,38 @@ The observation of neutrino oscillations imply that neutrinos have mass, however
 Both SUSY and the addition of a sterile right-handed neutrino to the SM are extensions that provide candidates for Dark Matter. These candidates are known as Weakly Interacting Massive Particles (WIMPs). They do not interact electromagnetically, and are thus invisible to our detectors.
 
 \subsection{Dark Matter}
-Cosmological observations of galaxies made over the decade, such as the velocity curves of galaxies (called galaxy rotation curves) indicate an anomaly; the stars in the arms of spiral galaxies appear to move faster than what would be expected from Keplerian relations, using the visible mass from the galaxies. Figure \ref{fig:grc} shows the two rotation curves, expected and observed, of M33, a spiral galaxy.\cite{galaxy}
+Cosmological observations of galaxies made over the decade, such as the velocity curves of galaxies (called galaxy rotation curves) indicate an anomaly; the stars in the arms of spiral galaxies appear to move faster than what would be expected from Keplerian relations, using the visible mass from the galaxies. Figure \ref{fig:grc} shows the two rotation curves, expected and observed, of NGC 6503, a field\footnote{Field galaxies do not belong to a large cluster, and are thus gravitationally alone}  spiral galaxy.\cite{galaxy}
 \begin{figure}[H]
 \centering
-	\includegraphics[width=0.7\textwidth]{grc.png}
-	\caption{Rotation curves of M33, a spiral galaxy. The dotted curve is what would be expected from the visible mass, but what is observed is much higher, indicating new physics.}
+	\includegraphics[width=0.7\textwidth]{GRC.jpeg}
+	\caption{Rotation curves of NGC 6503, a field spiral galaxy. The 'Luminous' curve is what would be expected from the visible mass, but what is observed is much higher, indicating new physics.}
 	\label{fig:grc}
 \end{figure}
-Either the current understanding of Newtonian Mechanics is incomplete, or there is additional mass that is not visible which is contributing to the mass term in Newton's equation. This invisible mass is what is termed as Dark Matter.
+Either the current understanding of Newtonian Mechanics is incomplete, or there is additional mass that is not visible which is contributing to the mass term in Newton's equation. This invisible mass is what is termed as Dark Matter. Ergo, Dark Matter appears to interact gravitationally, but not electromagnetically, with visible (Standard Model) matter. It is possible that Dark Matter is made up of and exotic and hitherto undiscovered kind of matter, and searches are underway at the LHC to look for Dark Matter via its interactions with the Standard Model.
 
-There is additional evidence supporting Dark Matter, such as gravitational lensing of distant galaxies, structure formationa in the early universe, anisotropy in the cosmic microwave background, etc.
+There is additional cosmological evidence supporting Dark Matter, such as gravitational lensing of distant galaxies, structure formationa in the early universe, anisotropy in the cosmic microwave background, etc.
 
-\cleardoublepage
+\subsubsection{Dark Matter searches at the LHC}
+asdflaknslknlkansdf
+akjnlknalknsdf
+knlaknlknasdf
+naskdjfklajsdklfjalksjdfkla
+
+aksdjflkajsdklfjklasjdlfkjasd
+
+kajsdlkfjalksdjflkasjdf
+
+kaslkdjflkajsdf
+
+akljslkdjflksjdflk
+
+askdfjlksdjflk
+
 \chapter{The Large Hadron Collider}
-\cleardoublepage
+
 \chapter{Analysis}
 \section{Motivation}
-\cleardoublepage
+
 \chapter{Theoretical uncertainties on cross sections and the transfer factor R}
 
 It is worth reiterating that the goal of this thesis is to use \Zg process to estimate the dominant contribution \ZZ to the Standard Model \llM background. Excesses would indicate the presence of BSM physics. It is thus important to have an estimate of the uncertainties on the theoretical predictions of the $ZZ$ and $Z\gamma$ cross sections, and the transfer factor $R$.\\
@@ -265,15 +277,8 @@ In MCFM generated events containing a leptonically decaying $Z$ boson, $Z\righta
 	R_{inc} = R * \frac{BR(Z\rightarrow ee)}{BR(Z \rightarrow ee)*BR(Z\rightarrow \nu\nu)*2}
 \end{equation}
 \section{Generator Parameters}
-The samples are generated using MCFM v8.0 for the following data points:
-\begin{equation}
-\begin{split}
-	\text{For } ZZ \rightarrow ee\nu\nu &: E_T^{miss} > \{50,75,100,125,150,200,250,300,400,500\}\text{ GeV} \\
-	\text{For } Z(\rightarrow ee)+\gamma &: p_T(\gamma) > \{50,75,100,125,150,200,250,300,400,500\}\text{ GeV}
-\end{split}
-\label{eq:discrete}
-\end{equation}
-\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+The samples are generated using MCFM v8.0.
+\renewcommand{\thefootnote}{\fnsymbol{footnote}} 
 Table \ref{table:default} lists the generator level settings used for the $ZZ$ and $Z+\gamma$ processes. All lepton cuts are consistent with the ones used in the ATLAS Z+$E_T^{miss}$ analysis.
 \begin{table}[H]
 \begin{center}
@@ -366,28 +371,26 @@ To address scale uncertainties in this study, the prescription used in Ref \cite
 \end{equation}
 where $i=0,...,6$. The central cross section value is taken to be the mean of the maximum and minimum cross sections resulting from this variation, and the uncertainty to be the half the difference between the same.
 \begin{align}
-\sigma_{NLO}^{(V)} &= \frac{1}{2}\left[\sigma_{NLO}^{(V,max)} + \sigma_{NLO}^{(V,min)}\right]\\
+\sigma_{NLO}^{(V)} &= \frac{1}{2}\left[\sigma_{NLO}^{(V,max)} + \sigma_{NLO}^{(V,min)}\right]\label{eq:scale_central}\\
 \delta\sigma_{NLO}^{(V)} &= \frac{1}{2}\left[\sigma_{NLO}^{(V,max)} - \sigma_{NLO}^{(V,min)}\right]
-\label{eq:scale_central}
+\label{eq:scale_central2}
 \end{align}
 where
-\begin{equation}
-\begin{split}
+\begin{align}
 \sigma_{NLO}^{(V,max)} &= max\left\lbrace\sigma_{NLO}^{(V)}(p_{T}(V),\mu_i)|0\leq i \leq 6\right\rbrace\\
 \sigma_{NLO}^{(V,min)} &= min\left\lbrace\sigma_{NLO}^{(V)}(p_{T}(V),\mu_i)|0\leq i \leq 6\right\rbrace
-\end{split}
-\end{equation}
+\end{align}
 and $V = Z\to\nu\nu$ for \ZZ, or $V = \gamma$ for \Zg. This uncertainty is propagated to $R$.
 
-To estimate the degree of correlation between the processes, the process dependent part of the cross sections may be used. Since the study is conducted at NLO, the highest available term in the perturbative expansion is considered to define a K-factor.
+To estimate the degree of correlation between the processes, the process dependent part of the cross sections may be used. The highest available term in the perturbative expansion is considered to define a $K$-factor. Since the study is undertaken at NLO, the $K$-factor is defined as in Equation \ref{eq:K_factor}.
 \begin{equation}
-\Delta K_{NLO}^{(V)} = \sigma_{NLO}^{(V)}(p_T)/\sigma_{LO}^{(V)}(p_T)
+K_{NLO}^{(V)} = \sigma_{NLO}^{(V)}(p_T)/\sigma_{LO}^{(V)}(p_T)
 \label{eq:K_factor}
 \end{equation}
 
-To estimate the unknown process dependent correlation effects, the difference between the QCD K-factors of the \ZZ and \Zg processes is taken.
+To estimate the unknown process dependent correlation effects, the difference between the $K$-factors of the \ZZ and \Zg processes is taken.
 \begin{equation}
-\delta^{(2)} \sigma_{NLO} = \Delta K_{NLO}^{(\gamma)}(p_T) - K_{NLO}^{(Z)}(p_T)
+\delta^{(2)} \sigma_{NLO} = K_{NLO}^{(\gamma)}(p_T) - K_{NLO}^{(Z)}(p_T)
 \label{eq:K_factor_unc}
 \end{equation}
 
@@ -400,8 +403,25 @@ Applying the above prescription, the variation of scales for cross sections of $
 	\begin{subfigure}{0.49\textwidth}
 		\includegraphics[width=\linewidth]{zg_scale.png}
 	\end{subfigure}
-	\caption{The scale variations around the cross sections of ZZ}
+	\caption{The scale variations around the cross sections of $ZZ\to ee\nu\nu$(left) and $Z\gamma\to ee\gamma$(right)}
 	\label{fig:scale_xsec}
+\end{figure}
+
+At 100 GeV, the deviation from the central value is about 3\% for both processes and increases to ~10\% at high $p_T$. Here, the prescription in Equations \ref{eq:scale_central} and \ref{eq:scale_central2} are used to compute the central value and uncertainty.\\ Treating the scales as correlated between the processes, the scale variation for the transfer factor $R$ is shown in Figure \ref{fig:R_scale}. The central value of $R$ and the uncertainty band around it is taken according to Equations \ref{eq:scale_central} and \ref{eq:scale_central2} applied to $R$.
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.7\textwidth]{R_scale.png}
+\caption{The transfer factor $R = \sigma(ZZ\to ee\nu\nu)/\sigma(Z\gamma\to ee\gamma)$(top), with the scales varied in a correlated manner for both $ZZ$ and $Z\gamma$ processes. The bottom plot shows the relative ratio $R_i/R_0$ of the varied transfer factors to the central value.}
+\label{fig:R_scale}
+\end{figure}
+The correlated scale uncertainty around $R$ is lower compared to that of the individual cross sections. At 100 GeV, $R \approx 0.4 \pm 0.037$, or an uncertainty of 1\%. At high $p_T$, $R\approx 0.55 \pm 0.01$, the uncertainty is 1.8\%.
+
+To study the uncertainty due to unknown process dependent correlation effects, the $K$-factor study is undertaken, following the prescription in Equations \ref{eq:K_factor} and \ref{eq:K_factor_unc}. Figure \ref{fig:K_pt}
+\begin{figure}[H]
+\centering
+	\includegraphics[width=0.7\textwidth]{K_pt.png}
+	\caption{The $K$ factor to estimate the unknown process dependent correlations, defined as $\sigma_{NLO}(V)/\sigma_{LO}(V)$. The bottom plot shows the $K$-factor difference relative to $K(Z)$.}
+	\label{fig:K_pt}
 \end{figure}
 
 \subsection{Uncertainty from PDF variation}
@@ -420,7 +440,7 @@ Parton Distribution Functions (PDFs) characterize the fraction of proton momentu
 \end{equation}
 where $N_{mem}$ is the number of member sets in the group, in this case, 30.
 
-\noindent The combined uncertainty around $R \approx 0.40$ is $\pm 0.008$, or about 2\%, at 100 GeV. The $R$ distributions drawn from the two PDF sets agree to within the uncertainty bounds.
+\noindent The combined uncertainty around $R \approx 0.40$ is $\pm 0.008$, or about 2\%, at 100 GeV. The uncertainty is significantly larger at high $p_T$ values, $>10\%$.
 
 %The effect of the PDF uncertainties on $gg$ process are studied separately, as illustrated in Figure \ref{pdfcompare_gg}.
 %\begin{figure}[H]
@@ -467,6 +487,48 @@ The uncertainty is calculated from the four sets listed in Figure \ref{fig:photo
 \end{equation}
 as the effects assessed by changing the isolation definition in set 4, and varying the parameters in sets 1-3 are different.\\
 The uncertainty is $< 2\%$ over the whole range, which has been extended up till 800 GeV.
+
+\subsubsection{Additional plots}
+\begin{figure}[H]
+\centering
+	\includegraphics[width=0.7\textwidth]{K_y.png}
+	\caption{K factor as a function of rapidity}
+\end{figure}
+\begin{figure}[H]
+\centering
+	\includegraphics[width=0.7\textwidth]{dphi_sys.png}
+	\caption{dphi(Z,V)}
+\end{figure}
+\begin{figure}[H]
+\centering
+	\includegraphics[width=0.7\textwidth]{dy_sys.png}
+	\caption{dy(Z,V)}
+\end{figure}
+\begin{figure}[H]
+\centering
+	\includegraphics[width=0.7\textwidth]{y_rap.png}
+	\caption{y(V)}
+\end{figure}
+\begin{figure}[H]
+\centering
+	\begin{subfigure}{0.49\textwidth}
+		\includegraphics[width=\linewidth]{leadpt.png}
+	\end{subfigure}
+	\begin{subfigure}{0.49\textwidth}
+		\includegraphics[width=\linewidth]{subleadpt.png}
+	\end{subfigure}
+	\caption{lepton pt}
+\end{figure}
+\begin{figure}[H]
+\centering
+	\begin{subfigure}{0.49\textwidth}
+		\includegraphics[width=\linewidth]{leady.png}
+	\end{subfigure}
+	\begin{subfigure}{0.49\textwidth}
+		\includegraphics[width=\linewidth]{subleady.png}
+	\end{subfigure}
+	\caption{lepton y}
+\end{figure}
 
 
 %Bibliography
