@@ -391,29 +391,36 @@ To estimate the unknown process dependent correlation effects, the difference be
 \label{eq:K_factor_unc}
 \end{equation}
 
+Applying the above prescription, the variation of scales for cross sections of $ZZ\to ee\nu\nu$ and $Z\gamma\to ee\gamma$ are shown in Figure \ref{fig:scale_xsec} below.
+\begin{figure}[H]
+\centering
+	\begin{subfigure}{0.49\textwidth}
+		\includegraphics[width=\linewidth]{zz_scale.png}
+	\end{subfigure}
+	\begin{subfigure}{0.49\textwidth}
+		\includegraphics[width=\linewidth]{zg_scale.png}
+	\end{subfigure}
+	\caption{The scale variations around the cross sections of ZZ}
+	\label{fig:scale_xsec}
+\end{figure}
+
 \subsection{Uncertainty from PDF variation}
 A proton is a Baryon, i.e. it is composed of 3 quarks and several gluons. In a proton-proton collision, it is these quarks and gluons, called $partons$ that actually interact. This is illustrated by Figures $the\ feynman\ diagrams\ in\ Chapter\ 3$, which show the Feynman diagrams for quark-quark and gluon-gluon interactions. Thus it is important to know the momentum of the interacting partons. It is not possible to deterministically know the momentum of the partons, as it is the momentum of the protons that is set during the experiment. However, the fraction of the proton momentum that is carried by the partons can be modelled as probability distributions.
 
 Parton Distribution Functions (PDFs) characterize the fraction of proton momentum carried by partons as probability distributions. PDF sets are collections of PDFs that model the uncertainty associated with parton momenta. The PDF set used for reference is the \texttt{CT14}\cite{CT14} PDF set. The uncertainty on the PDFs is studied by using the 30 variations provided by the \texttt{PDF4LHC15} set\cite{PDF4}, constructed from the combination of \texttt{CT14,MMHT14}\cite{MMHT14} and \texttt{NNPDF3.0}\cite{NNPDF3} PDF sets. These sets are provided by LHAPDF6\cite{LHAPDF}. \texttt{PDF4LHC15} provides a set of variations that include those determined by different groups (MSTW, CTEQ and NNPDF). The set used here is \texttt{PDF4LHC15\_nlo\_30}, consisting of 30 members. While the most accurate uncertainties are given by \texttt{PDF4LHC15\_nlo\_100} set, \texttt{PDF4LHC15\_nlo\_30} is used here for a faster, reasonably accurate estimate of the uncertainties.
 \begin{figure}[H]
 \centering
-	\includegraphics[width = 0.7\textwidth]{PDF4_30_overlay.png}
-	\caption{The relative ratio $R_i/R_0$, of the transfer factor $R = \sigma(ZZ)/\sigma(Z\gamma)$ calculated using PDF sets 1-30, with respect to set 0 which is taken as the central value. }
+	\includegraphics[width = 0.7\textwidth]{R_pdf.png}
+	\caption{The transfer factor $R = \sigma(ZZ)/\sigma(Z\gamma)$ (top), and the relative ratio $R_i/R_0$ of the transfer factor  calculated using PDF sets 1-30, with respect to set 0 which is taken as the central value. }
 	\label{fig:PDF30var}
 \end{figure}
 \noindent Fig.\ref{fig:PDF30var} shows the comparison of the ratio $R(p_T)$ from the 30 member sets of \texttt{PDF4LHC15\_nlo\_30}. To measure the uncertainty due to these 30 sets, analogous to Equation 20 in Ref \cite{PDF4}, Equation \ref{eq:PDFerr} is used:
 \begin{equation}\label{eq:PDFerr}
 	\delta^{PDF}R = \sqrt{\sum^{N_{mem}}_{k=1} (R^{(k)} - R^{(0)})^2}
 \end{equation}
-where $N_{mem}$ is the number of member sets in the group, in this case, 30. The $R$ distribution obtained from the \texttt{PDF4LHC15\_nlo\_30} set is compared to the reference distributions from \texttt{CT14}, as shown in Figure \ref{pdfcompare}:
-\begin{figure}[H]
-\centering
-	\includegraphics[width = 0.6\textwidth]{PDF4_CT14_comp.png}
-	\caption{The ratio $R(p_T)$ calculated using the PDF sets in \texttt{PDF4LHC15\_nlo\_30} with combined uncertainties as given by Equation \ref{eq:PDFerr} (blue), compared to the reference constructed from the PDF set \texttt{CT14} (red).}
-	\label{fig:PDF4_def_compare}
-	\label{pdfcompare}
-\end{figure}
-\noindent Figure \ref{fig:PDF4_def_compare} shows a comparison between the central value of the sets in \texttt{PDF4LHC15\_nlo\_30} with the combined uncertainties, and the reference PDF set \texttt{CT14}. The combined uncertainty around $R \approx 0.40$ is $\pm 2.00\%$ at 100 GeV. The $R$ distributions drawn from the two PDF sets agree to within the uncertainty bounds.
+where $N_{mem}$ is the number of member sets in the group, in this case, 30.
+
+\noindent The combined uncertainty around $R \approx 0.40$ is $\pm 0.008$, or about 2\%, at 100 GeV. The $R$ distributions drawn from the two PDF sets agree to within the uncertainty bounds.
 
 %The effect of the PDF uncertainties on $gg$ process are studied separately, as illustrated in Figure \ref{pdfcompare_gg}.
 %\begin{figure}[H]

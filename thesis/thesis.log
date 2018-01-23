@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.18)  22 JAN 2018 19:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.18)  23 JAN 2018 15:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -913,43 +913,48 @@ Package pdftex.def Info: R_ggonly.png used on input line 352.
 (pdftex.def)             Requested size: 338.5863pt x 243.12296pt.
  [15 <./Ratio_with_BR.png> <./ZZ_subproc.png> <./Zg_subproc.png>] [16 <./R_ggon
 ly.png>]
-<PDF4_30_overlay.png, id=308, 800.9925pt x 575.14874pt>
-File: PDF4_30_overlay.png Graphic file (type png)
+<zz_scale.png, id=304, 700.6175pt x 474.77374pt>
+File: zz_scale.png Graphic file (type png)
+ <use zz_scale.png>
+Package pdftex.def Info: zz_scale.png used on input line 398.
+(pdftex.def)             Requested size: 237.0141pt x 160.60956pt.
 
-<use PDF4_30_overlay.png>
-Package pdftex.def Info: PDF4_30_overlay.png used on input line 400.
-(pdftex.def)             Requested size: 338.5863pt x 243.12296pt.
- [17]
-<PDF4_CT14_comp.png, id=330, 800.9925pt x 575.14874pt>
-File: PDF4_CT14_comp.png Graphic file (type png)
+<zg_scale.png, id=305, 700.6175pt x 474.77374pt>
+File: zg_scale.png Graphic file (type png)
+ <use zg_scale.png>
+Package pdftex.def Info: zg_scale.png used on input line 401.
+(pdftex.def)             Requested size: 237.0141pt x 160.60956pt.
 
-<use PDF4_CT14_comp.png>
-Package pdftex.def Info: PDF4_CT14_comp.png used on input line 411.
-(pdftex.def)             Requested size: 290.22105pt x 208.39612pt.
- [18 <./PDF4_30_overlay.png> <./PDF4_CT14_comp.png>]
+<R_pdf.png, id=311, 700.6175pt x 474.77374pt>
+File: R_pdf.png Graphic file (type png)
+ <use R_pdf.png>
+Package pdftex.def Info: R_pdf.png used on input line 413.
+(pdftex.def)             Requested size: 338.5863pt x 229.44637pt.
+ [17 <./zz_scale.png> <./zg_scale.png>] [18 <./R_pdf.png>]
 <frag.png, id=345, 700.6175pt x 474.77374pt>
 File: frag.png Graphic file (type png)
  <use frag.png>
-Package pdftex.def Info: frag.png used on input line 449.
+Package pdftex.def Info: frag.png used on input line 456.
 (pdftex.def)             Requested size: 338.5863pt x 229.44637pt.
- [19] [20 <./frag.png>] [21
+ [19 <./frag.png>]
+[20
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 566.
- [22]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 566.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 573.
+ [21]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 573.
  (./thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 566.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 566.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 573.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 573.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: 8E9978F4926FCD59A8E1914ABB72AC7C;1361.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 566.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 573.
  ) 
 Here is how much of TeX's memory you used:
- 8132 strings out of 494860
- 119085 string characters out of 6177602
- 215843 words of memory out of 5000000
- 11230 multiletter control sequences out of 15000+600000
+ 8135 strings out of 494860
+ 119059 string characters out of 6177602
+ 215419 words of memory out of 5000000
+ 11233 multiletter control sequences out of 15000+600000
  18378 words of font info for 70 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  36i,17n,43p,1380b,459s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -973,10 +978,10 @@ onts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
 lic/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmtt10.pfb>
-Output written on thesis.pdf (36 pages, 954054 bytes).
+Output written on thesis.pdf (35 pages, 961627 bytes).
 PDF statistics:
- 463 PDF objects out of 1000 (max. 8388607)
- 375 compressed objects within 4 object streams
- 89 named destinations out of 1000 (max. 500000)
- 246 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 457 PDF objects out of 1000 (max. 8388607)
+ 370 compressed objects within 4 object streams
+ 88 named destinations out of 1000 (max. 500000)
+ 251 words of extra memory for PDF output out of 10000 (max. 10000000)
 

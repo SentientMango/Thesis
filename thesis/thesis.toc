@@ -17,4 +17,4 @@
 \contentsline {section}{\numberline {4.3}Results}{14}{section.4.3}
 \contentsline {subsection}{\numberline {4.3.1}Uncertainty from Scale Variation}{16}{subsection.4.3.1}
 \contentsline {subsection}{\numberline {4.3.2}Uncertainty from PDF variation}{17}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {4.3.3}Uncertainty from Photon Fragmentation}{19}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.3}Uncertainty from Photon Fragmentation}{18}{subsection.4.3.3}
