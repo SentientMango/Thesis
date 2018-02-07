@@ -237,31 +237,54 @@ This thesis investigates the Standard Model background to the $ll+$\met signal w
 
 \section{Invisible Higgs in association with a Z boson - ZH}
 In this thesis, the production of the Higgs boson, in association with a $Z$ boson, as shown in Figure \ref{fig:HZ}, is considered. In this model, the Higgs boson mediates the interaction between Dark Matter particles and Standard Model particles, and the $Z$ boson decays into a lepton-antilepton pair. As Dark Matter is invisible to current detectors, this process results in the $ll+$\met signature.
+
 \begin{figure}[H]
-	\begin{center}
+\centering
 		\includegraphics[scale=0.7]{HZ.png}
 		\caption{Feynman diagram showing the associated production of a Higgs boson with a Z boson. The Higgs boson decays to two invisible DM particles and the Z boson decays leptonically, resulting in the $ll+ E_T^{miss}$ signature.}
 		\label{fig:HZ}
-	\end{center}
 \end{figure}
 
-The main Standard Model background processes for the $ll+$\met final state are \ZZ, $WZ\to lll\nu$, $WW\to l\nu l\nu$, $Z+$jets and $W+$jets. As discussed in Ref \cite{ZH_ATLAS}, the dominant source of background is the \ZZ process, contributing $\approx 60\%$ of the background. $WZ\to lll\nu$ events, where the $W$ boson decays into a electron or muon that escapes detection, account for 25\% of the total background. $Z(\to ll)+$jets process with misreconstructed \met contributes to about 8\% of the total background, and non-resonant-$ll$ processes, consisting of $t\bar{t}$, $Wt$, $WW$ and $Z\to\tau\tau$ production contribute similarly. $W+$jets, $VVV$, and $t\bar{t}V(V)$ backgrounds contribute to a minor extent ($<1\%$).
+The main Standard Model background processes for the $ll+$\met final state are \ZZ, $WZ\to lll\nu$, $WW\to l\nu l\nu$, $Z+$jets and $W+$jets. Figure \ref{fig:ZH_results} shows the observed \met distribution in the $ee$ and $\mu\mu$ channels, compared to the signal and background predictions.
+ 
+\begin{figure}[H]
+\centering
+		\includegraphics[width=0.9\textwidth]{ZH_results.png}
+		\caption{The observed \met distributions in thee $ee$ (left) and $\mu\mu$ channels, compared to the signal and background predictions. The total statistical and systematic uncertainty on the background predictions are shown by the error bands. The Standard Model background predictions are stacked. The $ZH\to ll+$ invisible signal distribution is shown with $B_{H\to inv}=0.3$, and the simulated DM distribution is also scaled (with a factor of 0.27) to the best-fit contribution \cite{ZH_ATLAS}.}
+		\label{fig:ZH_results}
+\end{figure}
+
+As discussed in Ref \cite{ZH_ATLAS}, an upper limit of 67\% is placed on the Higgs$\to$ DM branching ratio at the 95\% confidennce level.the dominant source of background is the \ZZ process, contributing $\approx 60\%$ of the background. $WZ\to lll\nu$ events, where the $W$ boson decays into a electron or muon that escapes detection, account for 25\% of the total background. $Z(\to ll)+$jets process with misreconstructed \met contributes to about 8\% of the total background, and non-resonant-$ll$ processes, consisting of $t\bar{t}$, $Wt$, $WW$ and $Z\to\tau\tau$ production contribute similarly. $W+$jets, $VVV$, and $t\bar{t}V(V)$ backgrounds contribute to a minor extent ($<1\%$).
 
 This thesis focuses on the $ZZ$ background; its estimation and the uncertainty associated with it. In Ref \cite{ZH_ATLAS}, the $ZZ$ background is estimated from simulation, with a total uncertainty of 10\%.
 
-Figure \ref{fig:ZZ} shows the Standard Model production of $q\bar{q}\to ZZ$ and $gg\to ZZ$.
+\section{Background estimation: ZZ}
+It is difficult to identify \ZZ events, as their final state is identical to that of $ZH\to ll+$\met. Thus, the contribution of \ZZ is currently estimated using simulation. Figure \ref{fig:ZZ} shows the Standard Model production of $q\bar{q}\to ZZ$ and $gg\to ZZ$.
 
 \begin{figure}[H]
-	\begin{center}
-		\includegraphics[scale=0.7]{ZZ.png}
+\centering
+		\includegraphics[width=0.7\textwidth]{ZZ.png}
 		\caption{Feynman diagram showing $ZZ$ production, in the s-channel (a) and t-channel (b) induced by $q\bar{q}$, and induced by gluons (c).}
 		\label{fig:ZZ}
-	\end{center}
 \end{figure}
 
+It is possible to estimate the \ZZ using $ZZ\to llll$ data. However, the precision of this process is statistically limited due to the lower branching fraction of $ZZ\to llll$($\approx$0.46\%) compared to \ZZ (2.7\%), which is about 6 times higher\footnote{The branching fraction $Z\to ll$ for one flavor of lepton ($e/\mu$) is $\approx 3.4\%$, and $Z\to\nu\nu$ is 20\% }.
+
+An alternative method to estimate \ZZ is to look at the \Zg process. Figure \ref{fig:Zg} shows the leading order diagrams for the production of $Z\gamma$. Figures \ref{fig:Zg}.a, b and c are similar to the production of $ZZ$, with a photon instead of one of the $Z$ bosons. The main differences in the two processes are the couplings of the photon and $Z$ boson to the quarks, and the fact that photons are massless, whereas the $Z$ boson is massive. 
+
+Figure \ref{fig:Zg}.d shows the $ll\gamma$ final state, however, the photon is radiated off of a final state lepton, i.e. Final State Radiation (FSR). This process must be suppressed, which can be done by imposing a mass window on the reconstructed mass of the two leptons to be within 15 GeV of $Z$ boson mass shell.
+
+\begin{figure}[H]
+\centering
+		\includegraphics[width=0.8\textwidth]{Zg.png}
+		\caption{Feynman diagram showing $Z\gamma$ production, in the s-channel (a) and t-channel (b) induced by $q\bar{q}$, and induced by gluons (c). Diagram (d) shows a similar final state, but the photon is radiated off of a final state lepton (Final State Radiation).}
+		\label{fig:Zg}
+\end{figure}
+
+At high $Z $ boson transverse momentum, the \Zg process should be kinematically similar to \ZZ, as the mass of the $Z$ boson will be negligibly small compared to its $p_T$. The \Zg signal is also pure, and has a BR$\times\sigma$ as compared to \ZZ. Thus, it should be possible to use \Zg data to estimate the contribution of \ZZ in regions of high $Z$ boson $p_T$.
 
 \section{Transfer factor R}
-To estimate the background, a transfer factor $R(p_T)$, it is defined to be the ratio of the cross sections of \ZZ to \Zg as a function of $p_T$, is introduced.
+To estimate the background, a transfer factor $R(p_T)$ is introduced, defined to be the ratio of the cross sections of \ZZ to \Zg as a function of the $p_T$.
 \begin{equation}
 	R(p_{T}) = \frac{\sigma_{ZZ}(p_{T})}{\sigma_{Z\gamma}(p_T)}
 \end{equation}
@@ -645,7 +668,6 @@ The uncertainty is $< 2\%$ over the whole $p_T$ range.
 
 \bibitem{MCFM}
 \textbf{John Campbell, Keith Ellis, Walter Giele, Ciaran Williams},	Monte Carlo for FeMtobarn processes (MCFM) v8.0 User Manual, \url{https://mcfm.fnal.gov/}
-
 
 \bibitem{ZH_ATLAS}
 	\textbf{ATLAS Collaboration}, Search for an invisibly decaying Higgs boson or dark matter candidates produced in association with a Z boson in pp collisions at $\sqrt{s}$ = 13 TeV with the ATLAS detector, \texttt{arXiv:1708.09624}
