@@ -11,7 +11,7 @@
 \usepackage{hyperref}
 \usepackage{afterpage}
 
-\setlength{\parindent}{0em}
+\setlength{\parindent}{0.2em}
 \setlength{\parskip}{0.5em}
 
 \geometry{
@@ -256,7 +256,7 @@ As discussed in Ref \cite{ZH_ATLAS}, an upper limit of 67\% is placed on the Hig
 This thesis focuses on the $ZZ$ background; its estimation and the uncertainty associated with it. In Ref \cite{ZH_ATLAS}, the $ZZ$ background is estimated from simulation, with a total uncertainty of 10\%.
 
 \section{Background estimation: ZZ}
-It is difficult to identify \ZZ events, as their final state is identical to that of $ZH\to ll+$\met. Thus, the contribution of \ZZ is currently estimated using simulation. Figure \ref{fig:ZZ} shows the Standard Model production of $q\bar{q}\to ZZ$ and $gg\to ZZ$.
+It is difficult to identify \ZZ events, as their final state is identical to that of $ZH\to ll+$\met. Thus, the contribution of \ZZ is currently estimated using simulation. Figure \ref{fig:ZZ} shows the Standard Model production of $q\bar{q}\to ZZ$ and $gg\to ZZ$. One of the $Z$ bosons decays leptonically (into $e^+e^-$ or $\mu^+\mu^-$), while the other $Z$ boson decays into neutrinos ($\nu\bar{\nu}$). Neutrinos are very weakly interacting, and thus are invisible to the detectors at the LHC, and thus result in events with missing transverse momentum.
 
 \begin{figure}[H]
 \centering
@@ -265,11 +265,16 @@ It is difficult to identify \ZZ events, as their final state is identical to tha
 		\label{fig:ZZ}
 \end{figure}
 
-It is possible to estimate the \ZZ using $ZZ\to llll$ data. However, the precision of this process is statistically limited due to the lower branching fraction of $ZZ\to llll$($\approx$0.46\%) compared to \ZZ (2.7\%), which is about 6 times higher\footnote{The branching fraction $Z\to ll$ for one flavor of lepton ($e/\mu$) is $\approx 3.4\%$, and $Z\to\nu\nu$ is 20\% }.
+It is possible to estimate the \ZZ using $ZZ\to llll$ data. However, the precision of this process is statistically limited. The branching fraction $Z\to ll$ for one flavor of lepton ($e/\mu$) is $\approx 3.4\%$, and $Z\to\nu\nu$ is 20\%. 
+\begin{align}
+BR(ZZ\to llll) &= (2\times 0.034)\times(2*0.034) = 0.00462\\
+BR(ZZ\to ll\nu\nu) &= (2\times 0.034)\times(0.2)\times 2 = 0.0272
+\end{align}
+Thus, branching fraction of $ZZ\to llll$($\approx$0.46\%) compared to \ZZ (2.7\%), which is about 6 times higher. The low branching fraction of $ZZ\to llll$ limits the statistics.
 
-An alternative method to estimate \ZZ is to look at the \Zg process. Figure \ref{fig:Zg} shows the leading order diagrams for the production of $Z\gamma$. Figures \ref{fig:Zg}.a, b and c are similar to the production of $ZZ$, with a photon instead of one of the $Z$ bosons. The main differences in the two processes are the couplings of the photon and $Z$ boson to the quarks, and the fact that photons are massless, whereas the $Z$ boson is massive. 
+An alternative method to estimate \ZZ is to look at the \Zg process. Figure \ref{fig:Zg} shows the leading order diagrams for the production of $Z\gamma$, where the $Z$ boson further decays leptonically. Figures \ref{fig:Zg}.a, b and c are similar to the production of $ZZ$, with a photon instead of one of the $Z$ bosons. The main differences in the two processes are the couplings of the photon and $Z$ boson to the quarks, and the fact that photons are massless, whereas the $Z$ boson is massive. 
 
-Figure \ref{fig:Zg}.d shows the $ll\gamma$ final state, however, the photon is radiated off of a final state lepton, i.e. Final State Radiation (FSR). This process must be suppressed, which can be done by imposing a mass window on the reconstructed mass of the two leptons to be within 15 GeV of $Z$ boson mass shell.
+Figure \ref{fig:Zg}.d gives the $ll\gamma$ final state, however, the photon is radiated off of a final state lepton, i.e. Final State Radiation (FSR). This process must be suppressed, which can be done by imposing a mass window on the reconstructed mass of the two leptons to be within 15 GeV of $Z$ boson mass shell.
 
 \begin{figure}[H]
 \centering
