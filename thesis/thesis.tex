@@ -236,7 +236,7 @@ This thesis investigates the Standard Model background to the $ll+$\met signal w
 \chapter{Theoretical Aspects}\label{ch:theory}
 
 \section{Invisible Higgs in association with a Z boson - ZH}
-In this thesis, the production of the Higgs boson, in association with a $Z$ boson, as shown in Figure \ref{fig:HZ}, is considered. In this model, the Higgs boson mediates the interaction between Dark Matter particles and Standard Model particles, and the $Z$ boson decays into a lepton-antilepton pair. As Dark Matter is invisible to current detectors, this process results in the $ll+$\met signature.
+In this thesis, the production of the Higgs boson, in association with a $Z$ boson is considered. In this model, as shown in Figure \ref{fig:HZ}, the Higgs boson mediates the interaction between Dark Matter particles and Standard Model particles, and the $Z$ boson decays into a lepton-antilepton pair. As Dark Matter is invisible to current detectors, this process results in the $ll+$\met signature.
 \begin{figure}[H]
 \centering
 	\includegraphics[width=0.5\linewidth]{HZ.png}
@@ -311,7 +311,18 @@ The $u$ and $d$ quarks present in a $pp$ collision have different coupling stren
 R = \frac{\sigma(u\bar{u}\rightarrow ZZ)\langle u\rangle + \sigma(d\bar{d}\rightarrow ZZ)\langle d\rangle}{\sigma(u\bar{u}\rightarrow Z\gamma)\langle u\rangle + \sigma(d\bar{d}\rightarrow Z\gamma)\langle d\rangle}
 \label{eq:u_d_contrib}
 \end{equation}
-Using the vector and axial couplings of the $Z$ boson to $u$ and $d$ quarks\footnote{Vector and Axial couplings of Z to $u$ and $d$ quarks: $v_u = 0.18, a_u = 0.50, v_d = -0.35, a_d = -0.514$}, assuming $\langle d \rangle/\langle u\rangle = 0.5$ and setting $\sin^2\theta_W = 0.2315$, $R\approx 1.28$ for the dominant $q\bar{q}$ interaction.
+Using the vector and axial couplings of the $Z$ boson to $u$ and $d$ quarks\footnote{Vector and Axial couplings of Z to $u$ and $d$ quarks: $v_u = 0.18, a_u = 0.50, v_d = -0.35, a_d = -0.514$}, assuming $\langle d \rangle/\langle u\rangle = 0.5$ and setting $\sin^2\theta_W = 0.2315$, $R\approx 1.28$ for the dominant $q\bar{q}$ interaction. This approximate calculation has not been performed for gluon induced channels, as they involve loops, and are trickier to calculate.
+
+This transfer factor $R$ may be used with $Z\gamma$ data to estimate the contribution of $ZZ$ with reasonable accuracy at high $p_T$. To improve precision, it is necessary to estimate the theoretical uncertainties on the transfer factor $R$.
+
+\section{Source of uncertainty}
+In this study, the following sources of theoretical uncertainties are studied.
+\begin{itemize}
+\item Scale Uncertainties: contributions due to higher order QCD corrections cannot be calculated to arbitrarily high order, as it gets progressively more computationally expensive. Thus, this study is limited to Next to Leading Order (NLO), and further corrections are accounted for as scale uncertainties.
+\item PDF Uncertainties: a proton-proton collision involves the interaction of the composite quarks and gluons (partons) at very high energies. These partons carry a fraction of the proton momentum. Parton Distribution Functions (PDFs) represent this fraction of proton momentum carried by partons as probability distributions. Owing to the non-deterministic nature of this fact, this study attempts to account for this uncertainties as PDF uncertainties.
+\item Photon Fragmentation Uncertainties: in the \Zg process, the signal includes a photon. However, while reconstructing the event, soft photons, or photons resulting from other fragmentation processes may be encountered. To ensure that the photon is indeed prompt, it is required to be isolated from hadronic activity (such as pion decays). This isolation is implemented experimentally in different ways. The uncertainty associated with the implementation of this isolation is estimated as photon fragmentation uncertainties.
+\end{itemize}
+
 %\section{Theoretical aspects}
 %
 %The Standard Model is based on the formalism of quantum field theories (QFTs), in which particles are intepreted as excitations of underlying fields.
