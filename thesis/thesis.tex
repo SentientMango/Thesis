@@ -3,6 +3,7 @@
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{amssymb}
+\usepackage{cite}
 \usepackage{graphicx}
 \usepackage{geometry}
 \usepackage{caption}
@@ -127,7 +128,7 @@ In the search for Dark Matter (DM) at the LHC, SM particles are produced in asso
 \chapter{Introduction}
 \setcounter{page}{1}
 
-The Standard Model of physics is one of the most successful theories developed, describing the fundamental particles and their interactions. It is theoretically self-consistent, and has enjoyed tremendous success in providing stunningly accurate experimental predictions. However, the Standard Model is not complete theory of fundamental interactions. It does not provide an explanation for several observed phenomena, such as gravity, or the accelerating expansion of the universe, among others.
+The Standard Model of physics is one of the most successful theories developed, describing the fundamental particles and their interactions\cite{griff}. It is theoretically self-consistent, and has enjoyed tremendous success in providing accurate experimental predictions. However, the Standard Model is not complete theory of fundamental interactions. It does not provide an explanation for several observed phenomena, such as gravity, or the accelerating expansion of the universe, among others.
 
 One such question that triggers burning curiosity is the apparent incongruity of galaxy rotation curves with the theory of Newtonian mechanics: stars in the arms of spiral galaxies appear to move much faster than Newtonian physics would predict. Either the current understanding of mechanics is incomplete, or there is more mass present somewhere in the galaxy that is not visible by any method that is currently employed. This invisible hunk of matter is what is termed as Dark Matter (DM).
 
@@ -158,7 +159,7 @@ The Standard Model classifies fundamental particles as either Fermions or Bosons
 \end{itemize}
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.7\linewidth]{standard_model.png}
+\includegraphics[width=0.8\linewidth]{standard_model.png}
 \caption{A schematic representation of the Standard Model\cite{SM} of particles. The table shows the three generations of fermions (classified as quarks and leptons) that are the building blocks of all known matter in the Universe, and bosons that mediate interactions, and are thus responsible for 'forces'}
 \label{fig:SM}
 \end{figure}
@@ -171,11 +172,15 @@ The interaction of the scalar Higgs field with the vector fields $W^+$, $W^-$, $
 \section{Inadequacies of the Standard Model}
 Despite its immense success, the Standard Model does not paint a complete picture of everything that we observe. It does not account for several phenomena that are experimentally observed, such as:
 \begin{itemize}
-\item Gravity: The Standard Model does not include gravity. If, analogous to the other forces, a 'graviton' is introduced into the Standard Model as an extension, it does not describe what is observed experimentally. In fact, the Standard Model is incompatible with general relativity.
-\item Dark Matter and Dark Energy: There are cosmological observations which do not match predictions based on the visible amount of mass in the universe. A fit with the observations predicts additional invisible matter, called Dark Matter. Similarly, the universe is expanding at an accelerating rate, which hints at the existence of Dark Energy. The Standard Model does not account for exotic matter such as these. In fact, the Standard Model only accounts for about 4\% of the content of the universe.
-\item Neutrino masses: Neutrinos are taken to be massless in the Standard Model. However, neutrino observations have been observed, which is only possible if neutrinos have mass.
-\item Matter-antimatter asymmetry: According to the Standard Model, matter and antimatter should be created in equal quantities. However, the universe appears to have a preference for matter, indicating that in its initial state of the universe, this symmetry was broken.
-\item Hierarchy problem: Quantum corrections to the Higgs mass are divergent, and force it to be very large. However, experiments show a surprisingly small number for the Higgs mass, at 125 GeV. There appear to be some extraordinary fine tuned cancellations that make this mass so small.
+\item Gravity: The Standard Model does not include gravity. If, analogous to the other forces, a 'graviton' is introduced into the Standard Model as an extension, it does not describe what is observed experimentally. In fact, the Standard Model is incompatible with general relativity\cite{grav_inc}.
+
+\item Dark Matter and Dark Energy: Cosmological observations, such as galaxy rotation curves, do not match predictions based on the visible amount of mass in the universe. A fit with the observations predicts additional invisible matter, called Dark Matter\cite{DM_inc}. Similarly, the universe is expanding at an accelerating rate, which hints at the existence of Dark Energy\cite{DE}. The Standard Model does not account for exotic matter such as these. In fact, the Standard Model only accounts for about 4\% of the content of the universe \cite{Planck,DM_comp}.
+
+\item Neutrino masses: Neutrinos are assumed to be massless in the Standard Model. However, neutrino oscillations have recently been observed\cite{neutrino2}, which is only possible if neutrinos have mass\cite{neutrino_mass}.
+
+\item Matter-antimatter asymmetry: According to the Standard Model, matter and antimatter should be created in equal quantities. However, the universe appears to have a preference for matter, indicating that in its initial state of the universe, this symmetry was broken\cite{Baryon_Asymmetry}.
+
+\item Hierarchy problem\cite{hierarchy1,hierarchy2,hierarchy3,hierarchy4}: Quantum corrections to the Higgs mass are divergent, and force it to be very large. However, experiments show a surprisingly small number for the Higgs mass, at 125 GeV. There appear to be some extraordinary fine tuned cancellations that make this mass so small.
 \end{itemize}
 
 The Standard Model is incomplete, and thus requires modifications or additions to it, which are collectively called Beyond Standard Model (BSM) theories.
@@ -202,6 +207,7 @@ Either the current understanding of Newtonian Mechanics is incomplete, or there 
 There is additional cosmological evidence supporting Dark Matter, such as gravitational lensing of distant galaxies, structure formation in the early universe, anisotropy in the cosmic microwave background, etc.
 
 \subsubsection{Dark Matter searches at the \hyperref[ch:LHC]{Large Hadron Collider}}
+
 As Dark Matter does not interact electromagnetically, any Dark Matter particles produced in collider experiments will be invisible to detectors at the LHC. Thus, in event reconstruction, such events are expected to be marked by a significant imbalance in transverse momentum (\met). Currently, Dark Matter searches are conducted at the LHC\cite{DM_searches}. Dark Matter particles are denoted by $\chi$.
 \begin{itemize}
 \item Mono $\chi$ searches : These searches look for the production of a Standard Model particle in association with \met. Figure \ref{fig:Mono_X} shows the Feynman diagrams for the Mono-X processes.
@@ -234,17 +240,16 @@ This thesis investigates the Standard Model background to the $ll+$\met signal w
 \pagestyle{plain}
 
 \chapter{Theoretical Aspects}\label{ch:theory}
-
 \section{Invisible Higgs in association with a Z boson - ZH}
 In this thesis, the production of the Higgs boson, in association with a $Z$ boson is considered. In this model, as shown in Figure \ref{fig:HZ}, the Higgs boson mediates the interaction between Dark Matter particles and Standard Model particles, and the $Z$ boson decays into a lepton-antilepton pair. As Dark Matter is invisible to current detectors, this process results in the $ll+$\met signature.
-\begin{figure}[H]
+\begin{figure}[h]
 \centering
 	\includegraphics[width=0.5\linewidth]{HZ.png}
 	\caption{Feynman diagram showing the associated production of a Higgs boson with a Z boson. The Higgs boson decays to two invisible DM particles and the Z boson decays leptonically, resulting in the $ll+ E_T^{miss}$ signature.}
 		\label{fig:HZ}
 \end{figure}
 The main Standard Model background processes for the $ll+$\met final state are \ZZ, $WZ\to lll\nu$, $WW\to l\nu l\nu$, $Z+$jets and $W+$jets. Figure \ref{fig:ZH_results} shows the observed \met distribution in the $ee$ and $\mu\mu$ channels, compared to the signal and background predictions.
-\begin{figure}[H]
+\begin{figure}[h]
 \centering
 		\includegraphics[width=0.9\textwidth]{ZH_results.png}
 		\caption{The observed \met distributions in thee $ee$ (left) and $\mu\mu$ channels, compared to the signal and background predictions. The total statistical and systematic uncertainty on the background predictions are shown by the error bands. The Standard Model background predictions are stacked. The $ZH\to ll+$ invisible signal distribution is shown with $B_{H\to inv}=0.3$, and the simulated DM distribution is also scaled (with a factor of 0.27) to the best-fit contribution \cite{ZH_ATLAS}.}
@@ -272,7 +277,7 @@ BR(ZZ\to ll\nu\nu) &= (2\times 0.034)\times(0.2)\times 2 = 0.0272
 \end{align}
 Thus, branching fraction of $ZZ\to llll$($\approx$0.46\%) compared to \ZZ (2.7\%), which is about 6 times higher. The low branching fraction of $ZZ\to llll$ limits the statistics.
 
-An alternative method to estimate \ZZ is to look at the \Zg process. Figure \ref{fig:Zg} shows the leading order diagrams for the production of $Z\gamma$, where the $Z$ boson further decays leptonically. Figures \ref{fig:Zg}.a, b and c are similar to the production of $ZZ$, with a photon instead of one of the $Z$ bosons. The main differences in the two processes are the couplings of the photon and $Z$ boson to the quarks, and the fact that photons are massless, whereas the $Z$ boson is massive. 
+Motivated by an analysis using $\gamma+$jets to estimate $Z+$jets\cite{gamma_jet}, an alternative method to estimate \ZZ is to look at the \Zg process. Figure \ref{fig:Zg} shows the leading order diagrams for the production of $Z\gamma$, where the $Z$ boson further decays leptonically. Figures \ref{fig:Zg}.a, b and c are similar to the production of $ZZ$, with a photon instead of one of the $Z$ bosons. The main differences in the two processes are the couplings of the photon and $Z$ boson to the quarks, and the fact that photons are massless, whereas the $Z$ boson is massive. 
 
 Figure \ref{fig:Zg}.d gives the $ll\gamma$ final state, however, the photon is radiated off of a final state lepton, i.e. Final State Radiation (FSR). This process must be suppressed, which can be done by imposing a mass window on the reconstructed mass of the two leptons to be within 15 GeV of $Z$ boson mass shell.
 
@@ -311,17 +316,26 @@ The $u$ and $d$ quarks present in a $pp$ collision have different coupling stren
 R = \frac{\sigma(u\bar{u}\rightarrow ZZ)\langle u\rangle + \sigma(d\bar{d}\rightarrow ZZ)\langle d\rangle}{\sigma(u\bar{u}\rightarrow Z\gamma)\langle u\rangle + \sigma(d\bar{d}\rightarrow Z\gamma)\langle d\rangle}
 \label{eq:u_d_contrib}
 \end{equation}
-Using the vector and axial couplings of the $Z$ boson to $u$ and $d$ quarks\footnote{Vector and Axial couplings of Z to $u$ and $d$ quarks: $v_u = 0.18, a_u = 0.50, v_d = -0.35, a_d = -0.514$}, assuming $\langle d \rangle/\langle u\rangle = 0.5$ and setting $\sin^2\theta_W = 0.2315$, $R\approx 1.28$ for the dominant $q\bar{q}$ interaction. This approximate calculation has not been performed for gluon induced channels, as they involve loops, and are trickier to calculate.
+Using the vector and axial couplings of the $Z$ boson to $u$ and $d$ quarks\footnote{Vector and Axial couplings of Z to $u$ and $d$ quarks: $v_u = 0.18, a_u = 0.50, v_d = -0.35, a_d = -0.514$}, assuming $\langle d \rangle/\langle u\rangle = 0.5$ and setting $\sin^2\theta_W = 0.2315$, $R\approx 1.28$ for the dominant $q\bar{q}$ interaction. This approximate calculation has not been performed for gluon induced channels, as they involve loops and require a more involved calculation.
 
 This transfer factor $R$ may be used with $Z\gamma$ data to estimate the contribution of $ZZ$ with reasonable accuracy at high $p_T$. To improve precision, it is necessary to estimate the theoretical uncertainties on the transfer factor $R$.
 
-\section{Source of uncertainty}
+\section{Theoretical Uncertainties}
 In this study, the following sources of theoretical uncertainties are studied.
 \begin{itemize}
-\item Scale Uncertainties: contributions due to higher order QCD corrections cannot be calculated to arbitrarily high order, as it gets progressively more computationally expensive. Thus, this study is limited to Next to Leading Order (NLO), and further corrections are accounted for as scale uncertainties.
-\item PDF Uncertainties: a proton-proton collision involves the interaction of the composite quarks and gluons (partons) at very high energies. These partons carry a fraction of the proton momentum. Parton Distribution Functions (PDFs) represent this fraction of proton momentum carried by partons as probability distributions. Owing to the non-deterministic nature of this fact, this study attempts to account for this uncertainties as PDF uncertainties.
-\item Photon Fragmentation Uncertainties: in the \Zg process, the signal includes a photon. However, while reconstructing the event, soft photons, or photons resulting from other fragmentation processes may be encountered. To ensure that the photon is indeed prompt, it is required to be isolated from hadronic activity (such as pion decays). This isolation is implemented experimentally in different ways. The uncertainty associated with the implementation of this isolation is estimated as photon fragmentation uncertainties.
+\item Missing higher order corrections: Contributions due to higher order QCD corrections cannot be calculated to arbitrarily high order, as it gets progressively more computationally expensive. Thus, this study is limited to Next to Leading Order (NLO), and further corrections are accounted for by varying the factorization and renormalization scales.
+
+\item Uncertainties associated with Parton Distribution Functions: A proton is a Baryon, and is composed of three valence quarks, and several gluons. Thus, proton-proton collisions, such as in the experiments conducted at the LHC, involve the interaction of these composite quarks and gluons (partons) at very high energies. These partons carry a fraction of the proton momentum. Parton Distribution Functions (PDFs) represent this fraction of proton momentum carried by partons as probability distributions. Owing to the non-deterministic nature of this fact, this study attempts to account for this uncertainties as PDF uncertainties.
+
+\item Photon Fragmentation Uncertainties: In the \Zg process, the signal includes a photon. However, while reconstructing the event, soft photons, or photons resulting from other fragmentation processes may be encountered. To ensure that the photon is indeed prompt, it is required to be isolated from hadronic activity (such as pion decays). This isolation is implemented experimentally in different ways. The uncertainty associated with the implementation of this isolation is estimated as photon fragmentation uncertainties.
 \end{itemize}
+
+Each of these sources are explained further in their respective sections in Chapter \ref{ch:Results}.
+
+\section{Approach}
+Thus far, it has been established that a viable method to estimate the $ZZ$ background contribution to the $ll+$\met final state is to use $Z(\to ll)\gamma$ data, where the photon models the Standard Model invisible $Z$ boson. A transfer factor $R$ is introduced as the ratio of the cross sections of \ZZ to \Zg. In the high $Z$ boson $p_T$ region, the two processes are kinematically similar, therefore the curve of the transfer factor $R$ as a function of $p_T$ is expected to approach a constant value. This transfer can be used to estimate to the contribution of \ZZ from \Zg data.
+
+This thesis estimates the theoretical uncertainties on the transfer factor. The \ZZ and \Zg cross sections are obtained from MCFM, a femtobarn level matrix element generator. Varying the input parameters provided in the MCFM input file, the theoretical uncertainties are estimated.
 
 %\section{Theoretical aspects}
 %
@@ -358,30 +372,16 @@ In this study, the following sources of theoretical uncertainties are studied.
 %\end{figure}
 %Figure \ref{fig:bhabha} shows Bhabha scattering, an electromagnetic process involving the interaction of an electron and a positron, mediated by a photon. The Feynman rules assign functionals to the propagators (the straight/wavy lines in the diagram) and the vertices, from which we can obtain the amplitudes for this process.
 
-\chapter{Theoretical uncertainties on cross sections and the transfer factor R}
+\chapter{Theoretical uncertainties on cross sections and the transfer factor R}\label{ch:Results}
 
-It is worth reiterating that the goal of this thesis is to use \Zg process to estimate the dominant contribution \ZZ to the Standard Model \llM background. Excesses would indicate the presence of BSM physics. It is thus important to have an estimate of the uncertainties on the theoretical predictions of the $ZZ$ and $Z\gamma$ cross sections, and the transfer factor $R$.\\
-In this study, the following sources of uncertainities are studied.
-\begin{itemize}
-\item Scale Uncertainties: contributions due to higher order QCD corrections cannot be calculated to arbitrarily high order, as it gets progressively more computationally expensive. Thus, this study is limited to Next to Leading Order (NLO), and further corrections are accounted for as scale uncertainties.
-\item PDF Uncertainties: a proton-proton collision involves the interaction of the composite quarks and gluons (partons) at very high energies. These partons carry a fraction of the proton momentum. Parton Distribution Functions (PDFs) represent this fraction of proton momentum carried by partons as probability distributions. Owing to the non-deterministic nature of this fact, this study attempts to account for this uncertainties as PDF uncertainties.
-\item Photon Fragmentation Uncertainties: in the \Zg process, the signal includes a photon. However, while reconstructing the event, soft photons, or photons resulting from other fragmentation processes may be encountered. To ensure that the photon is indeed prompt, it is required to be isolated from hadronic activity (such as pion decays). This isolation is implemented experimentally in different ways. The uncertainty associated with the implementation of this isolation is estimated as photon fragmentation uncertainties.
-\end{itemize}
-
-To characterize these uncertainties, we use a programme, MCFM, to generate cross sections for \ZZ and \Zg processes, and vary the relevant parameters such as scale, PDF sets, and photon isolation effects to obtain an estimate of the uncertainties.
-
-\newpage
 \section{MCFM}
-MCFM is a program that calculates cross sections for femtobarn-level processes at LO or NLO. In this study, MCFM v8.0 \cite{MCFM} is used to produce cross sections of \ZZ and \Zg processes at NLO, with a selection of generator level cuts. The generation parameters in MCFM allow fine control over the sample, such as PDF sets, photon isolation, lepton and photon $p_T$ and $\eta$, renormalization and factorization scales, etc. The samples are generated with cuts on $E_T^{miss} = p_T(Z\to \nu\nu)$ for the $ZZ$ process and $p_T(\gamma)$ for the $Z+\gamma$ process. A ratio of these cross sections is taken to obtain the $R$ distribution as a function of $p_T$. The uncertainty on $R$ is calculated by varying several parameters at the generator level, such as the renormalization and factorization scales, the PDF sets used, photon fragmentation, etc. The contributions of the $q \bar{q}$ and $gg$ processes are estimated separately.
+Monte Carlo for FeMtobarn processes (MCFM) is a program that calculates cross sections for femtobarn-level processes at leading order(LO) or next to leading order (NLO) QCD. In this study, MCFM v8.0 \cite{MCFM1, MCFM2, MCFM3, MCFM} is used to generate cross sections of \ZZ and \Zg processes at NLO, with a selection of generator level cuts. The generation parameters in MCFM allow fine control over the sample, such as PDF sets, photon isolation, lepton and photon $p_T$ and $\eta$, renormalization and factorization scales, etc. The samples are generated with cuts on $E_T^{miss} = p_T(Z\to \nu\nu)$ for the $ZZ$ process and $p_T(\gamma)$ for the $Z+\gamma$ process. A ratio of these cross sections is taken to obtain the $R$ distribution as a function of $p_T$. The uncertainty on $R$ is calculated by varying several parameters at the generator level, such as the renormalization and factorization scales, the PDF sets used, photon fragmentation, etc. The contributions of the $q \bar{q}$ and $gg$ processes are estimated separately.
 
 In MCFM generated events containing a leptonically decaying $Z$ boson, $Z\rightarrow ee$ only i.e. the decay is constrained to just one flavor, electrons. As electrons and muons have similar properties with the exception of mass, simply the branching fraction of $Z\rightarrow ee$ must be accounted for to obtain the inclusive value of $R$.
 \begin{equation}\label{eq:R_inc}
 	R_{inc} = R * \frac{BR(Z\rightarrow ee)}{BR(Z \rightarrow ee)*BR(Z\rightarrow \nu\nu)*2}
 \end{equation}
 
-\noindent\textbf{Note : Unsure how to expand this section}
-\section{Generator Parameters}
-The samples are generated using MCFM v8.0.
 \renewcommand{\thefootnote}{\fnsymbol{footnote}} 
 Table \ref{table:default} lists the generator level settings used for the $ZZ$ and $Z+\gamma$ processes. All lepton cuts are consistent with the ones used in the ATLAS Z+$E_T^{miss}$ analysis \cite{ZH_ATLAS}.
 \begin{table}[H]
@@ -400,21 +400,21 @@ Table \ref{table:default} lists the generator level settings used for the $ZZ$ a
 	$p_T^{\text{sublead}}(e)$ & $> 20$ GeV & $> 20$ GeV\\
 	$|\eta^{sublead}(e)|$ & $< 2.47$ & $< 2.47$\\
 	$p_T(V)$\footnotemark & $> 90$ GeV & $> 90$ GeV\\
-	Renormalization scale & $H_T = \sum_i p_{T,i}$& $H_T = \sum_i p_{T,i}$\\
-	Factorization scale & $H_T = \sum_i p_{T,i}$& $H_T = \sum_i p_{T,i}$\\
 	\hline
 	\end{tabular}
 	\caption{Settings in input.DAT for MCFM}
 	\label{table:default}
-	\end{center}
+\end{center}
 \end{table}
+
+The constraint on $M_{ee}$ in the case of $Z+\gamma$ suppresses the FSR process by ensuring that the lepton pair are from a $Z$ decay only. In addition, the renormalization and factorization scales for both processes are set to be $H_T = \sum_i p_{T,i}$
+
 \footnotetext{$V$ is a vector boson: $Z(\to\nu\nu)$ for the $ZZ$ process; $\gamma$ for the $Z\gamma$ process}
 \renewcommand{\thefootnote}{\arabic{footnote}}
-The constraint on $M_{ee}$ in the case of $Z+\gamma$ suppresses the FSR process by ensuring that the lepton pair are from a $Z$ decay only.
-\newpage
+
 \section{Results}
 Using the settings listed in Table \ref{table:default}, the cross sections for $ZZ\to ee\nu\nu$ and $Z\gamma\to ee\gamma$ are generated, as shown in Figure \ref{xsecs}. Throughout this analysis, these samples are the reference.
-\begin{figure}[H]
+\begin{figure}[h]
 \centering
 	\begin{subfigure}{0.49\textwidth}
 		\includegraphics[width=\linewidth]{ZZ_xsec.png}
@@ -430,7 +430,7 @@ Using the settings listed in Table \ref{table:default}, the cross sections for $
 	\label{xsecs}
 \end{figure}
 The ratio $R = \sigma(ZZ\rightarrow ee\nu\nu)/\sigma(Z\gamma\rightarrow ee\gamma)$ is shown in Figure \ref{fig:Rcurve}, taken as the ratio of the cross sections in Figures \ref{subfig:ZeeZvv} and \ref{subfig:Zeeg}. Additional events are generated with \met and $p_T(\gamma) > 400$ GeV for the two processes respectively to increase statistics. 
-\begin{figure}[H]
+\begin{figure}[h]
 	\centering
 	\includegraphics[width= 0.7\textwidth]{R.png}
 	\caption{The transfer factor $R$ as a function of $p_T$, taken as a ratio of  the $ZZ\to ee\nu\nu$ and $Z\gamma\to ee\gamma$ cross sections at both LO and NLO. The leptonically decaying $Z$ boson decays to an $e^+e^-$ pair.}
@@ -644,13 +644,16 @@ The uncertainty is $< 2\%$ over the whole $p_T$ range.
 \begin{figure}[H]
 \centering
 	\includegraphics[width=0.7\textwidth]{dy.png}
-	\caption{dy(Z,V)}
+	\caption{dy(Z,V)}Matter and Antimatter in the Universe
 \end{figure}
 
 
 %Bibliography
 \begin{thebibliography}{9}
 %1
+\bibitem{griff}
+	\textbf{D. J. Griffiths}, Introduction to Elementary Particles 2nd Edition, 2004 WILEY-VCH Verlag GmbH \& Co. KGaA, Weinheim
+
 \bibitem{SM}
 	PBS NOVA, Fermilab, Office of Science, United States Department of Energy, Particle Data Group.
 
@@ -660,7 +663,43 @@ The uncertainty is $< 2\%$ over the whole $p_T$ range.
 
 %3
 \bibitem{Higgs}
-	\textbf{ATLAS Collaboration}, Observation of a New Particle in the Search for the Standard Model Higgs boson with the ATLAS detector at the LHC, \href{https://arxiv.org/pdf/1207.7214.pdf}{\texttt{arXiv:1207.7214}}
+	\textbf{ATLAS Collaboration}, Observation of a New Particle in the Search for the Standard Model Higgs boson with the ATLAS detector at the LHC, Phys.Lett. B716 (2012) 1-29, \href{https://arxiv.org/abs/1207.7214}{\texttt{arXiv:1207.7214 [hep-ex]}}
+	
+\bibitem{grav_inc}
+	\textbf{A. O. Sushkov, W. J. Kim, D. A. R. Dalvit, S. K. Lamoreaux}, New experimental limits on non-Newtonian forces in the micrometer-range, Phys. Rev. Lett. 107, 171101 (2011), \href{https://arxiv.org/abs/1108.2547}{\texttt{arXiv:1108.2547 [quant-ph]}}
+	
+\bibitem{DM_inc}
+	\textbf{Jaco de Swart, Gianfranco Bertone, Jeroen van Dongen}, How Dark Matter came to matter, Nature Astronomy 1, 0059 (2017), \href{https://arxiv.org/abs/1703.00013}{\texttt{arXiv:1703.00013 [astro-ph.CO]}}
+	
+\bibitem{DE}
+	\textbf{P. J. E. Peebles, Bharat Ratra},The Cosmological Constant and Dark Energy (2002), \href{https://arxiv.org/abs/astro-ph/0207347}{\texttt{arXiv:astro-ph/0207347}}
+
+\bibitem{Planck}
+	\textbf{Planck Collaboration}, Planck 2015 results. XIII. Cosmological parameters (2016), \href{https://arxiv.org/abs/1502.01589}{\texttt{arXiv:1502.01589 [astro-ph.CO]}}
+
+\bibitem{DM_comp}
+\textbf{N. Jarosik et al.}, Seven-Year Wilkinson Microwave Anisotropy Probe (WMAP) Observations: Sky Maps, Systematic Errors and Basic Results, Astrophys. J. Suppl. 192 14 (2011) [1001.4744], \href{https://arxiv.org/abs/1001.4744}{\texttt{arXiv:1001.4744 [astro-ph.CO]}}
+
+\bibitem{neutrino2}
+\textbf{M.C.Gonzalez-Garcia, Michele Maltoni}, Phenomenology with Massive Neutrinos, Phys.Rept.460:1-129,2008, \href{https://arxiv.org/abs/0704.1800}{\texttt{arXiv:0704.1800 [hep-ph]}}
+
+\bibitem{neutrino_mass}
+\textbf{Vernon Barger, Danny Marfatia, Kerry Lewis Whisnant}, The Physics of Neutrinos (2012), Princeton University Press, ISBN 0-691-12853-7
+
+\bibitem{Baryon_Asymmetry}
+\textbf{Laurent Canetti, Marco Drewes, Mikhail Shaposhnikov}, Matter and Antimatter in the Universe, New J. Phys. 14 (2012) 095012, \href{https://arxiv.org/abs/1204.4186}{\texttt{arXiv:1204.4186 [hep-ph]}} 
+
+\bibitem{hierarchy1}
+\textbf{S. Weinberg}, Implications of Dynamical Symmetry Breaking, Phys. Rev. D13 (1976) 974–996, \url{https://doi.org/10.1103/PhysRevD.13.974}
+
+\bibitem{hierarchy2}
+\textbf{S. Weinberg}, Implications of Dynamical Symmetry Breaking:  An Addendum, Phys. Rev. D19 (1979) 1277–1280, \url{https://doi.org/10.1103/PhysRevD.19.1277}
+
+\bibitem{hierarchy3}
+\textbf{L. Susskind}, Dynamics of spontaneous symmetry breaking in the Weinberg-Salam theory, Phys. Rev. D20 (1979) 2619–2625, \url{https://doi.org/10.1103/PhysRevD.20.2619}
+
+\bibitem{hierarchy4}
+\textbf{E. Gildener}, Gauge Symmetry Hierarchies, Phys. Rev. D14(1976) 1667, \url{https://doi.org/10.1103/PhysRevD.14.1667}
 
 %4
 \bibitem{galaxy}
@@ -668,25 +707,21 @@ The uncertainty is $< 2\%$ over the whole $p_T$ range.
 	
 %5
 \bibitem{DM_searches}
-\textbf{Felix Kalhoefer}, Review of LHC Dark Matter searches, \href{https://arxiv.org/pdf/1702.02430.pdf}{\texttt{arXiv:1702.0243}}
+\textbf{Felix Kalhoefer}, Review of LHC Dark Matter searches, Int.J.Mod.Phys. A32 (2017) 1730006, \href{https://arxiv.org/abs/1702.02430}{\texttt{arXiv:1702.0243 [hep-ph]}}
 
 \bibitem{mono_j}
-\textbf{Philip Harris, Valentin V. Khoze, Michael Spannowsky, Ciaran Williams}, Closing up on Dark Sectors at Colliders: from 14 to 100 TeV, \href{https://arxiv.org/abs/1509.02904}{\texttt{arXiv:1509.02904}}
+\textbf{Philip Harris, Valentin V. Khoze, Michael Spannowsky, Ciaran Williams}, Closing up on Dark Sectors at Colliders: from 14 to 100 TeV, Phys. Rev. D 93, 054030 (2016), \href{https://arxiv.org/abs/1509.02904}{\texttt{arXiv:1509.02904 [hep-ph]}}
 
 \bibitem{mono_V}
-\textbf{Jing-Yuan, Edward W. Kolb, Lian-Tao Wang}, Dark matter coupling to electroweak gauge and Higgs bosons: an effective field theory approach, \href{https://arxiv.org/pdf/1305.0021}{\texttt{arXiv:1305.0021}}
+\textbf{Jing-Yuan, Edward W. Kolb, Lian-Tao Wang}, Dark matter coupling to electroweak gauge and Higgs bosons: an effective field theory approach, Phys.Dark Univ. 2 (2013) 200-218, \href{https://arxiv.org/abs/1305.0021}{\texttt{arXiv:1305.0021 [hep-ph]}}
 
 \bibitem{mono_h}
-\textbf{ATLAS Collaboration}, Search for dark matter produced in association with a Higgs boson decaying to two bottom quarks in pp collisions at $\sqrt{s} = 8$ TeV with the ATLAS detector, \href{https://arxiv.org/pdf/1510.06218}{\texttt{arXiv:1510.06218}}
-
-\bibitem{MCFM}
-\textbf{John Campbell, Keith Ellis, Walter Giele, Ciaran Williams},	Monte Carlo for FeMtobarn processes (MCFM) v8.0 User Manual, \url{https://mcfm.fnal.gov/}
+\textbf{ATLAS Collaboration}, Search for dark matter produced in association with a Higgs boson decaying to two bottom quarks in pp collisions at $\sqrt{s} = 8$ TeV with the ATLAS detector, Phys. Rev. D 93, 072007 (2016), \href{https://arxiv.org/abs/1510.06218}{\texttt{arXiv:1510.06218 [hep-ex]}}
 
 \bibitem{ZH_ATLAS}
-	\textbf{ATLAS Collaboration}, Search for an invisibly decaying Higgs boson or dark matter candidates produced in association with a Z boson in pp collisions at $\sqrt{s}$ = 13 TeV with the ATLAS detector, \texttt{arXiv:1708.09624}
+	\textbf{ATLAS Collaboration}, Search for an invisibly decaying Higgs boson or dark matter candidates produced in association with a Z boson in pp collisions at $\sqrt{s}$ = 13 TeV with the ATLAS detector, PLB 776 (2017), 318, \href{https://arxiv.org/abs/1708.09624}{\texttt{arXiv:1708.09624 [hep-ex]}}
 	
-
-\bibitem{gammajet}
+\bibitem{gamma_jet}
 	\textit{Using $\gamma +$ jets to calibrate the Standard Model $Z(\rightarrow \nu\nu)+$ jets background to new processes at the LHC}\\
 	\textbf{S. Ask, M. A. Parker, T. Sandoval, M. E. Shea, W. J. Stirling}\\
 Cavendish Laboratory, University of Cambridge, CB3 0HE, UK; 2011\\
@@ -696,11 +731,23 @@ Cavendish Laboratory, University of Cambridge, CB3 0HE, UK; 2011\\
 	\textit{2017 Review of Particle Physics - Particle Listings}\\
 	\textbf{C. Patrignani \textit{et al}. (Particle Data Group)}\\
 	Chin. Phys. C, 40, 100001 (2016)
-	
+
+\bibitem{MCFM1}
+\textbf{J. Campbell, K. Ellis},	An update on vector boson pair production at hadron colliders, Phys. Rev. D
+60
+, 113006 (1999), \href{https://arxiv.org/abs/hep-ph/9905386}{arXiv:hep-ph/9905386}
+
+\bibitem{MCFM2}
+\textbf{J. M. Campbell, R. K. Ellis and C. Williams}, Vector boson pair production at the LHC, JHEP 1107, 018 (2011), \href{https://arxiv.org/abs/1105.0020}{arXiv:1105.0020 [hep-ph]}
+
+\bibitem{MCFM3}
+\textbf{J. M. Campbell, R. K. Ellis and W. Giele}, A Multi-threaded Version of MCFM, EPJ C75, 246 (2015), \href{https://arxiv.org/abs/1503.06182}{arXiv:1503.06182 [physics.comp-ph]}
+
+\bibitem{MCFM}
+\textbf{John Campbell, Keith Ellis, Walter Giele, Ciaran Williams},	Monte Carlo for FeMtobarn processes (MCFM) v8.0 User Manual, \url{https://mcfm.fnal.gov/}
+
 \bibitem{precise_scale}
-	\textit{Precise predictions for $V$+jets dark matter backgrounds}\\
-	\textbf{J.M. Lindert, S. Pozzorini, et al.}\\
-	\texttt{arXiv:1705.04664}
+	\textbf{J.M. Lindert, S. Pozzorini, et al.}, Precise predictions for $V$+jets dark matter backgrounds, Eur. Phys. J. C (2017) 77: 829, \href{https://arxiv.org/abs/1705.04664}{\texttt{arXiv:1705.04664 [hep-ph]}}
 	
 \bibitem{CT14}
 	\textit{New parton distribution functions from a global analysis of quantum chromodynamics}\\

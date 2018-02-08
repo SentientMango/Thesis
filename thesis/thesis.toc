@@ -10,12 +10,12 @@
 \contentsline {section}{\numberline {3.1}Invisible Higgs in association with a Z boson - ZH}{9}{section.3.1}
 \contentsline {section}{\numberline {3.2}Background estimation: ZZ}{10}{section.3.2}
 \contentsline {section}{\numberline {3.3}Transfer factor R}{11}{section.3.3}
-\contentsline {section}{\numberline {3.4}Source of uncertainty}{12}{section.3.4}
+\contentsline {section}{\numberline {3.4}Theoretical Uncertainties}{12}{section.3.4}
+\contentsline {section}{\numberline {3.5}Approach}{12}{section.3.5}
 \contentsline {chapter}{\numberline {4}Theoretical uncertainties on cross sections and the transfer factor R}{13}{chapter.4}
-\contentsline {section}{\numberline {4.1}MCFM}{14}{section.4.1}
-\contentsline {section}{\numberline {4.2}Generator Parameters}{14}{section.4.2}
-\contentsline {section}{\numberline {4.3}Results}{15}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Uncertainty from Scale Variation}{18}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Uncertainty from PDF variation}{21}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {4.3.3}Uncertainty from Photon Fragmentation}{22}{subsection.4.3.3}
-\contentsline {chapter}{\numberline {5}Additional Figures}{25}{chapter.5}
+\contentsline {section}{\numberline {4.1}MCFM}{13}{section.4.1}
+\contentsline {section}{\numberline {4.2}Results}{14}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Uncertainty from Scale Variation}{17}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Uncertainty from PDF variation}{20}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Uncertainty from Photon Fragmentation}{21}{subsection.4.2.3}
+\contentsline {chapter}{\numberline {5}Additional Figures}{23}{chapter.5}
