@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.18)  7 FEB 2018 18:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.18)  8 FEB 2018 11:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -856,13 +856,13 @@ Chapter 3.
 <HZ.png, id=247, 285.31593pt x 188.95593pt>
 File: HZ.png Graphic file (type png)
  <use HZ.png>
-Package pdftex.def Info: HZ.png used on input line 243.
-(pdftex.def)             Requested size: 199.71979pt x 132.26823pt.
+Package pdftex.def Info: HZ.png used on input line 242.
+(pdftex.def)             Requested size: 241.84842pt x 160.16927pt.
 
 <ZH_results.png, id=249, 1400.23125pt x 617.30624pt>
 File: ZH_results.png Graphic file (type png)
  <use ZH_results.png>
-Package pdftex.def Info: ZH_results.png used on input line 252.
+Package pdftex.def Info: ZH_results.png used on input line 249.
 (pdftex.def)             Requested size: 435.32419pt x 191.90927pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -870,12 +870,12 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [9 <./HZ.png>] <ZZ.png, id=261, 581.92406pt x 176.15813pt>
 File: ZZ.png Graphic file (type png)
  <use ZZ.png>
-Package pdftex.def Info: ZZ.png used on input line 266.
+Package pdftex.def Info: ZZ.png used on input line 263.
 (pdftex.def)             Requested size: 338.5863pt x 102.49701pt.
  [10 <./ZH_results.png> <./ZZ.png>] <Zg.png, id=272, 812.03375pt x 189.70876pt>
 File: Zg.png Graphic file (type png)
  <use Zg.png>
-Package pdftex.def Info: Zg.png used on input line 279.
+Package pdftex.def Info: Zg.png used on input line 276.
 (pdftex.def)             Requested size: 386.95894pt x 90.40205pt.
 
 [11 <./Zg.png>] [12]
@@ -884,61 +884,61 @@ Chapter 4.
 
 ]
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 389.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 386.
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <6> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 398.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 395.
  [14] <ZZ_xsec.png, id=319, 800.9925pt x 575.14874pt>
 File: ZZ_xsec.png Graphic file (type png)
  <use ZZ_xsec.png>
-Package pdftex.def Info: ZZ_xsec.png used on input line 407.
+Package pdftex.def Info: ZZ_xsec.png used on input line 404.
 (pdftex.def)             Requested size: 237.0141pt x 170.1852pt.
 
 <Zg_xsec.png, id=320, 800.9925pt x 575.14874pt>
 File: Zg_xsec.png Graphic file (type png)
  <use Zg_xsec.png>
-Package pdftex.def Info: Zg_xsec.png used on input line 412.
+Package pdftex.def Info: Zg_xsec.png used on input line 409.
 (pdftex.def)             Requested size: 237.0141pt x 170.1852pt.
 
 <R.png, id=324, 800.9925pt x 575.14874pt>
 File: R.png Graphic file (type png)
  <use R.png>
-Package pdftex.def Info: R.png used on input line 422.
+Package pdftex.def Info: R.png used on input line 419.
 (pdftex.def)             Requested size: 338.5863pt x 243.12296pt.
 
 <R_BR.png, id=328, 800.9925pt x 575.14874pt>
 File: R_BR.png Graphic file (type png)
  <use R_BR.png>
-Package pdftex.def Info: R_BR.png used on input line 429.
+Package pdftex.def Info: R_BR.png used on input line 426.
 (pdftex.def)             Requested size: 338.5863pt x 243.12296pt.
  [15 <./ZZ_xsec.png> <./Zg_xsec.png> <./R.png>] <yy.png, id=337, 700.6175pt x 4
 74.77374pt>
 File: yy.png Graphic file (type png)
 
 <use yy.png>
-Package pdftex.def Info: yy.png used on input line 438.
+Package pdftex.def Info: yy.png used on input line 435.
 (pdftex.def)             Requested size: 338.5863pt x 229.44637pt.
  <leadpt.png, id=340, 700.6175pt x 474.77374pt>
 File: leadpt.png Graphic file (type png)
  <use leadpt.png>
-Package pdftex.def Info: leadpt.png used on input line 446.
+Package pdftex.def Info: leadpt.png used on input line 443.
 (pdftex.def)             Requested size: 237.0141pt x 160.60956pt.
 
 <subleadpt.png, id=341, 700.6175pt x 474.77374pt>
 File: subleadpt.png Graphic file (type png)
  <use subleadpt.png>
-Package pdftex.def Info: subleadpt.png used on input line 451.
+Package pdftex.def Info: subleadpt.png used on input line 448.
 (pdftex.def)             Requested size: 237.0141pt x 160.60956pt.
 
 <leady.png, id=342, 700.6175pt x 474.77374pt>
 File: leady.png Graphic file (type png)
  <use leady.png>
-Package pdftex.def Info: leady.png used on input line 461.
+Package pdftex.def Info: leady.png used on input line 458.
 (pdftex.def)             Requested size: 237.0141pt x 160.60956pt.
 
 <subleady.png, id=343, 700.6175pt x 474.77374pt>
 File: subleady.png Graphic file (type png)
  <use subleady.png>
-Package pdftex.def Info: subleady.png used on input line 466.
+Package pdftex.def Info: subleady.png used on input line 463.
 (pdftex.def)             Requested size: 237.0141pt x 160.60956pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -948,38 +948,38 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 File: ZZ_subproc.png Graphic file (type png)
 
 <use ZZ_subproc.png>
-Package pdftex.def Info: ZZ_subproc.png used on input line 478.
+Package pdftex.def Info: ZZ_subproc.png used on input line 475.
 (pdftex.def)             Requested size: 237.0141pt x 160.60956pt.
  <Zg_subproc.png, id=353, 700.6175pt x 474.77374pt>
 File: Zg_subproc.png Graphic file (type png)
 
 <use Zg_subproc.png>
-Package pdftex.def Info: Zg_subproc.png used on input line 481.
+Package pdftex.def Info: Zg_subproc.png used on input line 478.
 (pdftex.def)             Requested size: 237.0141pt x 160.60956pt.
  <R_ggonly.png, id=356, 800.9925pt x 575.14874pt>
 File: R_ggonly.png Graphic file (type png)
 
 <use R_ggonly.png>
-Package pdftex.def Info: R_ggonly.png used on input line 489.
+Package pdftex.def Info: R_ggonly.png used on input line 486.
 (pdftex.def)             Requested size: 338.5863pt x 243.12296pt.
  [17 <./leadpt.png> <./subleadpt.png> <./leady.png> <./subleady.png> <./ZZ_subp
 roc.png> <./Zg_subproc.png>] [18 <./R_ggonly.png>]
 <zz_scale.png, id=376, 525.46312pt x 356.0803pt>
 File: zz_scale.png Graphic file (type png)
  <use zz_scale.png>
-Package pdftex.def Info: zz_scale.png used on input line 533.
+Package pdftex.def Info: zz_scale.png used on input line 530.
 (pdftex.def)             Requested size: 237.0141pt x 160.61499pt.
 
 <zg_scale.png, id=377, 525.46312pt x 356.0803pt>
 File: zg_scale.png Graphic file (type png)
  <use zg_scale.png>
-Package pdftex.def Info: zg_scale.png used on input line 536.
+Package pdftex.def Info: zg_scale.png used on input line 533.
 (pdftex.def)             Requested size: 237.0141pt x 160.61499pt.
 
 <R_scale.png, id=383, 700.6175pt x 474.77374pt>
 File: R_scale.png Graphic file (type png)
  <use R_scale.png>
-Package pdftex.def Info: R_scale.png used on input line 545.
+Package pdftex.def Info: R_scale.png used on input line 542.
 (pdftex.def)             Requested size: 338.5863pt x 229.44637pt.
 
 Underfull \vbox (badness 2809) has occurred while \output is active []
@@ -989,7 +989,7 @@ Underfull \vbox (badness 2809) has occurred while \output is active []
 File: K_pt.png Graphic file (type png)
 
 <use K_pt.png>
-Package pdftex.def Info: K_pt.png used on input line 554.
+Package pdftex.def Info: K_pt.png used on input line 551.
 (pdftex.def)             Requested size: 338.5863pt x 229.44637pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -999,13 +999,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 File: R_pdf.png Graphic file (type png)
 
 <use R_pdf.png>
-Package pdftex.def Info: R_pdf.png used on input line 567.
+Package pdftex.def Info: R_pdf.png used on input line 564.
 (pdftex.def)             Requested size: 338.5863pt x 229.44637pt.
  [21 <./R_pdf.png>]
 <frag.png, id=429, 700.6175pt x 474.77374pt>
 File: frag.png Graphic file (type png)
  <use frag.png>
-Package pdftex.def Info: frag.png used on input line 603.
+Package pdftex.def Info: frag.png used on input line 600.
 (pdftex.def)             Requested size: 338.5863pt x 229.44637pt.
  [22 <./frag.png>]
 [23] [24
@@ -1015,32 +1015,32 @@ Chapter 5.
 <K_y.png, id=450, 700.6175pt x 474.77374pt>
 File: K_y.png Graphic file (type png)
  <use K_y.png>
-Package pdftex.def Info: K_y.png used on input line 621.
+Package pdftex.def Info: K_y.png used on input line 618.
 (pdftex.def)             Requested size: 338.5863pt x 229.44637pt.
 
 <dphi.png, id=451, 700.6175pt x 474.77374pt>
 File: dphi.png Graphic file (type png)
  <use dphi.png>
-Package pdftex.def Info: dphi.png used on input line 627.
+Package pdftex.def Info: dphi.png used on input line 624.
 (pdftex.def)             Requested size: 338.5863pt x 229.44637pt.
 
 <dy.png, id=452, 700.6175pt x 474.77374pt>
 File: dy.png Graphic file (type png)
  <use dy.png>
-Package pdftex.def Info: dy.png used on input line 633.
+Package pdftex.def Info: dy.png used on input line 630.
 (pdftex.def)             Requested size: 338.5863pt x 229.44637pt.
  [25 <./K_y.png> <./dphi.png>] [26 <./dy.png>] [27
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 754.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 751.
  [28]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 754.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 751.
  (./thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 754.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 754.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 751.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 751.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: 22EE4383C6C5862E601A8944F8FECA40;1315.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 754.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 751.
  ) 
 Here is how much of TeX's memory you used:
  8263 strings out of 494860
@@ -1070,7 +1070,7 @@ onts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
 lic/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmtt10.pfb>
-Output written on thesis.pdf (42 pages, 1206867 bytes).
+Output written on thesis.pdf (42 pages, 1206865 bytes).
 PDF statistics:
  578 PDF objects out of 1000 (max. 8388607)
  464 compressed objects within 5 object streams
