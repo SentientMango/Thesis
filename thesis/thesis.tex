@@ -14,6 +14,7 @@
 
 \setlength{\parindent}{0.2em}
 \setlength{\parskip}{0.5em}
+%\setlength{\textfloatsep}{10pt plus 1.0pt minus 2.0pt}
 
 \geometry{
  a4paper,
@@ -126,6 +127,7 @@ In the search for Dark Matter (DM) at the LHC, SM particles are produced in asso
 \cleardoublepage
 \pagenumbering{arabic}
 \chapter{Introduction}
+\pagestyle{plain}
 \setcounter{page}{1}
 
 The Standard Model of physics is one of the most successful theories developed, describing the fundamental particles and their interactions\cite{griff}. It is theoretically self-consistent, and has enjoyed tremendous success in providing accurate experimental predictions. However, the Standard Model is not complete theory of fundamental interactions. It does not provide an explanation for several observed phenomena, such as gravity, or the accelerating expansion of the universe, among others.
@@ -236,8 +238,45 @@ As Dark Matter does not interact electromagnetically, any Dark Matter particles 
 This thesis investigates the Standard Model background to the $ll+$\met signal with respect to the production of an invisible Higgs in association with a leptonically decaying gauge boson. Chapter \ref{ch:LHC} gives an overview of the Large Hadron Collider, the ATLAS detector, and details the event topology. Chapter \ref{ch:theory} address the theoretical framework of this thesis.
 
 \chapter{The Large Hadron Collider}\label{ch:LHC}
+The Large Hadron Collider (LHC) is a circular collider experiment located in France and Switzerland. It was built by the European Council for Nuclear Research (CERN) in collaboration with over 10000 scientists from all over the world, between 1998 to 2008, when it began its operation and started collecting data. It is the world's largest, most powerful particle collider, focusing primarily on proton-proton collisions, but also conducts heavy ion collision experiments as well. It is the largest single machine in the world.
 
-\pagestyle{plain}
+The goal of the LHC is to experimentally test predictions made by theories of particle physics, and look for evidence of new physics. It has enjoyed remarkable successes, such as the discovery of the Higgs Boson in 2012.
+
+The LHC houses seven experiments: ATLAS and CMS are the largest, general-purpose detectors that focus on the Higgs boson, and searche for evidence new physics. ALICE is a heavy ion collider experiment that studies quark-gluon plasma, while LHCb studies CP violation. In addition, three smaller experiments, TOTEM, MoEDAL and LHCf are much smaller and used for highly specialized research.
+
+\section{History}
+The concept of the LHC was officially recognized during a workshop held by CERN and the European Committe for Future Accelerators (ECFA) during 21-27 March 1984. The tunnel that would later house the LHC was constructed between 1983-1988 to house the Large Electron-Positron Collider. The tunnel is 27 km in circumference, and located underground, underneath the Swiss-France border.
+
+The construction of the LHC was completed in 2008, and on the 10th of September 2008, a beam of protons was successfully steered around the 27 kilometer ring of the LHC for the first time. After initial lower energy collision runs in 2009, the first 7 TeV center of mass energy collisions were recorded by the ATLAS detector in 2010.
+
+Since then, the LHC has gone on to make remarkable discoveries. In May 2011, ALICE reported the creation of quark-gluon plasma, and extremely dense state of matter. On July 4th 2012, CERN reported the observation of a particle having mass 125 GeV, consistent with the properties of the Higgs boson. Both ATLAS and CMS teams comfirmed this discovery with a statistical significance of 5 sigma, meeting the requirements to announce a new particle. The LHCb experiment observed multiple exotic hadrons, such as pentaquarks.
+\vfill
+
+\section{Design}
+\begin{figure}[H]
+\centering
+	\includegraphics[width=0.9\linewidth]{Cern_accelerator_complex.png}
+	\caption{The CERN accelerator complex showing the various components of the Large Hadron Collider experiment, such as the linear accelerators, the accelerating synchrotrons, the main ring, and the four detectors, where the protons or heavy ions are collided.}
+		\label{fig:LHCring}
+\end{figure}
+\textbf{Note: This section is, with minor rephrasing, taken from Wikipedia. I have to change the wording better or it'll trip plagiarism checks. For now, this section is so I have an idea of the layout and matter of this chapter.}
+
+The LHC is contained in a circular tunner 26.7 km in circumference, located at a depth ranging between 50 and 175 meters underneath the Swiss-France border. The tunnel contains two parallel beam pipes. Each of the two beam pipes house a beam of protons (or heavy ions), which travel in opposite directions, until they are made to collide at 4 points where the beam pipes intersect. The beams are kept on their path by an array of 1232 superconducting dipole magnets. An additional 392 superconducting quadrupole magnets focus the beams to maximize the chance of interaction. Magnets of higher mulitpole orders are used to correct deviations in the field geometry. In total, the LHC uses about 10000 superconducting magnets. In order to keep these magnets at superconducting temperatures (-271.25$^\circ$ C), about 96 tonnes of helium-4 coolant is required, thus making the LHC the world's largest cryogenic facility at liquid helium temperature.
+
+The LHC currently imparts an energy of 6.5 TeV per proton in the center of mass frame. This corresponds to velocity of about 0.999999990 c, only 3.1 m/s slower than the speed of light. At these speeds, a proton can cover the 27 km circumference of the main LHC ring in only 90 microseconds.
+
+The colliding protons are prepared for collisions by a sequence of systems that progressively increase their energy. The linear particle accelerator, LINAC 2 generates 50 MeV protons, which are fed into the Proton Synchrotron Booster (PSB). The PSB accelerates the protons to 1.4 GeV, and from there the protons are injected into the Proton Synchrotron (PS), where they are accelerated to 26 GeV. The Super Proton Synchrotron (SPS) then incereases their energy further to 450 GeV, before the protons are injected into the main ring. 
+
+Instead of a continuous beam, the protons are accumulated into bunches and accelerated to their peak energy at 6.5 TeV over a period of 20 minutes, during which the magnetic field of the superconducting dipole magnets is increased from 0.54 to 7.7 Teslas, and circulated for up to 24 hours while collisions occur at the four intersection points. Each proton bunch consists of approximate 115 billion protons in each bunch, with about 2,800 bunches at a time. The interactions happen at intervals 25 nanoseconds apart. Figure \ref{fig:LHCring} shows the layout of the LHC main ring, LINAC2, PSB, PS and SPS.
+
+While LHC experiments mainly consist of proton proton collisions, for shorter times of the order of a month per year, heavy ion collisions, such as lead, are also conducted. The lead ions are first accelerated by the LINAC3 linear accelerator, an the Low Energy Ion Ring (LEIR) is used as an ion storage and cooler unit. These ions are further accelerated by the PS and SPS before being injected into the LHC main ring, where they are imparted an energy of 2.3 TeV per nucleon. The ALICE experiment is where these ions collide, in order to investigate quark-gluon plasma.
+
+\section{The ATLAS experiment}
+The ATLAS (A large ToroidaL ApparatuS\footnote{Sometimes, scientists are just bad at anagrams}) detector is located at one of the four beam intersection points. It is a multipurpose experiment which, after the discovery of the Higgs boson in 2012, focuses on searches for new physics, such as supersymmetry, or dark matter. The experiment is a collaboration between around 3000 physicists from over 175 institutions in 38 countries.
+
+The ATLAS detector is a large apparatus with a cylindrical geometry, forward-backward symmetry, and nearly 4$\pi$ solid angle coverage. It is 46 meters long, 25 meters in diameter and weight 7000 tonnes. The detectors consists of concentric cylindrical layers around the interaction point, where the proton beams collide. Broadly, it consists of the  Inner Detector, the electromagnetic (EM) and hadronic calorimeters.
+
+\textbf{Note: Incomplete. I will complete the description of the detector, and the dimensions of the components. I will also discuss proton proton collisions, followed by the detection of particles at different components, and then triggers and data collection.}
 
 \chapter{Theoretical Aspects}\label{ch:theory}
 \section{Invisible Higgs in association with a Z boson - ZH}
@@ -248,17 +287,7 @@ In this thesis, the production of the Higgs boson, in association with a $Z$ bos
 	\caption{Feynman diagram showing the associated production of a Higgs boson with a Z boson. The Higgs boson decays to two invisible DM particles and the Z boson decays leptonically, resulting in the $ll+ E_T^{miss}$ signature.}
 		\label{fig:HZ}
 \end{figure}
-The main Standard Model background processes for the $ll+$\met final state are \ZZ, $WZ\to lll\nu$, $WW\to l\nu l\nu$, $Z+$jets and $W+$jets. Figure \ref{fig:ZH_results} shows the observed \met distribution in the $ee$ and $\mu\mu$ channels, compared to the signal and background predictions.
-\begin{figure}[h]
-\centering
-		\includegraphics[width=0.9\textwidth]{ZH_results.png}
-		\caption{The observed \met distributions in thee $ee$ (left) and $\mu\mu$ channels, compared to the signal and background predictions. The total statistical and systematic uncertainty on the background predictions are shown by the error bands. The Standard Model background predictions are stacked. The $ZH\to ll+$ invisible signal distribution is shown with $B_{H\to inv}=0.3$, and the simulated DM distribution is also scaled (with a factor of 0.27) to the best-fit contribution \cite{ZH_ATLAS}.}
-		\label{fig:ZH_results}
-\end{figure}
-
-As discussed in Ref \cite{ZH_ATLAS}, an upper limit of 67\% is placed on the Higgs$\to$ DM branching ratio at the 95\% confidennce level.the dominant source of background is the \ZZ process, contributing $\approx 60\%$ of the background. $WZ\to lll\nu$ events, where the $W$ boson decays into a electron or muon that escapes detection, account for 25\% of the total background. $Z(\to ll)+$jets process with misreconstructed \met contributes to about 8\% of the total background, and non-resonant-$ll$ processes, consisting of $t\bar{t}$, $Wt$, $WW$ and $Z\to\tau\tau$ production contribute similarly. $W+$jets, $VVV$, and $t\bar{t}V(V)$ backgrounds contribute to a minor extent ($<1\%$).
-
-This thesis focuses on the $ZZ$ background; its estimation and the uncertainty associated with it. In Ref \cite{ZH_ATLAS}, the $ZZ$ background is estimated from simulation, with a total uncertainty of 10\%.
+The main Standard Model background processes for the $ll+$\met final state are \ZZ, $WZ\to lll\nu$, $WW\to l\nu l\nu$, $Z+$jets and $W+$jets. 
 
 \subsection{Selection Criteria}
 The selection criteria used in Ref \cite{ZH_ATLAS} is applied for the analysis reported in this thesis as well. The search is conducted on events with a $ll+$\met final state, having a pair of high $p_T$ electrons ($ee$) or muons ($\mu\mu$), and large missing transverse momentum. Events with extra leptons or $b$-jets are removed to reduce backgrounds, and the requirement of a boosted $Z$ boson back to back with the missing tranverse momentum vector is imposed.
@@ -268,6 +297,8 @@ Electron candidates are selected based on the ATLAS tracker and EM calorimeter d
 To suppress cosmic-ray and non-prompt contributions, the longitudinal impact parameter of the leptons, $|b|<0.5$ mm, and the transverse impact parameter divided by its error must be less than 5 for electrons and 3 for muons. To remove jets misidentified as leptons, or leptons from $b$-hadron decays, 'loose' isolation criteria \cite{loose1,loose2} are applied. To maintain a uniform efficiency of 99\% for signal leptons, the isolation selection varies as a function of $p_T$ .
 
 %Jets are reconstructed with the anti-$k_t$ algorithm \cite{antikt} with the radius parameter R = 0.4 \cite{cell_cluster,jet_calib,fast_jet}. Candidate jets must have a $p_T > 20$ GeV and $|\eta|<4.5$
+
+\textbf{Need to add some more information about the selection criteria, with references.}
 
 Table \ref{table:event_selection} summarises the event selection criteria in the $ll+$\met search, as shown in \cite{ZH_ATLAS}.
 
@@ -299,6 +330,21 @@ $b$-jet veto & $N$($b$-jets) = 0 with $b$-jet $p_T>20$ GeV and $|\eta|<2.5$\\
 \caption{Event selection criteria in the $ll+$\met search as shown in Ref \cite{ZH_ATLAS}}
 \label{table:event_selection}
 \end{table}
+
+\subsection{Results of the ZH search}
+As discussed in Ref \cite{ZH_ATLAS}, an upper limit of 67\% is placed on the Higgs$\to$ DM branching ratio at the 95\% confidennce level. The dominant source of background is the \ZZ process, contributing $\approx 60\%$ of the background. $WZ\to lll\nu$ events, where the $W$ boson decays into a electron or muon that escapes detection, account for 25\% of the total background. $Z(\to ll)+$jets process with misreconstructed \met contributes to about 8\% of the total background, and non-resonant-$ll$ processes, consisting of $t\bar{t}$, $Wt$, $WW$ and $Z\to\tau\tau$ production contribute similarly. $W+$jets, $VVV$, and $t\bar{t}V(V)$ backgrounds contribute to a minor extent ($<1\%$).
+
+Figure \ref{fig:ZH_results} shows the observed \met distribution in the $ee$ and $\mu\mu$ channels, compared to the signal and background predictions.
+\begin{figure}[h]
+\centering
+		\includegraphics[width=0.9\textwidth]{ZH_results.png}
+		\caption{The observed \met distributions in thee $ee$ (left) and $\mu\mu$ channels, compared to the signal and background predictions. The total statistical and systematic uncertainty on the background predictions are shown by the error bands. The Standard Model background predictions are stacked. The $ZH\to ll+$ invisible signal distribution is shown with $B_{H\to inv}=0.3$, and the simulated DM distribution is also scaled (with a factor of 0.27) to the best-fit contribution \cite{ZH_ATLAS}.}
+		\label{fig:ZH_results}
+\end{figure}
+
+This thesis focuses on the $ZZ$ background; its estimation and the uncertainty associated with it. In Ref \cite{ZH_ATLAS}, the $ZZ$ background is estimated from simulation, with a total uncertainty of 10\%.
+
+
 
 \section{Background estimation: ZZ}
 It is difficult to identify \ZZ events, as their final state is identical to that of $ZH\to ll+$\met. Thus, the contribution of \ZZ is currently estimated using simulation. Figure \ref{fig:ZZ} shows the Standard Model production of $q\bar{q}\to ZZ$ and $gg\to ZZ$. One of the $Z$ bosons decays leptonically (into $e^+e^-$ or $\mu^+\mu^-$), while the other $Z$ boson decays into neutrinos ($\nu\bar{\nu}$). Neutrinos are very weakly interacting, and thus are invisible to the detectors at the LHC, and thus result in events with missing transverse momentum.
@@ -365,7 +411,7 @@ In this study, the following sources of theoretical uncertainties are studied.
 \begin{itemize}
 \item Missing higher order corrections: Contributions due to higher order QCD corrections cannot be calculated to arbitrarily high order, as it gets progressively more computationally expensive. Thus, this study is limited to Next to Leading Order (NLO), and further corrections are accounted for by varying the factorization and renormalization scales.
 
-\item Uncertainties associated with Parton Distribution Functions: A proton is a Baryon, and is composed of three valence quarks, and several gluons. Thus, proton-proton collisions, such as in the experiments conducted at the LHC, involve the interaction of these composite quarks and gluons (partons) at very high energies. These partons carry a fraction of the proton momentum. Parton Distribution Functions (PDFs) represent this fraction of proton momentum carried by partons as probability distributions. Owing to the non-deterministic nature of this fact, this study attempts to account for this uncertainties as PDF uncertainties.
+\item Uncertainties associated with Parton Distribution Functions: A proton is a baryon, and according to the Parton model \cite{parton_model} and is composed of three valence quarks, and several gluons. Thus, proton-proton collisions, such as in the experiments conducted at the LHC, involve the interaction of these composite quarks and gluons (partons) at very high energies. These partons carry a fraction of the proton momentum. Parton Distribution Functions (PDFs) represent this fraction of proton momentum carried by partons as probability distributions. Owing to the non-deterministic nature of this fact, this study attempts to account for this uncertainties as PDF uncertainties.
 
 \item Photon Fragmentation Uncertainties: In the \Zg process, the signal includes a photon. However, while reconstructing the event, soft photons, or photons resulting from other fragmentation processes may be encountered. To ensure that the photon is indeed prompt, it is required to be isolated from hadronic activity (such as pion decays). This isolation is implemented experimentally in different ways. The uncertainty associated with the implementation of this isolation is estimated as photon fragmentation uncertainties.
 \end{itemize}
@@ -447,14 +493,15 @@ Table \ref{table:default} lists the generator level settings used for the $ZZ$ a
 \end{center}
 \end{table}
 
-The constraint on $M_{ee}$ in the case of $Z+\gamma$ suppresses the FSR process by ensuring that the lepton pair are from a $Z$ decay only. In addition, the renormalization and factorization scales for both processes are set to be $H_T = \sum_i p_{T,i}$
+The constraint on $M_{ee}$ in the case of $Z+\gamma$ suppresses the FSR process by ensuring that the lepton pair are from a $Z$ decay only. In addition, the renormalization and factorization scales for both processes are set to be $H_T = \sum_i p_{T,i}$. Photon isolation is implemented using the Frixione \cite{frixione} method, with $R_0=0.4$, $\epsilon=0.075$ and $n=1$. These parameters are further explained in Section \ref{subsec:photon_fragmentation}.
 
 \footnotetext{$V$ is a vector boson: $Z(\to\nu\nu)$ for the $ZZ$ process; $\gamma$ for the $Z\gamma$ process}
 \renewcommand{\thefootnote}{\arabic{footnote}}
 
 \section{Preliminary Results}
 Using the settings listed in Table \ref{table:default}, the cross sections for $ZZ\to ee\nu\nu$ and $Z\gamma\to ee\gamma$ are generated, as shown in Figure \ref{xsecs}. Throughout this analysis, these samples are the reference.
-\begin{figure}[h]
+
+\begin{figure}[H]
 \centering
 	\begin{subfigure}{0.49\textwidth}
 		\includegraphics[width=\linewidth]{ZZ_xsec.png}
@@ -471,21 +518,21 @@ Using the settings listed in Table \ref{table:default}, the cross sections for $
 \end{figure}
 
 The ratio $R = \sigma(ZZ\rightarrow ee\nu\nu)/\sigma(Z\gamma\rightarrow ee\gamma)$ is shown in Figure \ref{fig:Rcurve}, taken as the ratio of the cross sections in Figures \ref{subfig:ZeeZvv} and \ref{subfig:Zeeg}. Additional events are generated with \met and $p_T(\gamma) > 400$ GeV for the two processes respectively to increase statistics. 
-\begin{figure}[h]
+\begin{figure}[H]
 	\centering
-	\includegraphics[width= 0.7\textwidth]{R.png}
+	\includegraphics[width= 0.6\textwidth]{R.png}
 	\caption{The transfer factor $R$ as a function of $p_T$, taken as a ratio of  the $ZZ\to ee\nu\nu$ and $Z\gamma\to ee\gamma$ cross sections at both LO and NLO. The leptonically decaying $Z$ boson decays to an $e^+e^-$ pair.}
 	\label{fig:Rcurve}
 \end{figure}
 The $R$ value is observed to increase from $\approx 0.39$ at 50 GeV to $\approx 0.52$ at high $p_T$, where it reaches a plateau. When the branching ratio of $Z$ boson decaying selectively to $e^+e^-$, or to $\nu\nu$, is accounted for as shown in Equation \ref{eq:R_inc}, the resulting ratio $R(p_T)$ is shown in Figure \ref{fig:RcurveBR}, which shows the ratio of $\sigma(ZZ)$ to $\sigma(Z\gamma)$, i.e. if the $Z$ bosons do not decay further. The value of $R$ is observed to increase from $\approx 0.98$ at 50 GeV to $\approx 1.3$ at high $p_T$, in reasonable agreement with the simple approximate calculation presented in Chapter \ref{ch:theory} of $R \approx 1.28$.
 \begin{figure}[H]
 	\centering
-	\includegraphics[width = 0.7\textwidth]{R_BR.png}
+	\includegraphics[width = 0.6\textwidth]{R_BR.png}
 	\caption{The transfer factor $R$ as a function of $p_T$ at both LO and NLO, adjusted for the $Z\rightarrow ee$ and $Z\rightarrow \nu\nu$ branching ratios. This shows the $R=\sigma(ZZ)/\sigma(Z\gamma)$, where the $Z$ bosons do not decay.}
 	\label{fig:RcurveBR}
 \end{figure}
 
-Figure\ref{fig:yy} shows the normalized rapidity distributions for missing transverse momentum $(Z\to\nu\nu)$ and the photon respectively.
+Figure \ref{fig:yy} shows the normalized rapidity distributions for missing transverse momentum $(Z\to\nu\nu)$ and the photon respectively. The photon rapidity is restricted to $|\eta|<2.5$.
 \begin{figure}[H]
 \centering
 	\includegraphics[width=0.7\textwidth]{yy.png}
@@ -508,7 +555,7 @@ Figures \ref{fig:leppt} and \ref{fig:leptony} further illustrate the topology of
 	\caption{Normalized distributions showing the differential cross section as a function of the transverse momentum of the leading (left) and subleading (right) leptons for the two processes.}
 	\label{fig:leppt}
 \end{figure}
-\begin{figure}[h]
+\begin{figure}[H]
 \centering
 	\begin{subfigure}{0.49\textwidth}
 		\includegraphics[width=\linewidth]{leady.png}
@@ -524,7 +571,6 @@ Figures \ref{fig:leppt} and \ref{fig:leptony} further illustrate the topology of
 	\label{fig:leptony}
 \end{figure}
 
-Gluon-gluon processes contribute to 8.6\% of the total cross section for the $ZZ$ process and 2.5\% of the $Z+\gamma$ process. Figure \ref{fig:xsec_gg_qq} shows the $ZZ$ and $Z\gamma$ cross sections ($Z$ boson decay constrained to only $e^-e^+$ and $\nu\bar{\nu}$ only) from the contributing $q\bar{q}$, $qg$ and $gg$ subprocesses.
 \begin{figure}[H]
 \centering
 	\begin{subfigure}{0.49\textwidth}
@@ -536,20 +582,41 @@ Gluon-gluon processes contribute to 8.6\% of the total cross section for the $ZZ
 \caption{The cross sections of $ZZ\to ee\nu\nu$ (left) and $Z\gamma\to ee\gamma$ (right) as a function of $p_T$, from the contributing $q\bar{q}$, $qg$ and $gg$ processes. The leptonically decaying $Z$ boson decays to an electron-positron pair}
 \label{fig:xsec_gg_qq}
 \end{figure}
-The $R_{gg}$ distribution, shown in Figure \ref{fig:R_ggonly} is observed to approach an asymptotic value at a much higher $p_T = 1.5$ TeV. The shape and scale of the $R_{gg}$ distribution remain to be understood, as they differ from Figure \ref{fig:Rcurve}.
-\begin{figure}[H]
+
+Gluon-gluon processes contribute to 8.6\% of the total cross section for the $ZZ$ process and 2.5\% of the $Z+\gamma$ process. As shown in Figure \ref{fig:xsec_gg_qq}, the $qg+q\bar{q}$ and $gg$ contributions to the $ZZ$ and $Z\gamma$ cross section, it is seen that at low $p_T$, gluon-gluon processes contribute more than at high $p_T$.
+
+The $R_{gg}$ distribution, shown in Figure \ref{fig:R_ggonly} is observed to approach an asymptotic value at a much higher $p_T = 1.5$ TeV.
+
+\begin{figure}[h]
 \centering
 \includegraphics[width=0.7\textwidth]{R_ggonly.png}
-\caption{$R_{gg}(p_T)$, computed from the contributions of the $gg$ subprocess to the cross sections of $ZZ$ and $Z\gamma$. The curve reaches a plateau at a much higher $p_T$ than for contributions from the $q\bar{q}$ process only.}
+\caption{$R_{gg}(p_T)$, computed from the contributions of the $gg$ subprocess to the cross sections of $ZZ$ and $Z\gamma$. The curve reaches a plateau at a much higher $p_T$ than for contributions from the $q\bar{q}$ process only. The leptonic $Z$ bosons decay to an $ee$ pair.}
 \label{fig:R_ggonly}
 \end{figure}
 
-\subsection{Uncertainty from Scale Variation}
-In higher order QCD calculations, perturbative corrections may be added to the vertices or propagators in a Feynman diagram. Physically, these corrections occur at very small time scales. These loop integrals that correspond to these corrections diverge. The higher the order, the more difficult the calculation is. It is possible to introduce an arbitrary cut-off scale $\mu$ such that up to a given order, the effect of these corrections can be absorbed into the strong coupling constant $\alpha_s(\mu)$.
+\subsection{Uncertainty from Missing Higher Order Corrections}
+\textbf{Note: I intend to add an appendix detailing the process of regularization and renormalization with examples. I will need to refresh my theory.}
 
-Two kinds of divergences are encountered: infrared divergences, and ultraviolet divergences. Infrared divergences occur for an on-shell internal propagator, and ultraviolet divergences are logarithmic divergences that occur as the integration variable approaches $\infty$. They correspond to physics at long and short distances\footnote{Long distances are those where soft interactions take place, away from the hard parton-parton interaction. Short distances are those where the hard parton parton interactions occur.}, respectively. The infrared divergences are addressed by the inclusion of the factorization scale $\mu_F$, while the ultraviolet divergences are addressed by the inclusion of the renormalization scale $\mu_R$. These parameters are arbitrary, and are set by hand. These are then varied between $\frac{1}{2}\mu < \mu < \ 2\mu$ to obtain an indication of the dependence of the matrix element on the scales, and thus, the uncertainty around the chosen scale. 
+In QCD calculations, higher order perturbative corrections may be added to the vertices or propagators in a Feynman diagram. An example illustrating the these 'loop' corrections is shown in Figure \ref{fig:loop_corr}. Physically, these corrections occur at very small time scales. These perturbative corrections lead to divergent integrals that are progressively more difficult to calculate at higher orders. A perfect calculation, carried out up to infinite orders, would give the exact cross section. However current technological capabilities limit the order to which calculations can be carried out.
 
-To address scale uncertainties in this study, the prescription used in Ref \cite{precise_scale}, section 4 is followed. The central scale, $\mu_0$ is chosen to be $H_{T}/2$ for both \ZZ and \Zg samples (where $H_T$ is the scalar sum of the transverse momentum of all particles after collision, $\sum_{i} p_{T,i}$), and seven-point variations are applied, i.e.
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.5\textwidth]{renormalize_diagram.png}
+\caption{Loop corrections to the propagator and vertex illustrated using a Feynman diagram showing $\gamma\to e\nu$, for example. These loops represent interactions that happen at very small distance scales (and corresponding, very high energy scales), and are calculated perturbatively in QCD.}
+\label{fig:loop_corr}
+\end{figure}
+
+While calculating loop corrections, two kinds of divergences are encountered: infrared divergences, and ultraviolet divergences. Infrared divergences occur when the integral diverges due to the contributions of particles with very low energies (or equivalently, interactions at large distances), and typically involve terms featuring $1/k$, thus diverging as $k\to 0$. Ultraviolet divergences are logarithmic divergences involving the term $\int d^4k\ 1/k^4$. Integrals of this form simplify as terms involving $\int ln(k) dk$ that diverge as the integration variable approaches $\infty$, occurring at very high energy scales, or equivalently, interactions at extremely short distances. They correspond to physics at long and short distances. Here, long distances are those where soft interactions take place, away from the hard parton-parton interaction. Short distances are those where the hard parton parton interactions occur.
+
+Thus, it is necessary to regularize such integrals, i.e. render the divergences finite, or have them cancel out somehow. One method of addressing these divergences is to introduce a cutoff scale $\Lambda$ as the (upper or lower) limit in the momentum integrals, such as through the Pauli-Villars regularization. The divergences will then be proportional to log$\Lambda/\mu^2$, where $\mu^2$ is some arbitrary scale, an artifact of the regularization.
+
+Dimensional regularization is another, more effective method of regularization, where the power of the momentum integration is shifted by an infinitesimally small amount $2\epsilon$, i.e. $\int d^4q/(2\pi)^4 q... \to \mu^{2\epsilon}\int d^{4-2\epsilon}q/(2\pi)^4 q...$ A prefactor $\mu^{2\epsilon}$ is introduced, where $\mu$ is an arbitrary scale, to ensure that all observables have the dimension of mass. Thus, regularization envelops the effect of these divergences into the arbitrary scale $\mu$. Upon renormalizing these regularized integrals, the $1/\epsilon$ divergent terms cancel out, leaving only the scale $\mu$ to be addressed. In QCD calculations, this scale appears as part of a scale dependent parameter, namely the running strong coupling constant ($\alpha_s(\mu)$).
+
+The infrared divergences are addressed by the inclusion of the factorization scale $\mu_F$, while the ultraviolet divergences are addressed by the inclusion of the renormalization scale $\mu_R$. These parameters are arbitrary, and are set by hand. These are then varied between $\frac{1}{2}\mu < \mu < \ 2\mu$ to obtain an indication of the dependence of the matrix element on the scales, and thus, the uncertainty around the chosen scale. 
+
+Perturbative QCD calculations get progressively more computationally expensive as the order of the perturbative theory increases. Thus, perturbative QCD calculations are only carried out up to a fixed order. There is a difference in the cross sections obtained from one order to the next, and thus, a contribution from the uncalculated higher perturbative orders is expected. To account for the missing higher order corrections, $K-$factors are introduced, defined in Equation \ref{eq:K_factor} as the ratio of the cross section at the highest available order to the leading order cross section.
+
+To address uncertainties associated with the scale in this study, the prescription used in Ref \cite{precise_scale}, section 4 is followed. The central scale, $\mu_0$ is chosen to be $H_{T}/2$ for both \ZZ and \Zg samples (where $H_T$ is the scalar sum of the transverse momentum of all particles after collision, $\sum_{i} p_{T,i}$), and seven-point variations are applied, i.e.
 \begin{equation}
 \frac{\mu_i}{\mu_0} = (1,1),(1,2),(2,1),(2,2),(0.5,1),(1,0.5),(0.5,0.5)\\
 \label{eq:scale}
@@ -567,7 +634,7 @@ where
 \end{align}
 and $V = Z\to\nu\nu$ for \ZZ, or $V = \gamma$ for \Zg. This uncertainty is propagated to $R$.
 
-To estimate the degree of correlation between the processes, the process dependent part of the cross sections may be used. The highest available term in the perturbative expansion is considered to define a $K$-factor. Since the study is undertaken at NLO, the $K$-factor is defined as in Equation \ref{eq:K_factor}.
+The two processes are kinematically similar at high $p_T$. Thus, naively, a cancellation of the contribution due to missing higher order corrections would be expected between the two processes due to this correlation. To estimate the degree of correlation between the processes, the process dependent part of the cross sections may be used. Since the study is undertaken at NLO, the $K$-factor is defined as in Equation \ref{eq:K_factor}.
 \begin{equation}
 K_{NLO}^{(V)} = \sigma_{NLO}^{(V)}(p_T)/\sigma_{LO}^{(V)}(p_T)
 \label{eq:K_factor}
@@ -595,7 +662,7 @@ Applying the above prescription, the variation of scales for cross sections of $
 At 100 GeV, the deviation from the central value is about 3\% for both processes and increases to ~10\% at high $p_T$. Here, the prescription in Equations \ref{eq:scale_central} and \ref{eq:scale_central2} is used to compute the central value and uncertainty.\\ Treating the scales as correlated between the processes, the scale variation for the transfer factor $R$ is shown in Figure \ref{fig:R_scale}. The central value of $R$ and the uncertainty band around it is taken according to Equations \ref{eq:scale_central} and \ref{eq:scale_central2} applied to $R$.
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.7\textwidth]{R_scale.png}
+\includegraphics[width=0.6\textwidth]{R_scale.png}
 \caption{The transfer factor $R = \sigma(ZZ\to ee\nu\nu)/\sigma(Z\gamma\to ee\gamma)$(top), with the scales varied in a correlated manner for both $ZZ$ and $Z\gamma$ processes. The bottom plot shows the relative ratio $R_i/R_0$ of the varied transfer factors to the central value.}
 \label{fig:R_scale}
 \end{figure}
@@ -609,12 +676,16 @@ To study the uncertainty due to unknown process dependent correlation effects, t
 	\label{fig:K_pt}
 \end{figure}
 
-\textbf{Note : Work in progress with the last bin}.
+\subsection{Uncertainty associated with Parton Distribution Functions}
+A proton is a baryon, i.e. it is composed of quarks and several gluons. In a proton-proton collision, it is these quarks and gluons, called $partons$ that actually interact. This is illustrated by Figures \ref{fig:ZZ} and \ref{fig:Zg}, which show the Feynman diagrams for quark-quark and gluon-gluon interactions. Thus it is important to know the momentum of the interacting partons. It is not possible to deterministically know the momentum of the partons, as it is the momentum of the protons that is set during the experiment. However, the fraction of the proton momentum that is carried by the partons can be modelled as probability distributions.
 
-\subsection{Uncertainty from PDF variation}
-A proton is a Baryon, i.e. it is composed of 3 quarks and several gluons. In a proton-proton collision, it is these quarks and gluons, called $partons$ that actually interact. This is illustrated by Figures $the\ feynman\ diagrams\ in\ Chapter\ 3$, which show the Feynman diagrams for quark-quark and gluon-gluon interactions. Thus it is important to know the momentum of the interacting partons. It is not possible to deterministically know the momentum of the partons, as it is the momentum of the protons that is set during the experiment. However, the fraction of the proton momentum that is carried by the partons can be modelled as probability distributions.
+Parton Distribution Functions (PDFs) characterize the fraction of proton momentum carried by partons as probability distributions. PDF sets are collections of PDFs that model the uncertainty associated with parton momenta. 
 
-Parton Distribution Functions (PDFs) characterize the fraction of proton momentum carried by partons as probability distributions. PDF sets are collections of PDFs that model the uncertainty associated with parton momenta. The PDF set used for reference is the \texttt{CT14}\cite{CT14} PDF set. The uncertainty on the PDFs is studied by using the 30 variations provided by the \texttt{PDF4LHC15} set\cite{PDF4}, constructed from the combination of \texttt{CT14,MMHT14}\cite{MMHT14} and \texttt{NNPDF3.0}\cite{NNPDF3} PDF sets. These sets are provided by LHAPDF6\cite{LHAPDF}. \texttt{PDF4LHC15} provides a set of variations that include those determined by different groups (MSTW, CTEQ and NNPDF). The set used here is \texttt{PDF4LHC15\_nlo\_30}, consisting of 30 members. While the most accurate uncertainties are given by \texttt{PDF4LHC15\_nlo\_100} set, \texttt{PDF4LHC15\_nlo\_30} is used here for a faster, reasonably accurate estimate of the uncertainties.
+QCD predicts quantitatively the rate of change of parton distributions when the energy scale $Q^2$ varies, governed by the DGLAP equations \cite{DGLAP}, in the region where perturbative calculations can be applied. While the DGLAp differential equations give the energy scale $Q^2$ dependence, they cannot definitively predict the $x$ dependence of the parton distributions at a given $Q^2$, and must be extracted form data. Thus, PDFs sets are obtained by fitting on a large number of cross section data points, on a grid of $Q^2$ and $x$ values from several experiments. This work is carried out by groups such as  MSTW \cite{MSTW, MSTW2, MSTW3}, MMHT \cite{MMHT14}, NNPDF \cite{NNPDF}, etc.
+
+\textbf{Note: I could discuss DGLAP equations here or in an appendix, and mention information regarding the data collections. I will also definitely add a PDF plot here.}
+
+The PDF set used for reference is the \texttt{CT14}\cite{CT14} PDF set. The uncertainty on the PDFs is studied by using the 30 variations provided by the \texttt{PDF4LHC15} set\cite{PDF4}, constructed from the combination of \texttt{CT14,MMHT14} and \texttt{NNPDF3.0} PDF sets. These sets are provided by LHAPDF6\cite{LHAPDF}. \texttt{PDF4LHC15} provides a set of variations that include those determined by different groups (MSTW, CTEQ and NNPDF). The set used here is \texttt{PDF4LHC15\_nlo\_30}, consisting of 30 members.
 \begin{figure}[H]
 \centering
 	\includegraphics[width = 0.7\textwidth]{R_pdf.png}
@@ -627,12 +698,12 @@ Parton Distribution Functions (PDFs) characterize the fraction of proton momentu
 \end{equation}
 where $N_{mem}$ is the number of member sets in the group, in this case, 30.
 
-\noindent The combined uncertainty around $R \approx 0.40$ is $\pm 0.01$, or about 2.2\%, at 100 GeV. The uncertainty is about 2\% at high $p_T$ values, with $R \approx 0.51 \pm 0.01$.
+\noindent The combined uncertainty around $R \approx 0.40$ is $\pm 0.01$, or about 2.3\%, at 100 GeV. The uncertainty is about 2\% at high $p_T$ values, with $R \approx 0.51 \pm 0.01$.
 
-\subsection{Uncertainty from Photon Fragmentation}
+\subsection{Photon Fragmentation and Isolation Uncertainty}\label{subsec:photon_fragmentation}
 The \Zg process may contain photons that arise from the hadron showers. It is therefore important to isolate the prompt photon from hadronic activity. This reduces unwanted background from pion decays, or fragmentation processes.
 
-Experimentally, photon isolation is implemented with the following cuts:
+Experimentally, photon isolation is implemented with the following selection:
 \begin{equation}
 \sum_{\in R_0} E_T(\text{had}) < \epsilon_h p_T^\gamma \text{\hspace{1cm} or \hspace{1cm}} \sum_{\in R_0} E_T(\text{had}) < E_T^{max}
 \end{equation}
@@ -644,8 +715,9 @@ The smooth cone isolation method of Frixione \cite{frixione} is an alternative i
 	\sum_{R_{j\gamma} \in R_0} E_T(\text{had}) < \epsilon_h p_T^\gamma \left(\frac{1-\cos R_{j\gamma}}{1-\cos R_0}\right)^n.
 \end{equation}
 \label{eq:frix_isol}
-where $R_{j\gamma}$ is the separation of the photon and the $j^{th}$ hadron. This requirement constrains the sum of hadronic energy inside a cone of radius $R_{j\gamma}$, for all separations $R_{j\gamma}$ less than a chosen cone size $R_0$. This prescription allows soft radiation inside the photon cone, but collinear singularities are removed. The smooth cone isolation is infrared finite, thus fragmentation contributions do not need to be included.\\
-The relative isolation, given by Equation \ref{eq:photon_isol} is used in experimental analyses, while smooth isolation is difficult to implement experimentally. However, comparing both methods gives us an estimate of the uncertainty due to the modelling of photon fragmentation.
+where $R_{j\gamma}$ is the separation of the photon and the $j^{th}$ hadron. This requirement constrains the sum of hadronic energy inside a cone of radius $R_{j\gamma}$, for all separations $R_{j\gamma}$ less than a chosen cone size $R_0$. This prescription allows soft radiation inside the photon cone, but collinear singularities are removed. The smooth cone isolation is infrared finite, thus fragmentation contributions do not need to be included. 
+
+The two prescriptions are significantly different. The Frixione method has its advantages, namely that it is infrared finite, removes collinear singularies and avoids fragmentation effects. However, Frixione isolation is difficult to implement experimentally, while the relative isolation, given by Equation \ref{eq:photon_isol} is readily used in experimental analyses. For the purpose of this analysis, the Frixione method is used, and the parameters $\epsilon$ and $n$ are varied to get a handle on the uncertainty associated with the Frixione isolation method. In addition, the difference from the experimental isolation method is accounted for as part of the uncertainty.
 
 In this analysis, $R_0$ is chosen to be 0.4 to agree with the experimental definition. The central value is chosen to be from the sample using smooth cone isolation (Frixione) with $\epsilon_h = 0.075$ and $n=1$. These parameters are varied within a reasonable range to assess the uncertainty as shown in Figure \ref{fig:photon_frag}.
 
@@ -771,6 +843,9 @@ The uncertainty is $< 2\%$ over the whole $p_T$ range.
 \bibitem{fast_jet}
 	\textbf{M. Cacciari, G.P. Salam and G. Soyez}, FastJet User Manual, Eur. Phys. J. C 72 (2012) 1896, \href{https://arxiv.org/abs/1111.6097}{\texttt{arXiv:1111.6097 [hep-ph]}}
 	
+\bibitem{parton_model}
+	\textbf{Tung-Mow Yan, Sidney D. Drell}, The Parton Model and its Applications, Int. J. Mod. Phys. A 29, 1430071 (2014),  \href{https://arxiv.org/abs/1409.0051}{arXiv:1409.0051 [hep-ph]}
+	
 \bibitem{gamma_jet}
 	\textit{Using $\gamma +$ jets to calibrate the Standard Model $Z(\rightarrow \nu\nu)+$ jets background to new processes at the LHC}\\
 	\textbf{S. Ask, M. A. Parker, T. Sandoval, M. E. Shea, W. J. Stirling}\\
@@ -796,27 +871,32 @@ Cavendish Laboratory, University of Cambridge, CB3 0HE, UK; 2011\\
 \bibitem{MCFM}
 \textbf{John Campbell, Keith Ellis, Walter Giele, Ciaran Williams},	Monte Carlo for FeMtobarn processes (MCFM) v8.0 User Manual, \url{https://mcfm.fnal.gov/}
 
+\bibitem{DGLAP}
+	\textbf{R. K. Ellis, W. J. Stirling, and B. R. Webber}, QCD and Collider Physics, Cambridge Monographs, 2003
+
 \bibitem{precise_scale}
 	\textbf{J.M. Lindert, S. Pozzorini, et al.}, Precise predictions for $V$+jets dark matter backgrounds, Eur. Phys. J. C (2017) 77: 829, \href{https://arxiv.org/abs/1705.04664}{\texttt{arXiv:1705.04664 [hep-ph]}}
 	
 \bibitem{CT14}
-	\textit{New parton distribution functions from a global analysis of quantum chromodynamics}\\
-	\textbf{Sayipjamal Dulat, Tie Jiun Hou, Jun Gao, Marco Guzzi, Joey Huston, P. Nadolsky, Jon Pumplin, Carl Schmidt, Daniel Stump, C. P. Yuan}\\
-	\texttt{arXiv:1506.07443}
+	\textbf{Sayipjamal Dulat, Tie Jiun Hou, Jun Gao, Marco Guzzi, Joey Huston, P. Nadolsky, Jon Pumplin, Carl Schmidt, Daniel Stump, C. P. Yuan}, New parton distribution functions from a global analysis of quantum chromodynamics, Phys. Rev. D 93, 033006 (2016), \href{https://arxiv.org/abs/1506.07443}{\texttt{arXiv:1506.07443 [hep-ph]}}
 
 \bibitem{PDF4}
-	\textit{PDF4LHC recommendations for LHC Run II}\\
-	\texttt{[arXiv:1510.03865]}	
+	\textbf{Jon Butterworth, Stefano Carrazza, et al}, PDF4LHC recommendations for LHC Run II, J. Phys. G: Nucl. Part. Phys. 43 023001 (2016),\href{https://arxiv.org/abs/1510.03865}{\texttt{arXiv:1510.03865 [hep-ph]}}
+
+\bibitem{MSTW}
+	\textbf{A.D. Martin, W.J. Stirling, R.S. Thorne, G. Watt}, Parton distributions for the LHC, Eur.Phys.J.C63:189-285,2009, \href{https://arxiv.org/abs/0901.0002}{\texttt{arXiv:0901.0002 [hep-ph]}}
+	
+\bibitem{MSTW2}
+	\textbf{A.D. Martin, W.J. Stirling, R.S. Thorne, G. Watt}, Uncertainties on $\alpha_s$ in global PDF analyses and implications for predicted hadronic cross sections, Eur.Phys.J.C64:653-680,2009, \href{https://arxiv.org/abs/0905.3531}{\texttt{arXiv:0905.3531 [hep-ph]}}
+	
+\bibitem{MSTW3}
+	\textbf{A.D. Martin, W.J. Stirling, R.S. Thorne, G. Watt}, Heavy-quark mass dependence in global PDF analyses and 3- and 4-flavor parton distributions, Eur.Phys.J.C70:51-72,2010, \href{https://arxiv.org/abs/1007.2624}{\texttt{arXiv:1007.2624 [hep-ph]}}
 	
 \bibitem{MMHT14}
-	\textit{Parton distributions in the LHC era: MMHT 2014 PDFs}\\
-	\textbf{L. A. Harland-Lang, A. D. Martin, P. Motylinski, R. S. Thorne}\\
-	\texttt{arXiv:1412.3989}
+	\textbf{L. A. Harland-Lang, A. D. Martin, P. Motylinski, R. S. Thorne}, Parton distributions in the LHC era: MMHT 2014 PDFs, Eur. Phys. J. C (2015) 75: 204, \href{https://arxiv.org/abs/1412.3989}{\texttt{arXiv:1412.3989 [hep-ph]}}
 	
-\bibitem{NNPDF3}
-	\textit{Parton distributions for the LHC Run II}\\
-	\textbf{The NNPDF Collaboration: Richard D. Ball, Valerio Bertone, Stefano Carrazza, Christopher S. Deans, Luigi Del Debbio, Stefano Forte, Alberto Guffanti, Nathan P. Hartland, Jose I. Latorre, Juan Rojo, Maria Ubiali}\\
-	\texttt{arXiv:1410.8849}
+\bibitem{NNPDF}
+	\textbf{The NNPDF collaboration, Ball, R.D., Bertone, V. et al.}, Parton distributions for the LHC Run II, J. High Energ. Phys. (2015) 2015: 40, \href{https://arxiv.org/abs/1410.8849}{\texttt{arXiv:1410.8849 [hep-ph]}}
 	
 \bibitem{LHAPDF}
 	\textit{LHAPDF6: parton density access in the LHC precision era}\\
