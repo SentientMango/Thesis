@@ -242,7 +242,7 @@ This thesis investigates the Standard Model background to the $ll+$\met signal w
 \chapter{Theoretical Aspects}\label{ch:theory}
 \section{Invisible Higgs in association with a Z boson - ZH}
 In this thesis, the production of the Higgs boson, in association with a $Z$ boson is considered. In this model, as shown in Figure \ref{fig:HZ}, the Higgs boson mediates the interaction between Dark Matter particles and Standard Model particles, and the $Z$ boson decays into a lepton-antilepton pair. As Dark Matter is invisible to current detectors, this process results in the $ll+$\met signature.
-\begin{figure}[h]
+\begin{figure}[H]
 \centering
 	\includegraphics[width=0.5\linewidth]{HZ.png}
 	\caption{Feynman diagram showing the associated production of a Higgs boson with a Z boson. The Higgs boson decays to two invisible DM particles and the Z boson decays leptonically, resulting in the $ll+ E_T^{miss}$ signature.}
@@ -259,6 +259,46 @@ The main Standard Model background processes for the $ll+$\met final state are \
 As discussed in Ref \cite{ZH_ATLAS}, an upper limit of 67\% is placed on the Higgs$\to$ DM branching ratio at the 95\% confidennce level.the dominant source of background is the \ZZ process, contributing $\approx 60\%$ of the background. $WZ\to lll\nu$ events, where the $W$ boson decays into a electron or muon that escapes detection, account for 25\% of the total background. $Z(\to ll)+$jets process with misreconstructed \met contributes to about 8\% of the total background, and non-resonant-$ll$ processes, consisting of $t\bar{t}$, $Wt$, $WW$ and $Z\to\tau\tau$ production contribute similarly. $W+$jets, $VVV$, and $t\bar{t}V(V)$ backgrounds contribute to a minor extent ($<1\%$).
 
 This thesis focuses on the $ZZ$ background; its estimation and the uncertainty associated with it. In Ref \cite{ZH_ATLAS}, the $ZZ$ background is estimated from simulation, with a total uncertainty of 10\%.
+
+\subsection{Selection Criteria}
+The selection criteria used in Ref \cite{ZH_ATLAS} is applied for the analysis reported in this thesis as well. The search is conducted on events with a $ll+$\met final state, having a pair of high $p_T$ electrons ($ee$) or muons ($\mu\mu$), and large missing transverse momentum. Events with extra leptons or $b$-jets are removed to reduce backgrounds, and the requirement of a boosted $Z$ boson back to back with the missing tranverse momentum vector is imposed.
+
+Electron candidates are selected based on the ATLAS tracker and EM calorimeter dimensions, with $p_T > 7$ GeV and pseudorapidity $|\eta| < 2.47$. Similarly, muon candidates are required to have $p_T > 7$ GeV and pseudorapidity $|\eta| < 2.5$. 
+%Electrons and muons are required to satisfy a set of identification criteria, referred to as the "medium" criteria \cite{e_medium, mu_medium}.
+To suppress cosmic-ray and non-prompt contributions, the longitudinal impact parameter of the leptons, $|b|<0.5$ mm, and the transverse impact parameter divided by its error must be less than 5 for electrons and 3 for muons. To remove jets misidentified as leptons, or leptons from $b$-hadron decays, 'loose' isolation criteria \cite{loose1,loose2} are applied. To maintain a uniform efficiency of 99\% for signal leptons, the isolation selection varies as a function of $p_T$ .
+
+%Jets are reconstructed with the anti-$k_t$ algorithm \cite{antikt} with the radius parameter R = 0.4 \cite{cell_cluster,jet_calib,fast_jet}. Candidate jets must have a $p_T > 20$ GeV and $|\eta|<4.5$
+
+Table \ref{table:event_selection} summarises the event selection criteria in the $ll+$\met search, as shown in \cite{ZH_ATLAS}.
+
+\begin{table}[H]
+\centering
+\begin{tabular}{c c}
+\hline
+\hline
+& Selection criteria\\
+\hline
+Two leptons & Two opposite-sign leptons, leading (subleading) $p_T>$ 30 (20) GeV \\
+\hline
+Third lepton veto & Veto events if any additional lepton with $p_T>7$ GeV\\
+\hline
+$m_{ll}$ & 76$<m_{ll}<$106 GeV\\
+\hline
+\met and \met$/H_T$ & \met$>$ 90 GeV and \met$/H_T >$ 0.6\\
+\hline
+$\Delta\phi(\vec{p}_T^{ll},\vec{E}_T^{miss})$ & $\Delta\phi(\vec{p}_T^{ll},\vec{E}_T^{miss})>2.7$ radians\\
+\hline
+$\Delta R_{ll}$ & $\Delta R_{ll}<1.8$\\
+\hline
+Fractional $p_T$ difference & $\left| p_T^{ll} - p_T^{miss,jets}\right|/p_T^{ll}<0.2$\\
+\hline
+$b$-jet veto & $N$($b$-jets) = 0 with $b$-jet $p_T>20$ GeV and $|\eta|<2.5$\\
+\hline
+\hline
+\end{tabular}
+\caption{Event selection criteria in the $ll+$\met search as shown in Ref \cite{ZH_ATLAS}}
+\label{table:event_selection}
+\end{table}
 
 \section{Background estimation: ZZ}
 It is difficult to identify \ZZ events, as their final state is identical to that of $ZH\to ll+$\met. Thus, the contribution of \ZZ is currently estimated using simulation. Figure \ref{fig:ZZ} shows the Standard Model production of $q\bar{q}\to ZZ$ and $gg\to ZZ$. One of the $Z$ bosons decays leptonically (into $e^+e^-$ or $\mu^+\mu^-$), while the other $Z$ boson decays into neutrinos ($\nu\bar{\nu}$). Neutrinos are very weakly interacting, and thus are invisible to the detectors at the LHC, and thus result in events with missing transverse momentum.
@@ -377,13 +417,13 @@ This thesis estimates the theoretical uncertainties on the transfer factor. The 
 \section{MCFM}
 Monte Carlo for FeMtobarn processes (MCFM) is a program that calculates cross sections for femtobarn-level processes at leading order(LO) or next to leading order (NLO) QCD. In this study, MCFM v8.0 \cite{MCFM1, MCFM2, MCFM3, MCFM} is used to generate cross sections of \ZZ and \Zg processes at NLO, with a selection of generator level cuts. The generation parameters in MCFM allow fine control over the sample, such as PDF sets, photon isolation, lepton and photon $p_T$ and $\eta$, renormalization and factorization scales, etc. The samples are generated with cuts on $E_T^{miss} = p_T(Z\to \nu\nu)$ for the $ZZ$ process and $p_T(\gamma)$ for the $Z+\gamma$ process. A ratio of these cross sections is taken to obtain the $R$ distribution as a function of $p_T$. The uncertainty on $R$ is calculated by varying several parameters at the generator level, such as the renormalization and factorization scales, the PDF sets used, photon fragmentation, etc. The contributions of the $q \bar{q}$ and $gg$ processes are estimated separately.
 
-In MCFM generated events containing a leptonically decaying $Z$ boson, $Z\rightarrow ee$ only i.e. the decay is constrained to just one flavor, electrons. As electrons and muons have similar properties with the exception of mass, simply the branching fraction of $Z\rightarrow ee$ must be accounted for to obtain the inclusive value of $R$.
+In MCFM generated events, leptonically decaying $Z$ boson are constrained to an electron-positron pair only, i.e. $Z\to ee$. As electrons and muons have similar properties with the exception of mass, simply the branching fraction of $Z\rightarrow ee$ must be accounted for to obtain the inclusive value of $R$.
 \begin{equation}\label{eq:R_inc}
 	R_{inc} = R * \frac{BR(Z\rightarrow ee)}{BR(Z \rightarrow ee)*BR(Z\rightarrow \nu\nu)*2}
 \end{equation}
 
 \renewcommand{\thefootnote}{\fnsymbol{footnote}} 
-Table \ref{table:default} lists the generator level settings used for the $ZZ$ and $Z+\gamma$ processes. All lepton cuts are consistent with the ones used in the ATLAS Z+$E_T^{miss}$ analysis \cite{ZH_ATLAS}.
+Table \ref{table:default} lists the generator level settings used for the $ZZ$ and $Z+\gamma$ processes. All lepton cuts are consistent with the ones used in the ATLAS Z+$E_T^{miss}$ analysis \cite{ZH_ATLAS}, as shown in Table \ref{table:event_selection}.
 \begin{table}[H]
 \begin{center}
 	\begin{tabular}{|c|c|c|}
@@ -412,7 +452,7 @@ The constraint on $M_{ee}$ in the case of $Z+\gamma$ suppresses the FSR process 
 \footnotetext{$V$ is a vector boson: $Z(\to\nu\nu)$ for the $ZZ$ process; $\gamma$ for the $Z\gamma$ process}
 \renewcommand{\thefootnote}{\arabic{footnote}}
 
-\section{Results}
+\section{Preliminary Results}
 Using the settings listed in Table \ref{table:default}, the cross sections for $ZZ\to ee\nu\nu$ and $Z\gamma\to ee\gamma$ are generated, as shown in Figure \ref{xsecs}. Throughout this analysis, these samples are the reference.
 \begin{figure}[h]
 \centering
@@ -429,6 +469,7 @@ Using the settings listed in Table \ref{table:default}, the cross sections for $
 	\caption{NLO and LO cross sections of $ZZ\to ee\nu\nu$ (left) and $Z\gamma\to ee\gamma$ (right) processes with the cuts as in Table 1. The vertical axis is in $\log_{10}$ scale. The leptonically decaying $Z$ boson decays to an $e^+e^-$ pair. There is no flavor constraint on the neutrinos.}
 	\label{xsecs}
 \end{figure}
+
 The ratio $R = \sigma(ZZ\rightarrow ee\nu\nu)/\sigma(Z\gamma\rightarrow ee\gamma)$ is shown in Figure \ref{fig:Rcurve}, taken as the ratio of the cross sections in Figures \ref{subfig:ZeeZvv} and \ref{subfig:Zeeg}. Additional events are generated with \met and $p_T(\gamma) > 400$ GeV for the two processes respectively to increase statistics. 
 \begin{figure}[h]
 	\centering
@@ -443,13 +484,12 @@ The $R$ value is observed to increase from $\approx 0.39$ at 50 GeV to $\approx 
 	\caption{The transfer factor $R$ as a function of $p_T$ at both LO and NLO, adjusted for the $Z\rightarrow ee$ and $Z\rightarrow \nu\nu$ branching ratios. This shows the $R=\sigma(ZZ)/\sigma(Z\gamma)$, where the $Z$ bosons do not decay.}
 	\label{fig:RcurveBR}
 \end{figure}
-\textbf{Note : Need to flesh out the captions for the next few plots}
 
 Figure\ref{fig:yy} shows the normalized rapidity distributions for missing transverse momentum $(Z\to\nu\nu)$ and the photon respectively.
 \begin{figure}[H]
 \centering
 	\includegraphics[width=0.7\textwidth]{yy.png}
-	\caption{y(V)}
+	\caption{The normalized distributions showing the differential cross sections of \ZZ and \Zg processes as a function of the rapidity of the vector boson y(V) ($Z\to\nu]nu$ for \ZZ, or $\gamma$ for \Zg). The rapidity range for the photon is restricted to be $|\eta|<2.5$}
 	\label{fig:yy}
 \end{figure}
 Figures \ref{fig:leppt} and \ref{fig:leptony} further illustrate the topology of the events by showing normalized distributions for the leading and subleading lepton $p_T$ and rapidity.
@@ -465,7 +505,7 @@ Figures \ref{fig:leppt} and \ref{fig:leptony} further illustrate the topology of
 		\caption{}
 		\label{fig:subleadpt}
 	\end{subfigure}
-	\caption{Normalized distributions showing the transverse momentum of the leading (left) and subleading (right) leptons for the two processes.}
+	\caption{Normalized distributions showing the differential cross section as a function of the transverse momentum of the leading (left) and subleading (right) leptons for the two processes.}
 	\label{fig:leppt}
 \end{figure}
 \begin{figure}[h]
@@ -480,7 +520,7 @@ Figures \ref{fig:leppt} and \ref{fig:leptony} further illustrate the topology of
 		\caption{}
 		\label{fig:subleady}
 	\end{subfigure}
-	\caption{Normalized distributions showing the transverse momentum of the leading (left) and subleading (right) leptons for the two processes.}
+	\caption{Normalized distributions showing the differential cross section as a function of the rapidity of the leading (left) and subleading (right) leptons for the two processes.}
 	\label{fig:leptony}
 \end{figure}
 
@@ -718,6 +758,18 @@ The uncertainty is $< 2\%$ over the whole $p_T$ range.
 
 \bibitem{ZH_ATLAS}
 	\textbf{ATLAS Collaboration}, Search for an invisibly decaying Higgs boson or dark matter candidates produced in association with a Z boson in pp collisions at $\sqrt{s}$ = 13 TeV with the ATLAS detector, PLB 776 (2017), 318, \href{https://arxiv.org/abs/1708.09624}{\texttt{arXiv:1708.09624 [hep-ex]}}
+	
+\bibitem{antikt}
+	\textbf{M. Cacciari, G.P. Salam and G. Soyez}, The anti-$k_t$ jet clustering algorithm, JHEP 04 ()2008 063, \href{https://arxiv.org/abs/0802.1189}{\texttt{arXiv:0802.1189 [hep-ph]}}
+	
+\bibitem{cell_cluster}
+	\textbf{ATLAS collaboration}, Topological cell clustering in the ATLAS calorimeters and its performance in LHC Run 1, Eur. Phys, J. C 77 (2017) 490, \href{https://arxiv.org/abs/1603.02934}{\texttt{arXiv:1603.02934 [hep-ex]}}
+	
+\bibitem{jet_calib}
+	\textbf{ATLAS collaboration}, Jet Calibration and Systematic Uncertainties for Jets Reconstructed in the ATLAS Detector at $\sqrt(s)=13$ TeV, ATL-PHYS-PUB-2015-015 (2015) , \url{https://cdsweb.cern.ch/record/2028594}
+	
+\bibitem{fast_jet}
+	\textbf{M. Cacciari, G.P. Salam and G. Soyez}, FastJet User Manual, Eur. Phys. J. C 72 (2012) 1896, \href{https://arxiv.org/abs/1111.6097}{\texttt{arXiv:1111.6097 [hep-ph]}}
 	
 \bibitem{gamma_jet}
 	\textit{Using $\gamma +$ jets to calibrate the Standard Model $Z(\rightarrow \nu\nu)+$ jets background to new processes at the LHC}\\
