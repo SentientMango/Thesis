@@ -129,8 +129,9 @@ In the search for Dark Matter (DM) at the LHC, SM particles are produced in asso
 \chapter{Introduction}
 \pagestyle{plain}
 \setcounter{page}{1}
+Fundamental particle physics has a remarkable goal. It attempts to explain the interactions of matter and energy with the minimum possible number mathematical presumptions, with everything else in the universe being an emergent property.
 
-The Standard Model of physics is one of the most successful theories developed, describing the fundamental particles and their interactions\cite{griff}. It is theoretically self-consistent, and has enjoyed tremendous success in providing accurate experimental predictions. However, the Standard Model is not complete theory of fundamental interactions. It does not provide an explanation for several observed phenomena, such as gravity, or the accelerating expansion of the universe, among others.
+Not only is it remarkably ambitious, the Standard Model of physics is one of the most successful theories developed, describing the fundamental particles and their interactions\cite{griff}. It is theoretically self-consistent, and has enjoyed tremendous success in providing accurate experimental predictions. However, the Standard Model is not complete theory of fundamental interactions. It does not provide an explanation for several observed phenomena, such as gravity, or the accelerating expansion of the universe, among others.
 
 One such question that triggers burning curiosity is the apparent incongruity of galaxy rotation curves with the theory of Newtonian mechanics: stars in the arms of spiral galaxies appear to move much faster than Newtonian physics would predict. Either the current understanding of mechanics is incomplete, or there is more mass present somewhere in the galaxy that is not visible by any method that is currently employed. This invisible hunk of matter is what is termed as Dark Matter (DM).
 
@@ -149,7 +150,13 @@ One such BSM theory postulates that these Dark Matter candidate particles may co
 \label{fig:higgs}
 \end{figure}
 
-In this thesis, a closer look is taken at the VH channel, in particular ZH, where the Higgs boson decays invisibly into DM particles, and the $Z$ boson decays into a dilepton pair. The signature of such a process is \llM. A possible search in this channel would constitute stacking all known Standard Model processes that contribute to the \llM signal (making up the background) and look for excesses in data which will indicate the presence of non-Standard-Model processes. In this thesis, a closer look is taken at the \ZZ process, which constitutes the dominant SM background in the \llM final state. However, it is difficult to discriminate between the Standard Model \ZZ and $ZH\to l^+l^-+E_T^{miss}$, the process under consideration, because of the identical final state. Thus, an attempt is made to estimate it using alternate processes with clean signals.
+High energy collision experiments conducted at detectors are a method to experimentally investigate the predictions made by particle physics in a controlled manner. Several other kinds of detector experiments, both passive and active, investigate phenomena such as neutrino flavor oscillations and direct dark matter searches. The Large Hadron Collider (LHC), built and operated by CERN, is a proton-proton (and heavy ion) collider located in Switzerland and France, is the largest such collider in the world. It has provided invaluable data since commencing operations in 2008, providing experimental confirmation for phenomena such as the Higgs boson.
+
+This chapter gives an overview of the Standard Model, it's constituent matter particles, forces, and their interactions. It also delves into the shortcomings of the Standard Model, and introduces some ways in which Dark Matter is probed at the LHC. Chapter 2 describes the LHC, as well the ATLAS detector.
+
+In this thesis, a closer look is taken at the VH channel, in particular ZH, where the Higgs boson decays invisibly into DM particles, and the $Z$ boson decays into a dilepton pair. The signature of such a process is \llM. A possible search in this channel would constitute stacking all known Standard Model processes that contribute to the \llM signal (making up the background) and look for excesses in data which will indicate the presence of non-Standard-Model processes. In this thesis, a closer look is taken at the \ZZ process, which constitutes the dominant SM background in the \llM final state. However, it is difficult to discriminate between the Standard Model \ZZ and $ZH\to l^+l^-+E_T^{miss}$, the process under consideration, because of the identical final state. Thus, an attempt is made to estimate it using alternate processes with clean signals. 
+
+Chapter 3 discusses the theoretical aspects of investigating the \ZZ contribution, and chapter 4 presents the results obtained during the course of this thesis.
 
 \section{The Standard Model}
 The Standard Model is the name given to the theory of particles, fundamental forces, and interactions that govern the Universe. It describes three of the four forces: the electromagnetic, strong and weak forces. Figure \ref{fig:SM} shows a schematic representation of the elementary particles in the Standard Model.
@@ -338,7 +345,7 @@ Figure \ref{fig:ZH_results} shows the observed \met distribution in the $ee$ and
 \begin{figure}[h]
 \centering
 		\includegraphics[width=0.9\textwidth]{ZH_results.png}
-		\caption{The observed \met distributions in thee $ee$ (left) and $\mu\mu$ channels, compared to the signal and background predictions. The total statistical and systematic uncertainty on the background predictions are shown by the error bands. The Standard Model background predictions are stacked. The $ZH\to ll+$ invisible signal distribution is shown with $B_{H\to inv}=0.3$, and the simulated DM distribution is also scaled (with a factor of 0.27) to the best-fit contribution \cite{ZH_ATLAS}.}
+		\caption{The observed \met distributions in the $ee$ (left) and $\mu\mu$ channels, compared to the signal and background predictions. The total statistical and systematic uncertainty on the background predictions are shown by the error bands. The Standard Model background predictions are stacked. The $ZH\to ll+$ invisible signal distribution is shown with $B_{H\to inv}=0.3$, and the simulated DM distribution is also scaled (with a factor of 0.27) to the best-fit contribution \cite{ZH_ATLAS}.}
 		\label{fig:ZH_results}
 \end{figure}
 
@@ -458,7 +465,7 @@ This thesis estimates the theoretical uncertainties on the transfer factor. The 
 %\end{figure}
 %Figure \ref{fig:bhabha} shows Bhabha scattering, an electromagnetic process involving the interaction of an electron and a positron, mediated by a photon. The Feynman rules assign functionals to the propagators (the straight/wavy lines in the diagram) and the vertices, from which we can obtain the amplitudes for this process.
 
-\chapter{Theoretical uncertainties on cross sections and the transfer factor R}\label{ch:Results}
+\chapter{Transfer factor R and the uncertainties associated to it}\label{ch:Results}
 
 \section{MCFM}
 Monte Carlo for FeMtobarn processes (MCFM) is a program that calculates cross sections for femtobarn-level processes at leading order(LO) or next to leading order (NLO) QCD. In this study, MCFM v8.0 \cite{MCFM1, MCFM2, MCFM3, MCFM} is used to generate cross sections of \ZZ and \Zg processes at NLO, with a selection of generator level cuts. The generation parameters in MCFM allow fine control over the sample, such as PDF sets, photon isolation, lepton and photon $p_T$ and $\eta$, renormalization and factorization scales, etc. The samples are generated with cuts on $E_T^{miss} = p_T(Z\to \nu\nu)$ for the $ZZ$ process and $p_T(\gamma)$ for the $Z+\gamma$ process. A ratio of these cross sections is taken to obtain the $R$ distribution as a function of $p_T$. The uncertainty on $R$ is calculated by varying several parameters at the generator level, such as the renormalization and factorization scales, the PDF sets used, photon fragmentation, etc. The contributions of the $q \bar{q}$ and $gg$ processes are estimated separately.

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.18)  12 FEB 2018 21:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.18)  14 FEB 2018 17:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -783,7 +783,7 @@ Chapter 1.
 File: higgs_production.png Graphic file (type png)
 
 <use higgs_production.png>
-Package pdftex.def Info: higgs_production.png used on input line 147.
+Package pdftex.def Info: higgs_production.png used on input line 148.
 (pdftex.def)             Requested size: 241.84842pt x 148.37917pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -792,295 +792,288 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.151 
+l.152 
        [1
 
 ]
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 159.
- <standard_model.png, id=211, 803.0pt x 767.86874pt>
-File: standard_model.png Graphic file (type png)
-
-<use standard_model.png>
-Package pdftex.def Info: standard_model.png used on input line 164.
-(pdftex.def)             Requested size: 386.95894pt x 370.0374pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 166.
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.169 
-       [2 <./higgs_production.png>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
+l.167 \item \textbf
+                   {Bosons:} are particles with integral spin that mediate t...
+[2 <./higgs_production.png>]
+<standard_model.png, id=217, 803.0pt x 767.86874pt>
+File: standard_model.png Graphic file (type png)
+ <use standard_model.png>
+Package pdftex.def Info: standard_model.png used on input line 171.
+(pdftex.def)             Requested size: 386.95894pt x 370.0374pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.177 \item G
-             ravity: The Standard Model does not include gravity. If, analog...
-[3 <./standard_model.png>] <GRC.jpeg, id=242, 583.17876pt x 496.85625pt>
+l.178 
+       [3 <./standard_model.png>]pdfTeX warning (ext4): destination with the sa
+me identifier (name{page.4}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.203 
+       [4] <GRC.jpeg, id=255, 583.17876pt x 496.85625pt>
 File: GRC.jpeg Graphic file (type jpg)
-
-<use GRC.jpeg>
-Package pdftex.def Info: GRC.jpeg used on input line 203.
+ <use GRC.jpeg>
+Package pdftex.def Info: GRC.jpeg used on input line 210.
 (pdftex.def)             Requested size: 338.5863pt x 288.47249pt.
-pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has 
+pdfTeX warning (ext4): destination with the same identifier (name{page.5}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.206 \end{figure}
-                   [4]pdfTeX warning (ext4): destination with the same identifi
-er (name{page.5}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.217 	\item M
-              ono-jet : In theory, it is possible to produce Dark Matter par...
-[5 <./GRC.jpeg>] <Mono_X.png, id=272, 681.29532pt x 453.19313pt>
+l.216 T
+       here is additional cosmological evidence supporting Dark Matter, such...
+[5 <./GRC.jpeg>] <Mono_X.png, id=270, 681.29532pt x 453.19313pt>
 File: Mono_X.png Graphic file (type png)
 
 <use Mono_X.png>
-Package pdftex.def Info: Mono_X.png used on input line 224.
+Package pdftex.def Info: Mono_X.png used on input line 231.
 (pdftex.def)             Requested size: 314.39998pt x 209.13522pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.6}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.240 \chapter
-              {The Large Hadron Collider}\label{ch:LHC} [6 <./Mono_X.png>]
+l.240 	\item P
+              roduction of Higgs in association with a massive vector boson ...
+[6 <./Mono_X.png>] [7] [8
+
+]
 Chapter 2.
-<Cern_accelerator_complex.png, id=290, 1049.42062pt x 683.55376pt>
+<Cern_accelerator_complex.png, id=298, 1049.42062pt x 683.55376pt>
 File: Cern_accelerator_complex.png Graphic file (type png)
 
 <use Cern_accelerator_complex.png>
-Package pdftex.def Info: Cern_accelerator_complex.png used on input line 258.
+Package pdftex.def Info: Cern_accelerator_complex.png used on input line 265.
 (pdftex.def)             Requested size: 435.32419pt x 283.5548pt.
- [7
-
-] [8 <./Cern_accelerator_complex.png>]
-[9] [10
+ [9] [10 <./Cern_accelerator_complex.png>]
+[11] [12
 
 ]
 Chapter 3.
-<HZ.png, id=313, 285.31593pt x 188.95593pt>
+<HZ.png, id=322, 285.31593pt x 188.95593pt>
 File: HZ.png Graphic file (type png)
  <use HZ.png>
-Package pdftex.def Info: HZ.png used on input line 286.
+Package pdftex.def Info: HZ.png used on input line 293.
 (pdftex.def)             Requested size: 241.84842pt x 160.16927pt.
 
 
-LaTeX Warning: Citation `loose1' on page 11 undefined on input line 297.
+LaTeX Warning: Citation `loose1' on page 13 undefined on input line 304.
 
 
-LaTeX Warning: Citation `loose2' on page 11 undefined on input line 297.
+LaTeX Warning: Citation `loose2' on page 13 undefined on input line 304.
 
-[11 <./HZ.png>] <ZH_results.png, id=327, 1400.23125pt x 617.30624pt>
+[13 <./HZ.png>] <ZH_results.png, id=336, 1400.23125pt x 617.30624pt>
 File: ZH_results.png Graphic file (type png)
 
 <use ZH_results.png>
-Package pdftex.def Info: ZH_results.png used on input line 340.
+Package pdftex.def Info: ZH_results.png used on input line 347.
 (pdftex.def)             Requested size: 435.32419pt x 191.90927pt.
- [12 <./ZH_results.png>]
-<ZZ.png, id=340, 581.92406pt x 176.15813pt>
+ [14 <./ZH_results.png>]
+<ZZ.png, id=348, 581.92406pt x 176.15813pt>
 File: ZZ.png Graphic file (type png)
  <use ZZ.png>
-Package pdftex.def Info: ZZ.png used on input line 354.
+Package pdftex.def Info: ZZ.png used on input line 361.
 (pdftex.def)             Requested size: 338.5863pt x 102.49701pt.
 
-<Zg.png, id=345, 812.03375pt x 189.70876pt>
+<Zg.png, id=353, 812.03375pt x 189.70876pt>
 File: Zg.png Graphic file (type png)
  <use Zg.png>
-Package pdftex.def Info: Zg.png used on input line 372.
+Package pdftex.def Info: Zg.png used on input line 379.
 (pdftex.def)             Requested size: 386.95894pt x 90.40205pt.
- [13 <./ZZ.png> <./Zg.png>] [14] [15] [16
+ [15 <./ZZ.png> <./Zg.png>] [16] [17] [18
 
 ]
 Chapter 4.
 
-Overfull \hbox (5.61548pt too wide) in paragraph at lines 464--465
+Overfull \hbox (5.61548pt too wide) in paragraph at lines 471--472
 \OT1/cmr/m/n/10.95 Monte Carlo for FeM-to-barn pro-cesses (MCFM) is a pro-gram 
 that cal-cu-lates cross sec-tions for femtobarn-
  []
 
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 488.
-[17]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 495.
+[19]
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <6> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 498.
- <ZZ_xsec.png, id=405, 800.9925pt x 575.14874pt>
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 505.
+ <ZZ_xsec.png, id=413, 800.9925pt x 575.14874pt>
 File: ZZ_xsec.png Graphic file (type png)
  <use ZZ_xsec.png>
-Package pdftex.def Info: ZZ_xsec.png used on input line 507.
+Package pdftex.def Info: ZZ_xsec.png used on input line 514.
 (pdftex.def)             Requested size: 237.0141pt x 170.1852pt.
 
-<Zg_xsec.png, id=406, 800.9925pt x 575.14874pt>
+<Zg_xsec.png, id=414, 800.9925pt x 575.14874pt>
 File: Zg_xsec.png Graphic file (type png)
  <use Zg_xsec.png>
-Package pdftex.def Info: Zg_xsec.png used on input line 512.
+Package pdftex.def Info: Zg_xsec.png used on input line 519.
 (pdftex.def)             Requested size: 237.0141pt x 170.1852pt.
 
-<R.png, id=410, 800.9925pt x 575.14874pt>
+<R.png, id=418, 800.9925pt x 575.14874pt>
 File: R.png Graphic file (type png)
  <use R.png>
-Package pdftex.def Info: R.png used on input line 523.
+Package pdftex.def Info: R.png used on input line 530.
 (pdftex.def)             Requested size: 290.22105pt x 208.39612pt.
 
-<R_BR.png, id=414, 800.9925pt x 575.14874pt>
+<R_BR.png, id=422, 800.9925pt x 575.14874pt>
 File: R_BR.png Graphic file (type png)
  <use R_BR.png>
-Package pdftex.def Info: R_BR.png used on input line 530.
+Package pdftex.def Info: R_BR.png used on input line 537.
 (pdftex.def)             Requested size: 290.22105pt x 208.39612pt.
- [18 <./ZZ_xsec.png> <./Zg_xsec.png> <./R.png>] <yy.png, id=424, 700.6175pt x 4
+ [20 <./ZZ_xsec.png> <./Zg_xsec.png> <./R.png>] <yy.png, id=432, 700.6175pt x 4
 74.77374pt>
 File: yy.png Graphic file (type png)
 
 <use yy.png>
-Package pdftex.def Info: yy.png used on input line 538.
+Package pdftex.def Info: yy.png used on input line 545.
 (pdftex.def)             Requested size: 338.5863pt x 229.44637pt.
- <leadpt.png, id=427, 700.6175pt x 474.77374pt>
+ <leadpt.png, id=435, 700.6175pt x 474.77374pt>
 File: leadpt.png Graphic file (type png)
  <use leadpt.png>
-Package pdftex.def Info: leadpt.png used on input line 546.
+Package pdftex.def Info: leadpt.png used on input line 553.
 (pdftex.def)             Requested size: 237.0141pt x 160.60956pt.
 
-<subleadpt.png, id=428, 700.6175pt x 474.77374pt>
+<subleadpt.png, id=436, 700.6175pt x 474.77374pt>
 File: subleadpt.png Graphic file (type png)
  <use subleadpt.png>
-Package pdftex.def Info: subleadpt.png used on input line 551.
+Package pdftex.def Info: subleadpt.png used on input line 558.
 (pdftex.def)             Requested size: 237.0141pt x 160.60956pt.
 
-<leady.png, id=429, 700.6175pt x 474.77374pt>
+<leady.png, id=437, 700.6175pt x 474.77374pt>
 File: leady.png Graphic file (type png)
  <use leady.png>
-Package pdftex.def Info: leady.png used on input line 561.
+Package pdftex.def Info: leady.png used on input line 568.
 (pdftex.def)             Requested size: 237.0141pt x 160.60956pt.
 
-<subleady.png, id=430, 700.6175pt x 474.77374pt>
+<subleady.png, id=438, 700.6175pt x 474.77374pt>
 File: subleady.png Graphic file (type png)
  <use subleady.png>
-Package pdftex.def Info: subleady.png used on input line 566.
+Package pdftex.def Info: subleady.png used on input line 573.
 (pdftex.def)             Requested size: 237.0141pt x 160.60956pt.
- [19 <./R_BR.png> <./yy.png>] <ZZ_subproc.png, id=439, 700.6175pt x 474.77374pt
+ [21 <./R_BR.png> <./yy.png>] <ZZ_subproc.png, id=447, 700.6175pt x 474.77374pt
 >
 File: ZZ_subproc.png Graphic file (type png)
 
 <use ZZ_subproc.png>
-Package pdftex.def Info: ZZ_subproc.png used on input line 577.
+Package pdftex.def Info: ZZ_subproc.png used on input line 584.
 (pdftex.def)             Requested size: 237.0141pt x 160.60956pt.
- <Zg_subproc.png, id=440, 700.6175pt x 474.77374pt>
+ <Zg_subproc.png, id=448, 700.6175pt x 474.77374pt>
 File: Zg_subproc.png Graphic file (type png)
 
 <use Zg_subproc.png>
-Package pdftex.def Info: Zg_subproc.png used on input line 580.
+Package pdftex.def Info: Zg_subproc.png used on input line 587.
 (pdftex.def)             Requested size: 237.0141pt x 160.60956pt.
- [20 <./leadpt.png> <./subleadpt.png> <./leady.png> <./subleady.png> <./ZZ_subp
+ [22 <./leadpt.png> <./subleadpt.png> <./leady.png> <./subleady.png> <./ZZ_subp
 roc.png> <./Zg_subproc.png>]
-<R_ggonly.png, id=449, 800.9925pt x 575.14874pt>
+<R_ggonly.png, id=457, 800.9925pt x 575.14874pt>
 File: R_ggonly.png Graphic file (type png)
  <use R_ggonly.png>
-Package pdftex.def Info: R_ggonly.png used on input line 592.
+Package pdftex.def Info: R_ggonly.png used on input line 599.
 (pdftex.def)             Requested size: 338.5863pt x 243.12296pt.
 
-<renormalize_diagram.png, id=451, 1190.4475pt x 565.11125pt>
+<renormalize_diagram.png, id=459, 1190.4475pt x 565.11125pt>
 File: renormalize_diagram.png Graphic file (type png)
 
 <use renormalize_diagram.png>
-Package pdftex.def Info: renormalize_diagram.png used on input line 604.
+Package pdftex.def Info: renormalize_diagram.png used on input line 611.
 (pdftex.def)             Requested size: 241.84842pt x 114.80518pt.
- [21 <./R_ggonly.png> <./renormalize_diagram.png>] [22] <zz_scale.png, id=475, 
+ [23 <./R_ggonly.png> <./renormalize_diagram.png>] [24] <zz_scale.png, id=484, 
 525.46312pt x 356.0803pt>
 File: zz_scale.png Graphic file (type png)
  <use zz_scale.png>
-Package pdftex.def Info: zz_scale.png used on input line 653.
+Package pdftex.def Info: zz_scale.png used on input line 660.
 (pdftex.def)             Requested size: 237.0141pt x 160.61499pt.
 
-<zg_scale.png, id=476, 525.46312pt x 356.0803pt>
+<zg_scale.png, id=485, 525.46312pt x 356.0803pt>
 File: zg_scale.png Graphic file (type png)
  <use zg_scale.png>
-Package pdftex.def Info: zg_scale.png used on input line 656.
+Package pdftex.def Info: zg_scale.png used on input line 663.
 (pdftex.def)             Requested size: 237.0141pt x 160.61499pt.
 
-<R_scale.png, id=482, 700.6175pt x 474.77374pt>
+<R_scale.png, id=491, 700.6175pt x 474.77374pt>
 File: R_scale.png Graphic file (type png)
  <use R_scale.png>
-Package pdftex.def Info: R_scale.png used on input line 665.
+Package pdftex.def Info: R_scale.png used on input line 672.
 (pdftex.def)             Requested size: 290.22105pt x 196.67245pt.
- [23 <./zz_scale.png> <./zg_scale.png> <./R_scale.png>]
-<K_pt.png, id=494, 700.6175pt x 474.77374pt>
+ [25 <./zz_scale.png> <./zg_scale.png> <./R_scale.png>]
+<K_pt.png, id=502, 700.6175pt x 474.77374pt>
 File: K_pt.png Graphic file (type png)
  <use K_pt.png>
-Package pdftex.def Info: K_pt.png used on input line 674.
+Package pdftex.def Info: K_pt.png used on input line 681.
 (pdftex.def)             Requested size: 338.5863pt x 229.44637pt.
 
-<R_pdf.png, id=505, 700.6175pt x 474.77374pt>
+<R_pdf.png, id=513, 700.6175pt x 474.77374pt>
 File: R_pdf.png Graphic file (type png)
  <use R_pdf.png>
-Package pdftex.def Info: R_pdf.png used on input line 691.
+Package pdftex.def Info: R_pdf.png used on input line 698.
 (pdftex.def)             Requested size: 338.5863pt x 229.44637pt.
- [24 <./K_pt.png>] [25 <./R_pdf.png>] <frag.png, id=534, 700.6175pt x 474.77374
+ [26 <./K_pt.png>] [27 <./R_pdf.png>] <frag.png, id=542, 700.6175pt x 474.77374
 pt>
 File: frag.png Graphic file (type png)
 
 <use frag.png>
-Package pdftex.def Info: frag.png used on input line 726.
+Package pdftex.def Info: frag.png used on input line 733.
 (pdftex.def)             Requested size: 338.5863pt x 229.44637pt.
- [26 <./frag.png>]
+ [28 <./frag.png>]
 Chapter 5.
-<K_y.png, id=542, 700.6175pt x 474.77374pt>
+<K_y.png, id=550, 700.6175pt x 474.77374pt>
 File: K_y.png Graphic file (type png)
  <use K_y.png>
-Package pdftex.def Info: K_y.png used on input line 744.
+Package pdftex.def Info: K_y.png used on input line 751.
 (pdftex.def)             Requested size: 338.5863pt x 229.44637pt.
 
-<dphi.png, id=543, 700.6175pt x 474.77374pt>
+<dphi.png, id=551, 700.6175pt x 474.77374pt>
 File: dphi.png Graphic file (type png)
  <use dphi.png>
-Package pdftex.def Info: dphi.png used on input line 750.
+Package pdftex.def Info: dphi.png used on input line 757.
 (pdftex.def)             Requested size: 338.5863pt x 229.44637pt.
 
-<dy.png, id=544, 700.6175pt x 474.77374pt>
+<dy.png, id=552, 700.6175pt x 474.77374pt>
 File: dy.png Graphic file (type png)
  <use dy.png>
-Package pdftex.def Info: dy.png used on input line 756.
+Package pdftex.def Info: dy.png used on input line 763.
 (pdftex.def)             Requested size: 338.5863pt x 229.44637pt.
- [27
+ [29
 
- <./K_y.png> <./dphi.png>] [28 <./dy.png>]
-Underfull \hbox (badness 6032) in paragraph at lines 788--789
+ <./K_y.png> <./dphi.png>] [30 <./dy.png>]
+Underfull \hbox (badness 6032) in paragraph at lines 795--796
 []\OT1/cmr/bx/n/10.95 Planck Col-lab-o-ra-tion\OT1/cmr/m/n/10.95 , Planck 2015 
 re-sults. XIII. Cos-mo-log-i-cal pa-ram-e-ters (2016),
  []
 
 
-Underfull \hbox (badness 4205) in paragraph at lines 794--795
+Underfull \hbox (badness 4205) in paragraph at lines 801--802
 []\OT1/cmr/bx/n/10.95 M.C.Gonzalez-Garcia, Michele Mal-toni\OT1/cmr/m/n/10.95 ,
  Phe-nomenol-ogy with Mas-sive Neu-tri-nos,
  []
 
-[29
+[31
 
-] [30]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 944.
- [31]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 944.
+] [32]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 951.
+ [33]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 951.
  (./thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 944.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 944.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 951.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 951.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 52E4F983B96873D93F5843876C2E98C9;1764.
+(rerunfilecheck)             Checksum: DE911896D2F976D395959E2911D7CEF4;1751.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 944.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 951.
  ) 
 Here is how much of TeX's memory you used:
- 8433 strings out of 494860
- 122764 string characters out of 6177602
- 221564 words of memory out of 5000000
+ 8435 strings out of 494860
+ 122778 string characters out of 6177602
+ 221551 words of memory out of 5000000
  11444 multiletter control sequences out of 15000+600000
  18378 words of font info for 70 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
@@ -1105,10 +1098,10 @@ onts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
 lic/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmtt10.pfb>
-Output written on thesis.pdf (45 pages, 1378714 bytes).
+Output written on thesis.pdf (47 pages, 1382439 bytes).
 PDF statistics:
- 725 PDF objects out of 1000 (max. 8388607)
- 601 compressed objects within 7 object streams
- 158 named destinations out of 1000 (max. 500000)
+ 733 PDF objects out of 1000 (max. 8388607)
+ 607 compressed objects within 7 object streams
+ 160 named destinations out of 1000 (max. 500000)
  366 words of extra memory for PDF output out of 10000 (max. 10000000)
 
