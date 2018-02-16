@@ -154,22 +154,62 @@ High energy collision experiments conducted at detectors are a method to experim
 
 In this thesis, a closer look is taken at the VH channel, in particular ZH, where the Higgs boson decays invisibly into DM particles, and the $Z$ boson decays into a dilepton pair. The signature of such a process is \llM. A possible search in this channel would constitute stacking all known Standard Model processes that contribute to the \llM signal (making up the background) and look for excesses in data which will indicate the presence of non-Standard-Model processes. In this thesis, a closer look is taken at the \ZZ process, which constitutes the dominant SM background in the \llM final state. However, it is difficult to discriminate between the Standard Model \ZZ and $ZH\to l^+l^-+E_T^{miss}$, the process under consideration, because of the identical final state. Thus, an attempt is made to estimate it using alternate processes with clean signals. 
 
-This chapter gives an overview of the Standard Model, it's constituent matter particles, forces, and their interactions. It also delves into the shortcomings of the Standard Model, and introduces some ways in which Dark Matter is probed at the LHC. Chapter 2 describes the LHC, as well the ATLAS detector. Chapter 3 discusses the theoretical aspects of investigating the \ZZ contribution, and chapter 4 presents the results obtained during the course of this thesis.
+This chapter gives an overview of the Standard Model, it's constituent matter particles, forces, and their interactions. It also delves into the shortcomings of the Standard Model, and introduces some ways in which Dark Matter is probed at the LHC. Chapter 2 describes the LHC, as well the ATLAS detector, where high energy collisions experiments are carried out. Chapter 3 discusses the theoretical aspects of investigating the \ZZ contribution, and details the approach taken, and chapter 4 presents the results obtained during the course of this thesis.
 
 \section{The Standard Model}
-The Standard Model is the name given to the theory of particles, fundamental forces, and interactions that govern the Universe. It describes three of the four forces: the electromagnetic, strong and weak forces. Figure \ref{fig:SM} shows a schematic representation of the elementary particles in the Standard Model.
+The Standard Model is the name given to the theory of particles, fundamental forces, and interactions that govern the Universe. It describes three of the four forces: the electromagnetic, strong and weak forces. The Standard Model is formulated using the framework of Quantum Field Theories (QFT), which describe particles as excitations of an underlying field.
 
-The Standard Model classifies fundamental particles as either Fermions or Bosons:
-\begin{itemize}
-\item \textbf{Fermions:} make up the matter in the universe. Fermions are spin 1/2 particles, and are categorized into quarks and leptons. Quarks exist in 6 flavors, up, down, charmed, strange, top (or truth) and bottom (or beauty). Leptons too exist in 6 flavors: electrons, muons, and taus, and their respective neutrinos. The up, charmed and top quarks carry an electric charge of +2/3e. The down, strange and bottom quarks carry an electric charge of -1/3e. The electron, muon and tau carry an electric charge of -1e, and the neutrinos carry no electromagnetic charge. Here, e is the unit of electromagnetic charge, and is equal to $1.602\times 10^{-19}$ Coulombs. Quarks and leptons are divided into three generations, with each generation having more mass than the last. Each fermion has a parity inverted counterpart, called an anti-particle, having the same mass, but an opposite charge. For example, an anti-electron (or a positron) has a charge of +1e and a down anti-quark will have charge of +1/3e.
-\item \textbf{Bosons:} are particles with integral spin that mediate the interactions between particles in the universe. There are four gauge bosons: the photon, which mediates electromagnetic interactions, the $W$ and $Z$ bosons that mediate weak interactions, and the gluons, which mediate strong interactions. These are vector bosons, having spin +1. In addition, there is a scalar boson (spin 0), the Higgs boson, which gives particles their mass.
-\end{itemize}
+Throughout this thesis, the Lorentz-Heaviside system of units is used, such that $c=\hbar=1$ (where $c$ is the speed of light, and $\hbar=h/2\pi$ is the reduced Planck's constant). Ref \cite{griff} is the reference text for much of this section.
+
+\subsection{Matter and Forces}
+
+In the Standard Model, matter is made up of fermions and bosons. Fermions are particles with half-integer spin, and interact through the exchange of gauge bosons, which have integer spin. All fundamental Standard Model fermions have spin 1/2. The Standard Model gauge bosons which mediate the interactions between particles have spin 1. The Higgs boson is a scalar boson, and has spin 0.
+
+Figure \ref{fig:SM} shows a schematic representation of the elementary particles in the Standard Model.
+
 \begin{figure}[h]
 \centering
 \includegraphics[width=0.8\linewidth]{standard_model.png}
 \caption{A schematic representation of the Standard Model\cite{SM} of particles. The table shows the three generations of fermions (classified as quarks and leptons) that are the building blocks of all known matter in the Universe, and bosons that mediate interactions, and are thus responsible for 'forces'}
 \label{fig:SM}
 \end{figure}
+
+All particles, except the neutral bosons (with no electromagnetic charge) have a corresponding antiparticle, which has the same properties, except with all its quantum numbers having an opposite sign.
+
+Fermions are divided into two categories: leptons and quarks. There are six flavors of leptons and six flavors of quarks. All the quarks, and three flavors of leptons are electrically charged, and thus participate in electromagnetic interactions. Electromagnetic interactions are described by \textbf{Quantum Electrodynamics} (QED)\cite{QED}, a QFT. QED describes interactions in which two electrically charged particles exchange a photon. The photon is a spin-1 gauge boson, is electrically neutral, massless, and mediates electromagnetic interactions. Figure \ref{fig:qed_fund_vertex} shows the fundamental interaction vertex in QED, the interaction between two charged fermions and the photon.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width = 0.4\textwidth]{fundamental_vertex_qed.png}
+\caption{Feynman diagram showing the fundamental interaction vertex in Quantum Electrodynamics. Charged fermions ($f$) interact via the exchange of a photon ($\gamma$), reproduced from Ref \cite{griff}.}
+\label{fig:qed_fund_vertex}
+\end{figure}
+
+Quarks come in 6 flavors, which are divided into 3 "generations" having progressively higher masses; the up and down ($u$ and $d$) are first generation quarks, charmed and strange ($c$ and $s$) are second generation quarks, top and bottom, or formerly, truth and beauty, ($t$ and $b$) belong to the third genearation. Up-type quarks ($u$, $c$ and $t$) have an electric charge of +2/3$e$ (where $e$ is the unit of electronic charge, equal to $1.6\times 10^{-19}$ Coulombs), while down-type quarks have an electric charge of -1/3$e$. Quarks are the fundamental particle that form composite particles called Hadrons; bound states of $q\bar{q}'$ are called \textit{mesons}, and $qq'q"$ bound states are called baryons. Protons (bound state of $uud$) and neutrons (bound state of $udd$) are the most familiar examples of baryons.
+
+Hadrons are bound together by the strong nuclear force. The strong interaction is described by the theory of \textbf{Quantum Chromodynamics} (QCD). In QCD, the strong interaction is mediated by gluons, which, like the photon, are massless spin-1 gauge bosons. However, unlike the photon, gluons don't carry electric charge. Instead, they carry an analogous color charge. There are three types of color charge, dubbed "red", "green" and "blue". These titles are arbitrary, and have been chosen under the heuristic that all naturally occurring states must be "colorless". Thus, a baryon must have three quarks such that red, green and blue occur in equal measures, or meson must have a quark and antiquark such that the color and anticolor cancel out. This leads to the implication that a color charged object cannot exist in isolation, a phenomenon known as confinement \cite{confinement}.
+
+Quarks are the only fermions that interact through the strong force. However, gluons also carry color charge, and thus interact with quarks, and also with themselves. Gluons have several interesting properties; they are massless, have no distinct antiparticle, and are capable of self interaction, as shown in Figure \ref{fig:qcd_fund_vertex}. These properties lead to gluons splitting and radiating infinitely. Such interactions occurring in the vicinity of quarks result in the strength of the strong force changing inversely as a function of the distance between interacting quarks, i.e. quarks that are close to each other interact less strongly than quarks that are further apart. When quarks are separated, the potential energy arising from the strong force increases until it is energetically more favorable for the production of a quark-antiquark pair from the vacuum, screening the quarks, than it is to maintain the separation between them. This process, where a color-charged particle will cause other color-charged particles to be produced from the vacuum until the resulting bound state is color-neutral, is known as \textit{hadronization}, and results in single quarks or gluons from the hard interaction point forming "jets" of several hadrons in the detector.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width = 0.8\textwidth]{fundamental_vertex_qcd.png}
+\caption{Feynman diagram showing the fundamental interaction vertex in Quantum Chromodynamics. reproduced from Ref \cite{griff}. The quark-quark-gluon vertex (left) shows the gluon mediating the interaction between two $up$ quarks, with their color content visible, to illustrate the conservation of color charge. Gluons are also capable of self-interacting, leading to three- or four-gluon interaction vertices (center, right).}
+\label{fig:qcd_fund_vertex}
+\end{figure}
+
+Confinement explains why quarks or gluons have never been observed, and why the strong-interaction is short ranged despite being mediated by the massless gluons. The property of strongly interacting particles, that at small distances of the order of less than a femtometer they basically act as free particles, is known as \textit{asymptotic freedom}. At these scales, quarks and gluons may be treated individually rather than as a bound state.
+
+The other family of fermions, leptons, also form three generations. Each generation consists of an electrically charged lepton, and its corresponding electrically neutral neutrino; i.e. electrons ($e$), muons($\mu$) and tauons(($\tau$)) (in increasing order of mass), which have an electric charge of -1$e$, and their correspondingly flavored neutrinos ($\nu_e$, $\nu_{\mu}$ and $\nu_{\tau}$). Neutrinos, assumed by the Standard Model to be massless, have been observed to have masses \cite{nu1,nu2,nu3} which are known to be small, but have not been measured. Tau leptons are the heaviest at 1.78 GeV, and decay rapidly, having a mean lifetime of $2.9\times 10^{-13}$ s in their rest frame. Muons have a mass of 106 MeV, about 200 times heavier than that of the electrons (0.511 MeV). Muons, however, decay with a mean lifetime of $2.2 \mu$s, which is long compared to the time scales in collider experiments, and are stable enough to pass through the detectors intact.
+
+All leptons interact through the weak nuclear force. Neutrinos especially only participate in Standard Model interactions through the weak interaction, thus making them difficult to detect. Collider experiments don't even attempt to detect neutrinos, instead inferring their presence through momentum imbalance (as they are invisible to the detectors). 
+
+There are two kinds of weak interactions; charged-current and neutral-current interactions. The $Z$ boson, an electrically neutral, spin-1, massive gauge boson, mediate neutral-current weak interactions. Such interactions are analogous to electromagnetic interactions. However, there are notable differences. The $Z$ boson is massive (at 91 GeV, it is one of the largest known masses in the Standard Model), whereas the photon is massless. This limits the range of the interaction, as the $Z$ boson decays, and has a mean lifetime of the order $10^{-25}$s. The fact that the $Z$ boson is massive gives it longitudinal polarization modes\cite{quarks_and_leptons} as well, which the photon does not possess. The $Z$ boson also mediates interactions between neutrinos, which the photon does not as neutrinos are electrically neutral. Also, weak interactions do not respect Parity (P) symmetry. The coupling strengths of the $Z$ boson to fermions depends on their flavor and helicity, with left-handed fermions and right-handed anti-fermions coupling more strongly than right-handed fermions and left-handed anti-fermions. In fact, the $Z$ boson doesn't couple at all to right-handed neutrinos. However, neutral-current interactions still respect combined charge and parity (CP) symmetry.
+
+A slight digression to define helicity is warranted at this point. Helicity is defined as the projection of a particle's spin vector onto its momentum vector. If the helicity is positive, the particle is considered to be right-handed. If it is negative, the particle is considered to be left-handed.
+
+Charged-current interactions are mediated by the $W^+$ and $W^-$ bosons, which carry an electrical charge. Charged-current interactions do not respect parity symmetry either, and are in fact maximally parity violating; the $W$ bosons only couple to left-handed fermions and right-handed anti-fermions.
+
 The Standard Model addresses three of the four fundamental forces; it does not address the Gravitational force. The strong, weak and electromagnetic forces can be described by the SU(3)$\times$SU(2)$\times$U(1) local gauge symmetry group, where the SU(3) symmetry group describes the strong interaction, and the electroweak interactions are based on the SU(2)$\times$U(1) symmetry group. There are 8+3+1 generators associated with this model, each generator corresponding to a vector boson. 
 
 Thus, there are 8 gluons, which are massless spin 1 particles with an intrinsic property called color charge, that mediate strong interactions (described by Quantum Chromodynamics). They are responsible for interactions between quarks (leptons do not interact via the strong force) as quarks have a non vanishing color charge. At low energies, quarks cannot be found in isolation, instead occurring in triplets called $Baryons$, such as protons, or a bound quark-antiquark pair, called $Mesons$. This is because of color confinement\cite{confinement}.
@@ -771,10 +811,26 @@ The uncertainty is $< 2\%$ over the whole $p_T$ range.
 
 \bibitem{SM}
 	PBS NOVA, Fermilab, Office of Science, United States Department of Energy, Particle Data Group.
-
-%2	
+	
+\bibitem{QED}
+	\textbf{Richard Feynman}, QED: The Strange Theory of Light and Matter. Princeton University Press, 1986.
+	
 \bibitem{confinement}
 \textbf{J. Greensite (2011)}. An introduction to the confinement problem. Springer. ISBN 978-3-642-14381-6.
+	
+\bibitem{nu1}
+	\textbf{The Super-Kamiokande Collaboration}, Evidence for oscillations of atmospheric neutrinos, Phys.Rev.Lett.81:1562-1567, 1998, \href{https://arxiv.org/abs/hep-ex/9807003}{\texttt{arXiv:hep-ex/9807003}}
+	
+\bibitem{nu2}
+	\textbf{The SNO Collaboration}, Measurement of the rate of $\nu_e + d \to p + p + e^-$ interactions produced by ${}^8$B solar neutrinos at the Sudbury Neutrino Observatory, Phys.Rev.Lett.87:071301,2001, \href{https://arxiv.org/abs/nucl-ex/0106015}{\texttt{arXiv:nucl-ex/0106015}}
+	
+\bibitem{nu3}
+	\textbf{The SNO Collaboration}, Direct Evidence for Neutrino Flavor Transformation from Neutral-Current Interactions in the Sudbury Neutrino Observatory, Phys.Rev.Lett.89:011301,2002, \href{https://arxiv.org/abs/nucl-ex/0204008}{\texttt{arXiv:nucl-ex/0204008}}
+	
+\bibitem{quarks_and_leptons}
+\textbf{F. Halzen, A. Martin}, Quarks and Leptons: An introductory course in model particle physics, John Wiley and Sons, 1984.
+%2	
+
 
 %3
 \bibitem{Higgs}
