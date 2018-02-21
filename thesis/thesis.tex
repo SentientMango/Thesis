@@ -310,40 +310,14 @@ As Dark Matter does not interact electromagnetically, any Dark Matter particles 
 
 This thesis investigates the Standard Model background to the $ll+$\met signal with respect to the production of an invisible Higgs in association with a leptonically decaying gauge boson. Chapter \ref{ch:LHC} gives an overview of the Large Hadron Collider, the ATLAS detector, and details the event topology. Chapter \ref{ch:theory} address the theoretical framework of this thesis.
 
-\section{Proton-Proton Collisions}
-Theory and experiment go hand in hand. It is necessary to have experimental confirmation of theoretical predictions, while at the same time, new or unexpected experimental observations prod theories along in the right direction. There are a number of parameters in theory that are unknown, and thus, experiments provide measurements of such parameters. 
+\chapter{Experimental Apparatus}\label{ch:LHC}
 
-The work in thesis was conducted with the ATLAS Collaboration. ATLAS, being one of the detector experiments at the LHC, probes proton-proton collisions. This section attempts to give an overview of the physics of proton-proton collisions, which are one of several ways to probe particle interactions at high energy scales.
-
-Protons are baryons, bound states of three quarks ($uud$), known as the valence quarks. However, the mass of the quarks put together is only about 1\% of the mass of the proton (938 MeV). The remainder of the proton mass originates from the QCD binding energy, which is the exchange of virtual gluons. The constituents of the proton, namely the quarks and gluons, are collectively known as partons. Roughly half the total momentum of the proton is carried by the gluons \cite{quarks_and_leptons}. Now, the number of gluons is not conserved, and they are capable of self interaction, the gluon structure within a proton is not constant. Gluons produce virtual $q\bar{q}$ pairs that again annihilate on timescales of the order $t_{virt}=1/\Delta E$ \cite{collider_physics}. A color-charged particle with sufficient energy to probe the particle structure of the proton is capable of interacting with a color-charged parton (quark or gluon). Interesting physics in pp collisions are initiated by $qq$, $q\bar{q}$, $qg$ and $gg$ scattering.
-
-The fraction of proton momentum carried by a parton is not deterministic, because of the unpredictable gluon structure. It is, however, possible to model the parton momenta as a probability distribution. For proton with momentum $P$, a parton  of a given type carrying a momentum $xP$ is given by the \textbf{Parton Distribution Function} (PDF) $f(x,Q^2)$, where $x$ is the fraction of momentum carried by the parton, and $Q$ is the momentum transfer of the interaction \cite{collider_physics}, and sets the scale at which the incoming particle is able to resolve the partons. QCD predicts quantitatively the rate of change of parton distributions when the energy scale $Q^2$ varies, governed by the DGLAP equations \cite{DGLAP}, in the region where perturbative calculations can be applied. While the DGLAP differential equations give the energy scale $Q^2$ dependence, they cannot definitively predict the $x$ dependence of the parton distributions at a given $Q^2$, and must be extracted form data. Thus, PDFs sets are obtained from fits on experimental data from fixed-target and symmetric $e^\pm p$ deep inelastic scattering (DIS), and hadron collider data. Fits are carried out on a large number of cross section data points, on a grid of $Q^2$ and $x$ values from several experiments. This work is carried out by groups such as  MSTW \cite{MSTW, MSTW2, MSTW3}, MMHT \cite{MMHT14}, NNPDF \cite{NNPDF}, etc. Figure \ref{fig:NNPDF3} shows an example of parton distribution functions.
-
-\begin{figure}[H]
-\centering
-\includegraphics[width=0.7\textwidth]{NNPDF3.png}
-\caption{Parton Distribution Functions from NNPDF3.1, reproduced from \cite{NNPDF}. Here, $\mu^2$ is used in place of $Q^2$ to denote the momentum transfer.}
-\label{fig:NNPDF3}
-\end{figure}
-
-The rate at which a scattering process occurs is called the cross section $\sigma$ of the process, having the unit given in barns. Barn is a unit of area, $b = 10^{-24}cm^2$. The number of collisions is characterised by the luminosity $\mathcal{L}$. The rate of events having a final state $X$ will then be given by Equation \ref{eq:rate_of_events}.
-\begin{equation}
-\frac{\text{d}N_X}{\text{d}t} = \sigma(pp\to X)\mathcal{L}
-\label{eq:rate_of_events}
-\end{equation}
-For head-on colliding protons, each with momentum $P$, such that their center-of-mass energy is $\sqrt(s)=2P$, the interacting protons will have an total energy $\sqrt{\hat{s}}=\sqrt{2x_1x_2}P$, where $x_1$ and $x_2$ give the fraction of its proton momentum carried by each parton. Thus, the cross section of the interaction is given by Equation \ref{eq:cross_section}.
-\begin{equation}
-\sigma(pp\to X) = \sum_{p_1,p_2\in q,\bar{q},g} C_{p_1,p_2}\int\text{d}x_1\text{d}x_2 f_{p_1}(x_1,Q^2)f_{p_2}(x_2,Q^2)\sigma_{ME}(p_1+p_2\to X)
-\label{eq:cross_section}
-\end{equation}
-where $\sigma_{ME}$ is the matrix element level cross section for the scattering of the individual partons to the final state $X$, and $C_{p_1,p_2}$ is a combinatorial factor based on the number of possible color combinations, varying based on the initial state particles $p_1$ and $p_2$. Separation of the calculation into the perturbative hard scattering physics and non perturbative PDFs simplifies calculations.
-
-\chapter{The Large Hadron Collider}\label{ch:LHC}
+\section{The Large Hadron Collider}
 The Large Hadron Collider (LHC) is a circular collider experiment located in France and Switzerland. It was built by the European Council for Nuclear Research (CERN) in collaboration with over 10000 scientists from all over the world, between 1998 to 2008, when it began its operation and started collecting data. It is the world's largest, most powerful particle collider, focusing primarily on proton-proton collisions, but also conducts heavy ion collision experiments as well.
 
 The goal of the LHC is to experimentally test predictions made by theories of particle physics, and look for evidence of new physics. It has enjoyed remarkable successes, such as the discovery of the Higgs Boson in 2012.
 
-The LHC houses seven experiments: ATLAS and CMS are the largest, general-purpose detectors that focus on the Higgs boson, and searche for evidence new physics. ALICE is a heavy ion collider experiment that studies quark-gluon plasma, while LHCb studies CP violation. In addition, three smaller experiments, TOTEM, MoEDAL and LHCf are much smaller and used for highly specialized research.
+The LHC houses seven experiments: ATLAS and CMS are the largest, general-purpose detectors that focus on the Higgs boson, and searche for evidence new physics. ALICE is a heavy ion collider experiment that studies quark-gluon plasma, while LHCb studies CP violation. In addition, three smaller experiments, TOTEM, MoEDAL and LHCf are smaller and used for highly specialized research.
 
 \section{History}
 The concept of the LHC was officially recognized during a workshop held by CERN and the European Committe for Future Accelerators (ECFA) during 21-27 March 1984. The tunnel that would later house the LHC was constructed between 1983-1988 to house the Large Electron-Positron Collider. The tunnel is 27 km in circumference, and located underground, underneath the Swiss-France border.
@@ -372,12 +346,101 @@ Instead of a continuous beam, the protons are accumulated into bunches and accel
 
 While LHC experiments mainly consist of proton proton collisions, for shorter times of the order of a month per year, heavy ion collisions, such as lead, are also conducted. The lead ions are first accelerated by the LINAC3 linear accelerator, an the Low Energy Ion Ring (LEIR) is used as an ion storage and cooler unit. These ions are further accelerated by the PS and SPS before being injected into the LHC main ring, where they are imparted an energy of 2.3 TeV per nucleon. The ALICE experiment is where these ions collide, in order to investigate quark-gluon plasma.
 
+\section{Proton-Proton Collisions}
+Theory and experiment go hand in hand. It is necessary to have experimental confirmation of theoretical predictions, while at the same time, new or unexpected experimental observations prod theories along in the right direction. There are a number of parameters in theory that are unknown, and thus, experiments provide measurements of such parameters. 
+
+The work in thesis was conducted with the ATLAS Collaboration. ATLAS, being one of the detector experiments at the LHC, probes proton-proton collisions. This section attempts to give an overview of the physics of proton-proton collisions, which are one of several ways to probe particle interactions at high energy scales.
+
+Protons are baryons, bound states of three quarks ($uud$), known as the valence quarks. However, the mass of the quarks put together is only about 1\% of the mass of the proton (938 MeV). The remainder of the proton mass originates from the QCD binding energy, which is the exchange of virtual gluons. The constituents of the proton, namely the quarks and gluons, are collectively known as partons. Roughly half the total momentum of the proton is carried by the gluons \cite{quarks_and_leptons}. Now, the number of gluons is not conserved, and they are capable of self interaction, the gluon structure within a proton is not constant. Gluons produce virtual $q\bar{q}$ pairs that again annihilate on timescales of the order $t_{virt}=1/\Delta E$ \cite{collider_physics}. A color-charged particle with sufficient energy to probe the particle structure of the proton is capable of interacting with a color-charged parton (quark or gluon). Interesting physics in pp collisions are initiated by $qq$, $q\bar{q}$, $qg$ and $gg$ scattering.
+
+The fraction of proton momentum carried by a parton is not deterministic, because of the unpredictable gluon structure. It is, however, possible to model the parton momenta as a probability distribution. For proton with momentum $P$, a parton  of a given type carrying a momentum $xP$ is given by the \textbf{Parton Distribution Function} (PDF) $f(x,Q^2)$, where $x$ is the fraction of momentum carried by the parton, and $Q$ is the momentum transfer of the interaction \cite{collider_physics}, and sets the scale at which the incoming particle is able to resolve the partons. QCD predicts quantitatively the rate of change of parton distributions when the energy scale $Q^2$ varies, governed by the DGLAP equations \cite{DGLAP}, in the region where perturbative calculations can be applied. While the DGLAP differential equations give the energy scale $Q^2$ dependence, they cannot definitively predict the $x$ dependence of the parton distributions at a given $Q^2$, and must be extracted form data. Thus, PDFs sets are obtained from fits on experimental data from fixed-target and symmetric $e^\pm p$ deep inelastic scattering (DIS), and hadron collider data. Fits are carried out on a large number of cross section data points, on a grid of $Q^2$ and $x$ values from several experiments. This work is carried out by groups such as  MSTW \cite{MSTW, MSTW2, MSTW3}, MMHT \cite{MMHT14}, NNPDF \cite{NNPDF}, etc. Figure \ref{fig:NNPDF3} shows an example of parton distribution functions.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.7\textwidth]{NNPDF3.png}
+\caption{Parton Distribution Functions from NNPDF3.1, reproduced from \cite{NNPDF}. Here, $\mu^2$ is used in place of $Q^2$ to denote the momentum transfer.}
+\label{fig:NNPDF3}
+\end{figure}
+
+The rate at which a scattering process occurs is called the cross section $\sigma$ of the process, having the unit given in barns. Barn is a unit of area, $b = 10^{-24}cm^2$. The number of collisions is characterised by the luminosity $\mathcal{L}$. The rate of events having a final state $X$ will then be given by Equation \ref{eq:rate_of_events}.
+\begin{equation}
+\frac{\text{d}N_X}{\text{d}t} = \sigma(pp\to X)\mathcal{L}
+\label{eq:rate_of_events}
+\end{equation}
+For head-on colliding protons, each with momentum $P$, such that their center-of-mass energy is $\sqrt(s)=2P$, the interacting protons will have an total energy $\sqrt{\hat{s}}=\sqrt{2x_1x_2}P$, where $x_1$ and $x_2$ give the fraction of its proton momentum carried by each parton. Thus, the cross section of the interaction is given by Equation \ref{eq:cross_section}.
+\begin{equation}
+\sigma(pp\to X) = \sum_{p_1,p_2\in q,\bar{q},g} C_{p_1,p_2}\int\text{d}x_1\text{d}x_2 f_{p_1}(x_1,Q^2)f_{p_2}(x_2,Q^2)\sigma_{ME}(p_1+p_2\to X)
+\label{eq:cross_section}
+\end{equation}
+where $\sigma_{ME}$ is the matrix element level cross section for the scattering of the individual partons to the final state $X$, and $C_{p_1,p_2}$ is a combinatorial factor based on the number of possible color combinations, varying based on the initial state particles $p_1$ and $p_2$. Separation of the calculation into the perturbative hard scattering physics and non perturbative PDFs simplifies calculations.
+
 \section{The ATLAS experiment}
 The ATLAS (A large ToroidaL ApparatuS\footnote{Sometimes, scientists are just bad at anagrams}) detector is located at one of the four beam intersection points. It is a multipurpose experiment which, after the discovery of the Higgs boson in 2012, focuses on searches for new physics, such as supersymmetry, or dark matter. The experiment is a collaboration between around 3000 physicists from over 175 institutions in 38 countries.
 
-The ATLAS detector is a large apparatus with a cylindrical geometry, forward-backward symmetry, and nearly 4$\pi$ solid angle coverage. It is 46 meters long, 25 meters in diameter and weight 7000 tonnes. The detectors consists of concentric cylindrical layers around the interaction point, where the proton beams collide. Broadly, it consists of the  Inner Detector, the electromagnetic (EM) and hadronic calorimeters.
+The ATLAS detector is a large apparatus with a cylindrical geometry, forward-backward symmetry, and nearly 4$\pi$ solid angle coverage. It is 46 meters long, 25 meters in diameter and weight 7000 tonnes. The detectors consists of concentric cylindrical layers around the interaction point, where the proton beams collide. Broadly, it consists of the  Inner Detector, the electromagnetic (EM) and hadronic calorimeters, the muon spectrometers and the magnetic systems, each composed of multiple laters. These layers complement each other's functionality: the inner detector accurately tracks particles passing through it, the calorimeters measure the energy deposited by the particles passing through or stopped but it, the magnet systems employ the Lorentz force law to bend charged particles and measure their mass, and the muon systems measure the energy deposits of muons that pass through all other layers to reach it. Figure \ref{fig:ATLAS} displays the ATLAS detector and its components.
 
-\textbf{Note: Incomplete. I will complete the description of the detector, and the dimensions of the components. I will also discuss proton proton collisions, followed by the detection of particles at different components, and then triggers and data collection.}
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{ATLAS.png}
+\caption{Cut away view of the ATLAS detector, displaying its dimensions and components, reproduced from Ref \cite{ATLAS_detector}}
+\label{fig:ATLAS}
+\end{figure}
+
+The ATLAS detector cannot detect neutrinos; their existence is inferred from the momentum imbalance from the detected stable particles that register in the detector components. Thus, the detector must be ``hermetic'', and must have no blind spots.
+
+\subsection{Coordinate system}
+ATLAS uses a right-handed Cartesian coordinate system, with the interaction point as the origin. The $z$-axis is along the beam pipe, the $x$-axis points towards the center of the LHC ring, and the $y$-axis is directed vertically. The $xy$-plane defines the transverse plane, and is represented by polar coordinates $(r,\phi)$ with $\phi=0$ on the $x$-axis. The pseudorapidity replaces the polar angle $\theta$ as given in Equation \ref{eq:pseudorapidity}. Some values of the pseudorapidity are shown in Figure \ref{fig:eta}.
+\begin{equation}
+\eta = -ln\left(tan\left(\frac{\theta}{2}\right)\right)
+\label{eq:pseudorapidity}
+\end{equation}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.5\textwidth]{prapidity.png}
+\caption{Some important and often mentioned values of pseudorapidity $\eta$.}
+\label{fig:eta}
+\end{figure}
+
+Pseudorapidity is used as in the limit where the mass of particles is much less than their momentum, it is approximately equal to the rapidity $(y)$ of the particle. The rapidity,
+\begin{equation}
+y = \frac{1}{2} ln\left(\frac{E+p_z}{E-p_z}\right),
+\end{equation}
+in turn, is an effective coordinate as it is Lorentz invariant under boosts in the $z$-direction.
+
+The separation between two physical objects in the detector is described by 
+\begin{equation}
+\Delta R = \sqrt{\Delta\eta^2 + \Delta\phi^2}
+\end{equation}
+
+\subsection{Inner Detector}
+
+The Inner Detector (ID) \cite{inner_detector} is a tracking detector located at the heart of the ATLAS detector. It extends from a few centimeters away from the proton beam axis to a radius of 1.2 meters, and is 6.2 meters in length along the beam pipe. It uses finely segmented silicon detectors to reconstruct charged tracks in the magnetic field of the solenoid.
+
+The three main components of the ID are the pixel detector, the SemiConductor Tracker(SCT) and the Transition Radiation Tracker(TRT). Together, the ID has a solid angle coveratge of $|\eta|<2.5$, and occupy a cylindrical volume between $33.25\text{ mm} < r<1082\text{ mm}$. The purpose of the ID is to accurately detect the path of charged particles as they pass through it, bending in the magnetic field of the solenoid.
+
+\subsection{Calorimeters}
+The calorimeter system is used to measure the energy of hadrons, electron and photons that leave energy deposits in it. ATLAS has an electromagnetic calorimeter, located just outside the ID and based on Liquid Argon (LAr), and a hadronic calorimeter, located outside the EM calorimeter that is based on iron-scintillator ``tiles'' (Tile). The two detectors employ different methods owing to the different interactions of electrons or photons, and hadrons. Overall, the calorimeters cover a solid angle up to $|\eta|<4.9$. The electromagnetic calorimeter provides finer grained resolution for electron and photon measurements. The hadronic calorimeter has coarser resolution, but is adequate for jet-reconstruction and \met measurement.
+
+\subsection{Muon Spectrometer}
+Muons are very stable particle, and unlike electrons, photons or hadrons, do not deposit all their energy in the calorimeters. The Muon Spectrometers are constructed on the outer layers of the detector, and consist of three toroidal magnets that provide the magnetic field, a set of 1200 chambers measuring the outgoing muon tracks with high precision, and a set of triggering chambers with accurate time-resolution. They measure the position of muons as the traverse the detector, and the deflection in the muon tracks in the magnetic field give an idea of the momentum of the muons. The Muon systems are thus used as triggers to select events with high energy muons and cover a range of $|\eta|<2.7$ and measure the deflection of the tracks due to the magnetic fields. 
+
+\subsection{Magnet Systems}
+The ATLAS detector uses two large superconducting solenoid magnet systems to bend charged particles such that their momenta can be measured, due to the Lorentz force. The inner solenoid produces a field of 2T that surrounds the Inner Detector. The outer toroidal magnetic field is produced by eight large air-core superconducting barrel loops and two end-caps air toroidal magnets located within the muon system. The magnetic field generated extends 26 meters long and 20 meters in diameter. However, the field is not uniform inside the detector.
+
+\subsection{ATLAS Triggers and Data Collection}
+The ATLAS detector employs a multi-level trigger to reduce the bandwidth from the LHC proton bunch crossing rate of 40MHz to 1kHz that is written to disk \cite{trigger1,trigger2}. The first tier, (Level 1, or L1) \cite{L1}, is implemented in real time, and makes an early event selection containing objects of interest, and reduces the data flow to 100kHz. The second tier, known as the High Level Trigger (HLT) \cite{HLT} is implemented on a computing cluster with custom triggering software. The HLT uses information from the L1 system to retrieve information from the Readout System (ROS) \cite{ROS}.
+
+\section{Event Simulation}
+It is essential to have some reference to compare with when interpreting LHC data. The observations must be compared to expected outcomes predicted by physical models, such as the Standard Model or SUSY. Thus, ATLAS uses event simulation, beginning from the initial proton proton collitions, leading up to the process(es) of interest, up to the expected detector response.
+
+Event generation employs the $pp\to X$ process of interest using random sampling from Monte Carlo (MC) techniques. These randomly drawn samples represent possible outcomes of a given process. The processes are generated using software packages such as MadGraph\cite{MadGraph}, or MCFM \cite{MCFM}, that calculate the matrix element for each process to some order in QCD. These generators use parton distribution functions (PDFs) to model the interaction between partons up to a given order in QCD, with higher order corrections being accounted for in a ``k-factor'' (details in Chapter \ref{ch:Results}). The radiating partons after the hard interaction result in a shower are modelled by a parton showering software, such as Pythia\cite{pythia}. The output of these steps is input into the next step of the simulation, and are also used for generator-level studies, called ``truth-level''.
+
+The next step is detector simulation, where the propagation of particles through the different layers of the detector is simulated using software such as Geant4\cite{geant4}. This step is a slow process, and often a faster but more approximate detector simulation is used. The detector simulation digitizes the interaction of particles by emulating the response of the electronics in the detector. The output of this step is identical to the response of the actual physical detector.
+
+At this point, both simulated and actual recorded events are used to identify the objects associated with fundamental particles, such as electrons, muons, photons and jets. If not matched to physics objects, the energy deposits are collected into a ``soft terms'' category, which is then used in the calculation of missing transverse momentum \met.
+
+\
 
 \chapter{Theoretical Aspects}\label{ch:theory}
 \section{Invisible Higgs in association with a Z boson - ZH}
@@ -969,6 +1032,36 @@ The uncertainty is $< 2\%$ over the whole $p_T$ range.
 
 \bibitem{mono_h}
 \textbf{ATLAS Collaboration}, Search for dark matter produced in association with a Higgs boson decaying to two bottom quarks in pp collisions at $\sqrt{s} = 8$ TeV with the ATLAS detector, Phys. Rev. D 93, 072007 (2016), \href{https://arxiv.org/abs/1510.06218}{\texttt{arXiv:1510.06218 [hep-ex]}}
+
+\bibitem{ATLAS_detector}
+\textbf{The ATLAS Collaboration et al}, The ATLAS experiment at the CERN Large Hadron Collider, 2008 JINST 3 S08003, \url{https://doi.org/10.1088/1748-0221/3/08/S08003}
+
+\bibitem{inner_detector}
+\textbf{Heather M Gray}, Alignment of the ATLAS inner detector tracking system, 2009 JINST 4 P03018, \url{https://doi.org/10.1088/1748-0221/4/03/P03018}
+
+\bibitem{trigger1}
+\textbf{N Garelli and the Atlas Collaboration}, The Evolution of the Trigger and Data Acquisition System in the ATLAS Experiment, 2014 J. Phys.: Conf. Ser. 513 012007, \url{https://doi.org/10.1088/1742-6596/513/1/012007}
+
+\bibitem{trigger2}
+\textbf{A Negri}, Evolution of the Trigger and Data Acquisition System for the ATLAS experiment, 2012 J. Phys.: Conf. Ser. 396 012033, \url{https://doi.org/10.1088/1742-6596/396/1/012033}
+
+\bibitem{L1}
+\textbf{The ATLAS Collaboration}, ATLAS level-1 trigger : Technical Design Report, 	ATLAS-TDR-12 ; CERN-LHCC-98-014
+
+\bibitem{HLT}
+\textbf{The ATLAS Collaboration}, ATLAS high-level trigger, data-acquisition and controls : Technical Design Report, ATLAS-TDR-16 ; CERN-LHCC-2003-022
+
+\bibitem{ROS}
+\textbf{B. Abbott et al}, The evolution of the region of interest builder for the ATLAS experiment at CERN, 2016 JINST 11 C02080, \url{https://doi.org/10.1088/1748-0221/11/02/C02080}
+
+\bibitem{MadGraph}
+\textbf{Alwall, J., Frederix, R., Frixione, S. et al.}, The automated computation of tree-level and next-to-leading order differential cross sections, and their matching to parton shower simulations, J. High Energ. Phys. (2014) 2014: 79, \href{https://arxiv.org/abs/1405.0301}{\texttt{arXiv:1405.0301 [hep-ph]}}
+
+\bibitem{pythia}
+\textbf{T. Sjöstrand, S. Mrenna and P. Skands}, PYTHIA 8.1, JHEP05 (2006) 026, Comput. Phys. Comm. 178 (2008) 852.
+
+\bibitem{geant4}
+\textbf{, Geant4 Collaboration, S.Agostinelli et. al.}, Geant4—a simulation toolkit, Nucl. Instrum. Meth. A 506 (2003) 250–303.\url{https://doi.org/10.1016/S0168-9002(03)01368-8}
 
 \bibitem{ZH_ATLAS}
 	\textbf{ATLAS Collaboration}, Search for an invisibly decaying Higgs boson or dark matter candidates produced in association with a Z boson in pp collisions at $\sqrt{s}$ = 13 TeV with the ATLAS detector, PLB 776 (2017), 318, \href{https://arxiv.org/abs/1708.09624}{\texttt{arXiv:1708.09624 [hep-ex]}}
