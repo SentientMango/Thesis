@@ -440,7 +440,29 @@ The next step is detector simulation, where the propagation of particles through
 
 At this point, both simulated and actual recorded events are used to identify the objects associated with fundamental particles, such as electrons, muons, photons and jets. If not matched to physics objects, the energy deposits are collected into a ``soft terms'' category, which is then used in the calculation of missing transverse momentum \met.
 
-\
+\section{Reconstruction and Identification}
+In order to identify and reconstruct particles, their properties and interaction with different detector components must be taken into account. After identification, their momentum and origin are important properties to determine. In addition, the efficiency of the detector to identify and reconstruct the particles is important.
+
+\subsection{Electrons and Photons}
+Electrons are identified in the Inner Detector as a track that initiates an electromagnetic shower in the EM calorimeter. Most of the time, the EM calorimeter absorbs all the energy of the electron and the shower before reaching the Hadronic calorimeter. The electron is identified by matching the energy clusters in the EM calorimeter to the tracks in the Inner Detector. Reconstructed electrons must have $p_T>5$ GeV and $|\eta|<4.9$. This signature is vulnerable to large backgrounds from other charged particles that leave similar signatures. 
+
+Photons also leave energy deposits in the EM calorimeter, but leave no tracks in the inner detector as they are electrically neutral. Sometimes, photons convert to an $e^+e^-$ pair in the detector material before entering the calorimeter, resulting in an ID track.
+
+\subsection{Muons}
+Muons are the easiest to identify as they traverse the entire detector and reach the Muon Spectrometers; all other particles are stopped before, in the calorimeters. The Inner Detector tracks are matched to the tracks in the Muon Spectrometer, and leave little energy deposits in the EM and hadronic calorimeters. Muons are identified from tracks up to $|\eta|<2.5$ in the Inner Detector in a solenoid field of 2 Tesla. The Muon Spectrometer records muons up to $|\eta|<2.7$ and provides momentum measurements with good resolution.
+
+\subsection{Jets}
+Jets are reconstructed using the anti-$k_t$ jet algorithm \cite{antikt} with the distance parameter $R$ set to 0.4 and a 3 dimensional topological energy cluster in the calorimeter as input.
+
+\subsection{Missing Transverse Momentum}
+The missing transverse momentum is a quantity of interest, particularly for the purposes of this thesis. Within the Standard Model, neutrinos are not detected with the ATLAS detector as they are weakly interaction. In Beyond Standard Model theories, exotic particles that do not interact electromagnetically are also not detected. Now, the proton-proton collision occurs along the beam axis (the $z$-axis), and thus the total momentum in the transverse $xy$-plane is zero. Thus, these particle show up as an imbalance in the total momentum conservation in the transverse plane. 
+
+The missing transverse momentum is defined as the negative vector sum of all visible reconstructed objects in the event:
+\begin{equation}
+E_T^{miss} = -\sum_{visible}p_T
+\end{equation}
+
+The reconstruction of $E_T^{miss}$ is vulnerable to inefficiencies in the reconstruction of visible particles. Low energy particles, for example, may not register in the calorimeters. Thus it is important to understand the reconstruction efficiencies of the detector as well.
 
 \chapter{Theoretical Aspects}\label{ch:theory}
 \section{Invisible Higgs in association with a Z boson - ZH}
