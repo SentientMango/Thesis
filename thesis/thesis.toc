@@ -11,19 +11,14 @@
 \contentsline {section}{\numberline {2.2}History}{11}{section.2.2}
 \contentsline {section}{\numberline {2.3}Design}{12}{section.2.3}
 \contentsline {section}{\numberline {2.4}Proton-Proton Collisions}{13}{section.2.4}
-\contentsline {section}{\numberline {2.5}The ATLAS experiment}{14}{section.2.5}
-\contentsline {subsection}{\numberline {2.5.1}Coordinate system}{15}{subsection.2.5.1}
-\contentsline {subsection}{\numberline {2.5.2}Inner Detector}{15}{subsection.2.5.2}
-\contentsline {subsection}{\numberline {2.5.3}Calorimeters}{16}{subsection.2.5.3}
-\contentsline {subsection}{\numberline {2.5.4}Muon Spectrometer}{16}{subsection.2.5.4}
-\contentsline {subsection}{\numberline {2.5.5}Magnet Systems}{16}{subsection.2.5.5}
+\contentsline {section}{\numberline {2.5}The ATLAS experiment}{15}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Coordinate system}{16}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}Inner Detector}{16}{subsection.2.5.2}
+\contentsline {subsection}{\numberline {2.5.3}Calorimeters}{17}{subsection.2.5.3}
+\contentsline {subsection}{\numberline {2.5.4}Muon Spectrometer}{17}{subsection.2.5.4}
+\contentsline {subsection}{\numberline {2.5.5}Magnet Systems}{17}{subsection.2.5.5}
 \contentsline {subsection}{\numberline {2.5.6}ATLAS Triggers and Data Collection}{17}{subsection.2.5.6}
 \contentsline {section}{\numberline {2.6}Event Simulation}{17}{section.2.6}
-\contentsline {section}{\numberline {2.7}Reconstruction and Identification}{17}{section.2.7}
-\contentsline {subsection}{\numberline {2.7.1}Electrons and Photons}{17}{subsection.2.7.1}
-\contentsline {subsection}{\numberline {2.7.2}Muons}{18}{subsection.2.7.2}
-\contentsline {subsection}{\numberline {2.7.3}Jets}{18}{subsection.2.7.3}
-\contentsline {subsection}{\numberline {2.7.4}Missing Transverse Momentum}{18}{subsection.2.7.4}
 \contentsline {chapter}{\numberline {3}Theoretical Aspects}{19}{chapter.3}
 \contentsline {section}{\numberline {3.1}Invisible Higgs in association with a Z boson - ZH}{19}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}Selection Criteria}{19}{subsection.3.1.1}
