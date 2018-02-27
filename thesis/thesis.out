@@ -18,19 +18,26 @@
 \BOOKMARK [2][-]{subsection.2.5.5}{Magnet Systems}{section.2.5}% 18
 \BOOKMARK [2][-]{subsection.2.5.6}{ATLAS Triggers and Data Collection}{section.2.5}% 19
 \BOOKMARK [1][-]{section.2.6}{Event Simulation}{chapter.2}% 20
-\BOOKMARK [0][-]{chapter.3}{Analysis Strategy}{}% 21
-\BOOKMARK [1][-]{section.3.1}{Invisible Higgs in association with a Z boson - ZH}{chapter.3}% 22
-\BOOKMARK [2][-]{subsection.3.1.1}{Selection Criteria}{section.3.1}% 23
-\BOOKMARK [2][-]{subsection.3.1.2}{Results of the ZH search}{section.3.1}% 24
-\BOOKMARK [1][-]{section.3.2}{Background estimation: ZZ}{chapter.3}% 25
-\BOOKMARK [1][-]{section.3.3}{Transfer factor R}{chapter.3}% 26
-\BOOKMARK [1][-]{section.3.4}{Theoretical Uncertainties}{chapter.3}% 27
-\BOOKMARK [1][-]{section.3.5}{Approach}{chapter.3}% 28
-\BOOKMARK [0][-]{chapter.4}{Transfer factor R and the uncertainties associated to it}{}% 29
-\BOOKMARK [1][-]{section.4.1}{MCFM}{chapter.4}% 30
-\BOOKMARK [1][-]{section.4.2}{Preliminary Results}{chapter.4}% 31
-\BOOKMARK [2][-]{subsection.4.2.1}{Uncertainty from Missing Higher Order Corrections}{section.4.2}% 32
-\BOOKMARK [2][-]{subsection.4.2.2}{Renormalization}{section.4.2}% 33
-\BOOKMARK [2][-]{subsection.4.2.3}{Uncertainty associated with Parton Distribution Functions}{section.4.2}% 34
-\BOOKMARK [2][-]{subsection.4.2.4}{Photon Fragmentation and Isolation Uncertainty}{section.4.2}% 35
-\BOOKMARK [0][-]{chapter.5}{Additional Figures}{}% 36
+\BOOKMARK [1][-]{section.2.7}{Object Identification and Reconstruction}{chapter.2}% 21
+\BOOKMARK [2][-]{subsection.2.7.1}{Muon}{section.2.7}% 22
+\BOOKMARK [2][-]{subsection.2.7.2}{Electrons and Prompt Photons}{section.2.7}% 23
+\BOOKMARK [2][-]{subsection.2.7.3}{Neutrinos}{section.2.7}% 24
+\BOOKMARK [2][-]{subsection.2.7.4}{Jets}{section.2.7}% 25
+\BOOKMARK [2][-]{subsection.2.7.5}{Missing Transverse Momentum}{section.2.7}% 26
+\BOOKMARK [0][-]{chapter.3}{Analysis Strategy}{}% 27
+\BOOKMARK [1][-]{section.3.1}{Invisible Higgs in association with a Z boson - ZH}{chapter.3}% 28
+\BOOKMARK [2][-]{subsection.3.1.1}{Selection Criteria}{section.3.1}% 29
+\BOOKMARK [2][-]{subsection.3.1.2}{Results of the ZH search}{section.3.1}% 30
+\BOOKMARK [1][-]{section.3.2}{Background estimation: ZZ}{chapter.3}% 31
+\BOOKMARK [1][-]{section.3.3}{Transfer factor R}{chapter.3}% 32
+\BOOKMARK [1][-]{section.3.4}{Theoretical Uncertainties}{chapter.3}% 33
+\BOOKMARK [1][-]{section.3.5}{Renormalization}{chapter.3}% 34
+\BOOKMARK [1][-]{section.3.6}{Photon Isolation}{chapter.3}% 35
+\BOOKMARK [1][-]{section.3.7}{Approach}{chapter.3}% 36
+\BOOKMARK [2][-]{subsection.3.7.1}{MCFM}{section.3.7}% 37
+\BOOKMARK [0][-]{chapter.4}{Transfer factor R and the uncertainties associated to it}{}% 38
+\BOOKMARK [1][-]{section.4.1}{Preliminary Results}{chapter.4}% 39
+\BOOKMARK [2][-]{subsection.4.1.1}{Uncertainty from Missing Higher Order Corrections}{section.4.1}% 40
+\BOOKMARK [2][-]{subsection.4.1.2}{Uncertainty associated with Parton Distribution Functions}{section.4.1}% 41
+\BOOKMARK [2][-]{subsection.4.1.3}{Photon Fragmentation and Isolation Uncertainty}{section.4.1}% 42
+\BOOKMARK [0][-]{chapter.5}{Additional Figures}{}% 43
