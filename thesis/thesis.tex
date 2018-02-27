@@ -200,7 +200,7 @@ Quarks are the only fermions that interact through the strong force. However, gl
 \label{fig:qcd_fund_vertex}
 \end{figure}
 
-Confinement explains why quarks or gluons have never been observed, and why the strong-interaction is short ranged despite being mediated by the massless gluons. The property of strongly interacting particles, that at small distances of the order of less than a femtometer they basically act as free particles, is known as \textit{asymptotic freedom}. At these scales, quarks and gluons may be treated individually rather than as a bound state.
+Confinement explains why quarks or gluons have never been observed, and why the strong-interaction is short ranged despite being mediated by the massless gluons. The property of strongly interacting particles, that at small distances of the order of less than a femtometer they basically act as free particles, is known as \textit{asymptotic freedom}. At these scales, quarks and gluons may be treated individually rather than as a bound state. 
 
 The other family of fermions, leptons, also form three generations. Each generation consists of an electrically charged lepton, and its corresponding electrically neutral neutrino; i.e. electrons ($e$), muons($\mu$) and taus(($\tau$)) (in increasing order of mass), which have an electric charge of -1$e$, and their correspondingly flavored neutrinos ($\nu_e$, $\nu_{\mu}$ and $\nu_{\tau}$). Neutrinos, assumed by the Standard Model to be massless, have been observed to have masses \cite{nu1,nu2,nu3} which are known to be small, but have not been measured. Tau leptons are the heaviest at 1.78 GeV, and decay rapidly, having a mean lifetime of $2.9\times 10^{-13}$ s in their rest frame. Muons have a mass of 106 MeV, about 200 times heavier than that of the electrons (0.511 MeV). Muons, however, decay with a mean lifetime of $2.2 \mu$s, which is long compared to the time scales in collider experiments, and are stable enough to pass through the detectors intact.
 
@@ -243,6 +243,12 @@ $$
 The connection between the electromagnetic and weak forces, and the similarities between weak neutral-current interactions and QED hint at unification, and indeed the Standard Model unifies the them into a single \textit{electroweak} force. The differences between electromagnetic and weak interactions, such as the mass of weak gauge bosons, arise from electroweak symmetry breaking.
 
 The strong, weak and electromagnetic forces can be described by the $SU(3)\times SU(2)\times U(1)$ local gauge symmetry group, where the $SU(3)$ symmetry group describes the strong interaction, and the electroweak interactions are based on the $SU(2)\times U(1)$ symmetry group. There are 8+3+1 generators associated with this model, each generator corresponding to a vector boson. Thus, there exist 8 gluons for the 8 generators of the $SU(3)$ group. The interaction of the scalar Higgs field with the vector fields $W^+$, $W^-$, $W^0$ and $B$ causes the spontaneous breaking of the $SU(2)\times U(1)$ symmetry, resulting in 3 massive and one massless gauge boson. It also implies the existence of a neutral scalar boson, known as the Higgs boson, which was discovered in July 2012\cite{Higgs}. The 3+1 generators of $SU(2)\times U(1)$ correspond to the $W^+$,$W^-$ and $Z$ bosons, massive vector bosons , and the massless vector boson $\gamma$ (photon).
+
+Vertices in Feynman diagrams, such as in Figures \ref{fig:qed_fund_vertex} and \ref{fig:qcd_fund_vertex}, correspond to a coupling between the particles, which is quantified by a coupling constant. The coupling constant in electromagnetic interactions is called the fine structure constant $\alpha$. It is a dimensionless constant, and arises from the ratio of the interaction energy between two electrically charged particles to the energy of a photon, and is approximately equal to 1/137. In strong interactions, this coupling constant is denoted by $\alpha_(S)$, and is very different from the electromagnetic coupling constant. The strong coupling constant $\alpha_{S}$ changes as a function of distance (or equivalently, the energy scale of the interaction), with it having a larger magnitude at larger distances (small interaction energy scales), and is small at distances smaller than a nucleon (high interaction energy scales), leading to strongly interacting particles behaving as though they are free; the origin of asymptotic freedom. This scale dependence is known as the running of the strong coupling constant. The value of the strong coupling constant at lengths scales of about the separation of nucleons ($\approx 10_{-15}$ m) is $\approx 1$. The weak interaction is extremely short range. Thus the weak coupling constant, evaluated from the lifetime of a muon, and has a coupling of strength of between $10^{-7}-10^{-6}$. Thus, at length scales of the order of femtometers ($10^{-15}$ m), the electromagnetic, weak and strong coupling strengths are in the ratio (up to the closest order of magnitude) $10^{-2}:10^{-6}:1$.
+
+Each interaction vertex in a Feynman diagram translates to a term featuring the corresponding coupling constant in the transition amplitude of the process from initial state to final state. The order of a coupling constant in a process is the number of times the vertex features in the transition amplitude i.e. a process having two strong vertices can be described as $O(\alpha_{S}^2)$. For interactions that take place at low interaction energies, the electromagnetic and weak coupling constants are much smaller than one. Thus, Feyman diagrams with more weak or electromagnetic vertices contribute less than lower order diagrams, and may be treated perturbatively. Higher order Feynman diagrams with strong vertices, however, must be at high interaction energies to be treated perturbatively.
+
+Considering that the electromagnetic and weak forces have been unified into the electroweak force, it is speculated that there exists an energy scale where all the coupling constants are expected to be identical. This idea of the unifying all the forces at some scale known as the ``Grand Unification'' scale is unproven as of now, and the value of this scale is not known. In perturbative QFT, often divergences are encountered when calculating the cross section. To remove these divergences, terms dependent on the momentum scale of the interactions are introduced. The coupling constants then depend on this scale as well.
 
 \section{Inadequacies of the Standard Model}
 Despite its immense success, the Standard Model does not paint a complete picture of everything that we observe. It does not account for several phenomena that are experimentally observed, such as:
@@ -294,8 +300,8 @@ As Dark Matter does not interact electromagnetically, any Dark Matter particles 
 	
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.65\textwidth]{Mono_X.png}
-\caption{Feynman diagrams for mono X processes, showing mono-jet production (top) induced by gluons (top left) and quarks (top right) \cite{mono_j} where the mediator X can be a scalar, pseudo-scalar, vector or axial-vector particle; mono-V (bottom left) \cite{mono_V}; and mono-higgs (bottom right) \cite{mono_h}, where h is the Standard Model Higgs boson with mass 125 GeV.}
+\includegraphics[width=0.8\textwidth]{Mono_X.png}
+\caption{Feynman diagrams for mono X processes, showing \met +jet production (top) induced by gluons (top left) and quarks (top right) \cite{mono_j} where the mediator X can be a scalar, pseudo-scalar, vector or axial-vector particle; \met +V (bottom left) \cite{mono_V}; and \met +higgs (bottom center) \cite{mono_h}, where h is the Standard Model Higgs boson with mass 125 GeV; gluon-induced $t\bar{t}+$\met (bottom right)}
 \label{fig:Mono_X}
 \end{figure}
 
@@ -447,30 +453,24 @@ At this point, both simulated and actual recorded events are used to identify th
 
 \
 
-\chapter{Theoretical Aspects}\label{ch:theory}
+\chapter{Analysis Strategy}\label{ch:theory}
 \section{Invisible Higgs in association with a Z boson - ZH}
-In this thesis, the production of the Higgs boson, in association with a $Z$ boson is considered. In this model, as shown in Figure \ref{fig:HZ}, the Higgs boson mediates the interaction between Dark Matter particles and Standard Model particles, and the $Z$ boson decays into a lepton-antilepton pair. As Dark Matter is invisible to current detectors, this process results in the $ll+$\met signature.
+In this thesis, the production of the Higgs boson, in association with a $Z$ boson is considered. In this model, as shown in Figure \ref{fig:HZ}, the Higgs boson mediates the interaction between Dark Matter particles and Standard Model particles, and the $Z$ boson decays into a lepton-antilepton pair. As Dark Matter is invisible to current detectors, this process results in the $\ell\ell+$\met signature.
 \begin{figure}[H]
 \centering
 	\includegraphics[width=0.5\linewidth]{HZ.png}
-	\caption{Feynman diagram showing the associated production of a Higgs boson with a Z boson. The Higgs boson decays to two invisible DM particles and the Z boson decays leptonically, resulting in the $ll+ E_T^{miss}$ signature.}
+	\caption{Feynman diagram showing the associated production of a Higgs boson with a Z boson. The Higgs boson decays to two invisible DM particles and the Z boson decays leptonically, resulting in the $\ell\ell+ E_T^{miss}$ signature.}
 		\label{fig:HZ}
 \end{figure}
-The main Standard Model background processes for the $ll+$\met final state are \ZZ, $WZ\to lll\nu$, $WW\to l\nu l\nu$, $Z+$jets and $W+$jets. 
+The main Standard Model background processes for the $\ell\ell+$\met final state are \ZZ, $WZ\to \ell\ell\ell\nu$, $WW\to \ell\nu \ell\nu$, $Z+$jets and $W+$jets. 
 
 \subsection{Selection Criteria}
-The selection criteria used in Ref \cite{ZH_ATLAS} is applied for the analysis reported in this thesis as well. The search is conducted on events with a $ll+$\met final state, having a pair of high $p_T$ electrons ($ee$) or muons ($\mu\mu$), and large missing transverse momentum. Events with extra leptons or $b$-jets are removed to reduce backgrounds, and the requirement of a boosted $Z$ boson back to back with the missing tranverse momentum vector is imposed.
+The selection criteria used in Ref \cite{ZH_ATLAS} is applied for the analysis reported in this thesis as well. The search is conducted on events with a $\ell\ell+$\met final state, having a pair of high $p_T$ electrons ($ee$) or muons ($\mu\mu$), and large missing transverse momentum. Events with extra leptons or $b$-jets are removed to reduce backgrounds, and the requirement of a boosted $Z$ boson back to back with the missing tranverse momentum vector is imposed. Electron candidates are selected based on the ATLAS tracker and EM calorimeter dimensions, with $p_T > 7$ GeV and pseudorapidity $|\eta| < 2.47$. Similarly, muon candidates are required to have $p_T > 7$ GeV and pseudorapidity $|\eta| < 2.5$.
 
-Electron candidates are selected based on the ATLAS tracker and EM calorimeter dimensions, with $p_T > 7$ GeV and pseudorapidity $|\eta| < 2.47$. Similarly, muon candidates are required to have $p_T > 7$ GeV and pseudorapidity $|\eta| < 2.5$. 
-%Electrons and muons are required to satisfy a set of identification criteria, referred to as the "medium" criteria \cite{e_medium, mu_medium}.
-To suppress cosmic-ray and non-prompt contributions, the longitudinal impact parameter of the leptons, $|b|<0.5$ mm, and the transverse impact parameter divided by its error must be less than 5 for electrons and 3 for muons. To remove jets misidentified as leptons, or leptons from $b$-hadron decays, 'loose' isolation criteria \cite{loose1,loose2} are applied. To maintain a uniform efficiency of 99\% for signal leptons, the isolation selection varies as a function of $p_T$ .
+The leading and subleading leptons in the event are required to have sufficiently high transverse momentum, with the leading lepton required to have $p_T>30$ GeV, and the subleading lepton required to have $p_T>20$ GeV. The veto on additional leptons serves to remove background from processes such as $WZ\to \ell\ell\ell\nu$. The reconstructed mass of the leading and subleading leptons is required to be within a 15 GeV window around the mass of the $Z$ boson, i.e. $76<\mathrm{m_{\ell\ell}<106}$ GeV, to suppress backgrounds where the final state leptons do not originate from a $Z$ boson (non-resonant $\ell\ell$ processes). The \met is expected to be back to back to a $Z$ boson with high $p_T$, and originates from an invisibly decaying $Z$ or Higgs boson, thus is expected to be high as well; a cut requiring \met$>90$ GeV reduces the number of events with low \met. As the leading and subleading leptons are expected to come from the decay of a $Z$ boson having high momentum, their separation is expected to be small. Thus, the leading and subleading leptons in selected events are required to be separated by $\Delta R_{\ell\ell}<1.8$. The requirement of back to back $Z$ boson and \met is enforced by requiring the angular separation of the \met vector from the vector reconstructed from the leading and subleading leptons in the transverse plane, $\Delta\phi(\vec{p_T}^{\ell\ell},\vec{E}_T^{miss})$ to be greater than 2.7 radians. The remaining $Z+$jets background events have large \met because of significant soft-term contribution. To remove this $Z+$jets background, the magnitude of the difference between the dilepton transverse momentum $p_T(\ell\ell)$ and the sum of the jet $p_T$ and \met must be less than 20\% of the dilepton $p_T$. To suppress $t\bar{t}$ and $Wt$ backgrounds, events with one or more $b$-jets are vetoed.
 
-%Jets are reconstructed with the anti-$k_t$ algorithm \cite{antikt} with the radius parameter R = 0.4 \cite{cell_cluster,jet_calib,fast_jet}. Candidate jets must have a $p_T > 20$ GeV and $|\eta|<4.5$
-
-\textbf{Need to add some more information about the selection criteria, with references.}
-
-Table \ref{table:event_selection} summarises the event selection criteria in the $ll+$\met search, as shown in \cite{ZH_ATLAS}.
-
+Table \ref{table:event_selection} summarises the event selection criteria in the $\ell\ell+$\met search, as shown in \cite{ZH_ATLAS}.
+{\renewcommand{\arraystretch}{1.5}
 \begin{table}[H]
 \centering
 \begin{tabular}{c c}
@@ -482,24 +482,24 @@ Two leptons & Two opposite-sign leptons, leading (subleading) $p_T>$ 30 (20) GeV
 \hline
 Third lepton veto & Veto events if any additional lepton with $p_T>7$ GeV\\
 \hline
-$m_{ll}$ & 76$<m_{ll}<$106 GeV\\
+$m_{\ell\ell}$ & 76$<m_{\ell\ell}<$106 GeV\\
 \hline
 \met and \met$/H_T$ & \met$>$ 90 GeV and \met$/H_T >$ 0.6\\
 \hline
-$\Delta\phi(\vec{p}_T^{ll},\vec{E}_T^{miss})$ & $\Delta\phi(\vec{p}_T^{ll},\vec{E}_T^{miss})>2.7$ radians\\
+$\Delta\phi(\vec{p}_T^{\ell\ell},\vec{E}_T^{miss})$ & $\Delta\phi(\vec{p}_T^{\ell\ell},\vec{E}_T^{miss})>2.7$ radians\\
 \hline
-$\Delta R_{ll}$ & $\Delta R_{ll}<1.8$\\
+$\Delta R_{\ell\ell}$ & $\Delta R_{\ell\ell}<1.8$\\
 \hline
-Fractional $p_T$ difference & $\left| p_T^{ll} - p_T^{miss,jets}\right|/p_T^{ll}<0.2$\\
+Fractional $p_T$ difference & $\left| p_T^{\ell\ell} - p_T^{miss,jets}\right|/p_T^{\ell\ell}<0.2$\\
 \hline
 $b$-jet veto & $N$($b$-jets) = 0 with $b$-jet $p_T>20$ GeV and $|\eta|<2.5$\\
 \hline
 \hline
 \end{tabular}
-\caption{Event selection criteria in the $ll+$\met search as shown in Ref \cite{ZH_ATLAS}}
+\caption{Event selection criteria in the $\ell\ell+$\met search as shown in Ref \cite{ZH_ATLAS}}
 \label{table:event_selection}
 \end{table}
-
+}
 \subsection{Results of the ZH search}
 As discussed in Ref \cite{ZH_ATLAS}, an upper limit of 67\% is placed on the Higgs$\to$ DM branching ratio at the 95\% confidennce level. The dominant source of background is the \ZZ process, contributing $\approx 60\%$ of the background. $WZ\to lll\nu$ events, where the $W$ boson decays into a electron or muon that escapes detection, account for 25\% of the total background. $Z(\to ll)+$jets process with misreconstructed \met contributes to about 8\% of the total background, and non-resonant-$ll$ processes, consisting of $t\bar{t}$, $Wt$, $WW$ and $Z\to\tau\tau$ production contribute similarly. $W+$jets, $VVV$, and $t\bar{t}V(V)$ backgrounds contribute to a minor extent ($<1\%$).
 
@@ -764,8 +764,7 @@ The $R_{gg}$ distribution, shown in Figure \ref{fig:R_ggonly} is observed to app
 \end{figure}
 
 \subsection{Uncertainty from Missing Higher Order Corrections}
-\textbf{Note: I intend to add an appendix detailing the process of regularization and renormalization with examples. I will need to refresh my theory.}
-
+\subsection{Renormalization}
 In QCD calculations, higher order perturbative corrections may be added to the vertices or propagators in a Feynman diagram. An example illustrating the these 'loop' corrections is shown in Figure \ref{fig:loop_corr}. Physically, these corrections occur at very small time scales. These perturbative corrections lead to divergent integrals that are progressively more difficult to calculate at higher orders. A perfect calculation, carried out up to infinite orders, would give the exact cross section. However current technological capabilities limit the order to which calculations can be carried out.
 
 \begin{figure}[H]
