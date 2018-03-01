@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.18)  27 FEB 2018 15:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.18)  1 MAR 2018 17:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -402,6 +402,42 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/mathptmx.sty
+Package: mathptmx 2005/04/12 PSNFSS-v9.2a Times w/ Math, improved (SPQR, WaS) 
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+\symbold=\mathgroup6
+\symitalic=\mathgroup7
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/ptm/m/it on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
+LaTeX Info: Redefining \hbar on input line 50.
+)
 (/usr/share/texlive/texmf-dist/tex/latex/cite/cite.sty
 LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 332.
@@ -615,21 +651,25 @@ Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
 ) (./thesis.aux)
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 39.
 
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count118
@@ -697,7 +737,7 @@ Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box33
-Package hyperref Info: Link coloring OFF on input line 36.
+Package hyperref Info: Link coloring OFF on input line 39.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -706,9 +746,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count124
 )
-LaTeX Info: Redefining \ref on input line 36.
-LaTeX Info: Redefining \pageref on input line 36.
-LaTeX Info: Redefining \nameref on input line 36.
+LaTeX Info: Redefining \ref on input line 39.
+LaTeX Info: Redefining \pageref on input line 39.
+LaTeX Info: Redefining \nameref on input line 39.
 
 (./thesis.out) (./thesis.out)
 \@outlinefile=\write3
@@ -718,55 +758,83 @@ LaTeX Info: Redefining \nameref on input line 36.
 <Title_Head.png, id=176, 810.02625pt x 175.65625pt>
 File: Title_Head.png Graphic file (type png)
  <use Title_Head.png>
-Package pdftex.def Info: Title_Head.png used on input line 41.
+Package pdftex.def Info: Title_Head.png used on input line 44.
 (pdftex.def)             Requested size: 435.32419pt x 94.40266pt.
-LaTeX Font Info:    Try loading font information for U+msa on input line 43.
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 46
+.
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
+File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 43.
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 46
+.
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlztmcm.fd
+File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 46
+.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsztmcm.fd
+File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 46
+.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxztmcm.fd
+File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 46.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 46.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 46.
+
 <iiser_logo.png, id=178, 182.93344pt x 165.61874pt>
 File: iiser_logo.png Graphic file (type png)
  <use iiser_logo.png>
-Package pdftex.def Info: iiser_logo.png used on input line 47.
+Package pdftex.def Info: iiser_logo.png used on input line 50.
 (pdftex.def)             Requested size: 146.34694pt x 132.49516pt.
 
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Title_Head.png> <./iiser
 _logo.png>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 64.
- (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 67.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
+File: omsptm.fd 
 )
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 64.
- [2]
-[3]pdfTeX warning (ext4): destination with the same identifier (name{page.c}) h
-as been already used, duplicate ignored
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 67.
+
+[2]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 74.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 74.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 74.
+ [3]pdfTeX warning (ext4): destination with the same identifier (name{page.c}) 
+has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.84 \blankpage
+l.87 \blankpage
                 [3] [4]pdfTeX warning (ext4): destination with the same identif
 ier (name{page.d}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.91 \blankpage
+l.94 \blankpage
                 [4] [5]pdfTeX warning (ext4): destination with the same identif
 ier (name{page.e}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.110 \blankpage
+l.113 \blankpage
                  [5] [6]pdfTeX warning (ext4): destination with the same identi
 fier (name{page.f}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.118 \blankpage
+l.121 \blankpage
                  [6] [1
 
 ] [2
@@ -781,11 +849,13 @@ l.118 \blankpage
 
 ]
 Chapter 1.
-<higgs_production.png, id=303, 963.6pt x 591.20876pt>
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20.74> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 134.
+<higgs_production.png, id=298, 963.6pt x 591.20876pt>
 File: higgs_production.png Graphic file (type png)
 
 <use higgs_production.png>
-Package pdftex.def Info: higgs_production.png used on input line 150.
+Package pdftex.def Info: higgs_production.png used on input line 153.
 (pdftex.def)             Requested size: 241.84842pt x 148.37917pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -794,37 +864,38 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.154 
+l.157 
        [1]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 169.
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.169 
-       [2 <./higgs_production.png>]
-<standard_model.png, id=316, 803.0pt x 767.86874pt>
+l.173 F
+       igure \ref{fig:SM} shows a schematic representation of the elementary...
+[2 <./higgs_production.png>]
+<standard_model.png, id=309, 803.0pt x 767.86874pt>
 File: standard_model.png Graphic file (type png)
  <use standard_model.png>
-Package pdftex.def Info: standard_model.png used on input line 174.
+Package pdftex.def Info: standard_model.png used on input line 177.
 (pdftex.def)             Requested size: 386.95894pt x 370.0374pt.
 
-<fundamental_vertex_qed.png, id=321, 307.1475pt x 188.95593pt>
+<fundamental_vertex_qed.png, id=314, 307.1475pt x 188.95593pt>
 File: fundamental_vertex_qed.png Graphic file (type png)
 
 <use fundamental_vertex_qed.png>
-Package pdftex.def Info: fundamental_vertex_qed.png used on input line 185.
+Package pdftex.def Info: fundamental_vertex_qed.png used on input line 188.
 (pdftex.def)             Requested size: 193.47577pt x 119.02556pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [3 <./standard_model.png>]
-<fundamental_vertex_qcd.png, id=336, 596.98032pt x 175.40532pt>
+<fundamental_vertex_qcd.png, id=329, 596.98032pt x 175.40532pt>
 File: fundamental_vertex_qcd.png Graphic file (type png)
 
 <use fundamental_vertex_qcd.png>
-Package pdftex.def Info: fundamental_vertex_qcd.png used on input line 198.
+Package pdftex.def Info: fundamental_vertex_qcd.png used on input line 201.
 (pdftex.def)             Requested size: 386.95894pt x 113.69627pt.
 
 
@@ -837,298 +908,322 @@ Underfull \vbox (badness 1789) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [5 <./fundamental_vertex_qcd.png>] [6]
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 256.
- [7] <GRC.jpeg, id=405, 583.17876pt x 496.85625pt>
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 259.
+ [7]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 282.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 282.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 282.
+ <GRC.jpeg, id=397, 583.17876pt x 496.85625pt>
 File: GRC.jpeg Graphic file (type jpg)
 
 <use GRC.jpeg>
-Package pdftex.def Info: GRC.jpeg used on input line 282.
+Package pdftex.def Info: GRC.jpeg used on input line 285.
 (pdftex.def)             Requested size: 290.22105pt x 247.26755pt.
  [8 <./GRC.jpeg>]
-<Mono_X.png, id=420, 980.16188pt x 453.19313pt>
+<Mono_X.png, id=411, 980.16188pt x 453.19313pt>
 File: Mono_X.png Graphic file (type png)
  <use Mono_X.png>
-Package pdftex.def Info: Mono_X.png used on input line 303.
+Package pdftex.def Info: Mono_X.png used on input line 306.
 (pdftex.def)             Requested size: 386.95894pt x 178.91597pt.
- [9 <./Mono_X.png>] [10]
+ [9 <./Mono_X.png>] [10
+
+]
 Chapter 2.
-<Cern_accelerator_complex.png, id=444, 1049.42062pt x 683.55376pt>
+<Cern_accelerator_complex.png, id=434, 1049.42062pt x 683.55376pt>
 File: Cern_accelerator_complex.png Graphic file (type png)
 
 <use Cern_accelerator_complex.png>
-Package pdftex.def Info: Cern_accelerator_complex.png used on input line 335.
+Package pdftex.def Info: Cern_accelerator_complex.png used on input line 338.
 (pdftex.def)             Requested size: 435.32419pt x 283.5548pt.
- [11
-
-]
+ [11]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [12 <./Cern_accelerator_complex.png>]
 
-LaTeX Warning: Reference `fig:pp' on page 13 undefined on input line 349.
+LaTeX Warning: Reference `fig:pp' on page 13 undefined on input line 352.
 
-<pp-shower.png, id=458, 671.50874pt x 611.28375pt>
+<pp-shower.png, id=448, 671.50874pt x 611.28375pt>
 File: pp-shower.png Graphic file (type png)
  <use pp-shower.png>
-Package pdftex.def Info: pp-shower.png used on input line 353.
+Package pdftex.def Info: pp-shower.png used on input line 356.
 (pdftex.def)             Requested size: 290.22105pt x 264.19003pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [13 <./pp-shower.png>] <NNPDF3.png, id=474, 497.60907pt x 319.1925pt>
+ [13 <./pp-shower.png>] <NNPDF3.png, id=465, 497.60907pt x 319.1925pt>
 File: NNPDF3.png Graphic file (type png)
  <use NNPDF3.png>
-Package pdftex.def Info: NNPDF3.png used on input line 363.
+Package pdftex.def Info: NNPDF3.png used on input line 366.
 (pdftex.def)             Requested size: 338.5863pt x 217.18925pt.
 
-[14 <./NNPDF3.png>] <ATLAS.png, id=495, 1192.455pt x 708.6475pt>
+[14 <./NNPDF3.png>] <ATLAS.png, id=487, 1192.455pt x 708.6475pt>
 File: ATLAS.png Graphic file (type png)
 
 <use ATLAS.png>
-Package pdftex.def Info: ATLAS.png used on input line 393.
+Package pdftex.def Info: ATLAS.png used on input line 396.
 (pdftex.def)             Requested size: 483.69684pt x 287.444pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 2088) has occurred while \output is active []
 
- [15 <./ATLAS.png>] <prapidity.png, id=507, 517.935pt x 397.485pt>
+ [15 <./ATLAS.png>] <prapidity.png, id=500, 517.935pt x 397.485pt>
 File: prapidity.png Graphic file (type png)
  <use prapidity.png>
-Package pdftex.def Info: prapidity.png used on input line 409.
+Package pdftex.def Info: prapidity.png used on input line 412.
 (pdftex.def)             Requested size: 241.84842pt x 185.60495pt.
 
 [16 <./prapidity.png>] [17] [18] [19] [20
 
 ]
 Chapter 3.
-<HZ.png, id=555, 285.31593pt x 188.95593pt>
+<HZ.png, id=547, 285.31593pt x 188.95593pt>
 File: HZ.png Graphic file (type png)
  <use HZ.png>
-Package pdftex.def Info: HZ.png used on input line 485.
+Package pdftex.def Info: HZ.png used on input line 488.
 (pdftex.def)             Requested size: 241.84842pt x 160.16927pt.
  [21 <./HZ.png>]
-<ZH_results.png, id=569, 1400.23125pt x 617.30624pt>
+<ZH_results.png, id=562, 1400.23125pt x 617.30624pt>
 File: ZH_results.png Graphic file (type png)
  <use ZH_results.png>
-Package pdftex.def Info: ZH_results.png used on input line 533.
+Package pdftex.def Info: ZH_results.png used on input line 536.
 (pdftex.def)             Requested size: 435.32419pt x 191.90927pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [22]
-<ZZ.png, id=580, 581.92406pt x 176.15813pt>
+[22] <ZZ.png, id=574, 581.92406pt x 176.15813pt>
 File: ZZ.png Graphic file (type png)
  <use ZZ.png>
-Package pdftex.def Info: ZZ.png used on input line 547.
+Package pdftex.def Info: ZZ.png used on input line 550.
 (pdftex.def)             Requested size: 338.5863pt x 102.49701pt.
- [23 <./ZH_results.png> <./ZZ.png>] <Zg.png, id=595, 812.03375pt x 189.70876pt>
+
+
+LaTeX Warning: Citation `gamma_jet' on page 23 undefined on input line 562.
+
+<Zg.png, id=578, 812.03375pt x 189.70876pt>
 File: Zg.png Graphic file (type png)
  <use Zg.png>
-Package pdftex.def Info: Zg.png used on input line 565.
+Package pdftex.def Info: Zg.png used on input line 568.
 (pdftex.def)             Requested size: 386.95894pt x 90.40205pt.
- [24 <./Zg.png>] <renormalize_diagram.png, id=612, 1190.4475pt x 565.11125pt>
+ [23 <./ZH_results.png> <./ZZ.png>] [24 <./Zg.png>]
+<renormalize_diagram.png, id=607, 1190.4475pt x 565.11125pt>
 File: renormalize_diagram.png Graphic file (type png)
 
 <use renormalize_diagram.png>
-Package pdftex.def Info: renormalize_diagram.png used on input line 617.
+Package pdftex.def Info: renormalize_diagram.png used on input line 620.
 (pdftex.def)             Requested size: 241.84842pt x 114.80518pt.
- [25] [26 <./renormalize_diagram.png>] [27]
-Overfull \hbox (5.61548pt too wide) in paragraph at lines 688--689
-\OT1/cmr/m/n/10.95 Monte Carlo for FeM-to-barn pro-cesses (MCFM) is a pro-gram 
-that cal-cu-lates cross sec-tions for femtobarn-
- []
-
-[28] [29] [30
-
-]
+ [25 <./renormalize_diagram.png>] [26] [27]
+[28]
 Chapter 4.
-<ZZ_xsec.png, id=680, 800.9925pt x 575.14874pt>
+<ZZ_xsec.png, id=660, 800.9925pt x 575.14874pt>
 File: ZZ_xsec.png Graphic file (type png)
  <use ZZ_xsec.png>
-Package pdftex.def Info: ZZ_xsec.png used on input line 742.
+Package pdftex.def Info: ZZ_xsec.png used on input line 745.
 (pdftex.def)             Requested size: 237.0141pt x 170.1852pt.
 
-<Zg_xsec.png, id=681, 800.9925pt x 575.14874pt>
+<Zg_xsec.png, id=661, 800.9925pt x 575.14874pt>
 File: Zg_xsec.png Graphic file (type png)
  <use Zg_xsec.png>
-Package pdftex.def Info: Zg_xsec.png used on input line 747.
+Package pdftex.def Info: Zg_xsec.png used on input line 750.
 (pdftex.def)             Requested size: 237.0141pt x 170.1852pt.
 
-<R.png, id=685, 800.9925pt x 575.14874pt>
+<R.png, id=665, 800.9925pt x 575.14874pt>
 File: R.png Graphic file (type png)
  <use R.png>
-Package pdftex.def Info: R.png used on input line 758.
+Package pdftex.def Info: R.png used on input line 761.
 (pdftex.def)             Requested size: 290.22105pt x 208.39612pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [31 <./ZZ_xsec.png> <./Zg_xsec.png>] <R_BR.png, id=695, 800.9925pt x 575.14874
-pt>
+ [29
+
+ <./ZZ_xsec.png> <./Zg_xsec.png>] <R_BR.png, id=675, 800.9925pt x 575.14874pt>
 File: R_BR.png Graphic file (type png)
 
 <use R_BR.png>
-Package pdftex.def Info: R_BR.png used on input line 765.
+Package pdftex.def Info: R_BR.png used on input line 768.
 (pdftex.def)             Requested size: 290.22105pt x 208.39612pt.
- <yy.png, id=697, 700.6175pt x 474.77374pt>
+ <yy.png, id=677, 700.6175pt x 474.77374pt>
 File: yy.png Graphic file (type png)
  <use yy.png>
-Package pdftex.def Info: yy.png used on input line 773.
+Package pdftex.def Info: yy.png used on input line 776.
 (pdftex.def)             Requested size: 338.5863pt x 229.44637pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [32 <./R.png> <./R_BR.png>] <leadpt.png, id=706, 700.6175pt x 474.77374pt>
+ [30 <./R.png> <./R_BR.png>] <leadpt.png, id=686, 700.6175pt x 474.77374pt>
 File: leadpt.png Graphic file (type png)
 
 <use leadpt.png>
-Package pdftex.def Info: leadpt.png used on input line 781.
+Package pdftex.def Info: leadpt.png used on input line 784.
 (pdftex.def)             Requested size: 237.0141pt x 160.60956pt.
- <subleadpt.png, id=707, 700.6175pt x 474.77374pt>
+ <subleadpt.png, id=687, 700.6175pt x 474.77374pt>
 File: subleadpt.png Graphic file (type png)
 
 <use subleadpt.png>
-Package pdftex.def Info: subleadpt.png used on input line 786.
+Package pdftex.def Info: subleadpt.png used on input line 789.
 (pdftex.def)             Requested size: 237.0141pt x 160.60956pt.
- <leady.png, id=708, 700.6175pt x 474.77374pt>
+ <leady.png, id=688, 700.6175pt x 474.77374pt>
 File: leady.png Graphic file (type png)
 
 <use leady.png>
-Package pdftex.def Info: leady.png used on input line 796.
+Package pdftex.def Info: leady.png used on input line 799.
 (pdftex.def)             Requested size: 237.0141pt x 160.60956pt.
- <subleady.png, id=709, 700.6175pt x 474.77374pt>
+ <subleady.png, id=689, 700.6175pt x 474.77374pt>
 File: subleady.png Graphic file (type png)
 
 <use subleady.png>
-Package pdftex.def Info: subleady.png used on input line 801.
+Package pdftex.def Info: subleady.png used on input line 804.
 (pdftex.def)             Requested size: 237.0141pt x 160.60956pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [33 <./yy.png> <./leadpt.png> <./subleadpt.png>]
-<ZZ_subproc.png, id=718, 700.6175pt x 474.77374pt>
+ [31 <./yy.png> <./leadpt.png> <./subleadpt.png>]
+<ZZ_subproc.png, id=697, 700.6175pt x 474.77374pt>
 File: ZZ_subproc.png Graphic file (type png)
  <use ZZ_subproc.png>
-Package pdftex.def Info: ZZ_subproc.png used on input line 812.
+Package pdftex.def Info: ZZ_subproc.png used on input line 815.
 (pdftex.def)             Requested size: 237.0141pt x 160.60956pt.
 
-<Zg_subproc.png, id=719, 700.6175pt x 474.77374pt>
+<Zg_subproc.png, id=698, 700.6175pt x 474.77374pt>
 File: Zg_subproc.png Graphic file (type png)
  <use Zg_subproc.png>
-Package pdftex.def Info: Zg_subproc.png used on input line 815.
+Package pdftex.def Info: Zg_subproc.png used on input line 818.
 (pdftex.def)             Requested size: 237.0141pt x 160.60956pt.
 
-<R_ggonly.png, id=722, 800.9925pt x 575.14874pt>
+<R_ggonly.png, id=701, 800.9925pt x 575.14874pt>
 File: R_ggonly.png Graphic file (type png)
  <use R_ggonly.png>
-Package pdftex.def Info: R_ggonly.png used on input line 827.
+Package pdftex.def Info: R_ggonly.png used on input line 830.
 (pdftex.def)             Requested size: 338.5863pt x 243.12296pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<zz_scale.png, id=724, 525.46312pt x 356.0803pt>
+<zz_scale.png, id=703, 525.46312pt x 356.0803pt>
 File: zz_scale.png Graphic file (type png)
  <use zz_scale.png>
-Package pdftex.def Info: zz_scale.png used on input line 838.
+Package pdftex.def Info: zz_scale.png used on input line 841.
 (pdftex.def)             Requested size: 237.0141pt x 160.61499pt.
 
-<zg_scale.png, id=725, 525.46312pt x 356.0803pt>
+<zg_scale.png, id=704, 525.46312pt x 356.0803pt>
 File: zg_scale.png Graphic file (type png)
  <use zg_scale.png>
-Package pdftex.def Info: zg_scale.png used on input line 841.
+Package pdftex.def Info: zg_scale.png used on input line 844.
 (pdftex.def)             Requested size: 237.0141pt x 160.61499pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [34 <./leady.png> <./subleady.png> <./ZZ_subproc.png> <./Zg_subproc.png>]
-<R_scale.png, id=738, 700.6175pt x 474.77374pt>
+ [32 <./leady.png> <./subleady.png> <./ZZ_subproc.png> <./Zg_subproc.png>]
+<R_scale.png, id=717, 700.6175pt x 474.77374pt>
 File: R_scale.png Graphic file (type png)
  <use R_scale.png>
-Package pdftex.def Info: R_scale.png used on input line 850.
+Package pdftex.def Info: R_scale.png used on input line 853.
 (pdftex.def)             Requested size: 290.22105pt x 196.67245pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [35 <./R_ggonly.png> <./zz_scale.png> <./zg_scale.png>]
-<K_pt.png, id=748, 700.6175pt x 474.77374pt>
+ [33 <./R_ggonly.png> <./zz_scale.png> <./zg_scale.png>]
+<K_pt.png, id=727, 700.6175pt x 474.77374pt>
 File: K_pt.png Graphic file (type png)
  <use K_pt.png>
-Package pdftex.def Info: K_pt.png used on input line 859.
+Package pdftex.def Info: K_pt.png used on input line 862.
 (pdftex.def)             Requested size: 338.5863pt x 229.44637pt.
- [36 <./R_scale.png> <./K_pt.png>] <R_pdf.png, id=764, 700.6175pt x 474.77374pt
->
+
+Underfull \hbox (badness 3128) in paragraph at lines 863--863
+[]\OT1/ptm/m/n/10.95 Figure 4.11: |The $\OML/ztmcm/m/it/10.95 K$ \OT1/ptm/m/n/1
+0.95 fac-tor to es-ti-mate the un-known pro-cess de-pen-dent cor-re-la-tions, d
+e-fined as
+ []
+
+[34 <./R_scale.png> <./K_pt.png>]
+<R_pdf.png, id=744, 700.6175pt x 474.77374pt>
 File: R_pdf.png Graphic file (type png)
  <use R_pdf.png>
-Package pdftex.def Info: R_pdf.png used on input line 876.
+Package pdftex.def Info: R_pdf.png used on input line 879.
 (pdftex.def)             Requested size: 338.5863pt x 229.44637pt.
 
-Underfull \vbox (badness 1817) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [37 <./R_pdf.png>] <frag.png, id=779, 700.6175pt x 474.77374pt>
+ [35 <./R_pdf.png>] <frag.png, id=759, 800.9925pt x 575.14874pt>
 File: frag.png Graphic file (type png)
  <use frag.png>
-Package pdftex.def Info: frag.png used on input line 895.
-(pdftex.def)             Requested size: 338.5863pt x 229.44637pt.
- [38 <./frag.png>]
+Package pdftex.def Info: frag.png used on input line 898.
+(pdftex.def)             Requested size: 338.5863pt x 243.12296pt.
+ [36 <./frag.png>]
 Chapter 5.
-<K_y.png, id=787, 700.6175pt x 474.77374pt>
+<K_y.png, id=767, 700.6175pt x 474.77374pt>
 File: K_y.png Graphic file (type png)
  <use K_y.png>
-Package pdftex.def Info: K_y.png used on input line 913.
+Package pdftex.def Info: K_y.png used on input line 916.
 (pdftex.def)             Requested size: 338.5863pt x 229.44637pt.
 
-<dphi.png, id=788, 700.6175pt x 474.77374pt>
+<dphi.png, id=768, 700.6175pt x 474.77374pt>
 File: dphi.png Graphic file (type png)
  <use dphi.png>
-Package pdftex.def Info: dphi.png used on input line 919.
+Package pdftex.def Info: dphi.png used on input line 922.
 (pdftex.def)             Requested size: 338.5863pt x 229.44637pt.
 
-<dy.png, id=789, 700.6175pt x 474.77374pt>
+<dy.png, id=769, 700.6175pt x 474.77374pt>
 File: dy.png Graphic file (type png)
  <use dy.png>
-Package pdftex.def Info: dy.png used on input line 925.
+Package pdftex.def Info: dy.png used on input line 928.
 (pdftex.def)             Requested size: 338.5863pt x 229.44637pt.
- [39
+ [37
 
- <./K_y.png> <./dphi.png>] [40 <./dy.png>]
-Underfull \hbox (badness 1546) in paragraph at lines 952--953
-\OT1/cmr/m/n/10.95 Current In-ter-ac-tions in the Sud-bury Neu-trino Ob-ser-va-
-tory, Phys.Rev.Lett.89:011301,2002,
+ <./K_y.png> <./dphi.png>] [38 <./dy.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 949--950
+[]\OT1/ptm/m/n/10.95 The Super-Kamiokande Col-lab-o-ra-tion, \OT1/ptm/m/it/10.9
+5 Ev-i-dence for os-cil-la-tions of at-mo-spheric neu-tri-nos\OT1/ptm/m/n/10.95
+ ,
  []
 
 
-Underfull \hbox (badness 1466) in paragraph at lines 968--969
-[]\OT1/cmr/bx/n/10.95 KTEV Col-lab-o-ra-tion\OT1/cmr/m/n/10.95 , Ob-ser-va-tion
- of Di-rect $\OML/cmm/m/it/10.95 CP$ \OT1/cmr/m/n/10.95 Vi-o-la-tion in $\OML/c
-mm/m/it/10.95 K[] \OMS/cmsy/m/n/10.95 ! \OML/cmm/m/it/10.95 ^^Y^^Y$ \OT1/cmr/m/
-n/10.95 De-cays,
+Underfull \hbox (badness 2846) in paragraph at lines 952--953
+[]\OT1/ptm/m/n/10.95 The SNO Col-lab-o-ra-tion, \OT1/ptm/m/it/10.95 Mea-sure-me
+nt of the rate of $\OML/ztmcm/m/it/10.95 ^^W[] \OT1/ztmcm/m/n/10.95 + \OML/ztmc
+m/m/it/10.95 d \OMS/ztmcm/m/n/10.95 ! \OML/ztmcm/m/it/10.95 p \OT1/ztmcm/m/n/10
+.95 + \OML/ztmcm/m/it/10.95 p \OT1/ztmcm/m/n/10.95 + \OML/ztmcm/m/it/10.95 e[]$
+ \OT1/ptm/m/it/10.95 in-ter-ac-tions pro-
  []
 
-[41
+
+Underfull \hbox (badness 5147) in paragraph at lines 979--980
+[]\OT1/ptm/m/n/10.95 Belle Col-lab-o-ra-tion, \OT1/ptm/m/it/10.95 Ob-ser-va-tio
+n of Large $\OML/ztmcm/m/it/10.95 CP$ \OT1/ptm/m/it/10.95 Vi-o-la-tion in the N
+eu-tral $\OML/ztmcm/m/it/10.95 B$ \OT1/ptm/m/it/10.95 Me-son Sys-tem\OT1/ptm/m/
+n/10.95 ,
+ []
+
+[39
 
 ]
-Underfull \hbox (badness 4531) in paragraph at lines 998--999
-[]\OT1/cmr/bx/n/10.95 Planck Col-lab-o-ra-tion\OT1/cmr/m/n/10.95 , Planck 2015 
-re-sults. XIII. Cos-mo-log-i-cal pa-ram-e-ters (2016),
+Underfull \hbox (badness 10000) in paragraph at lines 997--998
+[]\OT1/ptm/m/n/10.95 P. J. E. Pee-bles, Bharat Ra-tra, \OT1/ptm/m/it/10.95 The 
+Cos-mo-log-i-cal Con-stant and Dark En-ergy (2002)\OT1/ptm/m/n/10.95 ,
  []
 
 
-Underfull \hbox (badness 4205) in paragraph at lines 1004--1005
-[]\OT1/cmr/bx/n/10.95 M.C.Gonzalez-Garcia, Michele Mal-toni\OT1/cmr/m/n/10.95 ,
- Phe-nomenol-ogy with Mas-sive Neu-tri-nos,
+Underfull \hbox (badness 1735) in paragraph at lines 1030--1031
+[]\OT1/ptm/m/n/10.95 Felix Kalhoe-fer, \OT1/ptm/m/it/10.95 Re-view of LHC Dark 
+Mat-ter searches\OT1/ptm/m/n/10.95 , Int.J.Mod.Phys. A32 (2017) 1730006,
  []
 
-[42] [43] [44]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1193.
- [45]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1193.
+[40] [41]
+Underfull \hbox (badness 10000) in paragraph at lines 1148--1181
+[]\OT1/ptm/m/n/10.95 S. Frix-ione, \OT1/ptm/m/it/10.95 Iso-lated pho-tons in pe
+r-tur-ba-tive QCD\OT1/ptm/m/n/10.95 , Phys.Lett. B429 (1998) 369-374,
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1183.
+[42]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1183.
  (./thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1193.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1193.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1183.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1183.
 
 Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: 773476874ED8F7D750999818434F4868;3016.
@@ -1136,46 +1231,34 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1193.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1183.
  ) 
 Here is how much of TeX's memory you used:
- 8594 strings out of 494860
- 124929 string characters out of 6177602
- 225457 words of memory out of 5000000
- 11521 multiletter control sequences out of 15000+600000
- 18378 words of font info for 70 fonts, out of 8000000 for 9000
+ 8758 strings out of 494860
+ 127145 string characters out of 6177602
+ 226219 words of memory out of 5000000
+ 11634 multiletter control sequences out of 15000+600000
+ 73844 words of font info for 159 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 36i,16n,39p,1942b,458s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,16n,39p,1942b,461s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.3} has been referenced but does not exi
 st, replaced by a fixed one
 
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/symbols/msbm10.pfb>
-Output written on thesis.pdf (61 pages, 2436398 bytes).
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/r
+sfs/rsfs10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/
+times/utmri8a.pfb>
+Output written on thesis.pdf (58 pages, 2275640 bytes).
 PDF statistics:
- 1025 PDF objects out of 1200 (max. 8388607)
- 871 compressed objects within 9 object streams
- 236 named destinations out of 1000 (max. 500000)
+ 974 PDF objects out of 1000 (max. 8388607)
+ 833 compressed objects within 9 object streams
+ 232 named destinations out of 1000 (max. 500000)
  540 words of extra memory for PDF output out of 10000 (max. 10000000)
 

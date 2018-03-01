@@ -1,20 +1,20 @@
 \contentsline {chapter}{Abstract}{i}{chapter*.1}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}The Standard Model}{2}{section.1.1}
-\contentsline {subsection}{\numberline {1.1.1}Matter and Forces}{3}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Matter and Forces}{2}{subsection.1.1.1}
 \contentsline {section}{\numberline {1.2}Inadequacies of the Standard Model}{7}{section.1.2}
-\contentsline {subsection}{\numberline {1.2.1}Beyond the Standard Model}{8}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.1}Beyond the Standard Model}{7}{subsection.1.2.1}
 \contentsline {subsection}{\numberline {1.2.2}Dark Matter}{8}{subsection.1.2.2}
-\contentsline {subsubsection}{Dark Matter searches at the \hyperref [ch:LHC]{Large Hadron Collider}}{9}{section*.9}
+\contentsline {subsubsection}{Dark Matter searches at the \hyperref [ch:LHC]{Large Hadron Collider}}{8}{section*.9}
 \contentsline {chapter}{\numberline {2}Experimental Apparatus}{11}{chapter.2}
 \contentsline {section}{\numberline {2.1}The Large Hadron Collider}{11}{section.2.1}
 \contentsline {section}{\numberline {2.2}History}{11}{section.2.2}
 \contentsline {section}{\numberline {2.3}Design}{12}{section.2.3}
 \contentsline {section}{\numberline {2.4}Proton-Proton Collisions}{13}{section.2.4}
 \contentsline {section}{\numberline {2.5}The ATLAS experiment}{15}{section.2.5}
-\contentsline {subsection}{\numberline {2.5.1}Coordinate system}{16}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.1}Coordinate system}{15}{subsection.2.5.1}
 \contentsline {subsection}{\numberline {2.5.2}Inner Detector}{16}{subsection.2.5.2}
-\contentsline {subsection}{\numberline {2.5.3}Calorimeters}{17}{subsection.2.5.3}
+\contentsline {subsection}{\numberline {2.5.3}Calorimeters}{16}{subsection.2.5.3}
 \contentsline {subsection}{\numberline {2.5.4}Muon Spectrometer}{17}{subsection.2.5.4}
 \contentsline {subsection}{\numberline {2.5.5}Magnet Systems}{17}{subsection.2.5.5}
 \contentsline {subsection}{\numberline {2.5.6}ATLAS Triggers and Data Collection}{17}{subsection.2.5.6}
@@ -24,21 +24,21 @@
 \contentsline {subsection}{\numberline {2.7.2}Electrons and Prompt Photons}{18}{subsection.2.7.2}
 \contentsline {subsection}{\numberline {2.7.3}Neutrinos}{18}{subsection.2.7.3}
 \contentsline {subsection}{\numberline {2.7.4}Jets}{18}{subsection.2.7.4}
-\contentsline {subsection}{\numberline {2.7.5}Missing Transverse Momentum}{19}{subsection.2.7.5}
+\contentsline {subsection}{\numberline {2.7.5}Missing Transverse Momentum}{18}{subsection.2.7.5}
 \contentsline {chapter}{\numberline {3}Analysis Strategy}{21}{chapter.3}
 \contentsline {section}{\numberline {3.1}Invisible Higgs in association with a Z boson - ZH}{21}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}Selection Criteria}{21}{subsection.3.1.1}
 \contentsline {subsection}{\numberline {3.1.2}Results of the ZH search}{22}{subsection.3.1.2}
-\contentsline {section}{\numberline {3.2}Background estimation: ZZ}{23}{section.3.2}
+\contentsline {section}{\numberline {3.2}Background estimation: ZZ}{22}{section.3.2}
 \contentsline {section}{\numberline {3.3}Transfer factor R}{24}{section.3.3}
 \contentsline {section}{\numberline {3.4}Theoretical Uncertainties}{25}{section.3.4}
 \contentsline {section}{\numberline {3.5}Renormalization}{25}{section.3.5}
 \contentsline {section}{\numberline {3.6}Photon Isolation}{27}{section.3.6}
-\contentsline {section}{\numberline {3.7}Approach}{28}{section.3.7}
+\contentsline {section}{\numberline {3.7}Approach}{27}{section.3.7}
 \contentsline {subsection}{\numberline {3.7.1}MCFM}{28}{subsection.3.7.1}
-\contentsline {chapter}{\numberline {4}Transfer factor R and the uncertainties associated to it}{31}{chapter.4}
-\contentsline {section}{\numberline {4.1}Preliminary Results}{31}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Uncertainty from Missing Higher Order Corrections}{34}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Uncertainty associated with Parton Distribution Functions}{36}{subsection.4.1.2}
-\contentsline {subsection}{\numberline {4.1.3}Photon Fragmentation and Isolation Uncertainty}{38}{subsection.4.1.3}
-\contentsline {chapter}{\numberline {5}Additional Figures}{39}{chapter.5}
+\contentsline {chapter}{\numberline {4}Transfer factor R and the uncertainties associated to it}{29}{chapter.4}
+\contentsline {section}{\numberline {4.1}Preliminary Results}{29}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Uncertainty from Missing Higher Order Corrections}{32}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Uncertainty associated with Parton Distribution Functions}{34}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}Photon Fragmentation and Isolation Uncertainty}{36}{subsection.4.1.3}
+\contentsline {chapter}{\numberline {5}Additional Figures}{37}{chapter.5}
