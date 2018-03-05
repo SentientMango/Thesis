@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.18)  5 MAR 2018 10:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.18)  5 MAR 2018 19:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -648,11 +648,7 @@ Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
 \AP@output=\toks25
 \AP@partial=\box30
 \AP@footins=\box31
-) (./thesis.aux
-
-LaTeX Warning: Label `fig:leppt' multiply defined.
-
-)
+) (./thesis.aux)
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
@@ -670,7 +666,8 @@ LaTeX Font Info:    ... okay on input line 39.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 39.
 LaTeX Font Info:    ... okay on input line 39.
 LaTeX Font Info:    Try loading font information for OT1+ptm on input line 39.
- (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
@@ -945,242 +942,233 @@ Package pdftex.def Info: Cern_accelerator_complex.png used on input line 338.
  [11]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [12 <./Cern_accelerator_complex.png>]
-
-LaTeX Warning: Reference `fig:pp' on page 13 undefined on input line 352.
-
-<pp-shower.png, id=453, 671.50874pt x 611.28375pt>
+ [12 <./Cern_accelerator_complex.png>] <pp-shower.png, id=454, 671.50874pt x 61
+1.28375pt>
 File: pp-shower.png Graphic file (type png)
- <use pp-shower.png>
+
+<use pp-shower.png>
 Package pdftex.def Info: pp-shower.png used on input line 356.
 (pdftex.def)             Requested size: 290.22105pt x 264.19003pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [13 <./pp-shower.png>] <NNPDF3.png, id=470, 497.60907pt x 319.1925pt>
+ [13 <./pp-shower.png>] <NNPDF3.png, id=471, 497.60907pt x 319.1925pt>
 File: NNPDF3.png Graphic file (type png)
  <use NNPDF3.png>
-Package pdftex.def Info: NNPDF3.png used on input line 366.
+Package pdftex.def Info: NNPDF3.png used on input line 367.
 (pdftex.def)             Requested size: 338.5863pt x 217.18925pt.
 
-[14 <./NNPDF3.png>] <ATLAS.png, id=492, 1192.455pt x 708.6475pt>
+[14 <./NNPDF3.png>] <ATLAS.png, id=493, 1192.455pt x 708.6475pt>
 File: ATLAS.png Graphic file (type png)
 
 <use ATLAS.png>
-Package pdftex.def Info: ATLAS.png used on input line 396.
+Package pdftex.def Info: ATLAS.png used on input line 397.
 (pdftex.def)             Requested size: 483.69684pt x 287.444pt.
 
 Underfull \vbox (badness 2088) has occurred while \output is active []
 
- [15 <./ATLAS.png>] <prapidity.png, id=505, 517.935pt x 397.485pt>
+ [15 <./ATLAS.png>] <prapidity.png, id=506, 517.935pt x 397.485pt>
 File: prapidity.png Graphic file (type png)
  <use prapidity.png>
-Package pdftex.def Info: prapidity.png used on input line 412.
+Package pdftex.def Info: prapidity.png used on input line 413.
 (pdftex.def)             Requested size: 241.84842pt x 185.60495pt.
 
 [16 <./prapidity.png>] [17] [18] [19] [20
 
 ]
 Chapter 3.
-<HZ.png, id=552, 285.31593pt x 188.95593pt>
+<HZ.png, id=553, 285.31593pt x 188.95593pt>
 File: HZ.png Graphic file (type png)
  <use HZ.png>
-Package pdftex.def Info: HZ.png used on input line 488.
+Package pdftex.def Info: HZ.png used on input line 489.
 (pdftex.def)             Requested size: 241.84842pt x 160.16927pt.
  [21 <./HZ.png>]
-<ZH_results.png, id=567, 1400.23125pt x 617.30624pt>
+<ZH_results.png, id=569, 1400.23125pt x 617.30624pt>
 File: ZH_results.png Graphic file (type png)
  <use ZH_results.png>
-Package pdftex.def Info: ZH_results.png used on input line 536.
+Package pdftex.def Info: ZH_results.png used on input line 539.
 (pdftex.def)             Requested size: 435.32419pt x 191.90927pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[22] <ZZ.png, id=579, 581.92406pt x 176.15813pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [22]
+<ZZ.png, id=580, 581.92406pt x 176.15813pt>
 File: ZZ.png Graphic file (type png)
  <use ZZ.png>
-Package pdftex.def Info: ZZ.png used on input line 550.
+Package pdftex.def Info: ZZ.png used on input line 553.
 (pdftex.def)             Requested size: 338.5863pt x 102.49701pt.
-
-
-LaTeX Warning: Citation `gamma_jet' on page 23 undefined on input line 562.
-
-<Zg.png, id=583, 812.03375pt x 189.70876pt>
+ [23 <./ZH_results.png> <./ZZ.png>] <Zg.png, id=595, 812.03375pt x 189.70876pt>
 File: Zg.png Graphic file (type png)
  <use Zg.png>
-Package pdftex.def Info: Zg.png used on input line 568.
+Package pdftex.def Info: Zg.png used on input line 571.
 (pdftex.def)             Requested size: 386.95894pt x 90.40205pt.
- [23 <./ZH_results.png> <./ZZ.png>] [24 <./Zg.png>]
-<renormalize_diagram.png, id=612, 1190.4475pt x 565.11125pt>
+ [24 <./Zg.png>] <renormalize_diagram.png, id=613, 1190.4475pt x 565.11125pt>
 File: renormalize_diagram.png Graphic file (type png)
 
 <use renormalize_diagram.png>
-Package pdftex.def Info: renormalize_diagram.png used on input line 620.
+Package pdftex.def Info: renormalize_diagram.png used on input line 623.
 (pdftex.def)             Requested size: 241.84842pt x 114.80518pt.
- [25 <./renormalize_diagram.png>] [26] [27]
-[28]
+ [25]
+Underfull \vbox (badness 1590) has occurred while \output is active []
+
+ [26 <./renormalize_diagram.png>] [27] [28
+
+]
 Chapter 4.
-<ZZ_xsec.png, id=665, 800.9925pt x 575.14874pt>
+[29] <ZZ_xsec.png, id=660, 600.74437pt x 431.36156pt>
 File: ZZ_xsec.png Graphic file (type png)
  <use ZZ_xsec.png>
-Package pdftex.def Info: ZZ_xsec.png used on input line 744.
+Package pdftex.def Info: ZZ_xsec.png used on input line 715.
 (pdftex.def)             Requested size: 237.0141pt x 170.1852pt.
 
-<Zg_xsec.png, id=666, 800.9925pt x 575.14874pt>
+<Zg_xsec.png, id=661, 600.74437pt x 431.36156pt>
 File: Zg_xsec.png Graphic file (type png)
  <use Zg_xsec.png>
-Package pdftex.def Info: Zg_xsec.png used on input line 749.
+Package pdftex.def Info: Zg_xsec.png used on input line 720.
 (pdftex.def)             Requested size: 237.0141pt x 170.1852pt.
 
-<R.png, id=670, 800.9925pt x 575.14874pt>
+<R.png, id=665, 600.74437pt x 431.36156pt>
 File: R.png Graphic file (type png)
  <use R.png>
-Package pdftex.def Info: R.png used on input line 760.
+Package pdftex.def Info: R.png used on input line 733.
 (pdftex.def)             Requested size: 237.0141pt x 170.1852pt.
 
-<R_BR.png, id=671, 800.9925pt x 575.14874pt>
+<R_BR.png, id=666, 600.74437pt x 431.36156pt>
 File: R_BR.png Graphic file (type png)
  <use R_BR.png>
-Package pdftex.def Info: R_BR.png used on input line 765.
+Package pdftex.def Info: R_BR.png used on input line 738.
 (pdftex.def)             Requested size: 237.0141pt x 170.1852pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [29
-
- <./ZZ_xsec.png> <./Zg_xsec.png>] <yy.png, id=682, 700.6175pt x 474.77374pt>
-File: yy.png Graphic file (type png)
-
-<use yy.png>
-Package pdftex.def Info: yy.png used on input line 780.
-(pdftex.def)             Requested size: 338.5863pt x 229.44637pt.
- <leadpt.png, id=685, 700.6175pt x 474.77374pt>
+ [30 <./ZZ_xsec.png> <./Zg_xsec.png>] <leadpt.png, id=681, 700.6175pt x 474.773
+74pt>
 File: leadpt.png Graphic file (type png)
- <use leadpt.png>
-Package pdftex.def Info: leadpt.png used on input line 788.
-(pdftex.def)             Requested size: 237.0141pt x 160.60956pt.
 
-<subleadpt.png, id=686, 700.6175pt x 474.77374pt>
-File: subleadpt.png Graphic file (type png)
- <use subleadpt.png>
-Package pdftex.def Info: subleadpt.png used on input line 793.
+<use leadpt.png>
+Package pdftex.def Info: leadpt.png used on input line 761.
 (pdftex.def)             Requested size: 237.0141pt x 160.60956pt.
- [30 <./R.png> <./R_BR.png> <./yy.png>] <leady.png, id=694, 700.6175pt x 474.77
-374pt>
+ <subleadpt.png, id=682, 700.6175pt x 474.77374pt>
+File: subleadpt.png Graphic file (type png)
+
+<use subleadpt.png>
+Package pdftex.def Info: subleadpt.png used on input line 766.
+(pdftex.def)             Requested size: 237.0141pt x 160.60956pt.
+ <leady.png, id=683, 700.6175pt x 474.77374pt>
 File: leady.png Graphic file (type png)
 
 <use leady.png>
-Package pdftex.def Info: leady.png used on input line 803.
+Package pdftex.def Info: leady.png used on input line 776.
 (pdftex.def)             Requested size: 237.0141pt x 160.60956pt.
- <subleady.png, id=695, 700.6175pt x 474.77374pt>
+ <subleady.png, id=684, 700.6175pt x 474.77374pt>
 File: subleady.png Graphic file (type png)
 
 <use subleady.png>
-Package pdftex.def Info: subleady.png used on input line 808.
-(pdftex.def)             Requested size: 237.0141pt x 160.60956pt.
- <ZZ_subproc.png, id=699, 700.6175pt x 474.77374pt>
-File: ZZ_subproc.png Graphic file (type png)
-
-<use ZZ_subproc.png>
-Package pdftex.def Info: ZZ_subproc.png used on input line 823.
-(pdftex.def)             Requested size: 237.0141pt x 160.60956pt.
- <Zg_subproc.png, id=700, 700.6175pt x 474.77374pt>
-File: Zg_subproc.png Graphic file (type png)
-
-<use Zg_subproc.png>
-Package pdftex.def Info: Zg_subproc.png used on input line 826.
+Package pdftex.def Info: subleady.png used on input line 781.
 (pdftex.def)             Requested size: 237.0141pt x 160.60956pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [31 <./leadpt.png> <./subleadpt.png> <./leady.png> <./subleady.png>]
-<R_ggonly.png, id=708, 800.9925pt x 575.14874pt>
-File: R_ggonly.png Graphic file (type png)
- <use R_ggonly.png>
-Package pdftex.def Info: R_ggonly.png used on input line 836.
-(pdftex.def)             Requested size: 338.5863pt x 243.12296pt.
+ [31 <./R.png> <./R_BR.png> <./leadpt.png> <./subleadpt.png>]
+<ZZ_subproc.png, id=697, 700.6175pt x 474.77374pt>
+File: ZZ_subproc.png Graphic file (type png)
+ <use ZZ_subproc.png>
+Package pdftex.def Info: ZZ_subproc.png used on input line 796.
+(pdftex.def)             Requested size: 237.0141pt x 160.60956pt.
 
-<zz_scale.png, id=711, 525.46312pt x 356.0803pt>
-File: zz_scale.png Graphic file (type png)
- <use zz_scale.png>
-Package pdftex.def Info: zz_scale.png used on input line 849.
-(pdftex.def)             Requested size: 237.0141pt x 160.61499pt.
+<Zg_subproc.png, id=698, 700.6175pt x 474.77374pt>
+File: Zg_subproc.png Graphic file (type png)
+ <use Zg_subproc.png>
+Package pdftex.def Info: Zg_subproc.png used on input line 799.
+(pdftex.def)             Requested size: 237.0141pt x 160.60956pt.
 
-<zg_scale.png, id=712, 525.46312pt x 356.0803pt>
-File: zg_scale.png Graphic file (type png)
- <use zg_scale.png>
-Package pdftex.def Info: zg_scale.png used on input line 852.
-(pdftex.def)             Requested size: 237.0141pt x 160.61499pt.
- [32 <./ZZ_subproc.png> <./Zg_subproc.png> <./R_ggonly.png>]
-<R_scale.png, id=723, 700.6175pt x 474.77374pt>
-File: R_scale.png Graphic file (type png)
- <use R_scale.png>
-Package pdftex.def Info: R_scale.png used on input line 861.
-(pdftex.def)             Requested size: 290.22105pt x 196.67245pt.
-
-<K_pt.png, id=727, 700.6175pt x 474.77374pt>
-File: K_pt.png Graphic file (type png)
- <use K_pt.png>
-Package pdftex.def Info: K_pt.png used on input line 870.
+<Rgg.png, id=700, 700.6175pt x 474.77374pt>
+File: Rgg.png Graphic file (type png)
+ <use Rgg.png>
+Package pdftex.def Info: Rgg.png used on input line 809.
 (pdftex.def)             Requested size: 338.5863pt x 229.44637pt.
 
-Underfull \hbox (badness 3128) in paragraph at lines 871--871
-[]\OT1/ptm/m/n/10.95 Figure 4.10: |The $\OML/ztmcm/m/it/10.95 K$ \OT1/ptm/m/n/1
-0.95 fac-tor to es-ti-mate the un-known pro-cess de-pen-dent cor-re-la-tions, d
-e-fined as
- []
 
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-Underfull \vbox (badness 1609) has occurred while \output is active []
+[32 <./leady.png> <./subleady.png> <./ZZ_subproc.png> <./Zg_subproc.png>]
+[33 <./Rgg.png>] <zz_scale.png, id=723, 525.46312pt x 356.0803pt>
+File: zz_scale.png Graphic file (type png)
 
- [33 <./zz_scale.png> <./zg_scale.png> <./R_scale.png>]
-<R_pdf.png, id=747, 700.6175pt x 474.77374pt>
+<use zz_scale.png>
+Package pdftex.def Info: zz_scale.png used on input line 854.
+(pdftex.def)             Requested size: 237.0141pt x 160.61499pt.
+ <zg_scale.png, id=724, 525.46312pt x 356.0803pt>
+File: zg_scale.png Graphic file (type png)
+
+<use zg_scale.png>
+Package pdftex.def Info: zg_scale.png used on input line 857.
+(pdftex.def)             Requested size: 237.0141pt x 160.61499pt.
+ <R_scale.png, id=730, 700.6175pt x 474.77374pt>
+File: R_scale.png Graphic file (type png)
+
+<use R_scale.png>
+Package pdftex.def Info: R_scale.png used on input line 866.
+(pdftex.def)             Requested size: 338.5863pt x 229.44637pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [34 <./zz_scale.png> <./zg_scale.png>] <K_pt.png, id=742, 700.6175pt x 474.773
+74pt>
+File: K_pt.png Graphic file (type png)
+
+<use K_pt.png>
+Package pdftex.def Info: K_pt.png used on input line 875.
+(pdftex.def)             Requested size: 338.5863pt x 229.44637pt.
+ [35 <./R_scale.png> <./K_pt.png>]
+<R_pdf.png, id=754, 700.6175pt x 474.77374pt>
 File: R_pdf.png Graphic file (type png)
  <use R_pdf.png>
-Package pdftex.def Info: R_pdf.png used on input line 887.
+Package pdftex.def Info: R_pdf.png used on input line 893.
 (pdftex.def)             Requested size: 338.5863pt x 229.44637pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [34 <./K_pt.png>] <frag.png, id=760, 800.9925pt x 575.14874pt>
+<frag.png, id=756, 800.9925pt x 575.14874pt>
 File: frag.png Graphic file (type png)
  <use frag.png>
 Package pdftex.def Info: frag.png used on input line 906.
 (pdftex.def)             Requested size: 338.5863pt x 243.12296pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 5817) has occurred while \output is active []
 
- [35 <./R_pdf.png>] [36 <./frag.png>]
+ [36 <./R_pdf.png>] [37 <./frag.png>] [38
+
+]
 Chapter 5.
-<K_y.png, id=774, 700.6175pt x 474.77374pt>
+<K_y.png, id=777, 700.6175pt x 474.77374pt>
 File: K_y.png Graphic file (type png)
  <use K_y.png>
-Package pdftex.def Info: K_y.png used on input line 924.
+Package pdftex.def Info: K_y.png used on input line 926.
 (pdftex.def)             Requested size: 338.5863pt x 229.44637pt.
 
-<dphi.png, id=775, 700.6175pt x 474.77374pt>
+<dphi.png, id=778, 700.6175pt x 474.77374pt>
 File: dphi.png Graphic file (type png)
  <use dphi.png>
-Package pdftex.def Info: dphi.png used on input line 930.
+Package pdftex.def Info: dphi.png used on input line 932.
 (pdftex.def)             Requested size: 338.5863pt x 229.44637pt.
 
-<dy.png, id=776, 700.6175pt x 474.77374pt>
+<dy.png, id=779, 700.6175pt x 474.77374pt>
 File: dy.png Graphic file (type png)
  <use dy.png>
-Package pdftex.def Info: dy.png used on input line 936.
+Package pdftex.def Info: dy.png used on input line 938.
 (pdftex.def)             Requested size: 338.5863pt x 229.44637pt.
- [37
-
- <./K_y.png> <./dphi.png>] [38 <./dy.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 957--958
+ [39 <./K_y.png> <./dphi.png>] [40 <./dy.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 959--960
 []\OT1/ptm/m/n/10.95 The Super-Kamiokande Col-lab-o-ra-tion, \OT1/ptm/m/it/10.9
 5 Ev-i-dence for os-cil-la-tions of at-mo-spheric neu-tri-nos\OT1/ptm/m/n/10.95
  ,
  []
 
 
-Underfull \hbox (badness 2846) in paragraph at lines 960--961
+Underfull \hbox (badness 2846) in paragraph at lines 962--963
 []\OT1/ptm/m/n/10.95 The SNO Col-lab-o-ra-tion, \OT1/ptm/m/it/10.95 Mea-sure-me
 nt of the rate of $\OML/ztmcm/m/it/10.95 ^^W[] \OT1/ztmcm/m/n/10.95 + \OML/ztmc
 m/m/it/10.95 d \OMS/ztmcm/m/n/10.95 ! \OML/ztmcm/m/it/10.95 p \OT1/ztmcm/m/n/10
@@ -1189,59 +1177,52 @@ m/m/it/10.95 d \OMS/ztmcm/m/n/10.95 ! \OML/ztmcm/m/it/10.95 p \OT1/ztmcm/m/n/10
  []
 
 
-Underfull \hbox (badness 5147) in paragraph at lines 987--988
+Underfull \hbox (badness 5147) in paragraph at lines 989--990
 []\OT1/ptm/m/n/10.95 Belle Col-lab-o-ra-tion, \OT1/ptm/m/it/10.95 Ob-ser-va-tio
 n of Large $\OML/ztmcm/m/it/10.95 CP$ \OT1/ptm/m/it/10.95 Vi-o-la-tion in the N
 eu-tral $\OML/ztmcm/m/it/10.95 B$ \OT1/ptm/m/it/10.95 Me-son Sys-tem\OT1/ptm/m/
 n/10.95 ,
  []
 
-[39
+[41
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 1005--1006
+Underfull \hbox (badness 10000) in paragraph at lines 1007--1008
 []\OT1/ptm/m/n/10.95 P. J. E. Pee-bles, Bharat Ra-tra, \OT1/ptm/m/it/10.95 The 
 Cos-mo-log-i-cal Con-stant and Dark En-ergy (2002)\OT1/ptm/m/n/10.95 ,
  []
 
 
-Underfull \hbox (badness 1735) in paragraph at lines 1038--1039
+Underfull \hbox (badness 1735) in paragraph at lines 1040--1041
 []\OT1/ptm/m/n/10.95 Felix Kalhoe-fer, \OT1/ptm/m/it/10.95 Re-view of LHC Dark 
 Mat-ter searches\OT1/ptm/m/n/10.95 , Int.J.Mod.Phys. A32 (2017) 1730006,
  []
 
-[40] [41]
-Underfull \hbox (badness 10000) in paragraph at lines 1156--1189
+[42] [43]
+Underfull \hbox (badness 10000) in paragraph at lines 1158--1191
 []\OT1/ptm/m/n/10.95 S. Frix-ione, \OT1/ptm/m/it/10.95 Iso-lated pho-tons in pe
 r-tur-ba-tive QCD\OT1/ptm/m/n/10.95 , Phys.Lett. B429 (1998) 369-374,
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1191.
-[42]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1191.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1193.
+[44]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1193.
  (./thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1191.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1191.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1193.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1193.
 
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 08C899D31208625F04C5F76AA1036E84;3088.
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1191.
+(rerunfilecheck)             Checksum: 1BD843963A7C3B866BC874FEC0D44EAB;3069.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1193.
  ) 
 Here is how much of TeX's memory you used:
- 8763 strings out of 494860
- 127206 string characters out of 6177602
- 225988 words of memory out of 5000000
- 11639 multiletter control sequences out of 15000+600000
- 73844 words of font info for 159 fonts, out of 8000000 for 9000
+ 8761 strings out of 494860
+ 127132 string characters out of 6177602
+ 226566 words of memory out of 5000000
+ 11634 multiletter control sequences out of 15000+600000
+ 74266 words of font info for 161 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 36i,16n,39p,1942b,461s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,16n,39p,1936b,461s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.3} has been referenced but does not exi
 st, replaced by a fixed one
 
@@ -1256,10 +1237,10 @@ sfs/rsfs10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb><
 ve/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/
 times/utmri8a.pfb>
-Output written on thesis.pdf (58 pages, 2275867 bytes).
+Output written on thesis.pdf (60 pages, 2282244 bytes).
 PDF statistics:
- 981 PDF objects out of 1000 (max. 8388607)
+ 986 PDF objects out of 1000 (max. 8388607)
  840 compressed objects within 9 object streams
- 232 named destinations out of 1000 (max. 500000)
- 548 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 234 named destinations out of 1000 (max. 500000)
+ 543 words of extra memory for PDF output out of 10000 (max. 10000000)
 
