@@ -572,7 +572,7 @@ Figure \ref{fig:Zg}.d gives the $\ell\ell\gamma$ final state, however, the photo
 
 At high $Z $ boson transverse momentum, the \Zg process should be kinematically similar to \ZZ, as the mass of the $Z$ boson will be negligibly small compared to its $p_T$. The \Zg signal is also pure, and has a BR$\times\sigma$ as compared to \ZZ. Thus, it should be possible to use \Zg data to estimate the contribution of \ZZ in regions of high $Z$ boson $p_T$.
 
-\section{Transfer factor R}
+\section{Transfer factor R}\label{sec:R}
 To estimate the background, a transfer factor $R(p_T)$ is introduced, defined to be the ratio of the cross sections of \ZZ to \Zg as a function of the $p_T$.
 \begin{equation}
 	R(p_{T}) = \frac{\sigma_{ZZ}(p_{T})}{\sigma_{Z\gamma}(p_T)}
@@ -686,7 +686,7 @@ A ratio of the cross sections of \ZZ and \Zg processes is taken to obtain the $R
 
 This thesis estimates value of the transfer factor, and the theoretical uncertainties associated with it. The \ZZ and \Zg cross sections are obtained from MCFM, a femtobarn level matrix element generator. Varying the input parameters provided in the MCFM input file, the theoretical uncertainties are estimated.
 
-\subsection{MCFM}
+\subsection{MCFM}\label{subsec:MCFM}
 Monte Carlo for FeMtobarn processes (MCFM) is a program that calculates cross sections for femtobarn-level processes at leading order(LO) or next to leading order (NLO) QCD. In this study, MCFM v8.0 \cite{MCFM1, MCFM2, MCFM3, MCFM} is used to generate cross sections of \ZZ and \Zg processes at NLO, with a selection of generator level cuts. The generation parameters in MCFM allow fine control over the sample, such as PDF sets, photon isolation, lepton and photon $p_T$ and $\eta$, renormalization and factorization scales, etc. The samples are generated with cuts on $E_T^{miss} = p_T(Z\to \nu\nu)$ for the $ZZ$ process and $p_T(\gamma)$ for the $Z+\gamma$ process. 
 
 Table \ref{table:default} lists the generator level settings used for the $ZZ$ and $Z+\gamma$ processes. All lepton cuts are consistent with the ones used in the ATLAS Z+$E_T^{miss}$ analysis \cite{ZH_ATLAS}, as shown in Table \ref{table:event_selection}.
@@ -755,25 +755,30 @@ Using the settings listed in Table \ref{table:default}, the cross sections for $
 \end{figure}
 There is a significant difference between the LO cross section and NLO cross section in both of these processes. The correction is greater at high $p_T$ than at low $p_T$. However, the correction from LO to NLO is similar between the two processes. Thus, the behavior of the transfer factor $R$ is expected to be the same. The ratio $R = \sigma(ZZ\rightarrow ee\nu\nu)/\sigma(Z\gamma\rightarrow ee\gamma)$ at LO and NLO is shown in Figure \ref{fig:Rcurve}, taken as the ratio of the cross sections in Figures \ref{subfig:ZeeZvv} and \ref{subfig:Zeeg}.
 \begin{figure}[H]
-	\centering
-	\includegraphics[width= 0.6\textwidth]{R.png}
-	\caption{The transfer factor $R$ as a function of $p_T$, taken as a ratio of  the $ZZ\to ee\nu\nu$ and $Z\gamma\to ee\gamma$ cross sections at both LO and NLO. The leptonically decaying $Z$ boson decays to an $e^+e^-$ pair.}
-	\label{fig:Rcurve}
+\centering
+	\begin{subfigure}{0.49\textwidth}
+		\includegraphics[width=\linewidth]{R.png}
+		\caption{}
+		\label{fig:Rcurve}
+	\end{subfigure}
+	\begin{subfigure}{0.49\textwidth}
+		\includegraphics[width=\linewidth]{R_BR.png}
+		\caption{}
+		\label{fig:RcurveBR}
+	\end{subfigure}
+	\caption{The transfer factor $R$ as a function of $p_T$, taken as a ratio of  the $ZZ\to ee\nu\nu$ and $Z\gamma\to ee\gamma$ cross sections at both LO and NLO. The figure on the left shows $R$ calculated from cross sections as given by MCFM, where the the leptonically decaying $Z$ boson decays into an $e^+e^-$ pair. The figure on the right adjusts for the branching fractions of $Z\to ee$ and $Z\to\nu\nu$, thus showing $R = \sigma(ZZ)/\sigma(Z\gamma)$, where the $Z$ bosons do not decay.}
+	\label{fig:leppt}
 \end{figure}
-The $R$ value is observed to increase from $\approx 0.43$ at 100 GeV to $\approx 0.52$ at high $p_T$, where it reaches a plateau. When the branching ratio of $Z$ boson decaying selectively to $e^+e^-$, or to $\nu\nu$, is accounted for as shown in Equation \ref{eq:R_inc}, the resulting ratio $R(p_T)$ is shown in Figure \ref{fig:RcurveBR}, which shows the ratio of $\sigma(ZZ)$ to $\sigma(Z\gamma)$, i.e. if the $Z$ bosons do not decay further. The value of $R$ is observed to increase from $\approx 1.08$ at 100 GeV to $\approx 1.3$ at high $p_T$, in agreement with the simple approximate calculation presented in Chapter \ref{ch:theory} of $R \approx 1.28$.
-\begin{figure}[H]
-	\centering
-	\includegraphics[width = 0.6\textwidth]{R_BR.png}
-	\caption{The transfer factor $R$ as a function of $p_T$ at both LO and NLO, adjusted for the $Z\rightarrow ee$ and $Z\rightarrow \nu\nu$ branching ratios. This shows the $R=\sigma(ZZ)/\sigma(Z\gamma)$, where the $Z$ bosons do not decay.}
-	\label{fig:RcurveBR}
-\end{figure}
+
+The $R$ value is observed to increase from $\approx 0.43$ at 100 GeV to $\approx 0.52$ at high $p_T$, where it reaches a plateau. When the branching ratio of $Z$ boson decaying selectively to $e^+e^-$, or to $\nu\nu$, is accounted for as shown in Equation \ref{eq:R_inc}, the resulting ratio $R(p_T)$ is shown in Figure \ref{fig:RcurveBR}, which shows the ratio of $\sigma(ZZ)$ to $\sigma(Z\gamma)$, i.e. if the $Z$ bosons do not decay further. The value of $R$ is observed to increase from $\approx 1.08$ at 100 GeV to $\approx 1.3$ at high $p_T$. This agrees with the simple approximate calculation presented in Section \ref{sec:R} of $R \approx 1.28$.
+
 The behavior of $R$ at LO is different from NLO at low $p_T$, but at high $p_T$ the behavior at both orders is similar. This is due to the fact that at high $p_T$ the 
 
 Figure \ref{fig:yy} shows the normalized rapidity distributions for missing transverse momentum $(Z\to\nu\nu)$ and the photon respectively. The photon rapidity is restricted to $|\eta|<2.5$.
 \begin{figure}[H]
 \centering
 	\includegraphics[width=0.7\textwidth]{yy.png}
-	\caption{The normalized distributions showing the differential cross sections of \ZZ and \Zg processes as a function of the rapidity of the vector boson y(V) ($Z\to\nu]nu$ for \ZZ, or $\gamma$ for \Zg). The rapidity range for the photon is restricted to be $|\eta|<2.5$}
+	\caption{The normalized distributions showing the differential cross sections of \ZZ and \Zg processes as a function of the rapidity of the vector boson y(V) ($Z\to\nu\nu$ for \ZZ, or $\gamma$ for \Zg). The rapidity range for the photon is restricted to be $|\eta|<2.5$}
 	\label{fig:yy}
 \end{figure}
 Figures \ref{fig:leppt} and \ref{fig:leptony} further illustrate the topology of the events by showing normalized distributions for the leading and subleading lepton $p_T$ and rapidity.
@@ -808,6 +813,10 @@ Figures \ref{fig:leppt} and \ref{fig:leptony} further illustrate the topology of
 	\label{fig:leptony}
 \end{figure}
 
+Figures \ref{fig:leppt} and \ref{fig:leptony} show that the leptonically decaying $Z$ bosons have identical properties between the two processes.
+
+Gluon-gluon processes contribute to 8.6\% of the total cross section for the $ZZ$ process and 2.5\% of the $Z+\gamma$ process. Figure \ref{fig:xsec_gg_qq} shows the $qg+q\bar{q}$ and $gg$ contributions to the $ZZ$ and $Z\gamma$ cross section. At low $p_T$, gluon-gluon processes contribute more than at high $p_T$.
+
 \begin{figure}[H]
 \centering
 	\begin{subfigure}{0.49\textwidth}
@@ -820,8 +829,6 @@ Figures \ref{fig:leppt} and \ref{fig:leptony} further illustrate the topology of
 \label{fig:xsec_gg_qq}
 \end{figure}
 
-Gluon-gluon processes contribute to 8.6\% of the total cross section for the $ZZ$ process and 2.5\% of the $Z+\gamma$ process. As shown in Figure \ref{fig:xsec_gg_qq}, the $qg+q\bar{q}$ and $gg$ contributions to the $ZZ$ and $Z\gamma$ cross section, it is seen that at low $p_T$, gluon-gluon processes contribute more than at high $p_T$.
-
 The $R_{gg}$ distribution, shown in Figure \ref{fig:R_ggonly} is observed to approach an asymptotic value at a much higher $p_T = 1.5$ TeV.
 
 \begin{figure}[h]
@@ -830,10 +837,12 @@ The $R_{gg}$ distribution, shown in Figure \ref{fig:R_ggonly} is observed to app
 \caption{$R_{gg}(p_T)$, computed from the contributions of the $gg$ subprocess to the cross sections of $ZZ$ and $Z\gamma$. The curve reaches a plateau at a much higher $p_T$ than for contributions from the $q\bar{q}$ process only. The leptonic $Z$ bosons decay to an $ee$ pair.}
 \label{fig:R_ggonly}
 \end{figure}
+\vfill
 
+\section{Theoretical Uncertainties}
 \subsection{Uncertainty from Missing Higher Order Corrections}
 
-Applying the above prescription, the variation of scales for cross sections of $ZZ\to ee\nu\nu$ and $Z\gamma\to ee\gamma$ are shown in Figure \ref{fig:scale_xsec} below.
+Applying the prescription in Section \ref{sec:renorm}, the variation of scales for cross sections of $ZZ\to ee\nu\nu$ and $Z\gamma\to ee\gamma$ are shown in Figure \ref{fig:scale_xsec} below.
 \begin{figure}[H]
 \centering
 	\begin{subfigure}{0.49\textwidth}

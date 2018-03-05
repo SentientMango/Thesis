@@ -38,7 +38,8 @@
 \contentsline {subsection}{\numberline {3.7.1}MCFM}{28}{subsection.3.7.1}
 \contentsline {chapter}{\numberline {4}Transfer factor R and the uncertainties associated to it}{29}{chapter.4}
 \contentsline {section}{\numberline {4.1}Preliminary Results}{29}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Uncertainty from Missing Higher Order Corrections}{32}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Uncertainty associated with Parton Distribution Functions}{34}{subsection.4.1.2}
-\contentsline {subsection}{\numberline {4.1.3}Photon Fragmentation and Isolation Uncertainty}{36}{subsection.4.1.3}
+\contentsline {section}{\numberline {4.2}Theoretical Uncertainties}{33}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Uncertainty from Missing Higher Order Corrections}{33}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Uncertainty associated with Parton Distribution Functions}{34}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Photon Fragmentation and Isolation Uncertainty}{35}{subsection.4.2.3}
 \contentsline {chapter}{\numberline {5}Additional Figures}{37}{chapter.5}
