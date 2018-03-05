@@ -640,8 +640,7 @@ To address uncertainties associated with the scale in this study, the prescripti
 where $i=0,...,6$. The central cross section value is taken to be the mean of the maximum and minimum cross sections resulting from this variation, and the uncertainty to be the half the difference between the same.
 \begin{align}
 \sigma_{NLO}^{(V)} &= \frac{1}{2}\left[\sigma_{NLO}^{(V,max)} + \sigma_{NLO}^{(V,min)}\right]\label{eq:scale_central}\\
-\delta\sigma_{NLO}^{(V)} &= \frac{1}{2}\left[\sigma_{NLO}^{(V,max)} - \sigma_{NLO}^{(V,min)}\right]
-\label{eq:scale_central2}
+\delta\sigma_{NLO}^{(V)} &= \frac{1}{2}\left[\sigma_{NLO}^{(V,max)} - \sigma_{NLO}^{(V,min)}\right]\label{eq:scale_central2}
 \end{align}
 where
 \begin{align}
@@ -737,7 +736,7 @@ In MCFM generated events, leptonically decaying $Z$ boson are constrained to an 
 \chapter{Transfer factor R and the uncertainties associated to it}\label{ch:Results}
 
 \section{Preliminary Results}
-Using the settings listed in Table \ref{table:default}, the cross sections for $ZZ\to ee\nu\nu$ and $Z\gamma\to ee\gamma$ are generated, as shown in Figure \ref{xsecs}. Throughout this analysis, these samples are the reference.
+Using the settings listed in Table \ref{table:default}, the cross sections for $ZZ\to ee\nu\nu$ and $Z\gamma\to ee\gamma$ are generated at LO and NLO, shown in Figure \ref{xsecs}. Throughout this analysis, these samples are used as the reference from which the transfer factor $R$ is constructed, and provide the central value around which the uncertainties are calculated.
 
 \begin{figure}[H]
 \centering
@@ -751,24 +750,24 @@ Using the settings listed in Table \ref{table:default}, the cross sections for $
 		\caption{}
 		\label{subfig:Zeeg}	
 	\end{subfigure}
-	\caption{NLO and LO cross sections of $ZZ\to ee\nu\nu$ (left) and $Z\gamma\to ee\gamma$ (right) processes with the cuts as in Table 1. The vertical axis is in $\log_{10}$ scale. The leptonically decaying $Z$ boson decays to an $e^+e^-$ pair. There is no flavor constraint on the neutrinos.}
+	\caption{NLO and LO cross sections of $ZZ\to ee\nu\nu$ (left) and $Z\gamma\to ee\gamma$ (right) processes with the cuts as in Table 1. The leptonically decaying $Z$ boson decays to an $e^+e^-$ pair. There is no flavor constraint on the neutrinos.}
 	\label{xsecs}
 \end{figure}
-
-The ratio $R = \sigma(ZZ\rightarrow ee\nu\nu)/\sigma(Z\gamma\rightarrow ee\gamma)$ is shown in Figure \ref{fig:Rcurve}, taken as the ratio of the cross sections in Figures \ref{subfig:ZeeZvv} and \ref{subfig:Zeeg}. Additional events are generated with \met and $p_T(\gamma) > 400$ GeV for the two processes respectively to increase statistics. 
+There is a significant difference between the LO cross section and NLO cross section in both of these processes. The correction is greater at high $p_T$ than at low $p_T$. However, the correction from LO to NLO is similar between the two processes. Thus, the behavior of the transfer factor $R$ is expected to be the same. The ratio $R = \sigma(ZZ\rightarrow ee\nu\nu)/\sigma(Z\gamma\rightarrow ee\gamma)$ at LO and NLO is shown in Figure \ref{fig:Rcurve}, taken as the ratio of the cross sections in Figures \ref{subfig:ZeeZvv} and \ref{subfig:Zeeg}.
 \begin{figure}[H]
 	\centering
 	\includegraphics[width= 0.6\textwidth]{R.png}
 	\caption{The transfer factor $R$ as a function of $p_T$, taken as a ratio of  the $ZZ\to ee\nu\nu$ and $Z\gamma\to ee\gamma$ cross sections at both LO and NLO. The leptonically decaying $Z$ boson decays to an $e^+e^-$ pair.}
 	\label{fig:Rcurve}
 \end{figure}
-The $R$ value is observed to increase from $\approx 0.39$ at 50 GeV to $\approx 0.52$ at high $p_T$, where it reaches a plateau. When the branching ratio of $Z$ boson decaying selectively to $e^+e^-$, or to $\nu\nu$, is accounted for as shown in Equation \ref{eq:R_inc}, the resulting ratio $R(p_T)$ is shown in Figure \ref{fig:RcurveBR}, which shows the ratio of $\sigma(ZZ)$ to $\sigma(Z\gamma)$, i.e. if the $Z$ bosons do not decay further. The value of $R$ is observed to increase from $\approx 0.98$ at 50 GeV to $\approx 1.3$ at high $p_T$, in reasonable agreement with the simple approximate calculation presented in Chapter \ref{ch:theory} of $R \approx 1.28$.
+The $R$ value is observed to increase from $\approx 0.43$ at 100 GeV to $\approx 0.52$ at high $p_T$, where it reaches a plateau. When the branching ratio of $Z$ boson decaying selectively to $e^+e^-$, or to $\nu\nu$, is accounted for as shown in Equation \ref{eq:R_inc}, the resulting ratio $R(p_T)$ is shown in Figure \ref{fig:RcurveBR}, which shows the ratio of $\sigma(ZZ)$ to $\sigma(Z\gamma)$, i.e. if the $Z$ bosons do not decay further. The value of $R$ is observed to increase from $\approx 1.08$ at 100 GeV to $\approx 1.3$ at high $p_T$, in agreement with the simple approximate calculation presented in Chapter \ref{ch:theory} of $R \approx 1.28$.
 \begin{figure}[H]
 	\centering
 	\includegraphics[width = 0.6\textwidth]{R_BR.png}
 	\caption{The transfer factor $R$ as a function of $p_T$ at both LO and NLO, adjusted for the $Z\rightarrow ee$ and $Z\rightarrow \nu\nu$ branching ratios. This shows the $R=\sigma(ZZ)/\sigma(Z\gamma)$, where the $Z$ bosons do not decay.}
 	\label{fig:RcurveBR}
 \end{figure}
+The behavior of $R$ at LO is different from NLO at low $p_T$, but at high $p_T$ the behavior at both orders is similar. This is due to the fact that at high $p_T$ the 
 
 Figure \ref{fig:yy} shows the normalized rapidity distributions for missing transverse momentum $(Z\to\nu\nu)$ and the photon respectively. The photon rapidity is restricted to $|\eta|<2.5$.
 \begin{figure}[H]
