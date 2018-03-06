@@ -398,7 +398,7 @@ where $\sigma_{ME}$ is the matrix element level cross section for the scattering
 %\footnote{Sometimes, scientists are just bad at anagrams})
 The ATLAS (A large ToroidaL ApparatuS detector is located at one of the four beam intersection points. It is a multipurpose experiment which, after the discovery of the Higgs boson in 2012, focuses on a wide range of topics, including searches for new physics, such as supersymmetry or dark matter, and measurements of Standard Model parameters. The experiment is a collaboration between around 4000 physicists from over 175 institutions in 38 countries.
 
-The ATLAS detector is a large apparatus with a cylindrical geometry, forward-backward symmetry, and nearly 4$\pi$ solid angle coverage. It is 46 meters long, 25 meters in diameter and weight 7000 tonnes. The detectors consists of concentric cylindrical layers around the interaction point, where the proton beams collide. Broadly, it consists of the  Inner Detector, the electromagnetic (EM) and hadronic calorimeters, the muon spectrometers and the magnetic systems, each composed of multiple layers. These layers complement each other's functionality: the inner detector accurately tracks charged particles passing through it, the calorimeters measure the energy deposited by the particles passing through or stopped but it, the magnet systems employ the Lorentz force law to bend charged particles and measure their momenta, and the muon systems measure the momenta of muons that pass through all other layers to reach it. Figure \ref{fig:ATLAS} displays the ATLAS detector and its components.
+The ATLAS detector is a large apparatus with a cylindrical geometry, forward-backward symmetry, and nearly 4$\pi$ solid angle coverage. It is 46 meters long, 25 meters in diameter and weight 7000 tonnes. The detectors consists of concentric cylindrical layers around the interaction point, where the proton beams collide. Broadly, it consists of the  Inner Detector, the electromagnetic (EM) and hadronic calorimeters, the muon spectrometers and the magnetic systems, each composed of multiple layers. These layers complement each other's functionality: the inner detector accurately tracks charged particles passing through it, the calorimeters measure the energy deposited by the particles passing through or stopped by it, the magnet systems employ the Lorentz force law to bend charged particles and measure their momenta, and the muon systems measure the momenta of muons that pass through all other layers to reach it. Figure \ref{fig:ATLAS} displays the ATLAS detector and its components.
 
 \begin{figure}[h]
 \centering
@@ -835,19 +835,19 @@ where
 \sigma_{NLO}^{(V,max)} &= max\left\lbrace\sigma_{NLO}^{(V)}(p_{T}(V),\mu_i)|0\leq i \leq 6\right\rbrace\\
 \sigma_{NLO}^{(V,min)} &= min\left\lbrace\sigma_{NLO}^{(V)}(p_{T}(V),\mu_i)|0\leq i \leq 6\right\rbrace
 \end{align}
-and $V = Z\to\nu\nu$ for \ZZ, or $V = \gamma$ for \Zg. This uncertainty is propagated to $R$.
+and $V = Z\to\nu\nu$ for \ZZ, or $V = \gamma$ for \Zg. The value of $R$ is calculated from the events generated with the above 7-point prescription in a correlated manner.
 
-The two processes are kinematically similar at high $p_T$. Thus, naively, a cancellation of the contribution due to missing higher order corrections would be expected between the two processes due to this correlation. To estimate the degree of correlation between the processes, the process dependent part of the cross sections may be used. Since the study is undertaken at NLO, the $K$-factor is defined as in Equation \ref{eq:K_factor}.
+There is no good motivation for treating the scale uncertainties of two separate processes as correlated. To account for the effects of process dependent correlations, the fact that the two processes are kinematically similar at high $p_T$ is taken into consideration. Naively, a cancellation of the contribution due to missing higher order corrections would be expected between the two processes due to this correlation. To estimate the degree of correlation between the processes, the process dependent part of the cross sections is used. Since the study is undertaken at NLO, the $K$-factor is defined as in Equation \ref{eq:K_factor}.
 \begin{equation}
 K_{NLO}^{(V)} = \sigma_{NLO}^{(V)}(p_T)/\sigma_{LO}^{(V)}(p_T)
 \label{eq:K_factor}
 \end{equation}
 
-Assuming that the corrections to the leading order cross section form a convergent series, and that the NLO $K$-factor is larger than the $K$-factor at higher orders,
-$$
+Assuming that the corrections to the fixed order cross section form a convergent series, and that the NLO $K$-factor is larger than the $K$-factor at higher orders,
+\begin{equation}
 \frac{\sigma^{(V)}_{NLO}}{\sigma^{(V)}_{LO}} >\frac{\sigma^{(V)}_{N^{\infty}LO}}{\sigma^{(V)}_{NLO}}
-$$ 
-it is possible to use the NLO $K$-factor to quantify the scale uncertainties that are correlated between the two processes. Figure \ref{fig:xsecs} illustrates that the behavior of the higher order corrections is similar between the two processes at high $p_T$. Thus to estimate the unknown process dependent correlation effects, the difference between the $K$-factors of the \ZZ and \Zg processes is taken.
+\end{equation}
+it is possible to use the NLO $K$-factor to quantify the scale uncertainties that are correlated between the two processes. Figure \ref{fig:xsecs} illustrates that the behavior of the higher order corrections is similar between the two processes at high $p_T$. Thus to estimate the unknown process dependent correlation effects, the difference between the $K$-factors of the \ZZ and \Zg processes is taken as the $K$-factor uncertainty $\delta K_{NLO}$.
 \begin{equation}
 \delta K_{NLO} = K_{NLO}^{(\gamma)}(p_T) - K_{NLO}^{(Z)}(p_T)
 \label{eq:K_factor_unc}
@@ -865,6 +865,11 @@ The variation of scales for cross sections of $ZZ\to ee\nu\nu$ and $Z\gamma\to e
 	\caption{The scale variations around the cross sections of $ZZ\to ee\nu\nu$(left) and $Z\gamma\to ee\gamma$(right)}
 	\label{fig:scale_xsec}
 \end{figure}
+
+It is assumed that process dependence of the K-factor at higher orders is larger than the .
+\begin{equation}
+\left(\frac{\sigma^{(\gamma)}_{NLO}}{\sigma^{(\gamma)}_{LO}}-\frac{\sigma^{(Z)}_{NLO}}{\sigma^{(Z)}_{LO}}\right) <\left(\frac{\sigma^{(\gamma)}_{N^{\infty}LO}}{\sigma^{(\gamma)}_{NLO}}-\frac{\sigma^{(Z)}_{N^{\infty}LO}}{\sigma^{(Z)}_{NLO}}\right)
+\end{equation}
 
 At 100 GeV, the deviation from the central value is about 3\% for both processes and increases to ~10\% at high $p_T$. Here, the prescription in Equations \ref{eq:scale_central} and \ref{eq:scale_central2} is used to compute the central value and uncertainty.\\ Treating the scales as correlated between the processes, the scale variation for the transfer factor $R$ is shown in Figure \ref{fig:R_scale}. The central value of $R$ and the uncertainty band around it is taken according to Equations \ref{eq:scale_central} and \ref{eq:scale_central2} applied to $R$.
 \begin{figure}[H]

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.18)  6 MAR 2018 17:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.18)  6 MAR 2018 18:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1115,29 +1115,29 @@ Package pdftex.def Info: zg_scale.png used on input line 863.
 File: R_scale.png Graphic file (type png)
 
 <use R_scale.png>
-Package pdftex.def Info: R_scale.png used on input line 872.
+Package pdftex.def Info: R_scale.png used on input line 877.
 (pdftex.def)             Requested size: 338.5863pt x 229.44637pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [32 <./zz_scale.png> <./zg_scale.png>] <K_pt.png, id=732, 700.6175pt x 474.773
+ [32 <./zz_scale.png> <./zg_scale.png>] <K_pt.png, id=734, 700.6175pt x 474.773
 74pt>
 File: K_pt.png Graphic file (type png)
 
 <use K_pt.png>
-Package pdftex.def Info: K_pt.png used on input line 881.
+Package pdftex.def Info: K_pt.png used on input line 886.
 (pdftex.def)             Requested size: 338.5863pt x 229.44637pt.
  [33 <./R_scale.png> <./K_pt.png>]
-<R_pdf.png, id=746, 700.6175pt x 474.77374pt>
+<R_pdf.png, id=748, 700.6175pt x 474.77374pt>
 File: R_pdf.png Graphic file (type png)
  <use R_pdf.png>
-Package pdftex.def Info: R_pdf.png used on input line 899.
+Package pdftex.def Info: R_pdf.png used on input line 904.
 (pdftex.def)             Requested size: 338.5863pt x 229.44637pt.
 
-<frag.png, id=748, 800.9925pt x 575.14874pt>
+<frag.png, id=750, 800.9925pt x 575.14874pt>
 File: frag.png Graphic file (type png)
  <use frag.png>
-Package pdftex.def Info: frag.png used on input line 912.
+Package pdftex.def Info: frag.png used on input line 917.
 (pdftex.def)             Requested size: 338.5863pt x 243.12296pt.
 
 Underfull \vbox (badness 5817) has occurred while \output is active []
@@ -1146,32 +1146,32 @@ Underfull \vbox (badness 5817) has occurred while \output is active []
 
 ]
 Chapter 5.
-<K_y.png, id=769, 700.6175pt x 474.77374pt>
+<K_y.png, id=771, 700.6175pt x 474.77374pt>
 File: K_y.png Graphic file (type png)
  <use K_y.png>
-Package pdftex.def Info: K_y.png used on input line 932.
+Package pdftex.def Info: K_y.png used on input line 937.
 (pdftex.def)             Requested size: 338.5863pt x 229.44637pt.
 
-<dphi.png, id=770, 700.6175pt x 474.77374pt>
+<dphi.png, id=772, 700.6175pt x 474.77374pt>
 File: dphi.png Graphic file (type png)
  <use dphi.png>
-Package pdftex.def Info: dphi.png used on input line 938.
+Package pdftex.def Info: dphi.png used on input line 943.
 (pdftex.def)             Requested size: 338.5863pt x 229.44637pt.
 
-<dy.png, id=771, 700.6175pt x 474.77374pt>
+<dy.png, id=773, 700.6175pt x 474.77374pt>
 File: dy.png Graphic file (type png)
  <use dy.png>
-Package pdftex.def Info: dy.png used on input line 944.
+Package pdftex.def Info: dy.png used on input line 949.
 (pdftex.def)             Requested size: 338.5863pt x 229.44637pt.
  [37 <./K_y.png> <./dphi.png>] [38 <./dy.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 965--966
+Underfull \hbox (badness 10000) in paragraph at lines 970--971
 []\OT1/ptm/m/n/10.95 The Super-Kamiokande Col-lab-o-ra-tion, \OT1/ptm/m/it/10.9
 5 Ev-i-dence for os-cil-la-tions of at-mo-spheric neu-tri-nos\OT1/ptm/m/n/10.95
  ,
  []
 
 
-Underfull \hbox (badness 2846) in paragraph at lines 968--969
+Underfull \hbox (badness 2846) in paragraph at lines 973--974
 []\OT1/ptm/m/n/10.95 The SNO Col-lab-o-ra-tion, \OT1/ptm/m/it/10.95 Mea-sure-me
 nt of the rate of $\OML/ztmcm/m/it/10.95 ^^W[] \OT1/ztmcm/m/n/10.95 + \OML/ztmc
 m/m/it/10.95 d \OMS/ztmcm/m/n/10.95 ! \OML/ztmcm/m/it/10.95 p \OT1/ztmcm/m/n/10
@@ -1180,7 +1180,7 @@ m/m/it/10.95 d \OMS/ztmcm/m/n/10.95 ! \OML/ztmcm/m/it/10.95 p \OT1/ztmcm/m/n/10
  []
 
 
-Underfull \hbox (badness 5147) in paragraph at lines 995--996
+Underfull \hbox (badness 5147) in paragraph at lines 1000--1001
 []\OT1/ptm/m/n/10.95 Belle Col-lab-o-ra-tion, \OT1/ptm/m/it/10.95 Ob-ser-va-tio
 n of Large $\OML/ztmcm/m/it/10.95 CP$ \OT1/ptm/m/it/10.95 Vi-o-la-tion in the N
 eu-tral $\OML/ztmcm/m/it/10.95 B$ \OT1/ptm/m/it/10.95 Me-son Sys-tem\OT1/ptm/m/
@@ -1190,38 +1190,38 @@ n/10.95 ,
 [39
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 1016--1017
+Underfull \hbox (badness 10000) in paragraph at lines 1021--1022
 []\OT1/ptm/m/n/10.95 P. J. E. Pee-bles, Bharat Ra-tra, \OT1/ptm/m/it/10.95 The 
 Cos-mo-log-i-cal Con-stant and Dark En-ergy (2002)\OT1/ptm/m/n/10.95 ,
  []
 
 
-Underfull \hbox (badness 1735) in paragraph at lines 1049--1050
+Underfull \hbox (badness 1735) in paragraph at lines 1054--1055
 []\OT1/ptm/m/n/10.95 Felix Kalhoe-fer, \OT1/ptm/m/it/10.95 Re-view of LHC Dark 
 Mat-ter searches\OT1/ptm/m/n/10.95 , Int.J.Mod.Phys. A32 (2017) 1730006,
  []
 
 [40] [41]
-Underfull \hbox (badness 10000) in paragraph at lines 1167--1200
+Underfull \hbox (badness 10000) in paragraph at lines 1172--1205
 []\OT1/ptm/m/n/10.95 S. Frix-ione, \OT1/ptm/m/it/10.95 Iso-lated pho-tons in pe
 r-tur-ba-tive QCD\OT1/ptm/m/n/10.95 , Phys.Lett. B429 (1998) 369-374,
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1202.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1207.
 [42]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1202.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1207.
  (./thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1202.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1202.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1207.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1207.
 
 Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: 6D67287E36FF4E326C7963DFB2993D7A;3055.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1202.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1207.
  ) 
 Here is how much of TeX's memory you used:
- 8761 strings out of 494860
- 127137 string characters out of 6177602
- 226581 words of memory out of 5000000
+ 8763 strings out of 494860
+ 127167 string characters out of 6177602
+ 226583 words of memory out of 5000000
  11635 multiletter control sequences out of 15000+600000
  74266 words of font info for 161 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
@@ -1240,10 +1240,10 @@ sfs/rsfs10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb><
 ve/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/
 times/utmri8a.pfb>
-Output written on thesis.pdf (58 pages, 2283168 bytes).
+Output written on thesis.pdf (58 pages, 2284184 bytes).
 PDF statistics:
- 980 PDF objects out of 1000 (max. 8388607)
- 836 compressed objects within 9 object streams
- 233 named destinations out of 1000 (max. 500000)
+ 983 PDF objects out of 1000 (max. 8388607)
+ 839 compressed objects within 9 object streams
+ 235 named destinations out of 1000 (max. 500000)
  543 words of extra memory for PDF output out of 10000 (max. 10000000)
 
