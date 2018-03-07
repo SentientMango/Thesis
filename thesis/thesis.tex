@@ -1,4 +1,4 @@
-\documentclass[11pt,a4paper,openright,twoside]{report}
+\documentclass[12pt,a4paper,openright,twoside]{report}
 \usepackage[utf8]{inputenc}
 \usepackage{amsmath}
 \usepackage{amsfonts}
@@ -462,21 +462,21 @@ The next step is detector simulation, where the propagation of particles through
 
 At this point, both simulated and actual recorded events are used to identify the objects associated with fundamental particles, such as electrons, muons, photons and jets. If not matched to physics objects, the energy deposits are collected into a ``soft terms'' category, which is then used in the calculation of missing transverse momentum \met.
 
-\section{Object Identification and Reconstruction}
-
-\subsection{Muon}
-Muons are the easiest to identify as they are among the most stable particles produced in a $pp$ collision. They traverse the entire detector, leaving little to no deposits in the EM and hadronic calorimeters, only registering in the Muon Spectrometers. Muons are reconstructed by matching the tracks in the Muon Spectrometers to the Inner Detector tracks, and are generally isolated from hadronic activity.
-
-\subsection{Electrons and Prompt Photons}
-Electrons are identified by a track in the Inner Detector that initiates an electromagnetic shower in the EM calorimeter. The energy carried by an electron is almost always completely absorbed in the EM calorimeter before reaching the hadronic calorimeter. Electrons are then reconstructed by matching the EM cluster to the Inner Detector tracks.
-
-Prompt photons are also identified by an electromagnetic shower in the EM calorimeter. However, photons do not leave tracks in the Inner Detector as they are neutral. However, a photon may convert to an $e^+e^-$ pair upon interacting with the material in the Inner Detector, thus leaving a track. Such photons are called converted photons, while the former are called unconverted photons
-
-\subsection{Neutrinos}
-Neutrinos interact only weakly, and pass through all the layers of the detector without registering. The ATLAS detector is not equipped to detect them. Their existence is inferred from imbalances in the total transverse momentum. Neutrinos are understood very well and their contribution can be predicted fairly accurately.
-
-\subsection{Jets}
-A jet is formed due to colored quarks or gluons from the primary hard interaction hadronizing and forming a color-neutral collection of hadrons with small separation $\Delta R$. Jets are reconstructed by grouping clusters in the EM and hadronic calorimeter  with Inner Detector tracks into larger collections using clustering algorithms. Jets can provide information about the initial quarks or gluons that participate in the hard process.
+%\section{Object Identification and Reconstruction}
+%
+%\subsection{Muon}
+%Muons are the easiest to identify as they are among the most stable particles produced in a $pp$ collision. They traverse the entire detector, leaving little to no deposits in the EM and hadronic calorimeters, only registering in the Muon Spectrometers. Muons are reconstructed by matching the tracks in the Muon Spectrometers to the Inner Detector tracks, and are generally isolated from hadronic activity.
+%
+%\subsection{Electrons and Prompt Photons}
+%Electrons are identified by a track in the Inner Detector that initiates an electromagnetic shower in the EM calorimeter. The energy carried by an electron is almost always completely absorbed in the EM calorimeter before reaching the hadronic calorimeter. Electrons are then reconstructed by matching the EM cluster to the Inner Detector tracks.
+%
+%Prompt photons are also identified by an electromagnetic shower in the EM calorimeter. However, photons do not leave tracks in the Inner Detector as they are neutral. However, a photon may convert to an $e^+e^-$ pair upon interacting with the material in the Inner Detector, thus leaving a track. Such photons are called converted photons, while the former are called unconverted photons
+%
+%\subsection{Neutrinos}
+%Neutrinos interact only weakly, and pass through all the layers of the detector without registering. The ATLAS detector is not equipped to detect them. Their existence is inferred from imbalances in the total transverse momentum. Neutrinos are understood very well and their contribution can be predicted fairly accurately.
+%
+%\subsection{Jets}
+%A jet is formed due to colored quarks or gluons from the primary hard interaction hadronizing and forming a color-neutral collection of hadrons with small separation $\Delta R$. Jets are reconstructed by grouping clusters in the EM and hadronic calorimeter  with Inner Detector tracks into larger collections using clustering algorithms. Jets can provide information about the initial quarks or gluons that participate in the hard process.
 
 \subsection{Missing Transverse Momentum}
 The missing transverse momentum is an important quantity in looking for new physics, where stable non-electromagnetically and non-hadronically interacting particle is expected. Such particles do not interact with any of the various layers, and thus result in an imbalance in the total momentum. Since the momentum of the protons is only along the beam axis ($x$-axis), the total momentum in the transverse plane is zero before the collision. Thus, it is possible to measure the imbalance in the total transverse momentum and establish the presence of such particles by their absence. For predicted particles with high mass, or particles that are carry high momentum away from the hard interaction vertex, a large imbalance is expected.
@@ -503,7 +503,7 @@ The main Standard Model background processes for the $\ell\ell+$\met final state
 \subsection{Selection Criteria}
 The selection criteria used in Ref \cite{ZH_ATLAS} is applied for the analysis reported in this thesis as well. The search is conducted on events with a $\ell\ell+$\met final state, having a pair of high $p_T$ electrons ($ee$) or muons ($\mu\mu$), and large missing transverse momentum. Events with extra leptons or $b$-jets are removed to reduce backgrounds, and the requirement of a boosted $Z$ boson back to back with the missing tranverse momentum vector is imposed. Electron candidates are selected based on the ATLAS tracker and EM calorimeter dimensions, with $p_T > 7$ GeV and pseudorapidity $|\eta| < 2.47$. Similarly, muon candidates are required to have $p_T > 7$ GeV and pseudorapidity $|\eta| < 2.5$.
 
-The leading and subleading leptons in the event are required to have sufficiently high transverse momentum, with the leading lepton required to have $p_T>30$ GeV, and the subleading lepton required to have $p_T>20$ GeV. The veto on additional leptons serves to remove background from processes such as $WZ\to \ell\ell\ell\nu$. The reconstructed mass of the leading and subleading leptons is required to be within a 15 GeV window around the mass of the $Z$ boson, i.e. $76<\mathrm{m_{\ell\ell}<106}$ GeV, to suppress backgrounds where the final state leptons do not originate from a $Z$ boson (non-resonant $\ell\ell$ processes). The \met is expected to be back to back to a $Z$ boson with high $p_T$, and originates from an invisibly decaying $Z$ or Higgs boson, thus is expected to be high as well; a cut requiring \met$>90$ GeV reduces the number of events with low \met. As the leading and subleading leptons are expected to come from the decay of a highly boosted $Z$ boson, their separation is expected to be small. Thus, the leading and subleading leptons in selected events are required to be separated by $\Delta R_{\ell\ell}<1.8$. The requirement of back to back $Z$ boson and \met is enforced by requiring the angular separation of the \met vector from the vector reconstructed from the leading and subleading leptons in the transverse plane, $\Delta\phi(\vec{p_T}^{\ell\ell},\vec{E}_T^{miss})$ to be greater than 2.7 radians. The remaining $Z+$jets background events have large \met because of significant soft-term contribution. To remove this $Z+$jets background, the magnitude of the difference between the dilepton transverse momentum $p_T(\ell\ell)$ and the sum of the jet $p_T$ and \met must be less than 20\% of the dilepton $p_T$. To suppress $t\bar{t}$ and $Wt$ backgrounds, events with one or more $b$-jets (jets that originate from a $b$-quark, such as from the decay of a top quark) are vetoed.
+The leading and subleading leptons in the event are required to have sufficiently high transverse momentum, with the leading lepton required to have $p_T>30$ GeV, and the subleading lepton required to have $p_T>20$ GeV. The veto on additional leptons serves to remove background from processes such as $WZ\to \ell\ell\ell\nu$. The reconstructed mass of the leading and subleading leptons is required to be within a 15 GeV window around the mass of the $Z$ boson, i.e. $76<\mathrm{m_{\ell\ell}<106}$ GeV, to suppress backgrounds where the final state leptons do not originate from a $Z$ boson (non-resonant $\ell\ell$ processes). The \met is expected to be back to back to a $Z$ boson with high $p_T$, and originates from an invisibly decaying Higgs boson, thus is expected to be high as well; a cut requiring \met$>90$ GeV reduces the number of events with low \met. As the leading and subleading leptons are expected to come from the decay of a highly boosted $Z$ boson, their separation is expected to be small. Thus, the leading and subleading leptons in selected events are required to be separated by $\Delta R_{\ell\ell}<1.8$. The requirement of back to back $Z$ boson and \met is enforced by requiring the angular separation of the \met vector from the vector reconstructed from the leading and subleading leptons in the transverse plane, $\Delta\phi(\vec{p_T}^{\ell\ell},\vec{E}_T^{miss})$ to be greater than 2.7 radians. The remaining $Z+$jets background events have large \met because of significant soft-term contribution. To remove this $Z+$jets background, the magnitude of the difference between the dilepton transverse momentum $p_T(\ell\ell)$ and the sum of the jet $p_T$ and \met must be less than 20\% of the dilepton $p_T$. To suppress $t\bar{t}$ and $Wt$ backgrounds, events with one or more $b$-jets (jets that originate from a $b$-quark, such as from the decay of a top quark) are vetoed.
 
 Table \ref{table:event_selection} summarises the event selection criteria in the $\ell\ell+$\met search, as shown in \cite{ZH_ATLAS}.
 {\renewcommand{\arraystretch}{1.5}
@@ -623,7 +623,7 @@ In this study, the following sources of theoretical uncertainties are studied.
 \begin{itemize}
 \item Missing higher order corrections: Contributions due to higher order QCD corrections cannot be calculated to arbitrarily high order, as it gets progressively more computationally expensive. Thus, this study is limited to next to leading order (NLO), and further corrections are accounted for by varying the factorization and renormalization scales. The next section \ref{sec:renorm} discusses the approach taken to evaluate uncertainties associated with missing higher order corrections.
 
-\item Uncertainties associated with Parton Distribution Functions: According to the Parton model \cite{parton_model}, a proton is composed of three valence quarks, and several gluons. Quarks and gluons are called `partons'. Proton-proton collisions, such as in the experiments conducted at the LHC, involve the interaction of these quarks and gluons at very high energies. These partons carry a fraction of the proton momentum. Parton Distribution Functions (PDFs) represent this fraction of proton momentum carried by partons as probability distributions. Owing to the non-deterministic nature of this fact, this study attempts to account for these uncertainties as PDF uncertainties. Chapter \ref{ch:LHC} has introduced proton-proton collisions and Parton Distribution Functions in fair depth.
+\item Uncertainties associated with Parton Distribution Functions: According to the Parton model \cite{parton_model}, a proton is composed of three valence quarks, and several gluons and virtual quarks. These quarks and gluons are called `partons'. Proton-proton collisions, such as in the experiments conducted at the LHC, involve the interaction of these quarks and gluons at very high energies. These partons carry a fraction of the proton momentum. Parton Distribution Functions (PDFs) represent this fraction of proton momentum carried by partons as probability distributions. Owing to the non-deterministic nature of this fact, this study attempts to account for these uncertainties as PDF uncertainties. Chapter \ref{ch:LHC} has introduced proton-proton collisions and Parton Distribution Functions in fair depth.
 
 \item Photon Fragmentation Uncertainties: In the \Zg process, the signal includes a photon. However, while reconstructing the event, soft photons, or photons resulting from other fragmentation processes may be encountered. To ensure that the photon is indeed prompt, it is required to be isolated from hadronic activity (such as pion decays). This isolation is implemented experimentally in different ways. The uncertainty associated with the implementation of this isolation is estimated as photon fragmentation uncertainties.
 \end{itemize}
@@ -648,7 +648,7 @@ The infrared divergences are addressed by the inclusion of the factorization sca
 
 Perturbative QCD calculations get progressively more computationally expensive as the order of the perturbative theory increases. Thus, perturbative QCD calculations are only carried out up to a fixed order. There is a difference in the cross sections obtained from one order to the next, and thus, a contribution from the uncalculated higher perturbative orders is expected. To account for the missing higher order corrections, $K-$factors are introduced to quantify the difference between higher orders and leading order. At NLO, the $K-$factor is defined as the ratio between the cross section at NLO to the cross section at LO.
 
-\section{Photon Isolation}
+\section{Photon Isolation}\label{sec:Isolation}
 The \Zg process may contain photons that arise from the hadron showers. It is therefore important to isolate the prompt photon from hadronic activity. This reduces unwanted background from pion decays, or fragmentation processes.
 
 Experimentally, photon isolation is implemented with the following selection:
@@ -727,12 +727,12 @@ Using the settings listed in Table \ref{table:default}, the cross sections for $
 		\caption{}
 		\label{subfig:Zeeg}	
 	\end{subfigure}
-	\caption{NLO and LO cross sections of $ZZ\to ee\nu\nu$ (left) and $Z\gamma\to ee\gamma$ (right) processes with the cuts as in Table 1. The leptonically decaying $Z$ boson decays to an $e^+e^-$ pair. There is no flavor constraint on the neutrinos.}
+	\caption{NLO and LO cross sections of $ZZ\to ee\nu\nu$ (left) and $Z\gamma\to ee\gamma$ (right) processes with the cuts as in Table 1. The leptonically decaying $Z$ boson decays to an $e^+e^-$ pair. The behaviour of the ratio of the NLO cross sections to the LO cross sections can be seen in Figure \ref{fig:K_pt}. There is no flavor constraint on the neutrinos.}
 	\label{fig:xsecs}
 \end{figure}
-There is a significant difference between the LO cross section and NLO cross section in both of these processes. The correction is greater at high $p_T$ than at low $p_T$. However, the correction from LO to NLO is similar between the two processes. Thus, the behavior of the transfer factor $R$ at LO and NLO is expected to be similar at high $p_T$ as well. The ratio $R = \sigma(ZZ\rightarrow ee\nu\nu)/\sigma(Z\gamma\rightarrow ee\gamma)$ at LO and NLO is shown in Figure \ref{fig:Rcurve}, taken as the ratio of the cross sections in Figures \ref{subfig:ZeeZvv} and \ref{subfig:Zeeg}.
+There is a significant difference between the LO cross section and NLO cross section in both of these processes. The difference is greater at high $p_T$ than at low $p_T$. However, the ratio of NLO to LO is similar between the two processes. Thus, the behavior of the transfer factor $R$ at LO and NLO is expected to be similar at high $p_T$ as well. This behavior is shown in Figure \ref{fig:K_pt}. The ratio $R = \sigma(ZZ\rightarrow ee\nu\nu)/\sigma(Z\gamma\rightarrow ee\gamma)$ at LO and NLO is shown in Figure \ref{fig:Rcurve}, taken as the ratio of the cross sections in Figures \ref{subfig:ZeeZvv} and \ref{subfig:Zeeg}.
 
-The $Z$ boson has a mass of 91 GeV, while the photon is massless. The coupling of the $Z$ boson to quarks depends upon its mass. At low $p_T$, this makes it significantly different than the coupling of the photon to quarks. At $p_T(Z\to\nu\nu) >> M_Z$, the mass of the $Z$ boson is negligible, and its kinematics are similar to those of the photon. The difference between the two process is largely dictated by the coupling strength of the respective bosons to the quarks. 
+The $Z$ boson has a mass of 91 GeV, while the photon is massless. The coupling of the $Z$ boson to quarks depends upon its mass. At low $p_T$, the mass dependence makes it significantly different than the coupling of the photon to quarks. At $p_T(Z\to\nu\nu) \gg M_Z$, the mass of the $Z$ boson is negligible, and its kinematics are similar to those of the photon. The difference between the two process is largely dictated by the coupling strength of the respective bosons to the quarks. 
 \begin{figure}[H]
 \centering
 	\begin{subfigure}{0.49\textwidth}
@@ -749,9 +749,7 @@ The $Z$ boson has a mass of 91 GeV, while the photon is massless. The coupling o
 \end{figure}
 
 
-Thus the $R$ value is observed to increase from $\approx 0.43$ at 100 GeV to $\approx 0.52$ at high $p_T$, where it reaches a plateau. When the branching ratio of $Z$ boson decaying selectively to $e^+e^-$, or to $\nu\nu$, is accounted for as shown in Equation \ref{eq:R_inc}, the resulting ratio $R(p_T)$ is shown in Figure \ref{fig:RcurveBR}, which shows the ratio of $\sigma(ZZ)$ to $\sigma(Z\gamma)$, i.e. if the $Z$ bosons do not decay further. The value of $R$ is observed to increase from $\approx 1.08$ at 100 GeV to $\approx 1.3$ at high $p_T$. This agrees with the simple approximate calculation presented in Section \ref{sec:R} of $R \approx 1.28$.
-
-The behavior of $R$ at LO is different from NLO at low $p_T$, but at high $p_T$ the behavior at both orders is similar. This is because of the fact that the mass of the $Z$ boson is important at low $p_T$ but is negligible compared to its $p_T$ at high $p_T$, and thus behaves similar to the photon.
+Thus the $R$ value is observed to increase from $\approx 0.43$ at 100 GeV to $\approx 0.52$ at high $p_T$, where it reaches a plateau. When the branching ratio of $Z$ boson decaying selectively to $e^+e^-$, or to $\nu\nu$, is accounted for as shown in Equation \ref{eq:R_inc}, the resulting ratio $R(p_T)$ is shown in Figure \ref{fig:RcurveBR}. Here, the ratio of $\sigma(ZZ)$ to $\sigma(Z\gamma)$ is shown, i.e. the $Z$ bosons do not decay further. The value of $R$ is observed to increase from $\approx 1.08$ at 100 GeV to $\approx 1.3$ at high $p_T$. This agrees with the simple approximate calculation presented in Section \ref{sec:R} of $R \approx 1.28$.
 
 %Figure \ref{fig:yy} shows the normalized rapidity distributions for missing transverse momentum $(Z\to\nu\nu)$ and the photon respectively. The photon rapidity is restricted to $|\eta|<2.5$.
 %\begin{figure}[H]
@@ -788,13 +786,13 @@ Figures \ref{fig:leppt} and \ref{fig:leptony} further illustrate the topology of
 		\caption{}
 		\label{fig:subleady}
 	\end{subfigure}
-	\caption{Normalized distributions showing the differential cross section as a function of the rapidity of the leading (left) and subleading (right) leptons for the two processes.}
+	\caption{Normalized distributions showing the differential cross section as a function of the rapidity of the leading (left) and subleading (right) leptons1 for the two processes.}
 	\label{fig:leptony}
 \end{figure}
 
 Figures \ref{fig:leppt} and \ref{fig:leptony} show that the leptons from a $Z$ boson decay have very similar kinematic behavior between the two processes.
 
-Gluon-gluon processes contribute to 8.6\% of the total cross section for the $ZZ$ process and 2.5\% of the $Z+\gamma$ process. Figure \ref{fig:xsec_gg_qq} shows the $qg+q\bar{q}$ and $gg$ contributions to the $ZZ$ and $Z\gamma$ cross section. At low $p_T$, gluon-gluon processes contribute more than at high $p_T$.
+Gluon-gluon processes contribute to 8.6\% of the total cross section for the $ZZ$ process and 2.5\% of the $Z+\gamma$ process. Figure \ref{fig:xsec_gg_qq} shows the $qg+q\bar{q}$ and $gg$ contributions to the $ZZ$ and $Z\gamma$ cross section. Gluon-gluon processes contribute more at low $p_T$ than at high $p_T$. This is due to asymptotic freedom; at higher energies, gluons do not interact as strongly as they do at low energies, and the cross section is dominated by the $q\bar{q}$ and $qg$ induced processes.
 
 \begin{figure}[H]
 \centering
@@ -808,15 +806,14 @@ Gluon-gluon processes contribute to 8.6\% of the total cross section for the $ZZ
 \label{fig:xsec_gg_qq}
 \end{figure}
 
-The $R_{gg}$ distribution, shown in Figure \ref{fig:R_ggonly} is observed to approach an asymptotic value at a much higher $p_T = 2$ TeV.
+The $R_{gg}$ distribution, shown in Figure \ref{fig:R_ggonly} is observed to approach an asymptotic value at a much higher $p_T = 2$ TeV. The shape and value of the transfer factor for the gluon-gluon induced processes is due to the fact that the $gg$ contribution is lower at high $p_T$. 
 
-\begin{figure}[h]
+\begin{figure}[H]
 \centering
 \includegraphics[width=0.7\textwidth]{Rgg.png}
 \caption{$R_{gg}(p_T)$, computed from the contributions of the $gg$ subprocess to the cross sections of $ZZ$ and $Z\gamma$. The curve reaches a plateau at a much higher $p_T$ than for contributions from the $q\bar{q}$ process only. The leptonic $Z$ bosons decay to an $ee$ pair.}
 \label{fig:R_ggonly}
 \end{figure}
-\vfill
 
 \section{Theoretical Uncertainties}
 \subsection{Uncertainty from Missing Higher Order Corrections}
@@ -837,6 +834,28 @@ where
 \end{align}
 and $V = Z\to\nu\nu$ for \ZZ, or $V = \gamma$ for \Zg. The value of $R$ is calculated from the events generated with the above 7-point prescription in a correlated manner.
 
+The variation of scales for cross sections of $ZZ\to ee\nu\nu$ and $Z\gamma\to ee\gamma$ are shown in Figure \ref{fig:scale_xsec}.
+\begin{figure}[H]
+\centering
+	\begin{subfigure}{0.49\textwidth}
+		\includegraphics[width=\linewidth]{zz_scale.png}
+	\end{subfigure}
+	\begin{subfigure}{0.49\textwidth}
+		\includegraphics[width=\linewidth]{zg_scale.png}
+	\end{subfigure}
+	\caption{The scale variations around the cross sections of $ZZ\to ee\nu\nu$ (left) and $Z\gamma\to ee\gamma$ (right).}
+	\label{fig:scale_xsec}
+\end{figure}
+
+The uncertainty for \ZZ process is 2.5\% at 100 GeV, which increases to 8.4\% at high $p_T$. For the \Zg process, the uncertainty increases from 3.5\% at 100 GeV to 7.2\% at high $p_T$. Here, the prescription in Equations \ref{eq:scale_central} and \ref{eq:scale_central2} is used to compute the central value and uncertainty.\\ Treating the scales as correlated between the processes, the scale variation for the transfer factor $R$ is shown in Figure \ref{fig:R_scale}. The central value of $R$ and the uncertainty band around it is taken according to Equations \ref{eq:scale_central} and \ref{eq:scale_central2} applied to $R$.
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.7\textwidth]{R_scale.png}
+\caption{The transfer factor $R = \sigma(ZZ\to ee\nu\nu)/\sigma(Z\gamma\to ee\gamma)$(top), with the scales varied in a correlated manner for both $ZZ$ and $Z\gamma$ processes. The bottom plot shows the relative ratio $R_i/R_0$ of the varied transfer factors to the central value.}
+\label{fig:R_scale}
+\end{figure}
+The correlated scale uncertainty around $R$ is lower compared to that of the individual cross sections. At 100 GeV, $R \approx 0.4 \pm 0.043$, or an uncertainty of 1\%. At high $p_T$, $R\approx 0.55 \pm 0.01$, the uncertainty is 1\%, significantly lower than the 10\% uncertainty obtained for the individual cross sections.
+
 There is no good motivation for treating the scale uncertainties of two separate processes as correlated. To account for the effects of process dependent correlations, the fact that the two processes are kinematically similar at high $p_T$ is taken into consideration. Naively, a cancellation of the contribution due to missing higher order corrections would be expected between the two processes due to this correlation. To estimate the degree of correlation between the processes, the process dependent part of the cross sections is used. Since the study is undertaken at NLO, the $K$-factor is defined as in Equation \ref{eq:K_factor}.
 \begin{equation}
 K_{NLO}^{(V)} = \sigma_{NLO}^{(V)}(p_T)/\sigma_{LO}^{(V)}(p_T)
@@ -853,42 +872,20 @@ it is possible to use the NLO $K$-factor to quantify the scale uncertainties tha
 \label{eq:K_factor_unc}
 \end{equation}
 
-The variation of scales for cross sections of $ZZ\to ee\nu\nu$ and $Z\gamma\to ee\gamma$ are shown in Figure \ref{fig:scale_xsec}.
-\begin{figure}[H]
-\centering
-	\begin{subfigure}{0.49\textwidth}
-		\includegraphics[width=\linewidth]{zz_scale.png}
-	\end{subfigure}
-	\begin{subfigure}{0.49\textwidth}
-		\includegraphics[width=\linewidth]{zg_scale.png}
-	\end{subfigure}
-	\caption{The scale variations around the cross sections of $ZZ\to ee\nu\nu$(left) and $Z\gamma\to ee\gamma$(right)}
-	\label{fig:scale_xsec}
-\end{figure}
-
-It is assumed that process dependence of the K-factor at higher orders is larger than the .
+It is assumed that process dependence of the K-factor at higher orders is larger than the
 \begin{equation}
 \left(\frac{\sigma^{(\gamma)}_{NLO}}{\sigma^{(\gamma)}_{LO}}-\frac{\sigma^{(Z)}_{NLO}}{\sigma^{(Z)}_{LO}}\right) <\left(\frac{\sigma^{(\gamma)}_{N^{\infty}LO}}{\sigma^{(\gamma)}_{NLO}}-\frac{\sigma^{(Z)}_{N^{\infty}LO}}{\sigma^{(Z)}_{NLO}}\right)
 \end{equation}
 
-At 100 GeV, the deviation from the central value is about 3\% for both processes and increases to ~10\% at high $p_T$. Here, the prescription in Equations \ref{eq:scale_central} and \ref{eq:scale_central2} is used to compute the central value and uncertainty.\\ Treating the scales as correlated between the processes, the scale variation for the transfer factor $R$ is shown in Figure \ref{fig:R_scale}. The central value of $R$ and the uncertainty band around it is taken according to Equations \ref{eq:scale_central} and \ref{eq:scale_central2} applied to $R$.
-\begin{figure}[H]
-\centering
-\includegraphics[width=0.7\textwidth]{R_scale.png}
-\caption{The transfer factor $R = \sigma(ZZ\to ee\nu\nu)/\sigma(Z\gamma\to ee\gamma)$(top), with the scales varied in a correlated manner for both $ZZ$ and $Z\gamma$ processes. The bottom plot shows the relative ratio $R_i/R_0$ of the varied transfer factors to the central value.}
-\label{fig:R_scale}
-\end{figure}
-The correlated scale uncertainty around $R$ is lower compared to that of the individual cross sections. At 100 GeV, $R \approx 0.4 \pm 0.037$, or an uncertainty of 1\%. At high $p_T$, $R\approx 0.55 \pm 0.01$, the uncertainty is 1.8\%, significantly lower than the 10\% uncertainty obtained for the individual cross sections.
-
-To study the uncertainty due to unknown process dependent correlation effects, the $K$-factor study is undertaken, following the prescription in Equations \ref{eq:K_factor} and \ref{eq:K_factor_unc}. Figure \ref{fig:K_pt}
+Figure \ref{fig:K_pt} shows the $K$-factor distributions for both processes, as well as the $K$-factor uncertainty $\delta K_{NLO}$.
 \begin{figure}[H]
 \centering
 	\includegraphics[width=0.7\textwidth]{K_pt.png}
 	\caption{The $K$ factor to estimate the unknown process dependent correlations, defined as $\sigma_{NLO}(V)/\sigma_{LO}(V)$. The bottom plot shows the $K$-factor difference relative to $K(Z)$.}
 	\label{fig:K_pt}
 \end{figure}
-The $K$-factor grows larger as a function of $p_T(V)$ for both processes. However, the difference between the two $K$-factors shrinks, due to the two processes being similar at high $p_T$. Thus, the $K$-factor uncertainty relative to $K^{(Z)}_{NLO}$, $\delta K_{NLO}/K^{(Z)}_{NLO}$, is 2.1\% at $p_T(V) = 500$ GeV.
-\vfill
+The $K$-factor grows larger as a function of $p_T(V)$ for both processes. However, the difference between the two $K$-factors shrinks, due to the two processes being similar at high $p_T$. Thus, the $K$-factor uncertainty relative to $K^{(Z)}_{NLO}$, $\delta K_{NLO}/K^{(Z)}_{NLO}$, is 4\% at $p_T(V) = 500$ GeV.
+
 
 \subsection{Uncertainty associated with Parton Distribution Functions}
 The PDF set used for reference is the \texttt{PDF4LHC15}\cite{PDF4} PDF set. The uncertainty on the PDFs is studied by using the 30 variations provided by the \texttt{PDF4LHC15} set\cite{PDF4}, constructed from the combination of \texttt{CT14,MMHT14} and \texttt{NNPDF3.0} PDF sets. These sets are provided by LHAPDF6\cite{LHAPDF}. \texttt{PDF4LHC15} provides a set of variations that include those determined by different groups (MSTW, CTEQ and NNPDF). The set used here is \texttt{PDF4LHC15\_nlo\_30}, consisting of 30 members.
@@ -902,15 +899,18 @@ where $N_{mem}$ is the number of member sets in the group, in this case, 30.
 \begin{figure}[H]
 \centering
 	\includegraphics[width = 0.7\textwidth]{R_pdf.png}
-	\caption{The transfer factor $R = \sigma(ZZ)/\sigma(Z\gamma)$ (top), and the relative ratio $R_i/R_0$ of the transfer factor  calculated using PDF sets 1-30, with respect to set 0 which is taken as the central value. }
+	\caption{The transfer factor $R = \sigma($\ZZ$)/\sigma($\Zg$)$ (top), and the relative ratio $R_i/R_0$ of the transfer factor  calculated using PDF sets 1-30, with respect to set 0 which is taken as the central value. }
 	\label{fig:PDF30var}
 \end{figure}
 
-The combined uncertainty around $R \approx 0.40$ is $\pm 0.01$, or about 2.3\%, at 100 GeV. The uncertainty is about 1.8\% at $p_T$ values, with $R \approx 0.51 \pm 0.01$ at $p_T(V)=500$ GeV.
+The combined uncertainty around $R \approx 0.40$ is $\pm 0.01$, or about 2.3\%, at 100 GeV. The uncertainty is about 1.8\% at high $p_T$ values, with $R \approx 0.51 \pm 0.01$ at $p_T(V)=500$ GeV.
+\vfill
 
 \subsection{Photon Fragmentation Uncertainty}\label{subsec:photon_fragmentation}
 
-In this analysis, $R_0$ is chosen to be 0.4 to agree with the experimental definition. The central value is chosen to be from the sample using smooth cone isolation (Frixione) with $\epsilon_h = 0.075$ and $n=1$. These parameters are varied within a reasonable range to assess the uncertainty as shown in Figure \ref{fig:photon_frag}. For the purpose of this analysis, the Frixione method is used as it allows us to ignore the effects of fragmentation. The parameters $\epsilon$ and $n$ are varied to get a handle on the uncertainty associated with the Frixione isolation method. The experimential isolation method is considered, and the difference between the two methods is accounted for as part of the uncertainty.
+To identify prompt photons, and separate them from photons that arise from showers or hadronic decay, it is necessary to isolate the photons from hadronic activity. Experimentally, photon isolation is implemented by limiting the hadronic energy in a cone around the photon to some fraction of the photon momentum. An alternative method is the smooth cone isolation, or the Frixione method which avoids fragmentation contributions and removes collinear singularities. Section \ref{sec:Isolation} details these methods.
+
+In this analysis, $R_0$ is chosen to be 0.4 to agree with the experimental definition. The central value is chosen to be from the sample using smooth cone isolation (Frixione) with $\epsilon_h = 0.075$ and $n=1$. These parameters are varied within a reasonable range to assess the uncertainty as shown in Figure \ref{fig:photon_frag}. The parameters $\epsilon$ and $n$ are varied to get a handle on the uncertainty associated with the Frixione isolation method. The experimential isolation method is also considered, and the difference between the two methods is accounted for as part of the uncertainty.
 
 \begin{figure}[H]
 \centering
@@ -927,9 +927,35 @@ The uncertainty is calculated from the four sets listed in Figure \ref{fig:photo
 \end{split}
 \end{equation}
 as the effects assessed by changing the isolation definition in set 4, and varying the parameters in sets 1-3 are different.\\
-The uncertainty is $< 2\%$ over the whole $p_T$ range, and is approximately 0.7\% at $p_T(V)=500$ GeV.
+The uncertainty is $< 1.5\%$ over the whole $p_T$ range, and is approximately 0.7\% at $p_T(V)=500$ GeV.
+\vfill
 
-\textbf{Note: Need to draw up a plot combining the uncertainties and will put it in Summary.}
+\section{Combined Uncertainties}
+
+Combining the theoretical uncertainties due to missing higher order corrections, parton distribution functions, and photon fragmentation effects, Figure \ref{fig:summary} shows the transfer factor $R$ and its uncertainty.
+
+\begin{figure}[H]
+\centering
+	\includegraphics[width=0.7\textwidth]{summary.png}
+	\caption{The transfer factor $R$ with the combined theoretical uncertainties from missing higher order QCD corrections, parton distribution functions, and photon fragmentation effects.}
+	\label{fig:summary}
+\end{figure}
+
+The combined uncertainties are large at low $p_T$, with $R=0.4\pm 0.096(23.8\%)$ at 100 GeV. However, the similarities in the \ZZ and \Zg processes are apparent at high $p_T$, with $R=0.52\pm 0.024 (4.6\%)$ at 500 GeV.
+
+\chapter{Conclusion}
+This thesis presents a method to estimate the Standard Model background to the \llM final state in a Higgs to Dark Matter search. 
+
+The Dark Matter model proposes the Higgs boson as a mediator between Dark Matter and Standard Model particles. The Higgs boson is produced in association with a leptonically decaying $Z$ boson, whereupon the Higgs boson decays into the invisible Dark Matter particles, resulting in a \llM final state. This thesis estimates contribution of the \ZZ process to the Standard Model background in \llM final state.
+
+Estimated using Monte Carlo methods in Ref \cite{ZH_ATLAS}, an uncertainty of 10\% was provided. This thesis reports a data driven method using the \Zg process to estimate the \ZZ contribution, as the two processes behave similarly at $p_T(V) \gg M_Z;\ V=Z\to\nu\nu$ or $\gamma$, i.e. the mass of the $Z$ boson is negligible compared to its transverse momentum.
+
+A transfer factor $R$ is introduced as the ratio of the \ZZ cross section to the \Zg cross section, and the theoretical uncertainties upon $R$ are estimated. The uncertainties due to missing higher order corrections are 1\% at 100 GeV and 500 GeV, and do not exceed 1.5\% at even 1 TeV. Uncertainties due to parton distribution functions are 2.3\% at 100 GeV, and 1.8\% at 500 GeV. The uncertainties due to photon fragmentation effects are $<1.5\%$ in the full $p_T$ range considered, and 0.7\% at 500 GeV. 
+
+The combined uncertainties are large at low $p_T$, $23.8\%$, at 100 GeV, but are small at high $p_T$, $4.6\%$ at 500 GeV. Thus, the transfer factor $R$ can be used on \Zg data to estimate the contribution of \ZZ.
+
+\section{Outlook}
+This study was conducted at NLO using MCFM, a matrix element generator. Further studies are being conducted to reproduce these results and obtain similar results at NNLO using MATRIX \cite{MATRIX}. It is also necessary to account for detector effects and estimate experimental uncertainties, which will be conducted with Monte Carlo techiniques with the ATLAS framework. These studies are in progress, and are not within the scope of this thesis.
 
 \chapter{Additional Figures}
 \begin{figure}[H]
@@ -1170,6 +1196,9 @@ The uncertainty is $< 2\%$ over the whole $p_T$ range, and is approximately 0.7\
 
 \bibitem{frixione}
 	\bibref{S. Frixione}{Isolated photons in perturbative QCD}{Phys.Lett. B429 (1998) 369-374,}{\href{https://arxiv.org/abs/hep-ph/9801442}{\texttt{arXiv:hep-ph/9801442}}}
+	
+\bibitem{MATRIX}
+	\bibref{Massimiliano Grazzini, Stefan Kallweit, Marius Wiesemann}{Fully differential NNLO computations with MATRIX}{CERN-TH-2017-232, ZU-TH 30/17,}{\href{https://arxiv.org/abs/1711.06631}{\texttt{arXiv:1711.06631 [hep-ph]}}}
 %	
 %\bibitem{powheg}
 %	POWHEG BOX - ZZ,WZ and WW production
