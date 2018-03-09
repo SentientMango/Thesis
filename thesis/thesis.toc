@@ -5,7 +5,7 @@
 \contentsline {section}{\numberline {1.2}Inadequacies of the Standard Model}{7}{section.1.2}
 \contentsline {subsection}{\numberline {1.2.1}Dark Matter}{9}{subsection.1.2.1}
 \contentsline {subsection}{\numberline {1.2.2}Beyond the Standard Model}{9}{subsection.1.2.2}
-\contentsline {subsubsection}{Dark Matter searches at the \hyperref [ch:LHC]{Large Hadron Collider}}{10}{section*.9}
+\contentsline {subsubsection}{Dark Matter searches at the \hyperref [ch:LHC]{Large Hadron Collider}}{10}{section*.11}
 \contentsline {chapter}{\numberline {2}Experimental Apparatus}{13}{chapter.2}
 \contentsline {section}{\numberline {2.1}The Large Hadron Collider}{13}{section.2.1}
 \contentsline {section}{\numberline {2.2}History}{13}{section.2.2}
