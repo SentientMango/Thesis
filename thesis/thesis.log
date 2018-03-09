@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.18)  8 MAR 2018 12:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.18)  9 MAR 2018 17:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -906,14 +906,14 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 275.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 275.
- <GRC.jpeg, id=388, 583.17876pt x 496.85625pt>
+ <GRC.jpeg, id=390, 583.17876pt x 496.85625pt>
 File: GRC.jpeg Graphic file (type jpg)
 
 <use GRC.jpeg>
 Package pdftex.def Info: GRC.jpeg used on input line 278.
 (pdftex.def)             Requested size: 290.22105pt x 247.26755pt.
  [8] [9 <./GRC.jpeg>]
-<Mono_X.png, id=410, 980.16188pt x 453.19313pt>
+<Mono_X.png, id=412, 980.16188pt x 453.19313pt>
 File: Mono_X.png Graphic file (type png)
  <use Mono_X.png>
 Package pdftex.def Info: Mono_X.png used on input line 310.
@@ -931,25 +931,25 @@ duc-tion in in-vis-i-ble Higgs searches.
 
 ]
 Chapter 2.
-<Cern_accelerator_complex.png, id=439, 1049.42062pt x 683.55376pt>
+<Cern_accelerator_complex.png, id=441, 1049.42062pt x 683.55376pt>
 File: Cern_accelerator_complex.png Graphic file (type png)
 
 <use Cern_accelerator_complex.png>
 Package pdftex.def Info: Cern_accelerator_complex.png used on input line 346.
 (pdftex.def)             Requested size: 435.32419pt x 283.5548pt.
  [13] [14 <./Cern_accelerator_complex.png>]
-<pp-shower.png, id=455, 671.50874pt x 611.28375pt>
+<pp-shower.png, id=456, 671.50874pt x 611.28375pt>
 File: pp-shower.png Graphic file (type png)
  <use pp-shower.png>
 Package pdftex.def Info: pp-shower.png used on input line 364.
 (pdftex.def)             Requested size: 290.22105pt x 264.19003pt.
- [15 <./pp-shower.png>] <NNPDF3.png, id=473, 497.60907pt x 319.1925pt>
+ [15 <./pp-shower.png>] <NNPDF3.png, id=474, 497.60907pt x 319.1925pt>
 File: NNPDF3.png Graphic file (type png)
  <use NNPDF3.png>
 Package pdftex.def Info: NNPDF3.png used on input line 375.
 (pdftex.def)             Requested size: 338.5863pt x 217.18925pt.
 
-[16 <./NNPDF3.png>] <ATLAS.png, id=494, 1192.455pt x 708.6475pt>
+[16 <./NNPDF3.png>] <ATLAS.png, id=495, 1192.455pt x 708.6475pt>
 File: ATLAS.png Graphic file (type png)
 
 <use ATLAS.png>
@@ -959,7 +959,7 @@ Package pdftex.def Info: ATLAS.png used on input line 405.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<prapidity.png, id=499, 517.935pt x 397.485pt>
+<prapidity.png, id=500, 517.935pt x 397.485pt>
 File: prapidity.png Graphic file (type png)
  <use prapidity.png>
 Package pdftex.def Info: prapidity.png used on input line 421.
@@ -970,7 +970,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [17] [18 <./ATLAS.png>] [19 <./prapidity.png>] [20]
 Chapter 3.
-<HZ.png, id=542, 285.31593pt x 188.95593pt>
+<HZ.png, id=543, 285.31593pt x 188.95593pt>
 File: HZ.png Graphic file (type png)
  <use HZ.png>
 Package pdftex.def Info: HZ.png used on input line 497.
@@ -978,23 +978,23 @@ Package pdftex.def Info: HZ.png used on input line 497.
  [21
 
  <./HZ.png>]
-[22] <ZH_results.png, id=564, 1400.23125pt x 617.30624pt>
+[22] <ZH_results.png, id=565, 1400.23125pt x 617.30624pt>
 File: ZH_results.png Graphic file (type png)
  <use ZH_results.png>
 Package pdftex.def Info: ZH_results.png used on input line 545.
 (pdftex.def)             Requested size: 435.32419pt x 191.90927pt.
 
-<ZZ.png, id=569, 581.92406pt x 176.15813pt>
+<ZZ.png, id=570, 581.92406pt x 176.15813pt>
 File: ZZ.png Graphic file (type png)
  <use ZZ.png>
 Package pdftex.def Info: ZZ.png used on input line 559.
 (pdftex.def)             Requested size: 338.5863pt x 102.49701pt.
- [23 <./ZH_results.png> <./ZZ.png>] <Zg.png, id=580, 812.03375pt x 189.70876pt>
+ [23 <./ZH_results.png> <./ZZ.png>] <Zg.png, id=581, 812.03375pt x 189.70876pt>
 File: Zg.png Graphic file (type png)
  <use Zg.png>
 Package pdftex.def Info: Zg.png used on input line 577.
 (pdftex.def)             Requested size: 386.95894pt x 90.40205pt.
- [24 <./Zg.png>] [25] <renormalize_diagram.png, id=609, 1190.4475pt x 565.11125
+ [24 <./Zg.png>] [25] <renormalize_diagram.png, id=610, 1190.4475pt x 565.11125
 pt>
 File: renormalize_diagram.png Graphic file (type png)
 
@@ -1015,49 +1015,49 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [29
 
 ]
-<ZZ_xsec.png, id=650, 600.74437pt x 431.36156pt>
+<ZZ_xsec.png, id=651, 600.74437pt x 431.36156pt>
 File: ZZ_xsec.png Graphic file (type png)
  <use ZZ_xsec.png>
 Package pdftex.def Info: ZZ_xsec.png used on input line 721.
 (pdftex.def)             Requested size: 237.0141pt x 170.1852pt.
 
-<Zg_xsec.png, id=651, 600.74437pt x 431.36156pt>
+<Zg_xsec.png, id=652, 600.74437pt x 431.36156pt>
 File: Zg_xsec.png Graphic file (type png)
  <use Zg_xsec.png>
 Package pdftex.def Info: Zg_xsec.png used on input line 726.
 (pdftex.def)             Requested size: 237.0141pt x 170.1852pt.
 
-<R.png, id=658, 800.9925pt x 575.14874pt>
+<R.png, id=659, 800.9925pt x 575.14874pt>
 File: R.png Graphic file (type png)
  <use R.png>
 Package pdftex.def Info: R.png used on input line 739.
 (pdftex.def)             Requested size: 237.0141pt x 170.1852pt.
 
-<R_BR.png, id=659, 800.9925pt x 575.14874pt>
+<R_BR.png, id=660, 800.9925pt x 575.14874pt>
 File: R_BR.png Graphic file (type png)
  <use R_BR.png>
 Package pdftex.def Info: R_BR.png used on input line 744.
 (pdftex.def)             Requested size: 237.0141pt x 170.1852pt.
- [30 <./ZZ_xsec.png> <./Zg_xsec.png>] <leadpt.png, id=675, 700.6175pt x 474.773
+ [30 <./ZZ_xsec.png> <./Zg_xsec.png>] <leadpt.png, id=676, 700.6175pt x 474.773
 74pt>
 File: leadpt.png Graphic file (type png)
 
 <use leadpt.png>
 Package pdftex.def Info: leadpt.png used on input line 765.
 (pdftex.def)             Requested size: 237.0141pt x 160.60956pt.
- <subleadpt.png, id=676, 700.6175pt x 474.77374pt>
+ <subleadpt.png, id=677, 700.6175pt x 474.77374pt>
 File: subleadpt.png Graphic file (type png)
 
 <use subleadpt.png>
 Package pdftex.def Info: subleadpt.png used on input line 770.
 (pdftex.def)             Requested size: 237.0141pt x 160.60956pt.
- <leady.png, id=677, 700.6175pt x 474.77374pt>
+ <leady.png, id=678, 700.6175pt x 474.77374pt>
 File: leady.png Graphic file (type png)
 
 <use leady.png>
 Package pdftex.def Info: leady.png used on input line 780.
 (pdftex.def)             Requested size: 237.0141pt x 160.60956pt.
- <subleady.png, id=678, 700.6175pt x 474.77374pt>
+ <subleady.png, id=679, 700.6175pt x 474.77374pt>
 File: subleady.png Graphic file (type png)
 
 <use subleady.png>
@@ -1067,19 +1067,19 @@ Package pdftex.def Info: subleady.png used on input line 785.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [31 <./R.png> <./R_BR.png> <./leadpt.png> <./subleadpt.png>]
-<ZZ_subproc.png, id=689, 700.6175pt x 474.77374pt>
+<ZZ_subproc.png, id=690, 700.6175pt x 474.77374pt>
 File: ZZ_subproc.png Graphic file (type png)
  <use ZZ_subproc.png>
 Package pdftex.def Info: ZZ_subproc.png used on input line 800.
 (pdftex.def)             Requested size: 237.0141pt x 160.60956pt.
 
-<Zg_subproc.png, id=690, 700.6175pt x 474.77374pt>
+<Zg_subproc.png, id=691, 700.6175pt x 474.77374pt>
 File: Zg_subproc.png Graphic file (type png)
  <use Zg_subproc.png>
 Package pdftex.def Info: Zg_subproc.png used on input line 803.
 (pdftex.def)             Requested size: 237.0141pt x 160.60956pt.
 
-<Rgg.png, id=692, 700.6175pt x 474.77374pt>
+<Rgg.png, id=693, 700.6175pt x 474.77374pt>
 File: Rgg.png Graphic file (type png)
  <use Rgg.png>
 Package pdftex.def Info: Rgg.png used on input line 813.
@@ -1088,41 +1088,41 @@ Package pdftex.def Info: Rgg.png used on input line 813.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [32 <./leady.png> <./subleady.png> <./ZZ_subproc.png> <./Zg_subproc.png>]
-<zz_scale.png, id=701, 800.9925pt x 575.14874pt>
+<zz_scale.png, id=702, 800.9925pt x 575.14874pt>
 File: zz_scale.png Graphic file (type png)
  <use zz_scale.png>
 Package pdftex.def Info: zz_scale.png used on input line 841.
 (pdftex.def)             Requested size: 237.0141pt x 170.1852pt.
 
-<zg_scale.png, id=702, 800.9925pt x 575.14874pt>
+<zg_scale.png, id=703, 800.9925pt x 575.14874pt>
 File: zg_scale.png Graphic file (type png)
  <use zg_scale.png>
 Package pdftex.def Info: zg_scale.png used on input line 844.
 (pdftex.def)             Requested size: 237.0141pt x 170.1852pt.
- [33 <./Rgg.png>] <R_scale.png, id=720, 700.6175pt x 474.77374pt>
+ [33 <./Rgg.png>] <R_scale.png, id=721, 700.6175pt x 474.77374pt>
 File: R_scale.png Graphic file (type png)
  <use R_scale.png>
 Package pdftex.def Info: R_scale.png used on input line 853.
 (pdftex.def)             Requested size: 338.5863pt x 229.44637pt.
 
 [34 <./zz_scale.png> <./zg_scale.png> <./R_scale.png>]
-<K_pt.png, id=730, 700.6175pt x 474.77374pt>
+<K_pt.png, id=731, 700.6175pt x 474.77374pt>
 File: K_pt.png Graphic file (type png)
  <use K_pt.png>
 Package pdftex.def Info: K_pt.png used on input line 883.
 (pdftex.def)             Requested size: 338.5863pt x 229.44637pt.
  [35 <./K_pt.png>]
-<R_pdf.png, id=746, 700.6175pt x 474.77374pt>
+<R_pdf.png, id=747, 700.6175pt x 474.77374pt>
 File: R_pdf.png Graphic file (type png)
  <use R_pdf.png>
 Package pdftex.def Info: R_pdf.png used on input line 901.
 (pdftex.def)             Requested size: 338.5863pt x 229.44637pt.
- [36 <./R_pdf.png>] <frag.png, id=758, 800.9925pt x 575.14874pt>
+ [36 <./R_pdf.png>] <frag.png, id=759, 800.9925pt x 575.14874pt>
 File: frag.png Graphic file (type png)
  <use frag.png>
 Package pdftex.def Info: frag.png used on input line 917.
 (pdftex.def)             Requested size: 338.5863pt x 243.12296pt.
- [37 <./frag.png>] <summary.png, id=767, 800.9925pt x 575.14874pt>
+ [37 <./frag.png>] <summary.png, id=768, 800.9925pt x 575.14874pt>
 File: summary.png Graphic file (type png)
  <use summary.png>
 Package pdftex.def Info: summary.png used on input line 939.
@@ -1135,19 +1135,19 @@ Chapter 5.
 
 ]
 Chapter 6.
-<K_y.png, id=785, 700.6175pt x 474.77374pt>
+<K_y.png, id=786, 700.6175pt x 474.77374pt>
 File: K_y.png Graphic file (type png)
  <use K_y.png>
 Package pdftex.def Info: K_y.png used on input line 963.
 (pdftex.def)             Requested size: 338.5863pt x 229.44637pt.
 
-<dphi.png, id=786, 700.6175pt x 474.77374pt>
+<dphi.png, id=787, 700.6175pt x 474.77374pt>
 File: dphi.png Graphic file (type png)
  <use dphi.png>
 Package pdftex.def Info: dphi.png used on input line 969.
 (pdftex.def)             Requested size: 338.5863pt x 229.44637pt.
 
-<dy.png, id=787, 700.6175pt x 474.77374pt>
+<dy.png, id=788, 700.6175pt x 474.77374pt>
 File: dy.png Graphic file (type png)
  <use dy.png>
 Package pdftex.def Info: dy.png used on input line 975.
@@ -1231,10 +1231,10 @@ sfs/rsfs10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb><
 ve/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/
 times/utmri8a.pfb>
-Output written on thesis.pdf (63 pages, 2302335 bytes).
+Output written on thesis.pdf (63 pages, 2302360 bytes).
 PDF statistics:
- 998 PDF objects out of 1000 (max. 8388607)
- 848 compressed objects within 9 object streams
+ 999 PDF objects out of 1000 (max. 8388607)
+ 849 compressed objects within 9 object streams
  240 named destinations out of 1000 (max. 500000)
  532 words of extra memory for PDF output out of 10000 (max. 10000000)
 
