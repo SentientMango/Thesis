@@ -40,4 +40,4 @@
 \contentsline {section}{\numberline {4.4}Combined Uncertainties}{38}{section.4.4}
 \contentsline {chapter}{\numberline {5}Conclusion}{39}{chapter.5}
 \contentsline {section}{\numberline {5.1}Outlook}{39}{section.5.1}
-\contentsline {chapter}{\numberline {6}Additional Figures}{41}{chapter.6}
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }\sf \bfseries {Bibliography}}{44}{chapter*.37}

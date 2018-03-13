@@ -1,0 +1,4 @@
+pdflatex thesis.tex
+biber thesis
+pdflatex thesis.tex
+evince thesis.pdf &
