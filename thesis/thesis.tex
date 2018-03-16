@@ -13,6 +13,7 @@
 \usepackage{hyperref}
 \usepackage{afterpage}
 \usepackage{lineno}
+\usepackage{tocloft}
 
 \setlength{\parindent}{0.2em}
 \setlength{\parskip}{0.5em}
@@ -34,6 +35,11 @@
     \thispagestyle{empty}%
     \addtocounter{page}{-1}%
     \newpage}    
+    
+\newcommand{\listequationsname}{List of Equations}
+\newlistof{myequations}{equ}{\listequationsname}
+\newcommand{\myequations}[1]{%
+\addcontentsline{equ}{myequations}{\protect\numberline{\theequation}#1}\par}
 
 \begin{document}
 \begin{titlepage}
@@ -72,6 +78,8 @@ All rights reserved
 \vspace{1cm}
 \normalsize This is to certify that this dissertation, entitled "Estimating \ZZ background in the \llM final status using \Zg data", submitted towards the partial fulfilment of the BS-MS dual degree programme at the Indian Institute of Science Education and Research (IISER), Pune, represents the work carried out by Mangesh Sonawane at the Deutsches Elektronen-Synchrotron (DESY), Hamburg, under the supervision of Dr. Beate Heinemann, Professor of Experimental Particle Physics at the Institute of Physics, University of Freiburg, during the academic year 2017-2018.
 \vfill
+\hspace{1cm}
+\includegraphics[width=0.15\linewidth]{sign.jpg}
 \begin{center}
 Mangesh Sonawane\hspace{8cm}
 Dr. Beate Heinemann
@@ -98,6 +106,8 @@ Dr. Seema Sharma
 \vspace{1cm}
 \normalsize I hereby declare that the matter containined within the thesis entitled "Estimating \ZZ background in the \llM final status using \Zg data", contains the results of the work carried out by me at the Deutsches Elektronen-Synchrotron (DESY) Hamburg, under the supervision of Dr. Beate Heinemann, and the same has not been submitted elsewhere for any other degree.
 \vfill
+\hspace{1cm}
+\includegraphics[width=0.15\linewidth]{sign.jpg}
 \begin{center}
 Mangesh Sonawane\hspace{8cm}
 Dr. Beate Heinemann
@@ -112,25 +122,40 @@ Dr. Seema Sharma
 \blankpage
 \newpage
 {\Huge \textbf{Acknowledgements\vspace{2cm}\\}}
-I would like to express my deepest gratitude for Dr. Beate Heinemann for her guidance and patient mentoring. It's not just technical skills that I have acquired under her supervision, but also an understanding of how a physicist approaches the subject and tackles the inevitable problems that surface.\vspace{1cm}
+I would like to express my deepest gratitude for Dr. Beate Heinemann for her guidance and patient mentoring. It's not just technical skills that I have acquired under her supervision, but also an understanding of how a physicist approaches the subject and tackles the inevitable problems that surface.
 
-$\langle$ placeholder $\rangle$
+I would also like to thank Dr. Pieter Everaerts and Dr. Sarah Heim for their advice and guidance at every step. They patiently explained the many, many concepts unfamiliar to me, and their offices were open for the occasional candid conversations too.
+
+This thesis was carried out as part of a team, and I'd like to thank each and every member of the team, Dr. Yee Chinn Yap, Dr. Valerie Lang, Dr. Sarah Heim, Fang-Yin Tsai and Jordi Sabater, among them, from whom I learned about different ATLAS tools and techniques.
+
+There is initially quite a bit of cultural shock when moving to a foreign country, with a foreign language and a foreign culture. I would like to thank Valerie, Sarah, Pieter, Daniel, and every single member of the ATLAS group at DESY Hamburg for making me immediately feel like one of them, making the transition almost imperceptibly smooth, and making me feel as though I have always belonged here.
+
+A big thank you to Dr. Ingrid-Maria Gregor, the very capable group leader of ATLAS. My conversations with her were, without exception, enlightening about the many facets of running a research team as large as ATLAS. Her abilities of multi-tasking and efficient management are inspiring.
+
+It would not be hyperbole to state that none of this would be possible without my mentors at IISER Pune; Dr. Sourabh Dube, with whom I did my first project in particle physics and discovered my passion for the field, whose advice has helped me time and again during my study as an undergraduate at IISER Pune to advance both in academics and personal growth, and Dr. Seema Sharma, under whose kind but firm hand I learned how to think physics, and learn my strengths and shortcomings, whose high standards pushed me to strive for excellence, and whose occasional good natured ribbing helped keep my feet firmly on the ground, and Dr. Sunil Mukhi, who I like to think of as the Master Shifu to my Po. Not only is he an excellent teacher, capable of conveying complex ideas in an efficient and digestible manner, his door is always open for political and philosophical discourse on any number of topics.
+
+Last, but in no way the least, I wish to acknowledge the part my friends at IISER Pune played in where I am today. Without their willing ears and timely advice, my life would have taken an entirely different turn.
 
 \newpage
 \blankpage
 \newpage
 
 \chapter*{Abstract}
-\addcontentsline{toc}{chapter}{Abstract}
-\pagenumbering{roman}
-\setcounter{page}{1}
-In the search for Dark Matter (DM) at the LHC, SM particles are produced in association with DM particles, which are invisible as they don't interact with the detector. Thus events with large imbalance in transverse momentum are of interest. One such signature is $\ell\ell + E_T^{miss}$. The dominant background contributing to the search for DM in the $\ell\ell + E_T^{miss}$ is $ZZ \rightarrow \ell\ell\nu\nu$.  Currently, this background is determined using Monte Carlo simulation, with an uncertainty of $\approx 10\%$. The goal of this study is to establish a data driven method to estimate this background, and reduce the uncertainty. Using \Zg, which is a process with low backgrounds and has a high $BR*\sigma$, it is possible to estimate the \ZZ contribution. In regions where $p_{T}(\gamma) \gg M_{Z}$, the two processes are kinematically similar. They have the same production mechanisms, but differ due to the photon and Z boson couplings to the quarks being different, as well as the difference in mass (photons are massless, while Z bosons are massive). Introducing a transfer factor $R$ as the ratio $\sigma(ZZ)/\sigma(Z\gamma)$ which is determined from simulation, the contribution of \ZZ to the background can be estimated from \Zg data. The uncertainty on the prediction of $R$ due to theoretical aspects is estimated in this work.
 \thispagestyle{plain}
+\setcounter{page}{1}
+\pagenumbering{roman}
+\addcontentsline{toc}{chapter}{Abstract}
+In the search for Dark Matter (DM) at the LHC, SM particles are produced in association with DM particles, which are invisible as they don't interact with the detector. Thus events with large imbalance in transverse momentum are of interest. One such signature is $\ell\ell + E_T^{miss}$. The dominant background contributing to the search for DM in the $\ell\ell + E_T^{miss}$ is $ZZ \rightarrow \ell\ell\nu\nu$.  Currently, this background is determined using Monte Carlo simulation, with an uncertainty of $\approx 10\%$. The goal of this study is to establish a data driven method to estimate this background, and reduce the uncertainty. Using \Zg, which is a process with low backgrounds and has a high $BR*\sigma$, it is possible to estimate the \ZZ contribution. In regions where $p_{T}(\gamma) \gg M_{Z}$, the two processes are kinematically similar. They have the same production mechanisms, but differ due to the photon and Z boson couplings to the quarks being different, as well as the difference in mass (photons are massless, while Z bosons are massive). Introducing a transfer factor $R$ as the ratio $\sigma(ZZ)/\sigma(Z\gamma)$ which is determined from simulation, the contribution of \ZZ to the background can be estimated from \Zg data. The uncertainty on the prediction of $R$ due to theoretical aspects is estimated in this work.
+\cleardoublepage
+
 \tableofcontents
-\thispagestyle{empty}
+\cleardoublepage
+
 \listoffigures
+\listofmyequations
 \listoftables
 \cleardoublepage
+
 \pagenumbering{arabic}
 \linenumbers
 \chapter{Introduction}
@@ -249,7 +274,14 @@ The connection between the electromagnetic and weak forces, and the similarities
 
 The strong, weak and electromagnetic forces can be described by the $SU(3)\times SU(2)\times U(1)$ local gauge symmetry group, where the $SU(3)$ symmetry group describes the strong interaction, and the electroweak interactions are based on the $SU(2)\times U(1)$ symmetry group. There are 8+3+1 generators associated with this model, each generator corresponding to a vector boson. Thus, there exist 8 gluons for the 8 generators of the $SU(3)$ group. The interaction of the scalar Higgs field with the vector fields $W^+$, $W^-$, $W^0$ and $B$ causes the spontaneous breaking of the $SU(2)\times U(1)$ symmetry, resulting in 3 massive and one massless gauge boson. It also implies the existence of a neutral scalar boson, known as the Higgs boson, which was discovered in July 2012\cite{Higgs,Higgs2}. The 3+1 generators of $SU(2)\times U(1)$ correspond to the $W^+$,$W^-$ and $Z$ bosons, massive vector bosons , and the massless vector boson $\gamma$ (photon).
 
-Vertices in Feynman diagrams, such as in Figures \ref{fig:qed_fund_vertex} and \ref{fig:qcd_fund_vertex}, correspond to a coupling between the particles, which is quantified by a coupling constant. The coupling constant in electromagnetic interactions is called the fine structure constant $\alpha$. It is a dimensionless constant, and arises from the ratio of the interaction energy between two electrically charged particles to the energy of a photon, and is approximately equal to 1/137. In strong interactions, this coupling constant is denoted by $\alpha_{S}$, and is very different from the electromagnetic coupling constant. The strong coupling constant $\alpha_{S}$ changes as a function of distance (or equivalently, the energy scale of the interaction), with it having a larger magnitude at larger distances (small interaction energy scales), and is small at distances smaller than a nucleon (high interaction energy scales), leading to strongly interacting particles behaving as though they are free; the origin of asymptotic freedom. This scale dependence is known as the running of the strong coupling constant. The value of the strong coupling constant at lengths scales of about the separation of nucleons ($\approx 10_{-15}$ m) is $\approx 1$. The weak interaction is extremely short range. Thus the weak coupling constant, evaluated from the lifetime of a muon, and has a coupling of strength of between $10^{-7}-10^{-6}$. Thus, at length scales of the order of femtometers ($10^{-15}$ m), the electromagnetic, weak and strong coupling strengths are in the ratio (up to the closest order of magnitude) $10^{-2}:10^{-6}:1$.
+Vertices in Feynman diagrams, such as in Figures \ref{fig:qed_fund_vertex} and \ref{fig:qcd_fund_vertex}, correspond to a coupling between the particles, which is quantified by a coupling constant. The coupling constant in electromagnetic interactions is called the fine structure constant $\alpha$. It is a dimensionless constant, and arises from the ratio of the interaction energy between two electrically charged particles to the energy of a photon, and is approximately equal to 1/137. In strong interactions, this coupling constant is denoted by $\alpha_{S}$, and is very different from the electromagnetic coupling constant. The strong coupling constant $\alpha_{S}$ changes as a function of distance (or equivalently, the energy scale of the interaction), with it having a larger magnitude at larger distances (small interaction energy scales), and is small at distances smaller than a nucleon (high interaction energy scales), leading to strongly interacting particles behaving as though they are free; the origin of asymptotic freedom. This scale dependence is known as the running of the strong coupling constant. The value of the strong coupling constant at lengths scales of about the separation of nucleons ($\approx 10^{-15}$ m) is $\approx 1$. The weak interaction is extremely short range. Thus the weak coupling constant, evaluated from the lifetime of a muon, and has a coupling of strength of between $10^{-7}-10^{-6}$. Thus, at length scales of the order of femtometers ($10^{-15}$ m), the electromagnetic, weak and strong coupling strengths are in the ratio (up to the closest order of magnitude) $10^{-2}:10^{-6}:1$.
+
+The strong coupling constant satisfies the following renormalization group equation (RGE):
+\begin{equation}\label{eq:RGE}
+\mu_R^2\frac{\mathrm{d}\alpha_S}{\mathrm{d}\mu_R^2} = \beta(\alpha_S) = -(b_0\alpha_S^2 + b_1\alpha_S^3 + b_2\alpha_S^4 + ...)
+\end{equation}
+\myequations{Renormalization Group Equation}
+where the $b_i$ are the loop-coefficients of the coupling constant $\alpha_S$, and $\mu_R$ is the renomalization scale. The minus sign on the right hand side of Equation \ref{eq:RGE} is the origin of asymptotic freedom, and dictates that the strong coupling constant becomes weak for processes involving large momentum transfers. For such processes, $\alpha_S$ is sufficiently small to be treated perturbatively, and this theoretical framework is called perturbative QCD (pQCD). In perturbative QCD, predictions for observables are made in terms of the renormalized coupling $\alpha_S(\mu_R^2)$, a function of an arbitrary unphysical renormalization scale $\mu_R$. When $\mu_R$ is taken to be close to the momentum transfer scale $Q$ of a process, the strong coupling constant $\alpha_S(\mu_R^2 \simeq Q^2)$ indicates the strength of the strong interaction in the process. Renormalization is briefly discussed in Section \ref{sec:renorm}. Calculations for most processes occurring at high momentum transfer scales can be simplified by only calculated up to a fixed order ($fixed\ order\ calculations$).
 
 Each interaction vertex in a Feynman diagram translates to a term featuring the corresponding coupling constant in the transition amplitude of the process from initial state to final state. The order of a coupling constant in a process is the number of times the vertex features in the transition amplitude i.e. a process having two strong vertices can be described as $O(\alpha_{S}^2)$. For interactions that take place at low interaction energies, the electromagnetic and weak coupling constants are much smaller than one. Thus, Feyman diagrams with more weak or electromagnetic vertices contribute less than lower order diagrams, and may be treated perturbatively. Higher order Feynman diagrams with strong vertices, however, must be at high interaction energies to be treated perturbatively. In perturbative expansions, the term with the highest contribution is known as the leading order (LO) term; the term with the next highest contribution is called the next-to-leading order (NLO) term, and so on.
 
@@ -384,16 +416,19 @@ The rate at which a scattering process occurs is called the cross section $\sigm
 \mathcal{L} = \frac{1}{\sigma}\frac{\text{d}N}{\text{d}t}
 \label{eq:lumi}
 \end{equation}
+\myequations{Luminosity}
 The rate of events having a final state $X$ will then be given by Equation \ref{eq:rate_of_events}.
 \begin{equation}
 \frac{\text{d}N_X}{\text{d}t} = \sigma(pp\to X)\mathcal{L}
 \label{eq:rate_of_events}
 \end{equation}
+\myequations{Rate of detection of events with a final state $X$}
 For head-on colliding protons, each with momentum $P$, such that their center-of-mass energy is $\sqrt{s}=2P$, the interacting partons will have a total energy $\sqrt{\hat{s}}=\sqrt{2x_1x_2}P$, where $x_1$ and $x_2$ give the fraction of its proton momentum carried by each parton. Thus, the cross section of the interaction is given by Equation \ref{eq:cross_section}.
 \begin{equation}
 \sigma(pp\to X) = \sum_{p_1,p_2\in q,\bar{q},g} C_{p_1,p_2}\int\text{d}x_1\text{d}x_2 f_{p_1}(x_1,Q^2)f_{p_2}(x_2,Q^2)\sigma_{ME}(p_1+p_2\to X)
 \label{eq:cross_section}
 \end{equation}
+\myequations{Cross section $\sigma$ for a process $pp\to X$}
 where $\sigma_{ME}$ is the matrix element level cross section for the scattering of the individual partons to the final state $X$, and $C_{p_1,p_2}$ is a combinatorial factor based on the number of possible color combinations, varying based on the initial state partons $p_1$ and $p_2$. Separation of the calculation into the perturbative hard scattering physics and non perturbative PDFs simplifies calculations.
 
 \section{The ATLAS experiment}
@@ -417,6 +452,7 @@ ATLAS uses a right-handed Cartesian coordinate system, with the interaction poin
 \eta = -ln\left(tan\left(\frac{\theta}{2}\right)\right)
 \label{eq:pseudorapidity}
 \end{equation}
+\myequations{Pseudorapidity $\eta$}
 
 \begin{figure}[h]
 \centering
@@ -429,12 +465,14 @@ In the limit where the mass of particles is much less than their momentum, it is
 \begin{equation}
 y = \frac{1}{2} ln\left(\frac{E+p_z}{E-p_z}\right),
 \end{equation}
+\myequations{Rapidity $y$}
 in turn, is an effective coordinate as it is Lorentz invariant under boosts in the $z$-direction.
 
 The separation between two physical objects in the detector is described by 
 \begin{equation}
 \Delta R = \sqrt{\Delta\eta^2 + \Delta\phi^2}
 \end{equation}
+\myequations{Separation $\Delta R$ between two objects}
 where $\phi$ is the angular coordinate in the transverse plane.
 
 \subsection{Inner Detector}
@@ -487,6 +525,7 @@ The missing transverse momentum of an event is defined as the negative vector su
 \begin{equation}
 \vec{p}_T^{\mathrm{miss}} = -\sum_{\mathrm{visible}}\vec{p}_T
 \end{equation}
+\myequations{Definition of missing transverse momentum \met}
 where the visible objects include electrons, muons, jets, photons, taus, and a soft term.
 
 The magnitude of $\vec{p}_T^{\mathrm{miss}}$ is denoted by \met.
@@ -568,6 +607,7 @@ It is possible to estimate the \ZZ using $ZZ\to \ell\ell\ell\ell$ data. However,
 BR(ZZ\to \ell\ell\ell\ell) &= (2\times 0.034)\times(2*0.034) = 0.00462\\
 BR(ZZ\to \ell\ell\nu\nu) &= (2\times 0.034)\times(0.2)\times 2 = 0.0272
 \end{align}
+\myequations{Branching ratios of $ZZ$ final states}
 Thus, branching fraction of $ZZ\to \ell\ell\ell\ell$($\approx$0.46\%) compared to \ZZ (2.7\%), which is about 6 times higher. The low branching fraction of $ZZ\to \ell\ell\ell\ell$ limits the statistics.
 
 Motivated by an analysis using $\gamma+$jets to estimate $Z+$jets\cite{gamma_jet}, an alternative method to estimate \ZZ is to look at the \Zg process. Figure \ref{fig:Zg} shows the leading order diagrams for the production of $Z\gamma$, where the $Z$ boson further decays leptonically. Figures \ref{fig:Zg}.a, b and c are similar to the production of $ZZ$, with a photon instead of one of the $Z$ bosons. The main differences in the two processes are the couplings of the photon and $Z$ boson to the quarks, and the fact that photons are massless, whereas the $Z$ boson is massive. 
@@ -595,12 +635,14 @@ To estimate the background, a transfer factor $R(p_T)$ is introduced, defined to
 \begin{equation}
 	R(p_{T}) = \frac{\sigma_{ZZ}(p_{T})}{\sigma_{Z\gamma}(p_T)}
 \end{equation}
+\myequations{Definition of the transfer factor $R$}
 With the two processes being kinematically similar at high $p_T$, $R$ depends on the coupling of the $Z$ and $\gamma$ to quarks. It would be expected to reach a constant value at high $p_T$ that can be determined theoretically. In the following paragraph, an attempt is made to obtain a simple approximate calculation of $R$ from the contribution of $qq$ process.
 
 The photon - quark and $Z$ boson - quark couplings in the Standard Model are given by,
 \begin{equation}
 	-ieQ_q\gamma^{\mu} \hspace{1 cm} \text{and} \hspace{1 cm}\frac{-ie}{2 \sin\theta_W \cos\theta_W}\gamma^{\mu}(v_q - a_q\gamma_5)
 \end{equation}
+\myequations{Couplings of the $Z$ boson and photon to quarks}
 respectively, where $Q_q,v_q$ and $a_q$ are respectively the electric, vector and axial neutral weak couplings of the quarks, and $\theta_W$ is the weak mixing angle. There is a contribution due to the $Z$ mass which appears in the internal propagators and phase space integration. This contribution becomes less important in the $p_T(\gamma)\gg M_Z$ region.
 
 Thus, the leading order contributions from $q\bar{q}\rightarrow ZZ$ and $q\bar{q}\rightarrow Z\gamma$ are shown in Equation \ref{eq:theory_R}.
@@ -611,11 +653,13 @@ Thus, the leading order contributions from $q\bar{q}\rightarrow ZZ$ and $q\bar{q
 \end{split}
 \label{eq:theory_R}
 \end{equation}
+\myequations{Cross section approximations for $q\bar{q}\to ZZ$ and $Z\gamma$}
 The $u$ and $d$ quarks present in a $pp$ collision have different coupling strengths to the $Z$ boson as stated in Ref\cite{Z_coupling}, their relative contributions are accounted for using Equation \ref{eq:u_d_contrib}
 \begin{equation}
 R = \frac{\sigma(u\bar{u}\rightarrow ZZ)\langle u\rangle + \sigma(d\bar{d}\rightarrow ZZ)\langle d\rangle}{\sigma(u\bar{u}\rightarrow Z\gamma)\langle u\rangle + \sigma(d\bar{d}\rightarrow Z\gamma)\langle d\rangle}
 \label{eq:u_d_contrib}
 \end{equation}
+\myequations{Theoretical approximation of the transfer factor $R$}
 Using the vector and axial couplings of the $Z$ boson to $u$ and $d$ quarks\footnote{Vector and Axial couplings of Z to $u$ and $d$ quarks: $v_u = 0.18, a_u = 0.50, v_d = -0.35, a_d = -0.514$}, assuming $\langle d \rangle/\langle u\rangle = 0.5$ and setting $\sin^2\theta_W = 0.2315$, $R\approx 1.28$ for the dominant $q\bar{q}$ interaction. This approximate calculation has not been performed for gluon induced channels, as they involve loops and require a more involved calculation. It will also give a significantly different value as the contributions of the gluon induced channels are different for the $ZZ$ and $Z\gamma$ processes.
 
 This transfer factor $R$ may be used with $Z\gamma$ data to estimate the contribution of $ZZ$ with reasonable accuracy at high $p_T$. To improve precision, it is necessary to estimate the theoretical uncertainties on the transfer factor $R$.
@@ -631,7 +675,7 @@ In this study, the following sources of theoretical uncertainties are studied.
 \end{itemize}
 
 \section{Renormalization}\label{sec:renorm}
-In QCD calculations, higher order perturbative corrections may be added to the vertices or propagators in a Feynman diagram. An example illustrating these 'loop' corrections is shown in Figure \ref{fig:loop_corr}. These perturbative corrections lead to divergent integrals that are progressively more difficult to calculate at higher orders. A perfect calculation, carried out up to infinite orders, would give the exact cross section. However current technological capabilities limit the order to which calculations can be carried out.
+In Feynman diagrams beyond tree level, the introduction of self interaction loops, such as in Figure\ref{fig:loop_corr}, lead to divergent integrals that are progressively more difficult to calculate at higher orders. A perfect calculation, carried out up to infinite orders, would give the exact cross section. However current technological capabilities limit the order to which calculations can be carried out.
 
 \begin{figure}[H]
 \centering
@@ -644,11 +688,11 @@ While calculating loop corrections, two kinds of divergences are encountered: in
 
 Thus, it is necessary to regularize such integrals, i.e. render the divergences finite, or have them cancel out somehow. One method of addressing these divergences is to introduce a cutoff scale $\Lambda$ as the (upper or lower) limit in the momentum integrals, such as through the Pauli-Villars regularization \cite{Pauli-Villars}. The divergences will then be proportional to log$(\Lambda/\mu^2)$, where $\mu^2$ is some arbitrary scale, an artifact of the regularization.
 
-Dimensional regularization is another, more effective method of regularization, where the power of the momentum integration is shifted by an infinitesimally small amount $2\epsilon$, i.e. $\int \mathrm{d}^4q/(2\pi)^4 q... \to \mu^{2\epsilon}\int \mathrm{d}^{4-2\epsilon}q/(2\pi)^4 q...$ A prefactor $\mu^{2\epsilon}$ is introduced, where $\mu$ is an arbitrary scale, to ensure that all observables have the dimension of mass. Thus, regularization envelops the effect of these divergences into the arbitrary scale $\mu$. Upon renormalizing these regularized integrals, the $1/\epsilon$ divergent terms cancel out, leaving only the scale $\mu$ to be addressed. In QCD calculations, this scale appears as part of a scale dependent parameter, namely the running strong coupling constant ($\alpha_s(\mu)$).
+Dimensional regularization is another method of regularization, where the power of the momentum integration is shifted by an infinitesimally small amount $2\epsilon$, i.e. $\int \mathrm{d}^4q/(2\pi)^4 q... \to \mu^{2\epsilon}\int \mathrm{d}^{4-2\epsilon}q/(2\pi)^4 q...$ A prefactor $\mu^{2\epsilon}$ is introduced, where $\mu$ is an arbitrary scale, to ensure that all observables have the dimension of mass. Thus, regularization envelops the effect of these divergences into the arbitrary scale $\mu$. Upon renormalizing these regularized integrals, the $1/\epsilon$ divergent terms cancel out, leaving only the scale $\mu$ to be addressed. In QCD calculations, this scale appears as part of a scale dependent parameter, namely the running strong coupling constant ($\alpha_s(\mu)$). However, this scale $\mu$ is arbitrary. It does not represent a physical quantity at all, and is a tool to get the divergent integrals to behave.
 
 The infrared divergences are addressed by the inclusion of the factorization scale $\mu_F$, while the ultraviolet divergences are addressed by the inclusion of the renormalization scale $\mu_R$. These parameters are arbitrary, and are set by hand. These are then varied between $\frac{1}{2}\mu < \mu < \ 2\mu$ to obtain an indication of the dependence of the matrix element on the scales, and thus, the uncertainty around the chosen scale. 
 
-Perturbative QCD calculations get progressively more computationally expensive as the order of the perturbative theory increases. Thus, perturbative QCD calculations are only carried out up to a fixed order. There is a difference in the cross sections obtained from one order to the next, and thus, a contribution from the uncalculated higher perturbative orders is expected. To account for the missing higher order corrections, $K-$factors are introduced to quantify the difference between higher orders and leading order. At NLO, the $K-$factor is defined as the ratio between the cross section at NLO to the cross section at LO.
+A perfect calculation would include an infinite number of terms in $\alpha_S$, and would result in $\mu$ dependent terms cancelling out perfectly, resulting in an answer that is independent of the choice of $\mu$. However, perturbative QCD calculations get progressively more computationally expensive as the order of the perturbative theory increases. Thus, perturbative QCD calculations are only carried out up to a fixed order. There is a difference in the cross sections obtained from one order to the next, and thus, a contribution from the uncalculated higher perturbative orders is expected. To account for the missing higher order corrections, $K-$factors are introduced to quantify the difference between higher orders and leading order where, at NLO, the $K-$factor is defined as the ratio between the cross section at NLO to the cross section at LO.
 
 \section{Photon Isolation}\label{sec:Isolation}
 The \Zg process may contain photons that arise from the hadron showers. It is therefore important to isolate the prompt photon from hadronic activity. This reduces unwanted background from pion decays, or fragmentation processes.
@@ -658,6 +702,7 @@ Experimentally, photon isolation is implemented with the following selection:
 \sum_{\in R_0} E_T(\text{had}) < \epsilon_h p_T^\gamma \text{\hspace{1cm} or \hspace{1cm}} \sum_{\in R_0} E_T(\text{had}) < E_T^{max}
 \label{eq:photon_isol}
 \end{equation}
+\myequations{Experimental definition of photon isolation}
 limiting the transverse hadronic energy $E_T(had)$ in a cone of size $R_0 = \sqrt{\Delta\eta^2 + \Delta\phi^2}$ around the photon, to some fraction of the photon $p_T$, or some fixed small cut-off.
 
 The smooth cone isolation method of Frixione \cite{frixione} is an alternative isolation procedure, which simplifies calculations by avoiding fragmentation contribuitions. The following isolation prescription is applied to the photon:
@@ -665,6 +710,7 @@ The smooth cone isolation method of Frixione \cite{frixione} is an alternative i
 	\sum_{R_{j\gamma} \in R_0} E_T(\text{had}) < \epsilon_h p_T^\gamma \left(\frac{1-\cos R_{j\gamma}}{1-\cos R_0}\right)^n.
 \label{eq:frix_isol}
 \end{equation}
+\myequations{Frixione (smooth-cone) method of photon isolation}
 
 where $R_{j\gamma}$ is the separation of the photon and the $j^{th}$ parton. This requirement constrains the sum of hadronic energy inside a cone of radius $R_{j\gamma}$, for all separations $R_{j\gamma}$ less than a chosen cone size $R_0$. This prescription allows soft radiation inside the photon cone, but collinear singularities are removed. The smooth cone isolation is infrared finite, thus fragmentation contributions do not need to be included. The two prescriptions are significantly different. The Frixione method has its advantages, namely that it is infrared finite, removes collinear singularies and avoids fragmentation effects. However, Frixione isolation is difficult to implement experimentally, while the relative isolation, given by Equation \ref{eq:photon_isol} is used in current experimental analyses. 
 
@@ -713,6 +759,7 @@ In MCFM generated events, leptonically decaying $Z$ boson are constrained to an 
 \begin{equation}\label{eq:R_inc}
 	R_{inc} = R * \frac{BR(Z\rightarrow ee)}{BR(Z \rightarrow ee)*BR(Z\rightarrow \nu\nu)*2}
 \end{equation}
+\myequations{The inclusive transfer factor $R$ corrected for the branching fractions of the $Z$ bosons}
 
 \section{Results}
 Using the settings listed in Table \ref{table:default}, the cross sections for $ZZ\to ee\nu\nu$ and $Z\gamma\to ee\gamma$ are generated at LO and NLO, shown in Figure \ref{fig:xsecs}. Throughout this analysis, these samples are used as the reference from which the transfer factor $R$ is constructed, and provide the central value around which the uncertainties are calculated.
@@ -824,16 +871,19 @@ To address uncertainties associated with the scale in this study, a similar pres
 \frac{\mu_i}{\mu_0} = (1,1),(1,2),(2,1),(2,2),(0.5,1),(1,0.5),(0.5,0.5)\\
 \label{eq:scale}
 \end{equation}
+\myequations{Six point variation of renormalization and factorization scales}
 where $i=0,...,6$. The central cross section value is taken to be the mean of the maximum and minimum cross sections resulting from this variation, and the uncertainty to be the half the difference between the same.
 \begin{align}
 \sigma_{NLO}^{(V)} &= \frac{1}{2}\left[\sigma_{NLO}^{(V,max)} + \sigma_{NLO}^{(V,min)}\right]\label{eq:scale_central}\\
 \delta\sigma_{NLO}^{(V)} &= \frac{1}{2}\left[\sigma_{NLO}^{(V,max)} - \sigma_{NLO}^{(V,min)}\right]\label{eq:scale_central2}
 \end{align}
+\myequations{Central cross section value, and scale uncertainty width}
 where
 \begin{align}
 \sigma_{NLO}^{(V,max)} &= max\left\lbrace\sigma_{NLO}^{(V)}(p_{T}(V),\mu_i)|0\leq i \leq 6\right\rbrace\\
 \sigma_{NLO}^{(V,min)} &= min\left\lbrace\sigma_{NLO}^{(V)}(p_{T}(V),\mu_i)|0\leq i \leq 6\right\rbrace
 \end{align}
+\myequations{Maximum and minimum cross sections for evaluating scale uncertainties}
 and $V = Z\to\nu\nu$ for \ZZ, or $V = \gamma$ for \Zg. The value of $R$ is calculated from the events generated with the above 7-point prescription in a correlated manner.
 
 The variation of scales for cross sections of $ZZ\to ee\nu\nu$ and $Z\gamma\to ee\gamma$ are shown in Figure \ref{fig:scale_xsec}.
@@ -863,6 +913,7 @@ There is no good motivation for treating the scale uncertainties of two separate
 K_{NLO}^{(V)} = \sigma_{NLO}^{(V)}(p_T)/\sigma_{LO}^{(V)}(p_T)
 \label{eq:K_factor}
 \end{equation}
+\myequations{$K$-factor definition}
 
 Assuming that the corrections to the fixed order cross section form a convergent series, and that the NLO $K$-factor is larger than the $K$-factor at higher orders,
 \begin{equation}
@@ -873,11 +924,13 @@ it is possible to use the NLO $K$-factor to quantify the scale uncertainties tha
 \delta K_{NLO} = K_{NLO}^{(\gamma)}(p_T) - K_{NLO}^{(Z)}(p_T)
 \label{eq:K_factor_unc}
 \end{equation}
+\myequations{$K$-factor uncertainty}
 
 It is assumed that process dependence of the K-factor at higher orders is larger than the
 \begin{equation}
 \left(\frac{\sigma^{(\gamma)}_{NLO}}{\sigma^{(\gamma)}_{LO}}-\frac{\sigma^{(Z)}_{NLO}}{\sigma^{(Z)}_{LO}}\right) <\left(\frac{\sigma^{(\gamma)}_{N^{\infty}LO}}{\sigma^{(\gamma)}_{NLO}}-\frac{\sigma^{(Z)}_{N^{\infty}LO}}{\sigma^{(Z)}_{NLO}}\right)
 \end{equation}
+\myequations{Assumption regarding $K$-factor differences at higher orders}
 
 Figure \ref{fig:K_pt} shows the $K$-factor distributions for both processes, as well as the $K$-factor uncertainty $\delta K_{NLO}$.
 \begin{figure}[H]
@@ -896,6 +949,7 @@ Fig.\ref{fig:PDF30var} shows the comparison of the ratio $R(p_T)$ from the 30 me
 \begin{equation}\label{eq:PDFerr}
 	\delta^{PDF}R = \sqrt{\sum^{N_{mem}}_{k=1} (R^{(k)} - R^{(0)})^2}
 \end{equation}
+\myequations{Parton Distribution Function uncertainties}
 where $N_{mem}$ is the number of member sets in the group, in this case, 30.
 
 \begin{figure}[H]
@@ -928,6 +982,7 @@ The uncertainty is calculated from the four sets listed in Figure \ref{fig:photo
 \delta R &= \sqrt{\max_{i=1,2,3}(\delta R_i)^2 + (\delta R_4)^2}
 \end{split}
 \end{equation}
+\myequations{Photon Fragmentation uncertainties}
 as the effects assessed by changing the isolation definition in set 4, and varying the parameters in sets 1-3 are different.\\
 The uncertainty is $< 1.5\%$ over the whole $p_T$ range, and is 0.8\% at $p_T(V)=500$ GeV.
 \vfill
