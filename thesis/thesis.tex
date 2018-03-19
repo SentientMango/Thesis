@@ -698,7 +698,9 @@ The infrared divergences are addressed by the inclusion of the factorization sca
 A perfect calculation would include an infinite number of terms in $\alpha_S$, and would result in $\mu$ dependent terms cancelling out perfectly, resulting in an answer that is independent of the choice of $\mu$. However, perturbative QCD calculations get progressively more computationally expensive as the order of the perturbative theory increases. Thus, perturbative QCD calculations are only carried out up to a fixed order. There is a difference in the cross sections obtained from one order to the next, and thus, a contribution from the uncalculated higher perturbative orders is expected. To account for the missing higher order corrections, $K-$factors are introduced to quantify the difference between higher orders and leading order where, at NLO, the $K-$factor is defined as the ratio between the cross section at NLO to the cross section at LO.
 
 \section{Photon Isolation}\label{sec:Isolation}
-The \Zg process may contain photons that arise from the hadron showers. It is therefore important to isolate the prompt photon from hadronic activity. This reduces unwanted background from pion decays, or fragmentation processes.
+The \Zg process may contain photons that arise from the hadron showers. Photons are produced in scattering phenomena by two mechanism; the photon is involved in the partonic hard collisions at a large energy scale, or a parton fragments non-perturbatively into a photon at energy scales of the order of a hadron mass. The former can be calculated using perturbative QCD, but the latter is not.
+
+Photons in the first mechanism are prompt and well isolated from final state hadrons, whereas in the second mechanism, the photons are part of a hadronic jet. A clean sample of well isolated photons is important to obtain efficient background rejection, and in this case, to obtain a clear picture of \Zg events.
 
 Experimentally, photon isolation is implemented with the following selection:
 \begin{equation}
@@ -706,16 +708,15 @@ Experimentally, photon isolation is implemented with the following selection:
 \label{eq:photon_isol}
 \end{equation}
 \myequations{Experimental definition of photon isolation}
-limiting the transverse hadronic energy $E_T(had)$ in a cone of size $R_0 = \sqrt{\Delta\eta^2 + \Delta\phi^2}$ around the photon, to some fraction of the photon $p_T$, or some fixed small cut-off.
+limiting the transverse hadronic energy $E_T(had)$ in a cone of size $R_0 = \sqrt{\Delta\eta^2 + \Delta\phi^2}$ around the photon, to some fraction of the photon $p_T$, or some fixed small cut-off. This rejects events where the photon is associated with any hadronic activity in the cone. While this method works well for prompt photons where the method of isolation constrains the phase space of events with soft gluons, which hinders the cancellation of infrared divergences. This method is currently used in experimental analyses at ATLAS.
 
-The smooth cone isolation method of Frixione \cite{frixione} is an alternative isolation procedure, which simplifies calculations by avoiding fragmentation contribuitions. The following isolation prescription is applied to the photon:
+The smooth cone isolation method of Frixione \cite{frixione} is an alternative isolation procedure, which simplifies calculations by avoiding photon-to-hadron fragmentation contributions, treats both gluons and quarks in the same way, and can be applied to experimental data in hadron-hadron, photon-hadron and electron positron collisions. In the Frixione method, the following isolation prescription is applied to the photon:
 \begin{equation}
 	\sum_{R_{j\gamma} \in R_0} E_T(\text{had}) < \epsilon_h p_T^\gamma \left(\frac{1-\cos R_{j\gamma}}{1-\cos R_0}\right)^n.
 \label{eq:frix_isol}
 \end{equation}
 \myequations{Frixione (smooth-cone) method of photon isolation}
-
-where $R_{j\gamma}$ is the separation of the photon and the $j^{th}$ parton. This requirement constrains the sum of hadronic energy inside a cone of radius $R_{j\gamma}$, for all separations $R_{j\gamma}$ less than a chosen cone size $R_0$. This prescription allows soft radiation inside the photon cone, but collinear singularities are removed. The smooth cone isolation is infrared finite, thus fragmentation contributions do not need to be included. The two prescriptions are significantly different. The Frixione method has its advantages, namely that it is infrared finite, removes collinear singularies and avoids fragmentation effects. However, Frixione isolation is difficult to implement experimentally, while the relative isolation, given by Equation \ref{eq:photon_isol} is used in current experimental analyses. 
+where $R_{j\gamma}$ is the separation of the photon and the $j^{th}$ parton. This requirement constrains the sum of hadronic energy inside a cone of radius $R_{j\gamma}$, for all separations $R_{j\gamma}$ less than a chosen cone size $R_0$. For $n=0$, Equation \ref{eq:frix_isol} is equal to Equation \ref{eq:photon_isol}, but for $n \geq 1$, this prescription allows soft radiation inside the photon cone and collinear singularities are removed. The inclusion of soft radiation makes the Frixione isolation infrared finite at all orders, can be applied to events non-perturbative photon fragmentation, and avoids collinear singularities, i.e. if a parton is collinear with the photon, by requiring it to be soft.
 
 \chapter{Transfer factor R and the uncertainties associated to it}\label{ch:Results}
 
@@ -756,7 +757,7 @@ Monte Carlo for FeMtobarn processes (MCFM) is a program that calculates cross se
 	\label{table:default}
 \end{table}
 }
-The constraint on $M_{ee}$ in the case of $Z+\gamma$ suppresses backgrounds from non resonant $\ell\ell$ processes by ensuring that the lepton pair are from a $Z$ boson decay only. Additionally, photon isolation is implemented using the Frixione \cite{frixione} method, with $R_0=0.4$, $\epsilon=0.075$ and $n=1$.
+The constraint on $M_{ee}$ in the case of $Z+\gamma$ suppresses backgrounds from non resonant $\ell\ell$ processes by ensuring that the lepton pair is from a $Z$ boson decay only. Additionally, photon isolation is implemented using the Frixione \cite{frixione} method, with $R_0=0.4$, $\epsilon=0.075$ and $n=1$.
 
 In MCFM generated events, leptonically decaying $Z$ boson are constrained to an electron-positron pair only, i.e. $Z\to ee$. As electrons and muons have similar properties with the exception of mass, simply the branching fraction of $Z\rightarrow ee$ must be accounted for to obtain the inclusive value of $R$.
 \begin{equation}\label{eq:R_inc}
@@ -784,7 +785,9 @@ Using the settings listed in Table \ref{table:default}, the cross sections for $
 \end{figure}
 There is a significant difference between the LO cross section and NLO cross section in both of these processes. The difference is greater at high $p_T$ than at low $p_T$. However, the ratio of NLO to LO is similar between the two processes. Thus, the behavior of the transfer factor $R$ at LO and NLO is expected to be similar at high $p_T$ as well. This behavior is shown in Figure \ref{fig:K_pt}. The ratio $R = \sigma(ZZ\rightarrow ee\nu\nu)/\sigma(Z\gamma\rightarrow ee\gamma)$ at LO and NLO is shown in Figure \ref{fig:Rcurve}, taken as the ratio of the cross sections in Figures \ref{subfig:ZeeZvv} and \ref{subfig:Zeeg}.
 
-The $Z$ boson has a mass of 91 GeV, while the photon is massless. The coupling of the $Z$ boson to quarks depends upon its mass. At low $p_T$, the mass dependence makes it significantly different than the coupling of the photon to quarks. At $p_T(Z\to\nu\nu) \gg M_Z$, the mass of the $Z$ boson is negligible, and its kinematics are similar to those of the photon. The difference between the two process is largely dictated by the coupling strength of the respective bosons to the quarks. 
+The main differences between the $ZZ$ and $Z\gamma$ processes are that the $Z$ boson has a mass of 91 GeV, while the photon is massless, along with the different couplings of the $Z$ boson and the photon to the different quark flavors. The difference in the masses of the bosons are expected to result in significant differences in the overall cross sections as well the kinematic behavior of the two processes.The PDFs are also sampled at different values of the parton momentum fraction $x$ and momentum transfer $Q^2$ for the two processes. 
+
+In the regime where the mass of the $Z$ boson is small when compared to the $p_T$ of the $Z$ boson and can be neglected, the $x$ and $Q^2$ values become similar, and the kinematic behavior is expected to be more similar in this region. In that case the main difference remaining between the two processes are the different couplings of quarks to photons and $Z$ bosons. 
 \begin{figure}[H]
 \centering
 	\begin{subfigure}{0.49\textwidth}
@@ -844,7 +847,12 @@ Figures \ref{fig:leppt} and \ref{fig:leptony} further illustrate the topology of
 
 Figures \ref{fig:leppt} and \ref{fig:leptony} show that the leptons from a $Z$ boson decay have very similar kinematic behavior between the two processes.
 
-Gluon-gluon processes contribute to 8.6\% of the total cross section for the $ZZ$ process and 2.5\% of the $Z+\gamma$ process. Figure \ref{fig:xsec_gg_qq} shows the $qg+q\bar{q}$ and $gg$ contributions to the $ZZ$ and $Z\gamma$ cross section. Gluon-gluon processes contribute more at low $p_T$ than at high $p_T$. This is due to asymptotic freedom; at higher energies, gluons do not interact as strongly as they do at low energies, and the cross section is dominated by the $q\bar{q}$ and $qg$ induced processes.
+Gluon-gluon processes contribute to 8.6\% of the total cross section for the $ZZ$ process and 2.5\% of the $Z+\gamma$ process. Figure \ref{fig:xsec_gg_qq} shows the $qg+q\bar{q}$ and $gg$ contributions to the $ZZ$ and $Z\gamma$ cross section. Interactions between partons carrying a low momentum fraction x result in low $p_T$ final state particle. As seen in Figure \ref{fig:NNPDF3}, at low x, parton-parton interactions are dominated by gluons. The parton momentum fraction is given by 
+$$
+x = \frac{E_T(Z)+E_T(V)}{\sqrt{s}}
+$$
+where $E_T = \sqrt{M^2 + p_T^2}$ for each final state particle. For $\sqrt{s}=13$ TeV, at $p_T = 0$ GeV, $x \approx 0.007$ for $Z\gamma$, and $x \approx 0.014$ for $ZZ$. At $p_T = 500$ GeV, the mass of the $Z$ boson becomes negligible in comparison with the $p_T$, thus $x \approx 0.08$ for both processes. From Figure \ref{fig:NNPDF3}, it is seen that the gluon distribution is a factor 3 higher at $x=0.01$ than at $x=0.1$.
+Thus gluon induced channels contribute more at low $p_T$ than at high $p_T$.
 
 \begin{figure}[H]
 \centering
@@ -858,7 +866,7 @@ Gluon-gluon processes contribute to 8.6\% of the total cross section for the $ZZ
 \label{fig:xsec_gg_qq}
 \end{figure}
 
-The $R_{gg}$ distribution, shown in Figure \ref{fig:R_ggonly} is observed to approach an asymptotic value at a much higher $p_T = 2$ TeV. The shape and value of the transfer factor for the gluon-gluon induced processes is due to the fact that the $gg$ contribution is lower at high $p_T$. 
+The $R_{gg}$ distribution, shown in Figure \ref{fig:R_ggonly} is observed to approach an asymptotic value at a much higher $p_T = 2$ TeV.
 
 \begin{figure}[H]
 \centering
@@ -942,7 +950,7 @@ Figure \ref{fig:K_pt} shows the $K$-factor distributions for both processes, as 
 	\caption{The $K$ factor to estimate the unknown process dependent correlations, defined as $\sigma_{NLO}(V)/\sigma_{LO}(V)$. The bottom plot shows the difference between the $ZZ$ and $Z\gamma$ $K$-factors, $\delta K_{NLO}$, relative to $K(Z)$.}
 	\label{fig:K_pt}
 \end{figure}
-The $K$-factor grows larger as a function of $p_T(V)$ for both processes. However, the difference between the two $K$-factors shrinks, due to the two processes being similar at high $p_T$. Thus, the $K$-factor uncertainty $\delta K_{NLO}$, is 4\% at $p_T(V) = 500$ GeV.
+The $K$-factor grows larger as a function of $p_T(V)$ for both processes. However, the difference between the two $K$-factors shrinks, due to the two processes being similar at high $p_T$. Thus, the $K$-factor uncertainty $\delta K_{NLO}$, is 4\% at $p_T(V) = 500$ GeV. At low $p_T$ the $K$-factors differ significantly between the two processes, e.g. at 100 GeV the difference is 23.6\%
 
 
 \subsection{Uncertainty associated with Parton Distribution Functions}
