@@ -79,7 +79,7 @@ All rights reserved
 \normalsize This is to certify that this dissertation, entitled "Estimating \ZZ background in the \llM final status using \Zg data", submitted towards the partial fulfilment of the BS-MS dual degree programme at the Indian Institute of Science Education and Research (IISER), Pune, represents the work carried out by Mangesh Sonawane at the Deutsches Elektronen-Synchrotron (DESY), Hamburg, under the supervision of Dr. Beate Heinemann, Professor of Experimental Particle Physics at the Institute of Physics, University of Freiburg, during the academic year 2017-2018.
 \vfill
 \hspace{1cm}
-\includegraphics[width=0.15\linewidth]{sign.jpg}
+\includegraphics[width=0.2\linewidth]{sign.jpg}
 \begin{center}
 Mangesh Sonawane\hspace{8cm}
 Dr. Beate Heinemann
@@ -107,7 +107,7 @@ Dr. Seema Sharma
 \normalsize I hereby declare that the matter containined within the thesis entitled "Estimating \ZZ background in the \llM final status using \Zg data", contains the results of the work carried out by me at the Deutsches Elektronen-Synchrotron (DESY) Hamburg, under the supervision of Dr. Beate Heinemann, and the same has not been submitted elsewhere for any other degree.
 \vfill
 \hspace{1cm}
-\includegraphics[width=0.15\linewidth]{sign.jpg}
+\includegraphics[width=0.18\linewidth]{sign.jpg}
 \begin{center}
 Mangesh Sonawane\hspace{8cm}
 Dr. Beate Heinemann
@@ -276,7 +276,7 @@ The strong, weak and electromagnetic forces can be described by the $SU(3)\times
 
 Vertices in Feynman diagrams, such as in Figures \ref{fig:qed_fund_vertex} and \ref{fig:qcd_fund_vertex}, correspond to a coupling between the particles, which is quantified by a coupling constant. The coupling constant in electromagnetic interactions is called the fine structure constant $\alpha$. It is a dimensionless constant, and arises from the ratio of the interaction energy between two electrically charged particles to the energy of a photon, and is approximately equal to 1/137. In strong interactions, this coupling is denoted by $\alpha_{S}$, and is very different from the electromagnetic coupling constant. The strong coupling $\alpha_{S}$ changes as a function of distance (or equivalently, the energy scale of the interaction), with it having a larger magnitude at larger distances (small interaction energy scales), and is small at distances smaller than a nucleon (high interaction energy scales), leading to strongly interacting particles behaving as though they are free; the origin of asymptotic freedom. This scale dependence is known as the running of the strong coupling constant. The value of the strong coupling constant at lengths scales of about the separation of nucleons ($\approx 10^{-15}$ m) is $\approx 1$. The weak interaction is extremely short range. Thus the weak coupling constant, evaluated from the lifetime of a muon, and has a coupling of strength of between $10^{-7}-10^{-6}$. Thus, at length scales of the order of femtometers ($10^{-15}$ m), the electromagnetic, weak and strong coupling strengths are in the ratio (up to the closest order of magnitude) $10^{-2}:10^{-6}:1$. The strong coupling $\alpha_S$ is small at high interaction energy scales due to asymptotic freedom, and thus processes that occur at such energies may be calculated perturbatively, in a framework called perturbative QCD.
 
-In perturbative QCD, predictions for observables are made in terms of the renormalized coupling $\alpha_S(\mu_R^2)$, a function of an arbitrary unphysical renormalization scale $\mu_R$. When $\mu_R$ is taken to be close to the momentum transfer scale $Q$ of a process, the strong coupling constant $\alpha_S(\mu_R^2 \simeq Q^2)$ indicates the strength of the strong interaction in the process. Renormalization is briefly discussed in Section \ref{sec:renorm}. 
+In perturbative QCD, predictions for observables are made in terms of the renormalized coupling $\alpha_S(\mu_R^2)$, a function of an arbitrary unphysical renormalization scale $\mu_R$. When $\mu_R$ is taken to be close to the momentum transfer scale $Q$ of a process, the strong coupling constant $\alpha_S(\mu_R^2 \simeq Q^2)$ indicates the strength of the strong interaction in the process. Renormalization is required to address low and high energy divergences (infrared, IR, and ultraviolet, UV, divergences respectively). $\mu_R$ and $\mu_F$ are the renormalization and factorization scales, arbitrary and unphysical parameters used to absorb the effects of the UV and IR divergences respectively. Renormalization is briefly discussed in Section \ref{sec:renorm}
 
 The strong coupling satisfies the following renormalization group equation (RGE):
 \begin{equation}\label{eq:RGE}
@@ -425,13 +425,14 @@ The rate of events having a final state $X$ will then be given by Equation \ref{
 \label{eq:rate_of_events}
 \end{equation}
 \myequations{Rate of detection of events with a final state $X$}
-For head-on colliding protons, each with momentum $P$, such that their center-of-mass energy is $\sqrt{s}=2P$, the interacting partons will have a total energy $\sqrt{\hat{s}}=\sqrt{2x_1x_2}P$, where $x_1$ and $x_2$ give the fraction of its proton momentum carried by each parton. Thus, the cross section of the interaction is given by Equation \ref{eq:cross_section}.
+For head-on colliding protons, each with momentum $P$, such that their center-of-mass energy is $\sqrt{s}=2P$, the interacting partons will have a total energy $\sqrt{\hat{s}}=\sqrt{2x_1x_2}P$, where $x_1$ and $x_2$ give the fraction of its proton momentum carried by each parton. For the process $pp\to X$, the cross section is calculated using Equation \ref{eq:cross_section}.
 \begin{equation}
-\sigma(pp\to X) = \sum_{p_1,p_2\in q,\bar{q},g} C_{p_1,p_2}\int\text{d}x_1\text{d}x_2 f_{p_1}(x_1,Q^2)f_{p_2}(x_2,Q^2)\sigma_{ME}(p_1+p_2\to X)
+\sigma(pp\to X) = \sum_{n=0}^{\infty} \alpha_S^n(\mu_R^2) \sum_{i,j} \int\mathrm{d}x_1\mathrm{d}x_2 f_{i/p}\left(x_1,\mu_F^2\right)f_{j/p}\left(x_2,\mu_F^2\right)\times \hat{\sigma}_{ij\to X}^{(n)}\left(x_1x_2s,\mu_R^2,\mu_F^2\right)
 \label{eq:cross_section}
 \end{equation}
-\myequations{Cross section $\sigma$ for a process $pp\to X$}
-where $\sigma_{ME}$ is the matrix element level cross section for the scattering of the individual partons to the final state $X$, and $C_{p_1,p_2}$ is a combinatorial factor based on the number of possible color combinations, varying based on the initial state partons $p_1$ and $p_2$. Separation of the calculation into the perturbative hard scattering physics and non perturbative PDFs simplifies calculations.
+\myequations{Cross section $\sigma$ for the $pp\to X$ process}
+
+Here, $n$ is the order of $\alpha_S$ at which the cross section is calculated. If $X=ZZ$, i.e. for the process $pp\to ZZ$, at LO ($n=0$), the hard (partonic) cross section $\hat{\sigma}_{ij\to ZZ}^{(n)}\left(x_1x_2s,\mu_R^2,\mu_F^2\right)$ is proportional to $\delta(x_1x_2s - M_Z^2)$, and is non zero only for choices of $i,j$ that give a $Z$ boson, such as $i=q$ and $j=\bar{q}$ for example. For $n\geq 1$, partonic channels such as $gq$ and $gg$ also contribute, and there is no restriction for $x_1x_2s = M_Z^2$. Equation \ref{eq:cross_section} also illustrates the dependence of the cross section on renormalization and factorization scales, $\mu_R$ and $\mu_F$ respectively. The separation of the calculation into perturbative hard scattering physics and non-perturbative Parton Distribution Functions greatly simplifies QCD calculations.
 
 \section{The ATLAS experiment}
 %\footnote{Sometimes, scientists are just bad at anagrams})
@@ -800,7 +801,7 @@ The $Z$ boson has a mass of 91 GeV, while the photon is massless. The coupling o
 \end{figure}
 
 
-Thus the $R$ value is observed to increase from $\approx 0.43$ at 100 GeV to $\approx 0.52$ at high $p_T$, where it reaches a plateau. When the branching ratio of $Z$ boson decaying selectively to $e^+e^-$, or to $\nu\nu$, is accounted for as shown in Equation \ref{eq:R_inc}, the resulting ratio $R(p_T)$ is shown in Figure \ref{fig:RcurveBR}. Here, the ratio of $\sigma(ZZ)$ to $\sigma(Z\gamma)$ is shown, i.e. the $Z$ bosons do not decay further. The value of $R$ is observed to increase from $\approx 1.08$ at 100 GeV to $\approx 1.3$ at high $p_T$. This agrees with the simple approximate calculation presented in Section \ref{sec:R} of $R \approx 1.28$.
+At NLO, the $R$ value is observed to increase from $\approx 0.4$ at 100 GeV to $\approx 0.52$ at high $p_T$, where it reaches a plateau. At LO, the $R$ value is about 20\% larger at the lowest $p_T$ values but at high $p_T$ it is similar to the NLO $R$ value. When the branching ratio of $Z$ boson decaying selectively to $e^+e^-$, or to $\nu\nu$, is accounted for as shown in Equation \ref{eq:R_inc}, the resulting ratio $R(p_T)$ is shown in Figure \ref{fig:RcurveBR}. Here, the ratio of $\sigma(ZZ)$ to $\sigma(Z\gamma)$ is shown, i.e. the $Z$ bosons do not decay. The value of $R$ is observed to increase from $\approx 1.08$ at 100 GeV to $\approx 1.3$ at high $p_T$. This agrees with the simple approximate calculation presented in Section \ref{sec:R} of $R \approx 1.28$.
 
 %Figure \ref{fig:yy} shows the normalized rapidity distributions for missing transverse momentum $(Z\to\nu\nu)$ and the photon respectively. The photon rapidity is restricted to $|\eta|<2.5$.
 %\begin{figure}[H]
@@ -908,7 +909,7 @@ The uncertainty for \ZZ process is 2.5\% at 100 GeV, which increases to 8.4\% at
 \caption{The transfer factor $R = \sigma(ZZ\to ee\nu\nu)/\sigma(Z\gamma\to ee\gamma)$(top), with the scales varied in a correlated manner for both $ZZ$ and $Z\gamma$ processes. The bottom plot shows the relative ratio $R_i/R_0$ of the varied transfer factors to the central value.}
 \label{fig:R_scale}
 \end{figure}
-The correlated scale uncertainty around $R$ is lower compared to that of the individual cross sections. At 100 GeV, $R \approx 0.4 \pm 0.043$, or an uncertainty of 1\%. At $p_T = 500$ GeV, $R\approx 0.55 \pm 0.01$, the uncertainty is 1\%, significantly lower than the large uncertainties ($\approx 8\%$) obtained for the individual cross sections at high $p_T$.
+The correlated scale uncertainty around $R$ is lower compared to that of the individual cross sections. At 100 GeV, $R \approx 0.404 \pm 0.004$, or an uncertainty of 1\%. At $p_T = 500$ GeV, $R\approx 0.553 \pm 0.005$, the uncertainty is 1\%, significantly lower than the large uncertainties ($\approx 8\%$) obtained for the individual cross sections at high $p_T$.
 
 There is no good motivation for treating the scale uncertainties of two separate processes as correlated. To account for the effects of process dependent correlations, the fact that the two processes are kinematically similar at high $p_T$ is taken into consideration. Naively, a cancellation of the contribution due to missing higher order corrections would be expected between the two processes due to this correlation. To estimate the degree of correlation between the processes, the process dependent part of the cross sections is used. Since the study is undertaken at NLO, the $K$-factor is defined as in Equation \ref{eq:K_factor}.
 \begin{equation}
@@ -938,7 +939,7 @@ Figure \ref{fig:K_pt} shows the $K$-factor distributions for both processes, as 
 \begin{figure}[H]
 \centering
 	\includegraphics[width=0.7\textwidth]{K_pt.png}
-	\caption{The $K$ factor to estimate the unknown process dependent correlations, defined as $\sigma_{NLO}(V)/\sigma_{LO}(V)$. The bottom plot shows the $K$-factor difference relative to $K(Z)$.}
+	\caption{The $K$ factor to estimate the unknown process dependent correlations, defined as $\sigma_{NLO}(V)/\sigma_{LO}(V)$. The bottom plot shows the difference between the $ZZ$ and $Z\gamma$ $K$-factors, $\delta K_{NLO}$, relative to $K(Z)$.}
 	\label{fig:K_pt}
 \end{figure}
 The $K$-factor grows larger as a function of $p_T(V)$ for both processes. However, the difference between the two $K$-factors shrinks, due to the two processes being similar at high $p_T$. Thus, the $K$-factor uncertainty $\delta K_{NLO}$, is 4\% at $p_T(V) = 500$ GeV.
@@ -961,7 +962,7 @@ where $N_{mem}$ is the number of member sets in the group, in this case, 30.
 	\label{fig:PDF30var}
 \end{figure}
 
-The combined uncertainty around $R \approx 0.40$ is $\pm 0.01$, or about 2.3\%, at 100 GeV. The uncertainty is about 1.8\% at high $p_T$ values, with $R \approx 0.51 \pm 0.01$ at $p_T(V)=500$ GeV.
+The combined uncertainty around $R \approx 0.404$ is $\pm 0.010$, or about 2.3\%, at 100 GeV. The uncertainty is about 1.8\% at high $p_T$ values, with $R \approx 0.523 \pm 0.009$ at $p_T(V)=500$ GeV.
 \vfill
 
 \subsection{Photon Fragmentation Uncertainty}\label{subsec:photon_fragmentation}
@@ -1000,7 +1001,7 @@ Combining the theoretical uncertainties due to missing higher order corrections,
 	\label{fig:summary}
 \end{figure}
 
-The combined uncertainties are large at low $p_T$, with $R=0.4\pm 0.096(23.8\%)$ at 100 GeV. However, the similarities in the \ZZ and \Zg processes are apparent at high $p_T$, with $R=0.52\pm 0.024 (4.6\%)$ at 500 GeV.
+The combined uncertainties are large at low $p_T$, with $R=0.404\pm 0.096(23.8\%)$ at 100 GeV. However, the similarities in the \ZZ and \Zg processes are apparent at high $p_T$, with $R=0.523\pm 0.024 (4.6\%)$ at 500 GeV.
 
 \chapter{Conclusion}
 This thesis presents a method to estimate the Standard Model background to the \llM final state in a Higgs to Dark Matter search. 
@@ -1011,7 +1012,7 @@ Estimated using Monte Carlo methods in Ref \cite{ZH_ATLAS}, an uncertainty of 10
 
 A transfer factor $R$ is introduced as the ratio of the \ZZ cross section to the \Zg cross section, and the theoretical uncertainties upon $R$ are estimated. The uncertainties due to missing higher order corrections are 23.6\% at $p_T(V)=$100 GeV and 4.1\% at $p_T(V)=$ 500 GeV. Uncertainties due to parton distribution functions are 2.3\% at 100 GeV, and 1.8\% at 500 GeV. The uncertainties due to photon fragmentation effects are $<1.5\%$ in the full $p_T$ range considered, and 0.8\% at 500 GeV. 
 
-The combined uncertainties are large at low $p_T$, $23.8\%$, at 100 GeV, but are small at high $p_T$, $4.6\%$ at 500 GeV. Thus, the transfer factor $R$ can be used on \Zg data to estimate the contribution of \ZZ.
+The combined uncertainties are large at low $p_T$, $23.8\%$, at 100 GeV, but are small at high $p_T$, $4.6\%$ at 500 GeV. While at low $p_T$, the uncertainty obtained is inferior than the 10\% uncertainty for the $ZZ$ background obtained from $ZH\to$\llM search, the uncertainty is reduced by a factor of 2 at high $p_T$. Thus, the transfer factor $R$ can be used on \Zg data to estimate the contribution of \ZZ.
 
 \section{Outlook}
 This study was conducted at NLO using MCFM, a matrix element generator. Further studies are being conducted to reproduce these results and obtain similar results at NNLO using MATRIX \cite{MATRIX}. It is also necessary to account for detector effects and estimate experimental uncertainties, which will be conducted with Monte Carlo techiniques with the ATLAS framework. These studies are in progress, and are not within the scope of this thesis.
