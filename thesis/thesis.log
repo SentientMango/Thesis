@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2018.3.9)  20 MAR 2018 16:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2018.3.9)  20 MAR 2018 16:44
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1261,17 +1261,20 @@ File: K_pt.png Graphic file (type png)
 <use K_pt.png>
 Package pdftex.def Info: K_pt.png  used on input line 958.
 (pdftex.def)             Requested size: 338.5863pt x 229.44637pt.
- [38 <./K_pt.png>]
-<R_pdf.png, id=935, 700.6175pt x 474.77374pt>
+<R_pdf.png, id=927, 700.6175pt x 474.77374pt>
 File: R_pdf.png Graphic file (type png)
 <use R_pdf.png>
 Package pdftex.def Info: R_pdf.png  used on input line 976.
 (pdftex.def)             Requested size: 338.5863pt x 229.44637pt.
+ [38 <./K_pt.png>]
 <frag.png, id=938, 800.9925pt x 575.14874pt>
 File: frag.png Graphic file (type png)
 <use frag.png>
 Package pdftex.def Info: frag.png  used on input line 990.
 (pdftex.def)             Requested size: 338.5863pt x 243.12296pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
  [39 <./R_pdf.png>]
 <summary.png, id=945, 800.9925pt x 575.14874pt>
 File: summary.png Graphic file (type png)
@@ -1359,7 +1362,7 @@ AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Se
 ntientMango/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb>
 <C:/Users/SentientMango/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times
 /utmri8a.pfb>
-Output written on thesis.pdf (68 pages, 2482868 bytes).
+Output written on thesis.pdf (68 pages, 2482547 bytes).
 PDF statistics:
  1157 PDF objects out of 1200 (max. 8388607)
  234 named destinations out of 1000 (max. 500000)
