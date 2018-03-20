@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2018.3.9)  20 MAR 2018 14:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2018.3.9)  20 MAR 2018 14:25
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1239,7 +1239,7 @@ Package pdftex.def Info: R_scale.png  used on input line 914.
 <K_pt.png, id=913, 700.6175pt x 474.77374pt>
 File: K_pt.png Graphic file (type png)
 <use K_pt.png>
-Package pdftex.def Info: K_pt.png  used on input line 942.
+Package pdftex.def Info: K_pt.png  used on input line 944.
 (pdftex.def)             Requested size: 338.5863pt x 229.44637pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1257,15 +1257,18 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 <frag.png, id=935, 800.9925pt x 575.14874pt>
 File: frag.png Graphic file (type png)
 <use frag.png>
-Package pdftex.def Info: frag.png  used on input line 977.
+Package pdftex.def Info: frag.png  used on input line 976.
 (pdftex.def)             Requested size: 338.5863pt x 243.12296pt.
- [39 <./R_pdf.png>] [40 <./frag.png>]
-<summary.png, id=946, 800.9925pt x 575.14874pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [39 <./R_pdf.png>]
+<summary.png, id=942, 800.9925pt x 575.14874pt>
 File: summary.png Graphic file (type png)
 <use summary.png>
-Package pdftex.def Info: summary.png  used on input line 1000.
+Package pdftex.def Info: summary.png  used on input line 999.
 (pdftex.def)             Requested size: 338.5863pt x 243.12296pt.
- [41 <./summary.png>] [42
+ [40 <./frag.png>] [41 <./summary.png>] [42
 
 ]
 Chapter 5.
@@ -1310,16 +1313,20 @@ ba-tive QCD\OT1/ptm/m/n/12 , Phys.Lett. B429 (1998) 369-374,
  []
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1042.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1041.
  [48]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1042.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1041.
  (thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1042.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1042.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1041.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1041.
 
 Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: CBE438332ABA62E44ECD969D77D414D7;2914.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1042.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1041.
  ) 
 Here is how much of TeX's memory you used:
  9243 strings out of 493333
@@ -1346,7 +1353,7 @@ AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Se
 ntientMango/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb>
 <C:/Users/SentientMango/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times
 /utmri8a.pfb>
-Output written on thesis.pdf (68 pages, 2463451 bytes).
+Output written on thesis.pdf (68 pages, 2483642 bytes).
 PDF statistics:
  1154 PDF objects out of 1200 (max. 8388607)
  232 named destinations out of 1000 (max. 500000)

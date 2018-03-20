@@ -36,7 +36,7 @@
 \contentsline {section}{\numberline {4.3}Theoretical Uncertainties}{35}{section.4.3}
 \contentsline {subsection}{\numberline {4.3.1}Uncertainty from Missing Higher Order Corrections}{35}{subsection.4.3.1}
 \contentsline {subsection}{\numberline {4.3.2}Uncertainty associated with Parton Distribution Functions}{38}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {4.3.3}Photon Fragmentation Uncertainty}{40}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.3}Photon Fragmentation Uncertainty}{39}{subsection.4.3.3}
 \contentsline {section}{\numberline {4.4}Combined Uncertainties}{41}{section.4.4}
 \contentsline {chapter}{\numberline {5}Conclusion}{43}{chapter.5}
 \contentsline {section}{\numberline {5.1}Outlook}{43}{section.5.1}

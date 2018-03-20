@@ -920,11 +920,11 @@ The correlated scale uncertainty around $R$ is lower compared to that of the ind
 Varying the scales does not provide a complete picture of the missing higher order contributions. In going from LO to NLO, a significant difference is observed in the cross section prediction for both processes. However, if both processes are similar at LO, they are expected to be similar at all higher orders as well. To account for process dependent effects of QCD corrections at higher orders, we use the NLO $K$-factor, defined as the ratio of the cross section at NLO to the cross section at LO, as shown in equation \ref{eq:K_factor}.
 
 \begin{equation}
-K_{NLO}^{(V)} = \frac{\sigma_{NLO}^{(V)}}{\sigma_LO^{(V)}}
+K_{NLO}^{(V)} = \frac{\sigma_{NLO}^{(V)}}{\sigma_{LO}^{(V)}}
 \label{eq:K_factor}
 \end{equation}
 \myequations{Definition of the NLO $K$-factor}
-As seen in Figure \ref{fig:Rcurve}, the LO and NLO predictions for the transfer factor $R$ agree quite well at high $p_T$, indicating that the $K$-factors for the \ZZ and \Zg processes behave similarly in that regime, and that higher order QCD corrections are highly correlated between the two processes at high $p_T$. The difference between the $K$-factors of the two processes will be a measure of the difference in the higher order QCD corrections to them. This difference, $\delta K_{NLO}$, is taken as the $K$-factor uncertainty.
+As seen in Figure \ref{fig:Rcurve}, the LO and NLO predictions for the transfer factor $R$ agree quite well at high $p_T$, indicating that the $K$-factors for the \ZZ and \Zg processes behave similarly in that regime, and that higher order QCD corrections are highly correlated between the two processes at high $p_T$. The difference between the $K$-factors of the two processes will be a measure of the difference in the contribution of higher order QCD corrections to them. This difference, $\delta K_{NLO}$, is taken as the $K$-factor uncertainty.
 
 It is assumed that the difference between the NLO and LO cross sections is greater than the difference between the perfect prediction and the NLO cross section, i.e. the NLO $K$-factor is larger than higher order $K$-factors.
 \begin{equation}
@@ -936,15 +936,15 @@ It is also assumed that the $K$-factor difference at NLO is less than the $K$-fa
 \left(\frac{\sigma^{(\gamma)}_{NLO}}{\sigma^{(\gamma)}_{LO}}-\frac{\sigma^{(Z)}_{NLO}}{\sigma^{(Z)}_{LO}}\right) <\left(\frac{\sigma^{(\gamma)}_{N^{\infty}LO}}{\sigma^{(\gamma)}_{NLO}}-\frac{\sigma^{(Z)}_{N^{\infty}LO}}{\sigma^{(Z)}_{NLO}}\right)
 \end{equation}
 
-Figure \ref{fig:K_pt} shows the $K$-factor distributions for both processes, as well as the $K$-factor uncertainty $\delta K_{NLO} = K_{NLO}^{(\gamma)}(p_T) - K_{NLO}^{(Z)}(p_T)$.
+Figure \ref{fig:K_pt} shows the $K$-factor distributions for both processes, as well as the $K$-factor uncertainty $\delta K_{NLO} = K_{NLO}^{(\gamma)}(p_T) - K_{NLO}^{(Z)}(p_T)$. The $K$-factor grows larger as a function of $p_T(V)$ for both processes. However, the difference between the two $K$-factors shrinks, due to the two processes being similar at high $p_T$. 
+
+Thus, the $K$-factor uncertainty $\delta K_{NLO}$, is 4\% at $p_T(V) = 500$ GeV. At low $p_T$ the $K$-factors differ significantly between the two processes, e.g. at 100 GeV the difference is 23.6\%
 \begin{figure}[H]
 \centering
 	\includegraphics[width=0.7\textwidth]{K_pt.png}
 	\caption{The $K$ factor to estimate the unknown process dependent correlations, defined as $\sigma_{NLO}(V)/\sigma_{LO}(V)$. The bottom plot shows the difference between the $ZZ$ and $Z\gamma$ $K$-factors, $\delta K_{NLO}$, relative to $K(Z)$.}
 	\label{fig:K_pt}
 \end{figure}
-The $K$-factor grows larger as a function of $p_T(V)$ for both processes. However, the difference between the two $K$-factors shrinks, due to the two processes being similar at high $p_T$. Thus, the $K$-factor uncertainty $\delta K_{NLO}$, is 4\% at $p_T(V) = 500$ GeV. At low $p_T$ the $K$-factors differ significantly between the two processes, e.g. at 100 GeV the difference is 23.6\%
-
 
 \subsection{Uncertainty associated with Parton Distribution Functions}
 The PDF set used for reference is the \texttt{PDF4LHC15}\cite{PDF4} PDF set. The uncertainty on the PDFs is studied by using the 30 variations provided by the \texttt{PDF4LHC15} set\cite{PDF4}, constructed from the combination of \texttt{CT14,MMHT14} and \texttt{NNPDF3.0} PDF sets. These sets are provided by LHAPDF6\cite{LHAPDF}. \texttt{PDF4LHC15} provides a set of variations that include those determined by different groups (MSTW, CTEQ and NNPDF). The set used here is \texttt{PDF4LHC15\_nlo\_30}, consisting of 30 members.
@@ -964,7 +964,6 @@ where $N_{mem}$ is the number of member sets in the group, in this case, 30.
 \end{figure}
 
 The combined uncertainty around $R \approx 0.404$ is $\pm 0.010$, or about 2.3\%, at 100 GeV. The uncertainty is about 1.8\% at high $p_T$ values, with $R \approx 0.523 \pm 0.009$ at $p_T(V)=500$ GeV.
-\vfill
 
 \subsection{Photon Fragmentation Uncertainty}\label{subsec:photon_fragmentation}
 
