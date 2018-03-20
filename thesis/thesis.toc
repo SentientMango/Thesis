@@ -1,11 +1,11 @@
-\contentsline {chapter}{Abstract}{i}{chapter*.1}
+\contentsline {chapter}{Abstract}{i}{chapter*.3}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}The Standard Model}{2}{section.1.1}
 \contentsline {subsection}{\numberline {1.1.1}Matter and Forces}{3}{subsection.1.1.1}
 \contentsline {section}{\numberline {1.2}Inadequacies of the Standard Model}{8}{section.1.2}
-\contentsline {subsection}{\numberline {1.2.1}Dark Matter}{9}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.1}Dark Matter}{8}{subsection.1.2.1}
 \contentsline {subsection}{\numberline {1.2.2}Beyond the Standard Model}{9}{subsection.1.2.2}
-\contentsline {subsubsection}{Dark Matter searches at the \hyperref [ch:LHC]{Large Hadron Collider}}{10}{section*.8}
+\contentsline {subsubsection}{Dark Matter searches at the \hyperref [ch:LHC]{Large Hadron Collider}}{10}{section*.10}
 \contentsline {chapter}{\numberline {2}Experimental Apparatus}{13}{chapter.2}
 \contentsline {section}{\numberline {2.1}The Large Hadron Collider}{13}{section.2.1}
 \contentsline {section}{\numberline {2.2}History}{13}{section.2.2}
@@ -33,11 +33,11 @@
 \contentsline {chapter}{\numberline {4}Transfer factor R and the uncertainties associated to it}{31}{chapter.4}
 \contentsline {section}{\numberline {4.1}MCFM}{31}{section.4.1}
 \contentsline {section}{\numberline {4.2}Results}{32}{section.4.2}
-\contentsline {section}{\numberline {4.3}Theoretical Uncertainties}{35}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Uncertainty from Missing Higher Order Corrections}{35}{subsection.4.3.1}
+\contentsline {section}{\numberline {4.3}Theoretical Uncertainties}{36}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Uncertainty from Missing Higher Order Corrections}{36}{subsection.4.3.1}
 \contentsline {subsection}{\numberline {4.3.2}Uncertainty associated with Parton Distribution Functions}{38}{subsection.4.3.2}
 \contentsline {subsection}{\numberline {4.3.3}Photon Fragmentation Uncertainty}{39}{subsection.4.3.3}
 \contentsline {section}{\numberline {4.4}Combined Uncertainties}{41}{section.4.4}
 \contentsline {chapter}{\numberline {5}Conclusion}{43}{chapter.5}
 \contentsline {section}{\numberline {5.1}Outlook}{43}{section.5.1}
-\contentsline {chapter}{\hbox to\@tempdima {\hfil }\sf \bfseries {Bibliography}}{48}{chapter*.34}
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }\sf \bfseries {Bibliography}}{48}{chapter*.36}

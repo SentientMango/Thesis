@@ -78,8 +78,16 @@ All rights reserved
 \vspace{1cm}
 \normalsize This is to certify that this dissertation, entitled "Estimating \ZZ background in the \llM final status using \Zg data", submitted towards the partial fulfilment of the BS-MS dual degree programme at the Indian Institute of Science Education and Research (IISER), Pune, represents the work carried out by Mangesh Sonawane at the Deutsches Elektronen-Synchrotron (DESY), Hamburg, under the supervision of Dr. Beate Heinemann, Professor of Experimental Particle Physics at the Institute of Physics, University of Freiburg, during the academic year 2017-2018.
 \vfill
-\hspace{1cm}
-\includegraphics[width=0.2\linewidth]{sign.jpg}
+\begin{figure}[H]
+	\hspace{1cm}
+	\begin{subfigure}{0.49\textwidth}
+	\includegraphics[width=0.4\linewidth]{sign.jpg}
+	\end{subfigure}\hspace{1cm}
+	\begin{subfigure}{0.49\textwidth}
+	\centering
+	\includegraphics[width=0.7\linewidth]{Beate_sign.jpg}
+	\end{subfigure}
+\end{figure}
 \begin{center}
 Mangesh Sonawane\hspace{8cm}
 Dr. Beate Heinemann
@@ -106,8 +114,16 @@ Dr. Seema Sharma
 \vspace{1cm}
 \normalsize I hereby declare that the matter containined within the thesis entitled "Estimating \ZZ background in the \llM final status using \Zg data", contains the results of the work carried out by me at the Deutsches Elektronen-Synchrotron (DESY) Hamburg, under the supervision of Dr. Beate Heinemann, and the same has not been submitted elsewhere for any other degree.
 \vfill
-\hspace{1cm}
-\includegraphics[width=0.18\linewidth]{sign.jpg}
+\begin{figure}[H]
+	\hspace{1cm}
+	\begin{subfigure}{0.49\textwidth}
+	\includegraphics[width=0.4\linewidth]{sign.jpg}
+	\end{subfigure}\hspace{1cm}
+	\begin{subfigure}{0.49\textwidth}
+	\centering
+	\includegraphics[width=0.7\linewidth]{Beate_sign.jpg}
+	\end{subfigure}
+\end{figure}
 \begin{center}
 Mangesh Sonawane\hspace{8cm}
 Dr. Beate Heinemann
@@ -126,13 +142,13 @@ I would like to express my deepest gratitude for Dr. Beate Heinemann for her gui
 
 I would also like to thank Dr. Pieter Everaerts and Dr. Sarah Heim for their advice and guidance at every step. They patiently explained the many, many concepts unfamiliar to me, and their offices were open for the occasional candid conversations too.
 
-This thesis was carried out as part of a team, and I'd like to thank each and every member of the team, Dr. Yee Chinn Yap, Dr. Valerie Lang, Dr. Sarah Heim, Fang-Yin Tsai and Jordi Sabater, among them, from whom I learned about different ATLAS tools and techniques.
+This thesis was carried out as part of a team, and I'd like to thank each and every member of the team, Dr. Yee Chinn Yap, Dr. Valerie Lang, Dr. Sarah Heim, Fang-Yin Tsai, Jordi Sabater and others among them, from whom I learned about different ATLAS tools and techniques.
 
 There is initially quite a bit of cultural shock when moving to a foreign country, with a foreign language and a foreign culture. I would like to thank Valerie, Sarah, Pieter, Daniel, and every single member of the ATLAS group at DESY Hamburg for making me immediately feel like one of them, making the transition almost imperceptibly smooth, and making me feel as though I have always belonged here.
 
-A big thank you to Dr. Ingrid-Maria Gregor, the very capable group leader of ATLAS. My conversations with her were, without exception, enlightening about the many facets of running a research team as large as ATLAS. Her abilities of multi-tasking and efficient management are inspiring.
+A big thank you to Dr. Ingrid-Maria Gregor, the very capable group leader of ATLAS. My conversations with her were enlightening about the many facets of running a research team as large as ATLAS. Her abilities of multi-tasking and efficient management are inspiring.
 
-It would not be hyperbole to state that none of this would be possible without my mentors at IISER Pune; Dr. Sourabh Dube, with whom I did my first project in particle physics and discovered my passion for the field, whose advice has helped me time and again during my study as an undergraduate at IISER Pune to advance both in academics and personal growth, and Dr. Seema Sharma, under whose kind but firm hand I learned how to think physics, and learn my strengths and shortcomings, whose high standards pushed me to strive for excellence, and whose occasional good natured ribbing helped keep my feet firmly on the ground, and Dr. Sunil Mukhi, who I like to think of as the Master Shifu to my Po. Not only is he an excellent teacher, capable of conveying complex ideas in an efficient and digestible manner, his door is always open for political and philosophical discourse on any number of topics.
+It would not be hyperbole to state that none of this would be possible without my mentors at IISER Pune; Dr. Sourabh Dube, with whom I did my first project in particle physics and discovered my passion for the field, whose advice has helped me time and again during my study as an undergraduate at IISER Pune to advance both in academics and personal growth, and Dr. Seema Sharma, under whose kind but firm hand I learned how to think physics, and learn my strengths and shortcomings, whose high standards pushed me to strive for excellence, and whose occasional good natured ribbing helped keep my feet firmly on the ground, and Dr. Sunil Mukhi, who I like to think of as the Master Shifu to my Po. Not only is he an excellent teacher, capable of conveying complex ideas in an efficient and digestible manner, his door is always open for political and philosophical discourse on any number of topics. He also has an enormous collection of music, and the melodic discourses I have had the opportunity of attending are very rewarding.
 
 Last, but in no way the least, I wish to acknowledge the part my friends at IISER Pune played in where I am today. Without their willing ears and timely advice, my life would have taken an entirely different turn.
 
@@ -283,7 +299,7 @@ The strong coupling satisfies the following renormalization group equation (RGE)
 \mu_R^2\frac{\mathrm{d}\alpha_S}{\mathrm{d}\mu_R^2} = \beta(\alpha_S) = -(b_0\alpha_S^2 + b_1\alpha_S^3 + b_2\alpha_S^4 + ...)
 \end{equation}
 \myequations{Renormalization Group Equation}
-where the $b_i$ are the loop-coefficients of the coupling $\alpha_S$, and $\mu_R$ is the renomalization scale, of which $\alpha_S$ is a function. The minus sign on the right hand side of Equation \ref{eq:RGE} is the origin of asymptotic freedom, and dictates that the strong coupling constant becomes weak for processes involving large momentum transfers. For such processes, $\alpha_S$ is sufficiently small to be treated perturbatively, and this theoretical framework is called perturbative QCD (pQCD). Calculations for most processes occurring at high momentum transfer scales can be simplified by only calculated up to a fixed order ($fixed\ order\ calculations$).
+where the $b_i$ are the loop-coefficients of the coupling $\alpha_S$, and $\mu_R$ is the renomalization scale, of which $\alpha_S$ is a function. The minus sign on the right hand side of Equation \ref{eq:RGE} is the origin of asymptotic freedom, and dictates that the strong coupling constant becomes weak for processes involving large momentum transfers. For such processes, $\alpha_S$ is sufficiently small to be treated perturbatively, and this theoretical framework is called perturbative QCD (pQCD). Calculations for most processes occurring at high momentum transfer scales can be simplified by only calculating up to a fixed order.
 
 Each interaction vertex in a Feynman diagram translates to a term featuring the corresponding coupling constant in the transition amplitude of the process from initial state to final state. The order of a coupling constant in a process is the number of times the vertex features in the transition amplitude i.e. a process having two strong vertices can be described as $O(\alpha_{S}^2)$. For interactions that take place at low interaction energies, the electromagnetic and weak coupling constants are much smaller than one. Thus, Feyman diagrams with more weak or electromagnetic vertices contribute less than lower order diagrams, and may be treated perturbatively. Higher order Feynman diagrams with strong vertices, however, must be at high interaction energies to be treated perturbatively. In perturbative expansions, the term with the highest contribution is known as the leading order (LO) term; the term with the next highest contribution is called the next-to-leading order (NLO) term, and so on.
 
@@ -305,7 +321,6 @@ Despite its immense success, the Standard Model does not paint a complete pictur
 \end{itemize}
 
 The Standard Model is incomplete, and thus requires modifications or additions to it, which are collectively called Beyond Standard Model (BSM) theories.
-\vfill
 
 \subsection{Dark Matter}
 Cosmological observations of galaxies made over the decades, such as the velocity curves of galaxies (called galaxy rotation curves) indicate an anomaly; the stars in the arms of spiral galaxies appear to move faster than what would be expected from Keplerian relations, using the visible mass from the galaxies. Figure \ref{fig:grc} shows the two rotation curves, expected and observed, of NGC 6503, a field\footnote{Field galaxies do not belong to a large cluster, and are thus gravitationally isolated}  spiral galaxy.\cite{galaxy}
@@ -611,7 +626,7 @@ BR(ZZ\to \ell\ell\ell\ell) &= (2\times 0.034)\times(2*0.034) = 0.00462\\
 BR(ZZ\to \ell\ell\nu\nu) &= (2\times 0.034)\times(0.2)\times 2 = 0.0272
 \end{align}
 \myequations{Branching ratios of $ZZ$ final states}
-Thus, branching fraction of $ZZ\to \ell\ell\ell\ell$($\approx$0.46\%) compared to \ZZ (2.7\%) is about 6 times smaller. The low branching fraction of $ZZ\to \ell\ell\ell\ell$ limits the precision.
+Thus, branching fraction of $ZZ\to \ell\ell\ell\ell$($\approx$0.46\%) compared to \ZZ (2.7\%) is smaller by a factor of 6. The low branching fraction of $ZZ\to \ell\ell\ell\ell$ limits the precision.
 
 Motivated by an analysis using $\gamma+$jets to estimate $Z+$jets\cite{gamma_jet}, an alternative method to estimate \ZZ is to look at the \Zg process. Figure \ref{fig:Zg} shows the leading order diagrams for the production of $Z\gamma$, where the $Z$ boson further decays leptonically. Figures \ref{fig:Zg}.a, b and c are similar to the production of $ZZ$, with a photon instead of one of the $Z$ bosons. The main differences in the two processes are the couplings of the photon and $Z$ boson to the quarks, and the fact that photons are massless, whereas the $Z$ boson is massive. 
 
@@ -691,7 +706,7 @@ Thus, it is necessary to regularize such integrals, i.e. render the divergences 
 
 The infrared divergences are addressed by the inclusion of the factorization scale $\mu_F$, while the ultraviolet divergences are addressed by the inclusion of the renormalization scale $\mu_R$. These parameters are arbitrary, and are set by hand. These are then varied between $\frac{1}{2}\mu < \mu < \ 2\mu$ to obtain an indication of the dependence of the matrix element on the scales. 
 
-A perfect calculation would include an infinite number of terms in $\alpha_S$, and would result in $\mu$ dependent terms cancelling out perfectly, resulting in an answer that is independent of the choice of $\mu$. However, perturbative QCD calculations get progressively more computationally expensive as the order of the perturbative theory increases. Thus, perturbative QCD calculations are only carried out up to a fixed order. In the absence of a perfect infinite order calculation, the variation of the factorization and renormalization scales gives an estimate of missing higher order contributions.
+A perfect calculation would include an infinite number of terms in $\alpha_S$, and would result in the $\mu$-dependent terms cancelling out perfectly, resulting in an answer that is independent of the choice of $\mu$. However, perturbative QCD calculations get progressively more computationally expensive as the order of the perturbative theory increases. Thus, perturbative QCD calculations are only carried out up to a fixed order. In the absence of a perfect infinite order calculation, the variation of the factorization and renormalization scales gives an estimate of missing higher order contributions.
 
 Varying the scales is not a complete treatment of the higher order QCD effects. In addition to it, the process dependent part of the missing higher order contributions will be treated using $K$-factors. These $K$-factors account for the corrections between the leading order and higher order calculations, and the difference between the $K$-factors of the two process will give a handle on the degree of correlation between the two processes.
 
@@ -706,15 +721,15 @@ Experimentally, photon isolation is implemented with the following selection:
 \label{eq:photon_isol}
 \end{equation}
 \myequations{Experimental definition of photon isolation}
-limiting the transverse hadronic energy $E_T(had)$ in a cone of size $R_0 = \sqrt{\Delta\eta^2 + \Delta\phi^2}$ around the photon, to some fraction of the photon $p_T$. This rejects events where the photon is associated with any hadronic activity in the cone. While this method works well for prompt photons where the method of isolation constrains the phase space of events with soft gluons, which hinders the cancellation of infrared divergences. This method is currently used in experimental analyses at ATLAS.
+limiting the transverse hadronic energy $E_T(had)$ in a cone of size $R_0 = \sqrt{\Delta\eta^2 + \Delta\phi^2}$ around the photon, to some fraction of the photon $p_T$. This rejects events where the photon is associated with any hadronic activity in the cone. While this method works well for prompt photons, for non-perturbative fragmentation, this method of isolation constrains the phase space of events with soft gluons, which hinders the cancellation of infrared divergences. This method is currently used in experimental analyses at ATLAS.
 
-The smooth cone isolation method of Frixione \cite{frixione} is an alternative isolation procedure, which simplifies calculations by avoiding photon-to-hadron fragmentation contributions, treats both gluons and quarks in the same way, and can be applied to experimental data in hadron-hadron, photon-hadron and electron positron collisions. In the Frixione method, the following isolation prescription is applied to the photon:
+The smooth cone isolation method of Frixione \cite{frixione} is an alternative isolation procedure, which simplifies calculations by avoiding photon-to-hadron fragmentation contributions, treats both gluons and quarks in the same way, and can be applied to experimental data in hadron-hadron, photon-hadron and electron-positron collisions. In the Frixione method, the following isolation prescription is applied to the photon:
 \begin{equation}
 	\sum_{R_{j\gamma} \in R_0} E_T(\text{had}) < \epsilon_h p_T^\gamma \left(\frac{1-\cos R_{j\gamma}}{1-\cos R_0}\right)^n.
 \label{eq:frix_isol}
 \end{equation}
 \myequations{Frixione (smooth-cone) method of photon isolation}
-where $R_{j\gamma}$ is the separation of the photon and the $j^{th}$ parton. This requirement constrains the sum of hadronic energy inside a cone of radius $R_{j\gamma}$, for all separations $R_{j\gamma}$ less than a chosen cone size $R_0$. For $n=0$, Equation \ref{eq:frix_isol} is equal to Equation \ref{eq:photon_isol}, but for $n \geq 1$, this prescription allows soft radiation inside the photon cone and collinear singularities are removed. The inclusion of soft radiation makes the Frixione isolation infrared finite at all orders, can be applied to events non-perturbative photon fragmentation, and avoids collinear singularities, i.e. if a parton is collinear with the photon, by requiring it to be soft.
+where $R_{j\gamma}$ is the separation of the photon and the $j^{th}$ parton. This requirement constrains the sum of hadronic energy inside a cone of radius $R_{j\gamma}$, for all separations $R_{j\gamma}$ less than a chosen cone size $R_0$. For $n=0$, Equation \ref{eq:frix_isol} is equal to Equation \ref{eq:photon_isol}, but for $n \geq 1$, this prescription allows soft radiation inside the photon cone and collinear singularities are removed. The inclusion of soft radiation makes the Frixione isolation infrared finite at all orders, can be applied to events having non-perturbative photon fragmentation, and avoids collinear singularities, that occur when a parton is collinear with the photon, by requiring it to be soft.
 
 \chapter{Transfer factor R and the uncertainties associated to it}\label{ch:Results}
 
@@ -872,7 +887,7 @@ The $R_{gg}$ distribution, shown in Figure \ref{fig:R_ggonly} is observed to app
 \caption{$R_{gg}(p_T)$, computed from the contributions of the $gg$ subprocess to the cross sections of $ZZ$ and $Z\gamma$. The curve reaches a plateau at a much higher $p_T$ than for contributions from the $q\bar{q}$ process only. The leptonic $Z$ bosons decay to an $ee$ pair.}
 \label{fig:R_ggonly}
 \end{figure}
-
+\vfill
 \section{Theoretical Uncertainties}
 \subsection{Uncertainty from Missing Higher Order Corrections}
 To address uncertainties associated with the scale in this study, a similar prescription as the one used in Ref \cite{precise_scale} is followed. The central scale, $\mu_0$ is chosen to be $H_{T}$ for both \ZZ and \Zg samples (where $H_T$ is the scalar sum of the transverse momentum of all particles after collision, $\sum_{i} p_{T,i}$), and seven-point variations are applied, i.e.
@@ -938,13 +953,13 @@ It is also assumed that the $K$-factor difference at NLO is less than the $K$-fa
 
 Figure \ref{fig:K_pt} shows the $K$-factor distributions for both processes, as well as the $K$-factor uncertainty $\delta K_{NLO} = K_{NLO}^{(\gamma)}(p_T) - K_{NLO}^{(Z)}(p_T)$. The $K$-factor grows larger as a function of $p_T(V)$ for both processes. However, the difference between the two $K$-factors shrinks, due to the two processes being similar at high $p_T$. 
 
-Thus, the $K$-factor uncertainty $\delta K_{NLO}$, is 4\% at $p_T(V) = 500$ GeV. At low $p_T$ the $K$-factors differ significantly between the two processes, e.g. at 100 GeV the difference is 23.6\%
 \begin{figure}[H]
 \centering
 	\includegraphics[width=0.7\textwidth]{K_pt.png}
 	\caption{The $K$ factor to estimate the unknown process dependent correlations, defined as $\sigma_{NLO}(V)/\sigma_{LO}(V)$. The bottom plot shows the difference between the $ZZ$ and $Z\gamma$ $K$-factors, $\delta K_{NLO}$, relative to $K(Z)$.}
 	\label{fig:K_pt}
 \end{figure}
+Thus, the $K$-factor uncertainty $\delta K_{NLO}$, is 4\% at $p_T(V) = 500$ GeV. At low $p_T$ the $K$-factors differ significantly between the two processes, e.g. at 100 GeV the difference is 23.6\%
 
 \subsection{Uncertainty associated with Parton Distribution Functions}
 The PDF set used for reference is the \texttt{PDF4LHC15}\cite{PDF4} PDF set. The uncertainty on the PDFs is studied by using the 30 variations provided by the \texttt{PDF4LHC15} set\cite{PDF4}, constructed from the combination of \texttt{CT14,MMHT14} and \texttt{NNPDF3.0} PDF sets. These sets are provided by LHAPDF6\cite{LHAPDF}. \texttt{PDF4LHC15} provides a set of variations that include those determined by different groups (MSTW, CTEQ and NNPDF). The set used here is \texttt{PDF4LHC15\_nlo\_30}, consisting of 30 members.
@@ -962,7 +977,6 @@ where $N_{mem}$ is the number of member sets in the group, in this case, 30.
 	\caption{The transfer factor $R = \sigma($\ZZ$)/\sigma($\Zg$)$ (top), and the relative ratio $R_i/R_0$ of the transfer factor  calculated using PDF sets 1-30, with respect to set 0 which is taken as the central value. }
 	\label{fig:PDF30var}
 \end{figure}
-
 The combined uncertainty around $R \approx 0.404$ is $\pm 0.010$, or about 2.3\%, at 100 GeV. The uncertainty is about 1.8\% at high $p_T$ values, with $R \approx 0.523 \pm 0.009$ at $p_T(V)=500$ GeV.
 
 \subsection{Photon Fragmentation Uncertainty}\label{subsec:photon_fragmentation}
