@@ -3,7 +3,7 @@
 \contentsline {myequations}{\numberline {2.2}Rate of detection of events with a final state $X$}{16}{equation.2.4.2}
 \contentsline {myequations}{\numberline {2.3}Cross section $\sigma $ for the $pp\to X$ process}{17}{equation.2.4.3}
 \contentsline {myequations}{\numberline {2.4}Pseudorapidity $\eta $}{18}{equation.2.5.4}
-\contentsline {myequations}{\numberline {2.5}Rapidity $y$}{18}{equation.2.5.5}
+\contentsline {myequations}{\numberline {2.5}Rapidity $y$}{19}{equation.2.5.5}
 \contentsline {myequations}{\numberline {2.6}Separation $\Delta R$ between two objects}{19}{equation.2.5.6}
 \contentsline {myequations}{\numberline {2.7}Definition of missing transverse momentum $E_T^{\mathrm {miss}}$ }{21}{equation.2.6.7}
 \contentsline {myequations}{\numberline {3.2}Branching ratios of $ZZ$ final states}{26}{equation.3.2.2}
@@ -11,14 +11,13 @@
 \contentsline {myequations}{\numberline {3.4}Couplings of the $Z$ boson and photon to quarks}{27}{equation.3.4.4}
 \contentsline {myequations}{\numberline {3.5}Cross section approximations for $q\mathaccentV {bar}016{q}\to ZZ$ and $Z\gamma $}{27}{equation.3.4.5}
 \contentsline {myequations}{\numberline {3.6}Theoretical approximation of the transfer factor $R$}{27}{equation.3.4.6}
-\contentsline {myequations}{\numberline {3.7}Experimental definition of photon isolation}{30}{equation.3.7.7}
+\contentsline {myequations}{\numberline {3.7}Experimental definition of photon isolation}{29}{equation.3.7.7}
 \contentsline {myequations}{\numberline {3.8}Frixione (smooth-cone) method of photon isolation}{30}{equation.3.7.8}
 \contentsline {myequations}{\numberline {4.1}The inclusive transfer factor $R$ corrected for the branching fractions of the $Z$ bosons}{32}{equation.4.1.1}
 \contentsline {myequations}{\numberline {4.2}Six point variation of renormalization and factorization scales}{35}{equation.4.3.2}
 \contentsline {myequations}{\numberline {4.4}Central cross section value, and scale uncertainty width}{35}{equation.4.3.4}
-\contentsline {myequations}{\numberline {4.6}Maximum and minimum cross sections for evaluating scale uncertainties}{35}{equation.4.3.6}
-\contentsline {myequations}{\numberline {4.7}$K$-factor definition}{37}{equation.4.3.7}
-\contentsline {myequations}{\numberline {4.9}$K$-factor uncertainty}{37}{equation.4.3.9}
-\contentsline {myequations}{\numberline {4.10}Assumption regarding $K$-factor differences at higher orders}{37}{equation.4.3.10}
-\contentsline {myequations}{\numberline {4.11}Parton Distribution Function uncertainties}{38}{equation.4.3.11}
-\contentsline {myequations}{\numberline {4.12}Photon Fragmentation uncertainties}{39}{equation.4.3.12}
+\contentsline {myequations}{\numberline {4.6}Maximum and minimum cross sections for evaluating scale uncertainties}{36}{equation.4.3.6}
+\contentsline {myequations}{\numberline {4.7}Definition of the NLO $K$-factor}{37}{equation.4.3.7}
+\contentsline {myequations}{\numberline {4.8}Assumptions regarding $K$-factor differences at higher orders}{37}{equation.4.3.8}
+\contentsline {myequations}{\numberline {4.10}Parton Distribution Function uncertainties}{38}{equation.4.3.10}
+\contentsline {myequations}{\numberline {4.11}Photon Fragmentation uncertainties}{40}{equation.4.3.11}
