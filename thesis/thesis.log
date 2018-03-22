@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2018.3.9)  22 MAR 2018 15:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2018.3.9)  22 MAR 2018 18:04
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1171,7 +1171,7 @@ Package pdftex.def Info: renormalize_diagram.png  used on input line 682.
  [26 <./renormalize_diagram.png>] [27] [28]
 Chapter 4.
 
-Overfull \hbox (13.45706pt too wide) in paragraph at lines 721--722
+Overfull \hbox (13.45706pt too wide) in paragraph at lines 719--720
 \OT1/ptm/m/n/12 Monte Carlo for FeM-to-barn pro-cesses (MCFM) is a pro-gram tha
 t cal-cu-lates cross sec-tions for femtobarn-
  []
@@ -1185,188 +1185,52 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 <ZZ_xsec.png, id=800, 600.74437pt x 431.36156pt>
 File: ZZ_xsec.png Graphic file (type png)
 <use ZZ_xsec.png>
-Package pdftex.def Info: ZZ_xsec.png  used on input line 771.
+Package pdftex.def Info: ZZ_xsec.png  used on input line 769.
 (pdftex.def)             Requested size: 237.0141pt x 170.1852pt.
 <Zg_xsec.png, id=801, 600.74437pt x 431.36156pt>
 File: Zg_xsec.png Graphic file (type png)
 <use Zg_xsec.png>
-Package pdftex.def Info: Zg_xsec.png  used on input line 776.
+Package pdftex.def Info: Zg_xsec.png  used on input line 774.
 (pdftex.def)             Requested size: 237.0141pt x 170.1852pt.
 <R.png, id=808, 800.9925pt x 575.14874pt>
 File: R.png Graphic file (type png)
 <use R.png>
-Package pdftex.def Info: R.png  used on input line 791.
+Package pdftex.def Info: R.png  used on input line 789.
 (pdftex.def)             Requested size: 237.0141pt x 170.1852pt.
 <R_BR.png, id=809, 800.9925pt x 575.14874pt>
 File: R_BR.png Graphic file (type png)
 <use R_BR.png>
-Package pdftex.def Info: R_BR.png  used on input line 796.
+Package pdftex.def Info: R_BR.png  used on input line 794.
 (pdftex.def)             Requested size: 237.0141pt x 170.1852pt.
 
 [30 <./ZZ_xsec.png> <./Zg_xsec.png>]
 <leadpt.png, id=821, 525.46312pt x 356.0803pt>
 File: leadpt.png Graphic file (type png)
 <use leadpt.png>
-Package pdftex.def Info: leadpt.png  used on input line 817.
+Package pdftex.def Info: leadpt.png  used on input line 815.
 (pdftex.def)             Requested size: 237.0141pt x 160.61499pt.
 <subleadpt.png, id=822, 525.46312pt x 356.0803pt>
 File: subleadpt.png Graphic file (type png)
 <use subleadpt.png>
-Package pdftex.def Info: subleadpt.png  used on input line 822.
+Package pdftex.def Info: subleadpt.png  used on input line 820.
 (pdftex.def)             Requested size: 237.0141pt x 160.61499pt.
 <leady.png, id=823, 525.46312pt x 356.0803pt>
 File: leady.png Graphic file (type png)
 <use leady.png>
-Package pdftex.def Info: leady.png  used on input line 832.
+Package pdftex.def Info: leady.png  used on input line 830.
 (pdftex.def)             Requested size: 237.0141pt x 160.61499pt.
 <subleady.png, id=824, 525.46312pt x 356.0803pt>
 File: subleady.png Graphic file (type png)
 <use subleady.png>
-Package pdftex.def Info: subleady.png  used on input line 837.
+Package pdftex.def Info: subleady.png  used on input line 835.
 (pdftex.def)             Requested size: 237.0141pt x 160.61499pt.
  [31 <./R.png> <./R_BR.png> <./leadpt.png> <./subleadpt.png>]
 <ZZ_subproc.png, id=836, 700.6175pt x 474.77374pt>
 File: ZZ_subproc.png Graphic file (type png)
 <use ZZ_subproc.png>
-Package pdftex.def Info: ZZ_subproc.png  used on input line 857.
+Package pdftex.def Info: ZZ_subproc.png  used on input line 855.
 (pdftex.def)             Requested size: 237.0141pt x 160.60956pt.
 <Zg_subproc.png, id=837, 700.6175pt x 474.77374pt>
 File: Zg_subproc.png Graphic file (type png)
 <use Zg_subproc.png>
-Package pdftex.def Info: Zg_subproc.png  used on input line 860.
-(pdftex.def)             Requested size: 237.0141pt x 160.60956pt.
- [32 <./leady.png> <./subleady.png> <./ZZ_subproc.png> <./Zg_subproc.png>]
-<Rgg.png, id=845, 525.46312pt x 356.0803pt>
-File: Rgg.png Graphic file (type png)
-<use Rgg.png>
-Package pdftex.def Info: Rgg.png  used on input line 870.
-(pdftex.def)             Requested size: 338.5863pt x 229.44998pt.
- [33 <./Rgg.png>]
-<zz_scale.png, id=853, 800.9925pt x 575.14874pt>
-File: zz_scale.png Graphic file (type png)
-<use zz_scale.png>
-Package pdftex.def Info: zz_scale.png  used on input line 901.
-(pdftex.def)             Requested size: 237.0141pt x 170.1852pt.
-<zg_scale.png, id=854, 800.9925pt x 575.14874pt>
-File: zg_scale.png Graphic file (type png)
-<use zg_scale.png>
-Package pdftex.def Info: zg_scale.png  used on input line 904.
-(pdftex.def)             Requested size: 237.0141pt x 170.1852pt.
-<R_scale.png, id=860, 700.6175pt x 474.77374pt>
-File: R_scale.png Graphic file (type png)
-<use R_scale.png>
-Package pdftex.def Info: R_scale.png  used on input line 913.
-(pdftex.def)             Requested size: 338.5863pt x 229.44637pt.
- [34 <./zz_scale.png> <./zg_scale.png>] [35 <./R_scale.png>]
-<K_pt.png, id=877, 700.6175pt x 474.77374pt>
-File: K_pt.png Graphic file (type png)
-<use K_pt.png>
-Package pdftex.def Info: K_pt.png  used on input line 942.
-(pdftex.def)             Requested size: 338.5863pt x 229.44637pt.
-<R_pdf.png, id=884, 700.6175pt x 474.77374pt>
-File: R_pdf.png Graphic file (type png)
-<use R_pdf.png>
-Package pdftex.def Info: R_pdf.png  used on input line 960.
-(pdftex.def)             Requested size: 338.5863pt x 229.44637pt.
- [36 <./K_pt.png>]
-<frag.png, id=895, 800.9925pt x 575.14874pt>
-File: frag.png Graphic file (type png)
-<use frag.png>
-Package pdftex.def Info: frag.png  used on input line 974.
-(pdftex.def)             Requested size: 338.5863pt x 243.12296pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [37 <./R_pdf.png>]
-<summary.png, id=902, 800.9925pt x 575.14874pt>
-File: summary.png Graphic file (type png)
-<use summary.png>
-Package pdftex.def Info: summary.png  used on input line 997.
-(pdftex.def)             Requested size: 338.5863pt x 243.12296pt.
- [38 <./frag.png>] [39 <./summary.png>] [40
-
-]
-Chapter 5.
-(biblio_sort.tex [41] [42
-
-]
-Underfull \hbox (badness 4378) in paragraph at lines 24--25
-[]\OT1/ptm/m/n/12 KTEV Col-lab-o-ra-tion, \OT1/ptm/m/it/12 Ob-ser-va-tion of Di
--rect $\OML/ztmcm/m/it/12 CP$ \OT1/ptm/m/it/12 Vi-o-la-tion in $\OML/ztmcm/m/it
-/12 K[] \OMS/ztmcm/m/n/12 ! \OML/ztmcm/m/it/12 $ \OT1/ptm/m/it/12 De-cays\OT1
-/ptm/m/n/12 ,
- []
-
-[43]
-Underfull \hbox (badness 1033) in paragraph at lines 42--43
-[]\OT1/ptm/m/n/12 P. J. E. Pee-bles, Bharat Ra-tra, \OT1/ptm/m/it/12 The Cos-mo
--log-i-cal Con-stant and Dark En-ergy (2002)\OT1/ptm/m/n/12 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--59
-[]\OT1/ptm/m/n/12 M.C.Gonzalez-Garcia, Michele Mal-toni, \OT1/ptm/m/it/12 Phe-n
-omenol-ogy with Mas-sive Neu-tri-nos\OT1/ptm/m/n/12 ,
- []
-
-[44]
-Underfull \hbox (badness 1210) in paragraph at lines 80--81
-[]\OT1/ptm/m/n/12 A.D. Mar-tin, W.J. Stir-ling, R.S. Thorne, G. Watt, \OT1/ptm/
-m/it/12 Par-ton dis-tri-bu-tions for the LHC\OT1/ptm/m/n/12 ,
- []
-
-
-Underfull \hbox (badness 1389) in paragraph at lines 84--85
-[]\OT1/ptm/m/n/12 A.D. Mar-tin, W.J. Stir-ling, R.S. Thorne, G. Watt, \OT1/ptm/
-m/it/12 Heavy-quark mass de-pen-dence in
- []
-
-[45]
-Underfull \hbox (badness 1472) in paragraph at lines 120--121
-[]\OT1/ptm/m/n/12 S. Frix-ione, \OT1/ptm/m/it/12 Iso-lated pho-tons in per-tur-
-ba-tive QCD\OT1/ptm/m/n/12 , Phys.Lett. B429 (1998) 369-374,
- []
-
-)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1039.
- [46]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1039.
- (thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1039.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1039.
-
-Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 6F5B210382178C0A697F63319B756956;2548.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1039.
- ) 
-Here is how much of TeX's memory you used:
- 9238 strings out of 493333
- 137269 string characters out of 3139171
- 248422 words of memory out of 3000000
- 12322 multiletter control sequences out of 15000+200000
- 71327 words of font info for 158 fonts, out of 3000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 36i,16n,39p,1887b,466s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/SentientMango/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/bas
-e/8r.enc}<C:/Users/SentientMango/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmex10.pfb><C:/Users/SentientMango/AppData/Local/Programs/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/SentientMango/AppD
-ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/User
-s/SentientMango/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/c
-m/cmss8.pfb><C:/Users/SentientMango/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/SentientMango/AppData/Local/Progra
-ms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/SentientMango
-/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C
-:/Users/SentientMango/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/rsfs
-/rsfs10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/symbol/usyr.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/urw/symbol/usyr.pfb><C:/Users/SentientMango/
-AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Se
-ntientMango/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb>
-<C:/Users/SentientMango/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times
-/utmri8a.pfb>
-Output written on thesis.pdf (66 pages, 2433123 bytes).
-PDF statistics:
- 1117 PDF objects out of 1200 (max. 8388607)
- 227 named destinations out of 1000 (max. 500000)
- 487 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+Package pdftex.def Info: Zg_subproc.png  used on inpu
