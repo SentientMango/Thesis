@@ -9,6 +9,7 @@
 \usepackage{geometry}
 \usepackage{caption}
 \usepackage{float}
+\usepackage{pdfpages}
 \usepackage{subcaption}
 \usepackage{hyperref}
 \usepackage{afterpage}
@@ -72,71 +73,16 @@ Supervisor: Dr. Beate Heinemann\\
 \copyright Mangesh Sonawane 2018\\
 All rights reserved
 \vfill
-\newpage
-\Huge \textbf{Certificate\\}
 \end{center}
-\vspace{1cm}
-\normalsize This is to certify that this dissertation, entitled "Estimating \ZZ background in the \llM final state using \Zg data", submitted towards the partial fulfilment of the BS-MS dual degree programme at the Indian Institute of Science Education and Research (IISER), Pune, represents the work carried out by Mangesh Sonawane at the Deutsches Elektronen-Synchrotron (DESY), Hamburg, under the supervision of Dr. Beate Heinemann, Professor of Experimental Particle Physics at the Institute of Physics, University of Freiburg, during the academic year 2017-2018.
-\vfill
-\begin{figure}[H]
-	\hspace{1cm}
-	\begin{subfigure}{0.49\textwidth}
-	\includegraphics[width=0.4\linewidth]{sign.jpg}
-	\end{subfigure}\hspace{1cm}
-	\begin{subfigure}{0.49\textwidth}
-	\centering
-	\includegraphics[width=0.7\linewidth]{Beate_sign.jpg}
-	\end{subfigure}
-\end{figure}
-\begin{center}
-Mangesh Sonawane\hspace{8cm}
-Dr. Beate Heinemann
-\end{center}
-\vfill
-Committee:\\
-Dr. Beate Heinemann\\
-Dr. Seema Sharma
-\vfill
-\vfill
-\newpage
-\blankpage
-\newpage
-\topskip0pt
+\cleardoublepage
+\includepdf[pages=-]{certificate.pdf}
+\cleardoublepage
 \vspace*{\fill}
 \noindent I dedicate this thesis to my parents, Avinash and Ranjana Sonawane, my mentors, Dr. Sourabh Dube and Dr. Seema Sharma, and to my friends and colleagues and IISER, without whose timely advice and support this thesis would not have been made possible.
 \vspace*{\fill}
-\newpage
-\blankpage
-\newpage
-\begin{center}
-\Huge \textbf{Declaration\\}
-\end{center}
-\vspace{1cm}
-\normalsize I hereby declare that the matter containined in the thesis entitled "Estimating \ZZ background in the \llM final status using \Zg data", contains the results of the work carried out by me at the Deutsches Elektronen-Synchrotron (DESY) Hamburg, under the supervision of Dr. Beate Heinemann, and the same has not been submitted elsewhere for any other degree.
-\vfill
-\begin{figure}[H]
-	\hspace{1cm}
-	\begin{subfigure}{0.49\textwidth}
-	\includegraphics[width=0.4\linewidth]{sign.jpg}
-	\end{subfigure}\hspace{1cm}
-	\begin{subfigure}{0.49\textwidth}
-	\centering
-	\includegraphics[width=0.7\linewidth]{Beate_sign.jpg}
-	\end{subfigure}
-\end{figure}
-\begin{center}
-Mangesh Sonawane\hspace{8cm}
-Dr. Beate Heinemann
-\end{center}
-\vfill
-Committee:\\
-Dr. Beate Heinemann\\
-Dr. Seema Sharma
-\vfill
-\vfill
-\newpage
-\blankpage
-\newpage
+\cleardoublepage
+\includepdf[pages=-]{declaration.pdf}
+\cleardoublepage
 {\Huge \textbf{Acknowledgements\vspace{2cm}\\}}
 I would like to express my deepest gratitude for Dr. Beate Heinemann for her guidance and patient mentoring. It's not just technical skills that I have acquired under her supervision, but also an understanding of how a physicist approaches the subject and tackles the inevitable problems that surface.
 
@@ -152,9 +98,7 @@ It would not be hyperbole to state that none of this would be possible without m
 
 Last, but in no way the least, I wish to acknowledge the part my friends at IISER Pune played in where I am today. Without their willing ears and timely advice, my life would have taken an entirely different turn.
 
-\newpage
-\blankpage
-\newpage
+\cleardoublepage
 
 \chapter*{Abstract}
 \thispagestyle{plain}
@@ -164,8 +108,10 @@ Last, but in no way the least, I wish to acknowledge the part my friends at IISE
 In the search for Dark Matter (DM) at the LHC, Standard Model particles are produced in association with Dark Matter particles, which are invisible as they do not interact with the detector. Thus events with large imbalance in transverse momentum are of interest. One such signature is $\ell\ell + E_T^{miss}$. The dominant background contributing to the search for Dark Matter in the $\ell\ell + E_T^{miss}$ is $ZZ \rightarrow \ell\ell\nu\nu$.  Currently, this background is determined using Monte Carlo simulation, with an uncertainty of $\approx 10\%$. The goal of this study is to establish a data driven method to estimate this background, and reduce the uncertainty. Using \Zg, which is a process with low backgrounds and has a high $BR*\sigma$, it is possible to estimate the \ZZ contribution. In regions where $p_{T}(\gamma) \gg M_{Z}$, the two processes are kinematically similar. They have the same production mechanisms, but differ due to the couplings of the photon and $Z$ boson to the quarks being different, as well as the difference in mass (photons are massless, while $Z$ bosons are massive). Introducing a transfer factor $R$ as the ratio $\sigma(ZZ)/\sigma(Z\gamma)$ which is determined from simulation, the contribution of \ZZ to the background can be estimated from \Zg data. The uncertainty on the prediction of $R$ due to theoretical aspects is estimated in this work.
 \cleardoublepage
 
+\newgeometry{top=2cm,bottom=0.1cm}
 \tableofcontents
 \cleardoublepage
+\restoregeometry
 
 \listoffigures
 \listofmyequations

@@ -1,11 +1,11 @@
-\contentsline {chapter}{Abstract}{i}{chapter*.3}
+\contentsline {chapter}{Abstract}{i}{chapter*.1}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}The Standard Model}{2}{section.1.1}
 \contentsline {subsection}{\numberline {1.1.1}Matter and Forces}{3}{subsection.1.1.1}
 \contentsline {section}{\numberline {1.2}Inadequacies of the Standard Model}{8}{section.1.2}
 \contentsline {subsection}{\numberline {1.2.1}Dark Matter}{8}{subsection.1.2.1}
 \contentsline {subsection}{\numberline {1.2.2}Beyond the Standard Model}{9}{subsection.1.2.2}
-\contentsline {subsubsection}{Dark Matter searches at the \hyperref [ch:LHC]{Large Hadron Collider}}{10}{section*.10}
+\contentsline {subsubsection}{Dark Matter searches at the \hyperref [ch:LHC]{Large Hadron Collider}}{10}{section*.8}
 \contentsline {chapter}{\numberline {2}Experimental Apparatus}{13}{chapter.2}
 \contentsline {section}{\numberline {2.1}The Large Hadron Collider}{13}{section.2.1}
 \contentsline {section}{\numberline {2.2}History}{13}{section.2.2}
@@ -35,4 +35,4 @@
 \contentsline {section}{\numberline {4.4}Combined Uncertainties}{39}{section.4.4}
 \contentsline {chapter}{\numberline {5}Conclusion}{41}{chapter.5}
 \contentsline {section}{\numberline {5.1}Outlook}{41}{section.5.1}
-\contentsline {chapter}{\hbox to\@tempdima {\hfil }\sf \bfseries {Bibliography}}{46}{chapter*.36}
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }\sf \bfseries {Bibliography}}{46}{chapter*.34}
